@@ -1,0 +1,26 @@
+Logging started at 2016-12-12 20:08:43
+File name: C:\Users\Jeremy\Desktop\Project Reality\.\data\logs\err\1481602123196 - Jeremy - [Mon Dec 12][8.08PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-12-12 20:09:53] java.lang.NumberFormatException: For input string: "claw"
+[2016-12-12 20:09:53] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2016-12-12 20:09:53] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-12-12 20:09:53] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-12-12 20:09:53] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:112)
+[2016-12-12 20:09:53] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-12-12 20:09:53] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-12-12 20:09:53] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-12-12 20:09:53] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-12-12 20:09:53] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-12-12 20:09:53] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-12-12 20:10:29] java.lang.NumberFormatException: For input string: "chain"
+[2016-12-12 20:10:29] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2016-12-12 20:10:29] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-12-12 20:10:29] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-12-12 20:10:29] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:112)
+[2016-12-12 20:10:29] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-12-12 20:10:29] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-12-12 20:10:29] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-12-12 20:10:29] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-12-12 20:10:29] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-12-12 20:10:29] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

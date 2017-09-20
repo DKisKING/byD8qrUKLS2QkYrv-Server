@@ -1,0 +1,373 @@
+Logging started at 2016-07-27 08:41:33
+File name: C:\Users\Administrator\Dropbox\lunarisle source\.\data\logs\err\1469601693389 - Administrator - [Wed Jul 27][8.41AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-07-27 09:17:48] Failing to update Ybbob highscores. Database could not connect.
+[2016-07-27 10:41:37] Failing to update Chase highscores. Database could not connect.
+[2016-07-27 10:46:18] Failing to update Chase highscores. Database could not connect.
+[2016-07-27 10:53:23] Failing to update chili highscores. Database could not connect.
+[2016-07-27 11:03:52] Failing to update chili highscores. Database could not connect.
+[2016-07-27 11:23:36] Failing to update Rip highscores. Database could not connect.
+[2016-07-27 11:27:41] Failing to update Rip highscores. Database could not connect.
+[2016-07-27 11:29:07] Failing to update Zvi highscores. Database could not connect.
+[2016-07-27 11:29:11] Failing to update Rip highscores. Database could not connect.
+[2016-07-27 11:29:15] Failing to update chase highscores. Database could not connect.
+[2016-07-27 11:32:08] Failing to update Rip highscores. Database could not connect.
+[2016-07-27 11:32:32] Failing to update Big Boy Jr highscores. Database could not connect.
+[2016-07-27 11:34:00] Failing to update Dez Test highscores. Database could not connect.
+[2016-07-27 11:36:17] Failing to update Big Boy Jr highscores. Database could not connect.
+[2016-07-27 11:39:13] Failing to update Hoola Hoop highscores. Database could not connect.
+[2016-07-27 11:39:59] Failing to update Teoz highscores. Database could not connect.
+[2016-07-27 11:40:23] Failing to update Iron Teoz highscores. Database could not connect.
+[2016-07-27 11:45:41] Failing to update Rip highscores. Database could not connect.
+[2016-07-27 11:56:40] Failing to update God highscores. Database could not connect.
+[2016-07-27 11:57:38] Failing to update big boy jr highscores. Database could not connect.
+[2016-07-27 11:57:41] Failing to update Rip highscores. Database could not connect.
+[2016-07-27 11:58:56] Failing to update Cedric0wnz91 highscores. Database could not connect.
+[2016-07-27 12:00:57] Failing to update Rip highscores. Database could not connect.
+[2016-07-27 12:01:45] Failing to update Y highscores. Database could not connect.
+[2016-07-27 12:04:17] Failing to update Monody highscores. Database could not connect.
+[2016-07-27 12:08:26] Failing to update Rip highscores. Database could not connect.
+[2016-07-27 12:19:03] Failing to update Big Boy Jr highscores. Database could not connect.
+[2016-07-27 12:19:10] java.lang.NullPointerException
+[2016-07-27 12:19:10] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-07-27 12:19:10] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-07-27 12:19:10] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-07-27 12:19:13] java.lang.NullPointerException
+[2016-07-27 12:19:13] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-07-27 12:19:13] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-07-27 12:19:13] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-07-27 12:19:22] java.lang.NullPointerException
+[2016-07-27 12:19:22] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-07-27 12:19:22] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-07-27 12:19:22] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-07-27 12:19:26] Failing to update chase highscores. Database could not connect.
+[2016-07-27 12:19:31] Failing to update Oven highscores. Database could not connect.
+[2016-07-27 12:19:34] Failing to update Oven highscores. Database could not connect.
+[2016-07-27 12:19:43] Failing to update oven highscores. Database could not connect.
+[2016-07-27 12:19:57] java.lang.NullPointerException
+[2016-07-27 12:19:57] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-07-27 12:19:57] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-07-27 12:19:57] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-07-27 12:20:18] Failing to update Oven highscores. Database could not connect.
+[2016-07-27 12:20:44] Failing to update Mod Chase highscores. Database could not connect.
+[2016-07-27 12:23:28] Failing to update big boy jr highscores. Database could not connect.
+[2016-07-27 12:24:19] Failing to update Rip highscores. Database could not connect.
+[2016-07-27 12:26:23] Failing to update Larsorick highscores. Database could not connect.
+[2016-07-27 12:29:49] Failing to update Gainz highscores. Database could not connect.
+[2016-07-27 12:30:49] Failing to update delta highscores. Database could not connect.
+[2016-07-27 12:31:18] Failing to update gainz highscores. Database could not connect.
+[2016-07-27 12:31:35] Failing to update Cedric0wnz91 highscores. Database could not connect.
+[2016-07-27 12:32:19] Failing to update Rip highscores. Database could not connect.
+[2016-07-27 12:34:21] Failing to update Gainz highscores. Database could not connect.
+[2016-07-27 12:40:59] Failing to update cedric0wnz91 highscores. Database could not connect.
+[2016-07-27 12:41:00] Failing to update Gainz highscores. Database could not connect.
+[2016-07-27 12:41:09] Failing to update big boy jr highscores. Database could not connect.
+[2016-07-27 12:49:58] Failing to update finalprince9 highscores. Database could not connect.
+[2016-07-27 12:50:39] Failing to update Larsorick highscores. Database could not connect.
+[2016-07-27 12:56:45] Failing to update Gainz highscores. Database could not connect.
+[2016-07-27 12:58:53] Failing to update Gainz highscores. Database could not connect.
+[2016-07-27 12:58:58] Failing to update Mandra highscores. Database could not connect.
+[2016-07-27 13:10:12] Failing to update Gainz highscores. Database could not connect.
+[2016-07-27 13:20:53] Failing to update Starj highscores. Database could not connect.
+[2016-07-27 13:41:55] Failing to update Gainz highscores. Database could not connect.
+[2016-07-27 13:48:28] Failing to update Starjlunar highscores. Database could not connect.
+[2016-07-27 14:07:46] Failing to update Starj highscores. Database could not connect.
+[2016-07-27 14:15:17] Failing to update Gainz highscores. Database could not connect.
+[2016-07-27 14:24:18] Failing to update delta highscores. Database could not connect.
+[2016-07-27 14:42:59] Failing to update Mandra highscores. Database could not connect.
+[2016-07-27 14:51:12] Failing to update Its Ya Boi highscores. Database could not connect.
+[2016-07-27 14:51:15] Failing to update Voxen highscores. Database could not connect.
+[2016-07-27 14:57:41] Failing to update Mandra highscores. Database could not connect.
+[2016-07-27 15:15:20] Failing to update Mandra highscores. Database could not connect.
+[2016-07-27 15:33:49] Failing to update Starj highscores. Database could not connect.
+[2016-07-27 15:41:00] Failing to update gainz highscores. Database could not connect.
+[2016-07-27 16:05:32] Failing to update Starj highscores. Database could not connect.
+[2016-07-27 16:11:01] Failing to update A highscores. Database could not connect.
+[2016-07-27 16:23:20] Failing to update Y highscores. Database could not connect.
+[2016-07-27 16:42:26] Failing to update Voxen highscores. Database could not connect.
+[2016-07-27 16:42:26] Failing to update Its Ya Boi highscores. Database could not connect.
+[2016-07-27 16:43:42] Failing to update Starj highscores. Database could not connect.
+[2016-07-27 17:15:14] Failing to update Iron rokas highscores. Database could not connect.
+[2016-07-27 17:19:56] Failing to update Gainz highscores. Database could not connect.
+[2016-07-27 17:20:16] Failing to update Starj highscores. Database could not connect.
+[2016-07-27 17:27:24] Failing to update Liudukas highscores. Database could not connect.
+[2016-07-27 17:27:36] Failing to update Flat Dong highscores. Database could not connect.
+[2016-07-27 17:27:53] Failing to update Mr Bandos highscores. Database could not connect.
+[2016-07-27 17:29:58] Failing to update killzezi4fun highscores. Database could not connect.
+[2016-07-27 17:44:15] Failing to update Centure highscores. Database could not connect.
+[2016-07-27 17:53:10] Failing to update Rip highscores. Database could not connect.
+[2016-07-27 18:06:00] java.lang.ArrayIndexOutOfBoundsException: 64
+[2016-07-27 18:06:00] 	at com.vencillio.core.util.Utility.textUnpack(Utility.java:715)
+[2016-07-27 18:06:00] 	at com.vencillio.rs2.entity.ReportHandler.addText(ReportHandler.java:28)
+[2016-07-27 18:06:00] 	at com.vencillio.rs2.entity.player.net.in.impl.PublicChatPacket.handle(PublicChatPacket.java:61)
+[2016-07-27 18:06:00] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-27 18:06:00] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-27 18:06:00] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-27 18:06:00] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-27 18:06:00] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-27 18:14:16] MAX STACK
+[2016-07-27 18:52:47] java.lang.NullPointerException
+[2016-07-27 18:52:47] 	at com.vencillio.rs2.entity.UpdateFlags.sendAnimation(UpdateFlags.java:139)
+[2016-07-27 18:52:47] 	at com.vencillio.core.task.impl.MobDeathTask$1.execute(MobDeathTask.java:35)
+[2016-07-27 18:52:47] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2016-07-27 18:52:47] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2016-07-27 18:52:47] 	at com.vencillio.core.GameThread.cycle(GameThread.java:116)
+[2016-07-27 18:52:47] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-27 18:54:48] java.lang.NullPointerException
+[2016-07-27 18:54:48] 	at com.vencillio.rs2.entity.UpdateFlags.sendAnimation(UpdateFlags.java:139)
+[2016-07-27 18:54:48] 	at com.vencillio.core.task.impl.MobDeathTask$1.execute(MobDeathTask.java:35)
+[2016-07-27 18:54:48] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2016-07-27 18:54:48] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2016-07-27 18:54:48] 	at com.vencillio.core.GameThread.cycle(GameThread.java:116)
+[2016-07-27 18:54:48] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-27 20:08:54] java.lang.NullPointerException
+[2016-07-27 20:08:54] 	at com.vencillio.rs2.entity.UpdateFlags.sendAnimation(UpdateFlags.java:139)
+[2016-07-27 20:08:54] 	at com.vencillio.core.task.impl.MobDeathTask$1.execute(MobDeathTask.java:35)
+[2016-07-27 20:08:54] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2016-07-27 20:08:54] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2016-07-27 20:08:54] 	at com.vencillio.core.GameThread.cycle(GameThread.java:116)
+[2016-07-27 20:08:54] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-27 20:19:40] java.lang.NullPointerException
+[2016-07-27 20:19:40] 	at com.vencillio.rs2.entity.UpdateFlags.sendAnimation(UpdateFlags.java:139)
+[2016-07-27 20:19:40] 	at com.vencillio.core.task.impl.MobDeathTask$1.execute(MobDeathTask.java:35)
+[2016-07-27 20:19:40] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2016-07-27 20:19:40] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2016-07-27 20:19:40] 	at com.vencillio.core.GameThread.cycle(GameThread.java:116)
+[2016-07-27 20:19:40] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-27 20:26:20] java.lang.NullPointerException
+[2016-07-27 20:26:20] 	at com.vencillio.rs2.entity.UpdateFlags.sendAnimation(UpdateFlags.java:139)
+[2016-07-27 20:26:20] 	at com.vencillio.core.task.impl.MobDeathTask$1.execute(MobDeathTask.java:35)
+[2016-07-27 20:26:20] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2016-07-27 20:26:20] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2016-07-27 20:26:20] 	at com.vencillio.core.GameThread.cycle(GameThread.java:116)
+[2016-07-27 20:26:20] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-27 20:29:42] java.lang.NullPointerException
+[2016-07-27 20:29:42] 	at com.vencillio.rs2.entity.UpdateFlags.sendAnimation(UpdateFlags.java:139)
+[2016-07-27 20:29:42] 	at com.vencillio.core.task.impl.MobDeathTask$1.execute(MobDeathTask.java:35)
+[2016-07-27 20:29:42] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2016-07-27 20:29:42] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2016-07-27 20:29:42] 	at com.vencillio.core.GameThread.cycle(GameThread.java:116)
+[2016-07-27 20:29:42] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-27 20:37:04] java.lang.NullPointerException
+[2016-07-27 20:37:04] 	at com.vencillio.rs2.entity.UpdateFlags.sendAnimation(UpdateFlags.java:139)
+[2016-07-27 20:37:04] 	at com.vencillio.core.task.impl.MobDeathTask$1.execute(MobDeathTask.java:35)
+[2016-07-27 20:37:04] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2016-07-27 20:37:04] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2016-07-27 20:37:04] 	at com.vencillio.core.GameThread.cycle(GameThread.java:116)
+[2016-07-27 20:37:04] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-28 00:53:15] java.lang.NullPointerException
+[2016-07-28 00:53:15] 	at com.vencillio.rs2.content.GenieReset.handle(GenieReset.java:118)
+[2016-07-28 00:53:15] 	at com.vencillio.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:923)
+[2016-07-28 00:53:15] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-28 00:53:15] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-28 00:53:15] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-28 00:53:15] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-28 00:53:15] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-28 01:19:42] java.lang.NullPointerException
+[2016-07-28 01:19:42] 	at com.vencillio.rs2.content.combat.formula.RangeFormulas.calculateRangeAttack(RangeFormulas.java:78)
+[2016-07-28 01:19:42] 	at com.vencillio.rs2.content.combat.impl.Ranged.execute(Ranged.java:41)
+[2016-07-28 01:19:42] 	at com.vencillio.rs2.content.combat.Combat.attack(Combat.java:92)
+[2016-07-28 01:19:42] 	at com.vencillio.rs2.content.combat.Combat.process(Combat.java:215)
+[2016-07-28 01:19:42] 	at com.vencillio.rs2.entity.player.Player.process(Player.java:1565)
+[2016-07-28 01:19:42] 	at com.vencillio.rs2.entity.World.process(World.java:322)
+[2016-07-28 01:19:42] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-28 01:19:42] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-28 01:19:42] java.lang.NullPointerException
+[2016-07-28 01:19:42] 	at com.vencillio.rs2.entity.player.net.Client.send(Client.java:329)
+[2016-07-28 01:19:42] 	at com.vencillio.rs2.entity.player.net.out.impl.SendLogout.execute(SendLogout.java:13)
+[2016-07-28 01:19:42] 	at com.vencillio.rs2.entity.player.Player.logout(Player.java:1491)
+[2016-07-28 01:19:42] 	at com.vencillio.rs2.entity.World.process(World.java:335)
+[2016-07-28 01:19:42] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-28 01:19:42] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-28 02:30:22] java.lang.NullPointerException
+[2016-07-28 02:30:22] 	at com.vencillio.rs2.entity.UpdateFlags.sendAnimation(UpdateFlags.java:139)
+[2016-07-28 02:30:22] 	at com.vencillio.core.task.impl.MobDeathTask$1.execute(MobDeathTask.java:35)
+[2016-07-28 02:30:22] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2016-07-28 02:30:22] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2016-07-28 02:30:22] 	at com.vencillio.core.GameThread.cycle(GameThread.java:116)
+[2016-07-28 02:30:22] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-28 05:40:34] java.lang.NullPointerException
+[2016-07-28 05:40:34] java.lang.NullPointerException
+[2016-07-28 05:40:34] 	at com.vencillio.rs2.entity.player.net.Client.send(Client.java:329)
+[2016-07-28 05:40:34] 	at com.vencillio.rs2.entity.player.net.out.impl.SendLogout.execute(SendLogout.java:13)
+[2016-07-28 05:40:34] 	at com.vencillio.rs2.entity.player.Player.logout(Player.java:1491)
+[2016-07-28 05:40:34] 	at com.vencillio.rs2.entity.World.process(World.java:335)
+[2016-07-28 05:40:34] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-28 05:40:34] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-28 05:49:38] java.lang.ArrayIndexOutOfBoundsException: 31999
+[2016-07-28 05:49:38] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:346)
+[2016-07-28 05:49:38] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-07-28 05:49:38] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-28 05:49:38] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-28 05:49:38] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-28 05:49:38] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-28 05:49:38] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-28 06:05:01] Failing to update Kreation highscores. Database could not connect.
+[2016-07-28 06:09:33] Failing to update J O E Y highscores. Database could not connect.
+[2016-07-28 06:48:23] Failing to update Dodo highscores. Database could not connect.
+[2016-07-28 06:53:11] Failing to update Ybbob highscores. Database could not connect.
+[2016-07-28 06:54:44] Failing to update Xerioton highscores. Database could not connect.
+[2016-07-28 07:59:09] java.lang.NullPointerException
+[2016-07-28 07:59:09] 	at com.vencillio.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2016-07-28 07:59:09] 	at com.vencillio.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2016-07-28 07:59:09] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:97)
+[2016-07-28 07:59:09] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-28 07:59:09] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-28 07:59:09] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-28 07:59:09] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-28 07:59:09] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-28 07:59:11] java.lang.NullPointerException
+[2016-07-28 07:59:11] 	at com.vencillio.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2016-07-28 07:59:11] 	at com.vencillio.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2016-07-28 07:59:11] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:97)
+[2016-07-28 07:59:11] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-28 07:59:11] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-28 07:59:11] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-28 07:59:11] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-28 07:59:11] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-28 07:59:11] java.lang.NullPointerException
+[2016-07-28 07:59:11] 	at com.vencillio.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2016-07-28 07:59:11] 	at com.vencillio.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2016-07-28 07:59:11] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:97)
+[2016-07-28 07:59:11] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-28 07:59:11] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-28 07:59:11] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-28 07:59:11] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-28 07:59:11] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-28 07:59:11] java.lang.NullPointerException
+[2016-07-28 07:59:11] 	at com.vencillio.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2016-07-28 07:59:11] 	at com.vencillio.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2016-07-28 07:59:11] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:97)
+[2016-07-28 07:59:11] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-28 07:59:11] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-28 07:59:11] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-28 07:59:11] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-28 07:59:11] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-28 07:59:12] java.lang.NullPointerException
+[2016-07-28 07:59:12] 	at com.vencillio.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2016-07-28 07:59:12] 	at com.vencillio.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2016-07-28 07:59:12] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:97)
+[2016-07-28 07:59:12] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-28 07:59:12] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-28 07:59:12] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-28 07:59:12] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-28 07:59:12] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-28 08:35:30] java.lang.ArrayIndexOutOfBoundsException: 31999
+[2016-07-28 08:35:30] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:346)
+[2016-07-28 08:35:30] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-07-28 08:35:30] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-28 08:35:30] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-28 08:35:30] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-28 08:35:30] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-28 08:35:30] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-28 09:04:12] java.lang.NullPointerException
+[2016-07-28 09:13:51] java.lang.ArrayIndexOutOfBoundsException: 119
+[2016-07-28 09:13:51] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:346)
+[2016-07-28 09:13:51] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-07-28 09:13:51] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-28 09:13:51] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-28 09:13:51] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-28 09:13:51] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-28 09:13:51] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-28 09:14:16] java.lang.ArrayIndexOutOfBoundsException: 31999
+[2016-07-28 09:14:16] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:346)
+[2016-07-28 09:14:16] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-07-28 09:14:16] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-28 09:14:16] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-28 09:14:16] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-28 09:14:16] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-28 09:14:16] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-28 09:29:26] java.lang.NullPointerException
+[2016-07-28 09:29:26] 	at com.vencillio.rs2.content.combat.formula.RangeFormulas.calculateRangeAttack(RangeFormulas.java:78)
+[2016-07-28 09:29:26] 	at com.vencillio.rs2.content.combat.impl.Ranged.execute(Ranged.java:41)
+[2016-07-28 09:29:26] 	at com.vencillio.rs2.content.combat.Combat.attack(Combat.java:92)
+[2016-07-28 09:29:26] 	at com.vencillio.rs2.content.combat.Combat.process(Combat.java:215)
+[2016-07-28 09:29:26] 	at com.vencillio.rs2.entity.player.Player.process(Player.java:1565)
+[2016-07-28 09:29:26] 	at com.vencillio.rs2.entity.World.process(World.java:322)
+[2016-07-28 09:29:26] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-28 09:29:26] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-28 09:32:56] java.lang.NullPointerException
+[2016-07-28 09:32:56] 	at com.vencillio.rs2.content.combat.formula.RangeFormulas.calculateRangeAttack(RangeFormulas.java:78)
+[2016-07-28 09:32:56] 	at com.vencillio.rs2.content.combat.impl.Ranged.execute(Ranged.java:41)
+[2016-07-28 09:32:56] 	at com.vencillio.rs2.content.combat.Combat.attack(Combat.java:92)
+[2016-07-28 09:32:56] 	at com.vencillio.rs2.content.combat.Combat.process(Combat.java:215)
+[2016-07-28 09:32:56] 	at com.vencillio.rs2.entity.player.Player.process(Player.java:1565)
+[2016-07-28 09:32:56] 	at com.vencillio.rs2.entity.World.process(World.java:322)
+[2016-07-28 09:32:56] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-28 09:32:56] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-28 09:32:56] java.lang.NullPointerException
+[2016-07-28 09:32:56] 	at com.vencillio.rs2.entity.player.net.Client.send(Client.java:329)
+[2016-07-28 09:32:56] 	at com.vencillio.rs2.entity.player.net.out.impl.SendLogout.execute(SendLogout.java:13)
+[2016-07-28 09:32:56] 	at com.vencillio.rs2.entity.player.Player.logout(Player.java:1491)
+[2016-07-28 09:32:56] 	at com.vencillio.rs2.entity.World.process(World.java:335)
+[2016-07-28 09:32:56] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-28 09:32:56] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-28 10:09:39] java.lang.NumberFormatException: For input string: "10000000000000000000000"
+[2016-07-28 10:09:39] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2016-07-28 10:09:39] 	at java.lang.Long.parseLong(Unknown Source)
+[2016-07-28 10:09:39] 	at java.lang.Long.parseLong(Unknown Source)
+[2016-07-28 10:09:39] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:208)
+[2016-07-28 10:09:39] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-07-28 10:09:39] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-28 10:09:39] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-28 10:09:39] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-28 10:09:39] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-28 10:09:39] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-28 16:14:05] java.lang.ArrayIndexOutOfBoundsException
+[2016-07-28 21:09:23] java.lang.ArrayIndexOutOfBoundsException: 31999
+[2016-07-28 21:09:23] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:346)
+[2016-07-28 21:09:23] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-07-28 21:09:23] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-28 21:09:23] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-28 21:09:23] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-28 21:09:23] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-28 21:09:23] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-28 21:34:30] java.lang.ArrayIndexOutOfBoundsException: 1999
+[2016-07-28 21:34:30] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:346)
+[2016-07-28 21:34:30] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-07-28 21:34:30] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-28 21:34:30] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-28 21:34:30] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-28 21:34:30] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-28 21:34:30] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-28 21:34:34] java.lang.ArrayIndexOutOfBoundsException: 1999
+[2016-07-28 21:34:34] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:346)
+[2016-07-28 21:34:34] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-07-28 21:34:34] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-28 21:34:34] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-28 21:34:34] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-28 21:34:34] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-28 21:34:34] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-28 21:36:51] java.lang.ArrayIndexOutOfBoundsException: 31999
+[2016-07-28 21:36:51] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:346)
+[2016-07-28 21:36:51] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-07-28 21:36:51] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-28 21:36:51] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-28 21:36:51] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-28 21:36:51] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-28 21:36:51] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-28 21:36:54] java.lang.ArrayIndexOutOfBoundsException: 31999
+[2016-07-28 21:36:54] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:346)
+[2016-07-28 21:36:54] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-07-28 21:36:54] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-28 21:36:54] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-28 21:36:54] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-28 21:36:54] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-28 21:36:54] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-28 21:37:36] java.lang.ArrayIndexOutOfBoundsException: 31999
+[2016-07-28 21:37:36] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:346)
+[2016-07-28 21:37:36] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-07-28 21:37:36] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-28 21:37:36] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-28 21:37:36] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-28 21:37:36] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-28 21:37:36] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-28 22:42:19] java.lang.NullPointerException
+[2016-07-28 22:42:19] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:174)
+[2016-07-28 22:42:19] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-07-28 22:42:19] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-28 22:42:19] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-28 22:42:19] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-28 22:42:19] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-28 22:42:19] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

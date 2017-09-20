@@ -1,0 +1,4 @@
+Logging started at 2016-10-10 22:11:02
+File name: C:\Users\Travis and Ayla\Desktop\LunarIsle121Package\lunarisle source\.\data\logs\err\1476151862156 - Travis and Ayla - [Mon Oct 10][10.11PM].txt
+System.getProperty("os.name"): "Windows Vista"
+

@@ -1,0 +1,14 @@
+Logging started at 2016-12-16 00:40:50
+File name: C:\Users\jerem\Desktop\Project Reality RSPS\Project Reality\.\data\logs\err\1481877650748 - jerem - [Fri Dec 16][12.40AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-12-16 00:40:54] Exception in thread "main" 
+[2016-12-16 00:40:54] java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token ";", , expected
+
+[2016-12-16 00:40:54] 	at com.vencillio.rs2.content.shopping.impl.BountyShop.<init>(BountyShop.java:59)
+[2016-12-16 00:40:54] 	at com.vencillio.rs2.content.shopping.Shop.declare(Shop.java:108)
+[2016-12-16 00:40:54] 	at com.vencillio.GameDataLoader.load(GameDataLoader.java:153)
+[2016-12-16 00:40:54] 	at com.vencillio.core.GameThread.startup(GameThread.java:69)
+[2016-12-16 00:40:54] 	at com.vencillio.core.GameThread.init(GameThread.java:34)
+[2016-12-16 00:40:54] 	at com.vencillio.Server.main(Server.java:104)

@@ -1,0 +1,36 @@
+Logging started at 2016-06-23 08:55:50
+File name: C:\Users\Administrator\Desktop\Dropbox\VA Source\.\data\logs\err\1466664950564 - Administrator - [Thu Jun 23][8.55AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-06-23 08:59:40] java.lang.NullPointerException
+[2016-06-23 08:59:40] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:174)
+[2016-06-23 08:59:40] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-06-23 08:59:40] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-06-23 08:59:40] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-06-23 08:59:40] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-06-23 08:59:40] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-06-23 08:59:40] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-06-23 09:01:54] java.lang.NumberFormatException: For input string: "::setlevel"
+[2016-06-23 09:01:54] 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[2016-06-23 09:01:54] 	at java.lang.Integer.parseInt(Integer.java:580)
+[2016-06-23 09:01:54] 	at java.lang.Integer.parseInt(Integer.java:615)
+[2016-06-23 09:01:54] 	at com.vencillio.rs2.entity.player.net.in.command.CommandParser.nextInt(CommandParser.java:46)
+[2016-06-23 09:01:54] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:153)
+[2016-06-23 09:01:54] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-06-23 09:01:54] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-06-23 09:01:54] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-06-23 09:01:54] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-06-23 09:01:55] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-06-23 09:01:55] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-06-23 09:05:47] java.lang.NumberFormatException: For input string: "1::item"
+[2016-06-23 09:05:47] 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[2016-06-23 09:05:47] 	at java.lang.Integer.parseInt(Integer.java:580)
+[2016-06-23 09:05:47] 	at java.lang.Integer.parseInt(Integer.java:615)
+[2016-06-23 09:05:47] 	at com.vencillio.rs2.entity.player.net.in.command.CommandParser.nextInt(CommandParser.java:46)
+[2016-06-23 09:05:47] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:153)
+[2016-06-23 09:05:47] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-06-23 09:05:47] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-06-23 09:05:47] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-06-23 09:05:47] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-06-23 09:05:47] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-06-23 09:05:47] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

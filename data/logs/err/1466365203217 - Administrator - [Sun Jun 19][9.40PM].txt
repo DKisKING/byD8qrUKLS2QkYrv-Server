@@ -1,0 +1,23 @@
+Logging started at 2016-06-19 21:40:03
+File name: C:\Users\Administrator\Desktop\Dropbox\VA Source\.\data\logs\err\1466365203217 - Administrator - [Sun Jun 19][9.40PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-06-19 23:00:02] java.lang.NullPointerException
+[2016-06-19 23:00:02] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:174)
+[2016-06-19 23:00:02] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-06-19 23:00:02] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-06-19 23:00:02] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-06-19 23:00:02] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-06-19 23:00:02] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-06-19 23:00:02] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-06-20 12:58:51] java.lang.NumberFormatException: For input string: "10000000\"
+[2016-06-20 12:58:51] 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[2016-06-20 12:58:51] 	at java.lang.Long.parseLong(Long.java:589)
+[2016-06-20 12:58:51] 	at java.lang.Long.parseLong(Long.java:631)
+[2016-06-20 12:58:51] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:202)
+[2016-06-20 12:58:51] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-06-20 12:58:51] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-06-20 12:58:51] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-06-20 12:58:51] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-06-20 12:58:51] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-06-20 12:58:51] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

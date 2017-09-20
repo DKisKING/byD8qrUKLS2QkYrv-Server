@@ -1,0 +1,8 @@
+Logging started at 2016-06-17 04:48:36
+File name: C:\Users\Administrator\Desktop\Dropbox\VA Source\.\data\logs\err\1466131716411 - Administrator - [Fri Jun 17][4.48AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-06-17 04:51:34] java.lang.NullPointerException
+[2016-06-17 04:51:34] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1208)
+[2016-06-17 04:51:34] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-06-17 04:51:34] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)

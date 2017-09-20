@@ -1,0 +1,4 @@
+Logging started at 2016-06-27 07:12:07
+File name: C:\Users\ken\Desktop\Lunar-Isle top 5 116 data added abby dag added dwh added abby bludgeon\lunarisle source\.\data\logs\err\1467025927861 - ken - [Mon Jun 27][7.12AM].txt
+System.getProperty("os.name"): "Windows 10"
+

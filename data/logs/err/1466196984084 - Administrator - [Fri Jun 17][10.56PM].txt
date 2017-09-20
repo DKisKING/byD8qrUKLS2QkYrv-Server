@@ -1,0 +1,30 @@
+Logging started at 2016-06-17 22:56:24
+File name: C:\Users\Administrator\Desktop\Dropbox\VA Source\.\data\logs\err\1466196984084 - Administrator - [Fri Jun 17][10.56PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-06-17 22:56:33] Exception in thread "main" 
+[2016-06-17 22:56:33] java.lang.NoClassDefFoundError: com/vencillio/rs2/content/shopping/Shop
+[2016-06-17 22:56:33] 	at com.vencillio.core.util.GameDefinitionLoader.loadShopDefinitions(GameDefinitionLoader.java:735)
+[2016-06-17 22:56:33] 	at com.vencillio.GameDataLoader.load(GameDataLoader.java:119)
+[2016-06-17 22:56:33] 	at com.vencillio.core.GameThread.startup(GameThread.java:69)
+[2016-06-17 22:56:33] 	at com.vencillio.core.GameThread.init(GameThread.java:34)
+[2016-06-17 22:56:33] 	at com.vencillio.Server.main(Server.java:104)
+[2016-06-17 22:56:33] Caused by: java.lang.ClassNotFoundException: com.vencillio.rs2.content.shopping.Shop
+[2016-06-17 22:56:33] 	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+[2016-06-17 22:56:33] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+[2016-06-17 22:56:33] 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+[2016-06-17 22:56:33] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+[2016-06-17 22:56:33] 	... 5 more
+[2016-06-17 22:56:38] Exception in thread "Thread-2" 
+[2016-06-17 22:56:38] java.lang.NoClassDefFoundError: com/vencillio/rs2/content/minigames/godwars/GodWarsData
+[2016-06-17 22:56:38] 	at com.vencillio.rs2.entity.mob.Mob.<init>(Mob.java:240)
+[2016-06-17 22:56:38] 	at com.vencillio.rs2.entity.mob.Mob.<init>(Mob.java:154)
+[2016-06-17 22:56:38] 	at com.vencillio.rs2.entity.mob.impl.CorporealBeast.<init>(CorporealBeast.java:12)
+[2016-06-17 22:56:38] 	at com.vencillio.rs2.entity.mob.Mob.spawnBosses(Mob.java:71)
+[2016-06-17 22:56:38] 	at com.vencillio.GameDataLoader$1.run(GameDataLoader.java:100)
+[2016-06-17 22:56:38] Caused by: java.lang.ClassNotFoundException: com.vencillio.rs2.content.minigames.godwars.GodWarsData
+[2016-06-17 22:56:38] 	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+[2016-06-17 22:56:38] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+[2016-06-17 22:56:38] 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+[2016-06-17 22:56:38] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+[2016-06-17 22:56:38] 	... 5 more

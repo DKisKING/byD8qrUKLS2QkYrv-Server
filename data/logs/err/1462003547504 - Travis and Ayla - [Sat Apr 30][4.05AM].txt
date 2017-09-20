@@ -1,0 +1,4 @@
+Logging started at 2016-04-30 04:05:47
+File name: C:\Users\Travis and Ayla\Dropbox\VA Source\.\data\logs\err\1462003547504 - Travis and Ayla - [Sat Apr 30][4.05AM].txt
+System.getProperty("os.name"): "Windows Vista"
+

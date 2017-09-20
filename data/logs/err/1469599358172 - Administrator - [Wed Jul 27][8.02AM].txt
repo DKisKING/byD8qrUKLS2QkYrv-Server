@@ -1,0 +1,4 @@
+Logging started at 2016-07-27 08:02:38
+File name: C:\Users\Administrator\Dropbox\lunarisle source\.\data\logs\err\1469599358172 - Administrator - [Wed Jul 27][8.02AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+

@@ -1,0 +1,21 @@
+Logging started at 2016-12-10 19:44:34
+File name: C:\Users\Jeremy\Desktop\Project Reality\.\data\logs\err\1481427874443 - Jeremy - [Sat Dec 10][7.44PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-12-10 19:51:32] Failing to update MrKymatica0 highscores. Database could not connect.
+[2016-12-10 19:56:22] java.lang.NullPointerException
+[2016-12-10 19:56:23] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:174)
+[2016-12-10 19:56:23] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-12-10 19:56:23] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-12-10 19:56:23] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-12-10 19:56:23] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-12-10 19:56:23] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-12-10 19:56:23] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-12-10 19:56:30] java.lang.NullPointerException
+[2016-12-10 19:56:30] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:174)
+[2016-12-10 19:56:30] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-12-10 19:56:30] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-12-10 19:56:30] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-12-10 19:56:30] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-12-10 19:56:30] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-12-10 19:56:30] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

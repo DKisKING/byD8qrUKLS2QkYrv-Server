@@ -1,0 +1,159 @@
+Logging started at 2016-08-13 20:19:46
+File name: C:\Users\Administrator\Dropbox\lunarisle source\.\data\logs\err\1471112385702 - Administrator - [Sat Aug 13][8.19PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-08-13 20:37:19] Failing to update Maxed Iron highscores. Database could not connect.
+[2016-08-13 20:48:04] Failing to update Iron Keys highscores. Database could not connect.
+[2016-08-13 20:49:22] Failing to update Condomless highscores. Database could not connect.
+[2016-08-13 20:55:32] Failing to update Sr20 highscores. Database could not connect.
+[2016-08-13 21:10:51] Failing to update Maxed Iron highscores. Database could not connect.
+[2016-08-13 22:11:08] Failing to update Sr20 highscores. Database could not connect.
+[2016-08-13 22:39:33] Failing to update Kreation highscores. Database could not connect.
+[2016-08-13 22:40:43] java.lang.NullPointerException
+[2016-08-13 22:40:43] 	at com.vencillio.rs2.content.DropTable.searchItem(DropTable.java:118)
+[2016-08-13 22:40:43] 	at com.vencillio.rs2.entity.player.net.in.impl.InputFieldPacket.handle(InputFieldPacket.java:35)
+[2016-08-13 22:40:43] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-13 22:40:43] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-13 22:40:43] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-13 22:40:43] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-13 22:40:43] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-13 22:40:53] java.lang.NullPointerException
+[2016-08-13 22:40:53] 	at com.vencillio.rs2.content.DropTable.searchItem(DropTable.java:118)
+[2016-08-13 22:40:53] 	at com.vencillio.rs2.entity.player.net.in.impl.InputFieldPacket.handle(InputFieldPacket.java:35)
+[2016-08-13 22:40:53] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-13 22:40:53] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-13 22:40:53] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-13 22:40:53] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-13 22:40:53] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-13 22:58:57] Failing to update Plague highscores. Database could not connect.
+[2016-08-13 23:39:40] Failing to update Starj highscores. Database could not connect.
+[2016-08-13 23:39:40] Failing to update Voxen highscores. Database could not connect.
+[2016-08-13 23:55:10] Failing to update Condomless highscores. Database could not connect.
+[2016-08-14 00:26:53] Failing to update Maxed Iron highscores. Database could not connect.
+[2016-08-14 00:53:47] Failing to update Iron Keys highscores. Database could not connect.
+[2016-08-14 00:54:20] Failing to update Sosa highscores. Database could not connect.
+[2016-08-14 01:02:19] Failing to update Blake highscores. Database could not connect.
+[2016-08-14 01:22:05] Failing to update Iron Keys highscores. Database could not connect.
+[2016-08-14 01:34:53] Failing to update Anthony highscores. Database could not connect.
+[2016-08-14 01:34:53] Failing to update Sosa highscores. Database could not connect.
+[2016-08-14 01:35:39] Failing to update Unforbidden highscores. Database could not connect.
+[2016-08-14 01:38:52] Failing to update Unforbidden highscores. Database could not connect.
+[2016-08-14 01:40:26] Failing to update Dab Queen highscores. Database could not connect.
+[2016-08-14 02:46:24] Failing to update Iron Keys highscores. Database could not connect.
+[2016-08-14 02:48:13] Failing to update Unforbidden highscores. Database could not connect.
+[2016-08-14 03:10:32] Failing to update Unforbidden highscores. Database could not connect.
+[2016-08-14 03:20:22] Failing to update Plague highscores. Database could not connect.
+[2016-08-14 03:33:47] Failing to update Unforbidden highscores. Database could not connect.
+[2016-08-14 03:55:24] Failing to update Plague highscores. Database could not connect.
+[2016-08-14 05:14:12] java.lang.NullPointerException
+[2016-08-14 05:14:12] 	at com.vencillio.rs2.content.combat.formula.RangeFormulas.calculateRangeAttack(RangeFormulas.java:78)
+[2016-08-14 05:14:12] 	at com.vencillio.rs2.content.combat.impl.Ranged.execute(Ranged.java:41)
+[2016-08-14 05:14:12] 	at com.vencillio.rs2.content.combat.Combat.attack(Combat.java:92)
+[2016-08-14 05:14:12] 	at com.vencillio.rs2.content.combat.Combat.process(Combat.java:215)
+[2016-08-14 05:14:12] 	at com.vencillio.rs2.entity.player.Player.process(Player.java:1565)
+[2016-08-14 05:14:12] 	at com.vencillio.rs2.entity.World.process(World.java:322)
+[2016-08-14 05:14:12] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-14 05:14:12] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-14 05:14:12] java.lang.NullPointerException
+[2016-08-14 05:14:12] 	at com.vencillio.rs2.entity.player.net.Client.send(Client.java:329)
+[2016-08-14 05:14:12] 	at com.vencillio.rs2.entity.player.net.out.impl.SendLogout.execute(SendLogout.java:13)
+[2016-08-14 05:14:12] 	at com.vencillio.rs2.entity.player.Player.logout(Player.java:1491)
+[2016-08-14 05:14:12] 	at com.vencillio.rs2.entity.World.process(World.java:335)
+[2016-08-14 05:14:12] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-14 05:14:12] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-14 05:14:12] Failing to update Unforbidden highscores. Database could not connect.
+[2016-08-14 05:14:12] Failing to update Unforbidden highscores. Database could not connect.
+[2016-08-14 05:24:50] Failing to update Plague highscores. Database could not connect.
+[2016-08-14 05:40:02] Failing to update Sr20 highscores. Database could not connect.
+[2016-08-14 06:10:27] Failing to update Unforbidden highscores. Database could not connect.
+[2016-08-14 07:24:19] java.lang.NullPointerException
+[2016-08-14 07:24:19] 	at com.vencillio.rs2.content.DropTable.searchItem(DropTable.java:118)
+[2016-08-14 07:24:19] 	at com.vencillio.rs2.entity.player.net.in.impl.InputFieldPacket.handle(InputFieldPacket.java:35)
+[2016-08-14 07:24:19] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-14 07:24:19] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-14 07:24:19] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-14 07:24:19] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-14 07:24:19] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-14 08:54:45] Failing to update Bite highscores. Database could not connect.
+[2016-08-14 10:13:28] Failing to update Sr20 highscores. Database could not connect.
+[2016-08-14 14:01:56] Failing to update Conner highscores. Database could not connect.
+[2016-08-14 17:35:25] Failing to update Maxed Iron highscores. Database could not connect.
+[2016-08-14 18:18:32] Failing to update Maxed Iron highscores. Database could not connect.
+[2016-08-14 18:18:48] Failing to update wallis highscores. Database could not connect.
+[2016-08-14 18:50:02] Failing to update Anthony highscores. Database could not connect.
+[2016-08-14 19:04:08] Failing to update Sosa highscores. Database could not connect.
+[2016-08-14 19:08:38] Failing to update Iron GG highscores. Database could not connect.
+[2016-08-14 19:14:06] Failing to update Maxed Iron highscores. Database could not connect.
+[2016-08-14 19:17:34] Failing to update Sosa highscores. Database could not connect.
+[2016-08-14 19:31:22] Failing to update Mary highscores. Database could not connect.
+[2016-08-14 20:34:19] Failing to update Mike highscores. Database could not connect.
+[2016-08-14 20:59:15] Failing to update Sosa highscores. Database could not connect.
+[2016-08-14 21:06:34] Failing to update Maxed Iron highscores. Database could not connect.
+[2016-08-14 22:02:50] Failing to update betabehemoth highscores. Database could not connect.
+[2016-08-14 22:03:39] Failing to update gainz highscores. Database could not connect.
+[2016-08-14 22:03:57] Failing to update betabehemoth highscores. Database could not connect.
+[2016-08-14 22:04:40] Failing to update Maxed Iron highscores. Database could not connect.
+[2016-08-14 22:04:59] Failing to update gainz highscores. Database could not connect.
+[2016-08-14 22:06:43] Failing to update Maxed Iron highscores. Database could not connect.
+[2016-08-14 22:21:05] Failing to update Maxed Iron highscores. Database could not connect.
+[2016-08-14 22:50:34] Failing to update Unforbidden highscores. Database could not connect.
+[2016-08-14 22:58:57] Failing to update Mary highscores. Database could not connect.
+[2016-08-14 23:30:06] Failing to update Maxed Iron highscores. Database could not connect.
+[2016-08-14 23:51:42] Failing to update Sr20 highscores. Database could not connect.
+[2016-08-14 23:53:37] java.lang.NullPointerException
+[2016-08-14 23:53:37] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:174)
+[2016-08-14 23:53:37] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-08-14 23:53:37] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-14 23:53:37] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-14 23:53:37] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-14 23:53:37] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-14 23:53:37] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-15 00:20:18] Failing to update Maxed Iron highscores. Database could not connect.
+[2016-08-15 00:20:18] Failing to update gainz highscores. Database could not connect.
+[2016-08-15 00:21:28] Failing to update betabehemoth highscores. Database could not connect.
+[2016-08-15 00:31:01] Failing to update Iron GG highscores. Database could not connect.
+[2016-08-15 00:46:10] Failing to update Maxed Iron highscores. Database could not connect.
+[2016-08-15 00:46:11] Failing to update Gainz highscores. Database could not connect.
+[2016-08-15 01:01:15] Failing to update Unforbidden highscores. Database could not connect.
+[2016-08-15 01:02:22] Failing to update Sosa highscores. Database could not connect.
+[2016-08-15 01:22:57] Failing to update Unforbidden highscores. Database could not connect.
+[2016-08-15 01:42:40] Failing to update Anthony highscores. Database could not connect.
+[2016-08-15 01:55:29] Failing to update Sosa highscores. Database could not connect.
+[2016-08-15 02:48:21] Failing to update Starj highscores. Database could not connect.
+[2016-08-15 03:19:06] Failing to update Maxed Iron highscores. Database could not connect.
+[2016-08-15 03:19:07] Failing to update Gainz highscores. Database could not connect.
+[2016-08-15 04:17:28] Failing to update Anthony highscores. Database could not connect.
+[2016-08-15 04:17:29] Failing to update Sosa highscores. Database could not connect.
+[2016-08-15 04:19:02] Failing to update Condomless highscores. Database could not connect.
+[2016-08-15 06:01:45] Failing to update Sr20 highscores. Database could not connect.
+[2016-08-15 07:01:52] Failing to update Sr20 highscores. Database could not connect.
+[2016-08-15 08:02:00] Failing to update Sr20 highscores. Database could not connect.
+[2016-08-15 09:02:09] Failing to update Sr20 highscores. Database could not connect.
+[2016-08-15 10:03:16] Failing to update Sr20 highscores. Database could not connect.
+[2016-08-15 10:10:35] Failing to update Sr20 highscores. Database could not connect.
+[2016-08-15 15:11:46] Failing to update Mary highscores. Database could not connect.
+[2016-08-15 15:14:40] Failing to update Starj highscores. Database could not connect.
+[2016-08-15 15:31:40] Failing to update Anthony highscores. Database could not connect.
+[2016-08-15 16:42:38] Failing to update Starj highscores. Database could not connect.
+[2016-08-15 17:43:48] Failing to update Mary highscores. Database could not connect.
+[2016-08-15 20:39:44] Failing to update Itzdaniel highscores. Database could not connect.
+[2016-08-15 20:57:46] Failing to update Exile highscores. Database could not connect.
+[2016-08-15 22:01:33] Failing to update Maxed Iron highscores. Database could not connect.
+[2016-08-15 22:04:29] java.lang.NullPointerException
+[2016-08-15 22:04:29] 	at com.vencillio.rs2.entity.item.Equipment.equip(Equipment.java:186)
+[2016-08-15 22:04:29] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:523)
+[2016-08-15 22:04:29] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-15 22:04:29] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-15 22:04:29] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-15 22:04:29] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-15 22:04:29] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-15 22:04:30] java.lang.NullPointerException
+[2016-08-15 22:04:30] 	at com.vencillio.rs2.entity.item.Equipment.equip(Equipment.java:186)
+[2016-08-15 22:04:30] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:523)
+[2016-08-15 22:04:30] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-15 22:04:30] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-15 22:04:30] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-15 22:04:30] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-15 22:04:30] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-15 22:19:50] Failing to update Free Jazz highscores. Database could not connect.
+[2016-08-15 22:28:20] Failing to update Sr20 highscores. Database could not connect.

@@ -1,0 +1,7 @@
+Logging started at 2016-08-25 10:29:59
+File name: C:\Users\Administrator\Dropbox\lunarisle source\.\data\logs\err\1472113799399 - Administrator - [Thu Aug 25][10.29AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-08-25 10:48:06] Failing to update Austin1 highscores. Database could not connect.
+[2016-08-25 10:52:46] Failing to update lolnice highscores. Database could not connect.
+[2016-08-25 11:06:20] Failing to update goody highscores. Database could not connect.

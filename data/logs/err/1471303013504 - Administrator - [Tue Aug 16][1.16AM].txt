@@ -1,0 +1,5 @@
+Logging started at 2016-08-16 01:16:53
+File name: C:\Users\Administrator\Dropbox\lunarisle source\.\data\logs\err\1471303013504 - Administrator - [Tue Aug 16][1.16AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-08-16 01:21:16] Failing to update Sosa highscores. Database could not connect.

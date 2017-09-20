@@ -1,0 +1,14 @@
+Logging started at 2016-07-27 08:07:34
+File name: C:\Users\Administrator\Dropbox\lunarisle source\.\data\logs\err\1469599654842 - Administrator - [Wed Jul 27][8.07AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-07-27 08:15:24] java.lang.ArrayIndexOutOfBoundsException: 9999
+[2016-07-27 08:15:24] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:346)
+[2016-07-27 08:15:24] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-07-27 08:15:24] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-27 08:15:24] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-27 08:15:24] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-27 08:15:24] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-27 08:15:24] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-27 08:24:43] Failing to update Ybbob highscores. Database could not connect.
+[2016-07-27 08:30:03] Failing to update Y highscores. Database could not connect.

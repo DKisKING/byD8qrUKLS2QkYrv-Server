@@ -1,0 +1,25 @@
+Logging started at 2017-01-08 15:47:12
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1483919232287 - Administrator - [Sun Jan 8][3.47PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-01-08 16:50:49] java.lang.NumberFormatException: For input string: "::item"
+[2017-01-08 16:50:49] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2017-01-08 16:50:49] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-01-08 16:50:49] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-01-08 16:50:49] 	at com.vencillio.rs2.entity.player.net.in.command.CommandParser.nextInt(CommandParser.java:46)
+[2017-01-08 16:50:49] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:40)
+[2017-01-08 16:50:49] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2017-01-08 16:50:49] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-08 16:50:49] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-08 16:50:49] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-08 16:50:49] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-08 16:50:49] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-08 22:29:09] java.lang.ArrayIndexOutOfBoundsException: 117
+[2017-01-08 22:29:09] 	at com.vencillio.rs2.content.bank.Bank.changeTabAmount(Bank.java:415)
+[2017-01-08 22:29:09] 	at com.vencillio.rs2.content.bank.Bank.itemToTab(Bank.java:402)
+[2017-01-08 22:29:09] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:544)
+[2017-01-08 22:29:09] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-08 22:29:09] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-08 22:29:09] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-08 22:29:09] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-08 22:29:09] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

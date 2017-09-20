@@ -1,0 +1,54 @@
+Logging started at 2017-02-01 22:56:20
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1486018580825 - Administrator - [Wed Feb 1][10.56PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-02-01 22:56:39] com.thoughtworks.xstream.converters.ConversionException: id : id : id : id
+---- Debugging information ----
+message             : id : id
+cause-exception     : com.thoughtworks.xstream.mapper.CannotResolveClassException
+cause-message       : id : id
+class               : java.util.ArrayList
+required-type       : java.util.ArrayList
+path                : /list/id
+line number         : 11887
+-------------------------------
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:89)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:137)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:33)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:923)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:909)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:861)
+[2017-02-01 22:56:39] 	at com.vencillio.core.util.GameDefinitionLoader.loadNpcSpawns(GameDefinitionLoader.java:635)
+[2017-02-01 22:56:39] 	at com.vencillio.GameDataLoader$1.run(GameDataLoader.java:101)
+[2017-02-01 22:56:39] Caused by: com.thoughtworks.xstream.mapper.CannotResolveClassException: id : id
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.mapper.DefaultMapper.realClass(DefaultMapper.java:68)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.mapper.DynamicProxyMapper.realClass(DynamicProxyMapper.java:71)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.mapper.PackageAliasingMapper.realClass(PackageAliasingMapper.java:88)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.mapper.ClassAliasingMapper.realClass(ClassAliasingMapper.java:86)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.mapper.ArrayMapper.realClass(ArrayMapper.java:96)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.mapper.CachingMapper.realClass(CachingMapper.java:52)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.core.util.HierarchicalStreams.readClassType(HierarchicalStreams.java:29)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:70)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(CollectionConverter.java:68)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.unmarshal(CollectionConverter.java:61)
+[2017-02-01 22:56:39] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2017-02-01 22:56:39] 	... 10 more

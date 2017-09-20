@@ -1,0 +1,17 @@
+Logging started at 2016-06-18 03:18:37
+File name: C:\Users\Administrator\Desktop\Dropbox\VA Source\.\data\logs\err\1466212716998 - Administrator - [Sat Jun 18][3.18AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-06-18 17:55:52] java.lang.NumberFormatException: For input string: ""
+[2016-06-18 17:55:52] 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[2016-06-18 17:55:52] 	at java.lang.Integer.parseInt(Integer.java:592)
+[2016-06-18 17:55:52] 	at java.lang.Short.parseShort(Short.java:118)
+[2016-06-18 17:55:52] 	at java.lang.Short.parseShort(Short.java:144)
+[2016-06-18 17:55:52] 	at com.vencillio.rs2.entity.player.net.in.command.CommandParser.nextShort(CommandParser.java:110)
+[2016-06-18 17:55:52] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:325)
+[2016-06-18 17:55:52] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-06-18 17:55:52] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-06-18 17:55:52] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-06-18 17:55:52] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-06-18 17:55:52] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-06-18 17:55:52] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

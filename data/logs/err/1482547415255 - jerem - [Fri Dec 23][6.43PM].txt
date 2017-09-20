@@ -1,0 +1,79 @@
+Logging started at 2016-12-23 18:43:35
+File name: C:\Users\jerem\Desktop\Project Reality RSPS\Project Reality\.\data\logs\err\1482547415255 - jerem - [Fri Dec 23][6.43PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-12-23 18:43:38] Exception in thread "main" 
+[2016-12-23 18:43:38] java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token "case", assert expected
+	Type mismatch: cannot convert from String to boolean
+	Syntax error on tokens, delete these tokens
+	Expression must return a value
+	Syntax error on token "case", assert expected
+	Type mismatch: cannot convert from String to boolean
+	Syntax error on tokens, delete these tokens
+	Expression must return a value
+	The constructor Task() is undefined
+	Syntax error on token "case", assert expected
+	Type mismatch: cannot convert from String to boolean
+	Syntax error on tokens, delete these tokens
+	Expression must return a value
+	Syntax error on token "case", assert expected
+	Type mismatch: cannot convert from String to boolean
+	Syntax error on token ":", ; expected
+	Syntax error on token "case", assert expected
+	Type mismatch: cannot convert from String to boolean
+	Syntax error on tokens, delete these tokens
+	Expression must return a value
+	Syntax error on token "case", assert expected
+	Type mismatch: cannot convert from String to boolean
+	Expression must return a value
+	Syntax error on token "case", assert expected
+	Type mismatch: cannot convert from String to boolean
+	Syntax error on tokens, delete these tokens
+	Expression must return a value
+	Syntax error on token "case", assert expected
+	Type mismatch: cannot convert from String to boolean
+	Syntax error on tokens, delete these tokens
+	Expression must return a value
+	Syntax error on token "case", assert expected
+	Type mismatch: cannot convert from String to boolean
+	Syntax error on tokens, delete these tokens
+	Expression must return a value
+	Syntax error on token "case", assert expected
+	Type mismatch: cannot convert from String to boolean
+	Syntax error on token ":", ; expected
+	Syntax error on token "case", assert expected
+	Type mismatch: cannot convert from String to boolean
+	Syntax error on token ":", ; expected
+	Syntax error on token "case", assert expected
+	Type mismatch: cannot convert from String to boolean
+	Syntax error on tokens, delete these tokens
+	Syntax error, insert ";" to complete AssertStatement
+	Syntax error on token "case", assert expected
+	Type mismatch: cannot convert from String to boolean
+	Syntax error on token ":", ; expected
+	Syntax error on token "case", assert expected
+	Type mismatch: cannot convert from String to boolean
+	Syntax error on token ":", ; expected
+	Syntax error on token "case", assert expected
+	Type mismatch: cannot convert from String to boolean
+	Syntax error on token ":", ; expected
+	Syntax error on token "case", assert expected
+	Syntax error on token "case", assert expected
+	Syntax error on tokens, delete these tokens
+	Syntax error, insert ";" to complete AssertStatement
+	Syntax error on token "case", assert expected
+	Syntax error on token ":", ; expected
+	Syntax error on token "}", { expected after this token
+	Syntax error on token "}", delete this token
+	Syntax error on token "(", ; expected
+	Syntax error on token ")", ; expected
+	Syntax error, insert "}" to complete ClassBody
+
+[2016-12-23 18:43:39] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.<init>(PlayerCommand.java:168)
+[2016-12-23 18:43:39] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.<clinit>(CommandPacket.java:18)
+[2016-12-23 18:43:39] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.<clinit>(PacketHandler.java:42)
+[2016-12-23 18:43:39] 	at com.vencillio.GameDataLoader.load(GameDataLoader.java:180)
+[2016-12-23 18:43:39] 	at com.vencillio.core.GameThread.startup(GameThread.java:69)
+[2016-12-23 18:43:39] 	at com.vencillio.core.GameThread.init(GameThread.java:34)
+[2016-12-23 18:43:39] 	at com.vencillio.Server.main(Server.java:105)

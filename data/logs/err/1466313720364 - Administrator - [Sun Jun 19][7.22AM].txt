@@ -1,0 +1,22 @@
+Logging started at 2016-06-19 07:22:00
+File name: C:\Users\Administrator\Desktop\Dropbox\VA Source\.\data\logs\err\1466313720364 - Administrator - [Sun Jun 19][7.22AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-06-19 07:32:35] java.lang.ArrayIndexOutOfBoundsException: 22
+[2016-06-19 07:32:35] 	at com.vencillio.rs2.content.SkillsChat.getSkillName(SkillsChat.java:92)
+[2016-06-19 07:32:35] 	at com.vencillio.rs2.content.SkillsChat.handle(SkillsChat.java:113)
+[2016-06-19 07:32:35] 	at com.vencillio.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:927)
+[2016-06-19 07:32:35] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-06-19 07:32:35] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-06-19 07:32:35] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-06-19 07:32:35] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-06-19 07:32:35] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-06-19 07:32:37] java.lang.ArrayIndexOutOfBoundsException: 22
+[2016-06-19 07:32:37] 	at com.vencillio.rs2.content.SkillsChat.getSkillName(SkillsChat.java:92)
+[2016-06-19 07:32:37] 	at com.vencillio.rs2.content.SkillsChat.handle(SkillsChat.java:113)
+[2016-06-19 07:32:37] 	at com.vencillio.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:927)
+[2016-06-19 07:32:37] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-06-19 07:32:37] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-06-19 07:32:37] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-06-19 07:32:37] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-06-19 07:32:37] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

@@ -1,0 +1,60 @@
+Logging started at 2017-01-26 11:27:18
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1485458838334 - Administrator - [Thu Jan 26][11.27AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-01-26 11:44:42] java.lang.ArrayIndexOutOfBoundsException: -1
+[2017-01-26 11:44:42] 	at com.vencillio.rs2.content.bank.Bank.swap(Bank.java:294)
+[2017-01-26 11:44:42] 	at com.vencillio.rs2.content.bank.Bank.depositFromNoting(Bank.java:222)
+[2017-01-26 11:44:42] 	at com.vencillio.rs2.content.bank.Bank.clickButton(Bank.java:99)
+[2017-01-26 11:44:42] 	at com.vencillio.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:940)
+[2017-01-26 11:44:42] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-26 11:44:42] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-26 11:44:42] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-26 11:44:42] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-26 11:44:42] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-26 13:40:33] java.lang.IndexOutOfBoundsException: Index: 7, Size: 6
+[2017-01-26 13:40:33] 	at java.util.LinkedList.checkElementIndex(Unknown Source)
+[2017-01-26 13:40:33] 	at java.util.LinkedList.get(Unknown Source)
+[2017-01-26 13:40:33] 	at com.vencillio.rs2.entity.player.net.in.impl.InterfaceAction.handle(InterfaceAction.java:88)
+[2017-01-26 13:40:33] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-26 13:40:33] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-26 13:40:33] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-26 13:40:33] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-26 13:40:33] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-26 13:40:33] java.lang.IndexOutOfBoundsException: Index: 7, Size: 6
+[2017-01-26 13:40:33] 	at java.util.LinkedList.checkElementIndex(Unknown Source)
+[2017-01-26 13:40:33] 	at java.util.LinkedList.get(Unknown Source)
+[2017-01-26 13:40:33] 	at com.vencillio.rs2.entity.player.net.in.impl.InterfaceAction.handle(InterfaceAction.java:88)
+[2017-01-26 13:40:33] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-26 13:40:33] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-26 13:40:33] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-26 13:40:33] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-26 13:40:33] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-26 14:20:30] java.lang.NullPointerException
+[2017-01-26 14:20:30] 	at com.vencillio.rs2.entity.player.net.in.impl.InterfaceAction.handle(InterfaceAction.java:119)
+[2017-01-26 14:20:30] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-26 14:20:30] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-26 14:20:30] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-26 14:20:30] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-26 14:20:30] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-26 14:20:30] java.lang.NullPointerException
+[2017-01-26 14:20:30] 	at com.vencillio.rs2.entity.player.net.in.impl.InterfaceAction.handle(InterfaceAction.java:119)
+[2017-01-26 14:20:30] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-26 14:20:30] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-26 14:20:30] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-26 14:20:30] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-26 14:20:30] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-26 14:21:14] java.lang.NullPointerException
+[2017-01-26 14:21:14] 	at com.vencillio.rs2.entity.player.net.in.impl.InterfaceAction.handle(InterfaceAction.java:119)
+[2017-01-26 14:21:14] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-26 14:21:14] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-26 14:21:14] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-26 14:21:14] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-26 14:21:14] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-26 14:21:14] java.lang.NullPointerException
+[2017-01-26 14:21:14] 	at com.vencillio.rs2.entity.player.net.in.impl.InterfaceAction.handle(InterfaceAction.java:119)
+[2017-01-26 14:21:14] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-26 14:21:14] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-26 14:21:14] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-26 14:21:14] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-26 14:21:14] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

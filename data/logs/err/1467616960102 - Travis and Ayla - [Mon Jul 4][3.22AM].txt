@@ -1,0 +1,4 @@
+Logging started at 2016-07-04 03:22:40
+File name: C:\Users\Travis and Ayla\Desktop\lunarisle source\.\data\logs\err\1467616960102 - Travis and Ayla - [Mon Jul 4][3.22AM].txt
+System.getProperty("os.name"): "Windows Vista"
+

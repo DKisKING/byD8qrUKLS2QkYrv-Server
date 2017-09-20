@@ -1,0 +1,24 @@
+Logging started at 2017-02-01 23:41:29
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1486021289002 - Administrator - [Wed Feb 1][11.41PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-02-01 23:44:33] java.lang.NumberFormatException: For input string: "500k"
+[2017-02-01 23:44:33] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2017-02-01 23:44:33] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-02-01 23:44:33] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-02-01 23:44:33] 	at com.vencillio.rs2.entity.player.net.in.impl.StringInputPacket.handle(StringInputPacket.java:41)
+[2017-02-01 23:44:33] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-02-01 23:44:33] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-02-01 23:44:33] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-02-01 23:44:33] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-02-01 23:44:33] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-02-01 23:45:55] java.lang.NumberFormatException: For input string: "500k"
+[2017-02-01 23:45:55] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2017-02-01 23:45:55] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-02-01 23:45:55] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-02-01 23:45:55] 	at com.vencillio.rs2.entity.player.net.in.impl.StringInputPacket.handle(StringInputPacket.java:41)
+[2017-02-01 23:45:55] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-02-01 23:45:55] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-02-01 23:45:55] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-02-01 23:45:55] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-02-01 23:45:55] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

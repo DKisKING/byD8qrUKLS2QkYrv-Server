@@ -1,0 +1,24 @@
+Logging started at 2017-01-27 14:00:58
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1485554458334 - Administrator - [Fri Jan 27][2.00PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-01-27 14:30:37] Exception in thread "Main Thread" 
+[2017-01-27 14:30:37] java.lang.NoClassDefFoundError: com/vencillio/rs2/content/skill/mining/Mining$1$1
+[2017-01-27 14:30:37] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:263)
+[2017-01-27 14:30:37] 	at com.vencillio.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:1078)
+[2017-01-27 14:30:37] 	at com.vencillio.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:311)
+[2017-01-27 14:30:37] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-01-27 14:30:37] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-01-27 14:30:37] 	at com.vencillio.rs2.entity.WalkToActions.clickObject(WalkToActions.java:306)
+[2017-01-27 14:30:37] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2017-01-27 14:30:37] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-27 14:30:37] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-27 14:30:37] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-27 14:30:37] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-27 14:30:37] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-27 14:30:37] Caused by: java.lang.ClassNotFoundException: com.vencillio.rs2.content.skill.mining.Mining$1$1
+[2017-01-27 14:30:37] 	at java.net.URLClassLoader.findClass(Unknown Source)
+[2017-01-27 14:30:37] 	at java.lang.ClassLoader.loadClass(Unknown Source)
+[2017-01-27 14:30:37] 	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+[2017-01-27 14:30:37] 	at java.lang.ClassLoader.loadClass(Unknown Source)
+[2017-01-27 14:30:37] 	... 12 more

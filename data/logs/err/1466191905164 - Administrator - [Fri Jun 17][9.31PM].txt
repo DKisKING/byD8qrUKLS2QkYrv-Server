@@ -1,0 +1,32 @@
+Logging started at 2016-06-17 21:31:45
+File name: C:\Users\Administrator\Desktop\Dropbox\VA Source\.\data\logs\err\1466191905164 - Administrator - [Fri Jun 17][9.31PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-06-17 22:45:21] java.lang.NumberFormatException: For input string: "10m"
+[2016-06-17 22:45:21] 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[2016-06-17 22:45:21] 	at java.lang.Integer.parseInt(Integer.java:580)
+[2016-06-17 22:45:21] 	at java.lang.Integer.parseInt(Integer.java:615)
+[2016-06-17 22:45:21] 	at com.vencillio.rs2.entity.player.net.in.command.CommandParser.nextInt(CommandParser.java:46)
+[2016-06-17 22:45:21] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:153)
+[2016-06-17 22:45:21] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-06-17 22:45:21] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-06-17 22:45:21] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-06-17 22:45:21] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-06-17 22:45:21] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-06-17 22:45:21] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-06-17 22:52:46] Exception in thread "Main Thread" 
+[2016-06-17 22:52:46] java.lang.NoClassDefFoundError: com/vencillio/rs2/content/gambling/Lottery
+[2016-06-17 22:52:46] 	at com.vencillio.rs2.entity.World.initUpdate(World.java:198)
+[2016-06-17 22:52:46] 	at com.vencillio.rs2.entity.player.net.in.command.impl.DeveloperCommand.handleCommand(DeveloperCommand.java:817)
+[2016-06-17 22:52:46] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-06-17 22:52:46] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-06-17 22:52:46] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-06-17 22:52:46] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-06-17 22:52:46] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-06-17 22:52:46] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-06-17 22:52:46] Caused by: java.lang.ClassNotFoundException: com.vencillio.rs2.content.gambling.Lottery
+[2016-06-17 22:52:46] 	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+[2016-06-17 22:52:46] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+[2016-06-17 22:52:46] 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+[2016-06-17 22:52:46] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+[2016-06-17 22:52:46] 	... 8 more

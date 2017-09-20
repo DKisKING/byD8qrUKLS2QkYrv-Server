@@ -1,0 +1,17 @@
+Logging started at 2017-09-18 21:23:03
+File name: C:\Users\Tyras\Desktop\MAIN SERVER (Vencillio Source)\Tyras Source\.\data\logs\err\1505766183118 - Tyras - [Mon Sep 18][9.23PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-09-18 21:44:35] Failing to update Boop highscores. Database could not connect.
+[2017-09-18 22:37:22] Failing to update Oe highscores. Database could not connect.
+[2017-09-18 23:15:00] Failing to update Dbz highscores. Database could not connect.
+[2017-09-18 23:18:38] Failing to update Perm highscores. Database could not connect.
+[2017-09-19 01:18:57] Failing to update Perm highscores. Database could not connect.
+[2017-09-19 01:31:55] Failing to update slayer highscores. Database could not connect.
+[2017-09-19 02:22:00] Failing to update slayer highscores. Database could not connect.
+[2017-09-19 06:04:14] Failing to update Dbz highscores. Database could not connect.
+[2017-09-19 08:15:02] Failing to update Test highscores. Database could not connect.
+[2017-09-19 08:27:00] Failing to update Boop highscores. Database could not connect.
+[2017-09-19 09:23:23] Failing to update Grumpy highscores. Database could not connect.
+[2017-09-19 12:39:33] Failing to update Perm highscores. Database could not connect.
+[2017-09-19 12:39:34] Failing to update slayer highscores. Database could not connect.

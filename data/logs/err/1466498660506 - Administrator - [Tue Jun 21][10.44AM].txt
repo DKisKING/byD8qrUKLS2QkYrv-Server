@@ -1,0 +1,12 @@
+Logging started at 2016-06-21 10:44:20
+File name: C:\Users\Administrator\Desktop\Dropbox\VA Source\.\data\logs\err\1466498660506 - Administrator - [Tue Jun 21][10.44AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-06-21 10:48:25] java.lang.ArrayIndexOutOfBoundsException: 9999
+[2016-06-21 10:48:25] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:329)
+[2016-06-21 10:48:25] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-06-21 10:48:25] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-06-21 10:48:25] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-06-21 10:48:25] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-06-21 10:48:25] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-06-21 10:48:25] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

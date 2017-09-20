@@ -1,0 +1,11 @@
+Logging started at 2016-04-27 05:00:04
+File name: C:\Users\Travis and Ayla\Dropbox\VA Source\.\data\logs\err\1461747604275 - Travis and Ayla - [Wed Apr 27][5.00AM].txt
+System.getProperty("os.name"): "Windows Vista"
+
+[2016-04-27 05:46:22] java.lang.NullPointerException
+[2016-04-27 05:46:22] 	at com.vencillio.core.network.mysql.MembershipRewards.lambda$0(MembershipRewards.java:53)
+[2016-04-27 05:46:22] 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[2016-04-27 05:46:22] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2016-04-27 05:46:22] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2016-04-27 05:46:22] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2016-04-27 05:46:22] 	at java.lang.Thread.run(Unknown Source)

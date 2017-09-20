@@ -1,0 +1,4 @@
+Logging started at 2017-09-13 21:18:17
+File name: C:\Users\Tyras\Desktop\Vencillo Source (we're moving to this one)\317 Source\.\data\logs\err\1505333897109 - Tyras - [Wed Sep 13][9.18PM].txt
+System.getProperty("os.name"): "Windows 10"
+

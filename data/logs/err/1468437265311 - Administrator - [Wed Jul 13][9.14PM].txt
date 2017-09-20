@@ -1,0 +1,54 @@
+Logging started at 2016-07-13 21:14:25
+File name: C:\Users\Administrator\Dropbox\lunarisle source\.\data\logs\err\1468437265311 - Administrator - [Wed Jul 13][9.14PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-07-13 21:19:20] com.mashape.unirest.http.exceptions.UnirestException: java.lang.RuntimeException: java.lang.RuntimeException: org.json.JSONException: A JSONArray text must start with '[' at 1 [character 2 line 1]
+[2016-07-13 21:19:20] 	at com.mashape.unirest.http.HttpClientHelper.request(HttpClientHelper.java:143)
+[2016-07-13 21:19:20] 	at com.mashape.unirest.request.BaseRequest.asJson(BaseRequest.java:68)
+[2016-07-13 21:19:20] 	at com.motivoters.motivote.MotivoteService.callAPI(MotivoteService.java:37)
+[2016-07-13 21:19:20] 	at com.motivoters.motivote.MotivoteService.redeemVote(MotivoteService.java:96)
+[2016-07-13 21:19:20] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.lambda$0(PlayerCommand.java:64)
+[2016-07-13 21:19:20] 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[2016-07-13 21:19:20] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2016-07-13 21:19:20] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2016-07-13 21:19:20] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2016-07-13 21:19:20] 	at java.lang.Thread.run(Unknown Source)
+[2016-07-13 21:19:20] Caused by: java.lang.RuntimeException: java.lang.RuntimeException: org.json.JSONException: A JSONArray text must start with '[' at 1 [character 2 line 1]
+[2016-07-13 21:19:20] 	at com.mashape.unirest.http.HttpResponse.<init>(HttpResponse.java:106)
+[2016-07-13 21:19:20] 	at com.mashape.unirest.http.HttpClientHelper.request(HttpClientHelper.java:139)
+[2016-07-13 21:19:20] 	... 9 more
+[2016-07-13 21:19:20] Caused by: java.lang.RuntimeException: org.json.JSONException: A JSONArray text must start with '[' at 1 [character 2 line 1]
+[2016-07-13 21:19:20] 	at com.mashape.unirest.http.JsonNode.<init>(JsonNode.java:51)
+[2016-07-13 21:19:20] 	at com.mashape.unirest.http.HttpResponse.<init>(HttpResponse.java:95)
+[2016-07-13 21:19:20] 	... 10 more
+[2016-07-13 21:19:20] Caused by: org.json.JSONException: A JSONArray text must start with '[' at 1 [character 2 line 1]
+[2016-07-13 21:19:20] 	at org.json.JSONTokener.syntaxError(JSONTokener.java:433)
+[2016-07-13 21:19:20] 	at org.json.JSONArray.<init>(JSONArray.java:105)
+[2016-07-13 21:19:20] 	at org.json.JSONArray.<init>(JSONArray.java:144)
+[2016-07-13 21:19:20] 	at com.mashape.unirest.http.JsonNode.<init>(JsonNode.java:48)
+[2016-07-13 21:19:20] 	... 11 more
+[2016-07-13 21:19:44] com.mashape.unirest.http.exceptions.UnirestException: java.lang.RuntimeException: java.lang.RuntimeException: org.json.JSONException: A JSONArray text must start with '[' at 1 [character 2 line 1]
+[2016-07-13 21:19:44] 	at com.mashape.unirest.http.HttpClientHelper.request(HttpClientHelper.java:143)
+[2016-07-13 21:19:44] 	at com.mashape.unirest.request.BaseRequest.asJson(BaseRequest.java:68)
+[2016-07-13 21:19:44] 	at com.motivoters.motivote.MotivoteService.callAPI(MotivoteService.java:37)
+[2016-07-13 21:19:44] 	at com.motivoters.motivote.MotivoteService.redeemVote(MotivoteService.java:96)
+[2016-07-13 21:19:44] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.lambda$0(PlayerCommand.java:64)
+[2016-07-13 21:19:44] 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[2016-07-13 21:19:44] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2016-07-13 21:19:44] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2016-07-13 21:19:44] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2016-07-13 21:19:44] 	at java.lang.Thread.run(Unknown Source)
+[2016-07-13 21:19:44] Caused by: java.lang.RuntimeException: java.lang.RuntimeException: org.json.JSONException: A JSONArray text must start with '[' at 1 [character 2 line 1]
+[2016-07-13 21:19:44] 	at com.mashape.unirest.http.HttpResponse.<init>(HttpResponse.java:106)
+[2016-07-13 21:19:44] 	at com.mashape.unirest.http.HttpClientHelper.request(HttpClientHelper.java:139)
+[2016-07-13 21:19:44] 	... 9 more
+[2016-07-13 21:19:44] Caused by: java.lang.RuntimeException: org.json.JSONException: A JSONArray text must start with '[' at 1 [character 2 line 1]
+[2016-07-13 21:19:44] 	at com.mashape.unirest.http.JsonNode.<init>(JsonNode.java:51)
+[2016-07-13 21:19:44] 	at com.mashape.unirest.http.HttpResponse.<init>(HttpResponse.java:95)
+[2016-07-13 21:19:44] 	... 10 more
+[2016-07-13 21:19:44] Caused by: org.json.JSONException: A JSONArray text must start with '[' at 1 [character 2 line 1]
+[2016-07-13 21:19:44] 	at org.json.JSONTokener.syntaxError(JSONTokener.java:433)
+[2016-07-13 21:19:44] 	at org.json.JSONArray.<init>(JSONArray.java:105)
+[2016-07-13 21:19:44] 	at org.json.JSONArray.<init>(JSONArray.java:144)
+[2016-07-13 21:19:44] 	at com.mashape.unirest.http.JsonNode.<init>(JsonNode.java:48)
+[2016-07-13 21:19:44] 	... 11 more

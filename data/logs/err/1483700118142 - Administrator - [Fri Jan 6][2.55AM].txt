@@ -1,0 +1,17 @@
+Logging started at 2017-01-06 02:55:18
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1483700118142 - Administrator - [Fri Jan 6][2.55AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-01-06 10:11:05] java.lang.NullPointerException
+[2017-01-06 10:11:05] 	at com.vencillio.rs2.content.Pickables.pickPlant(Pickables.java:47)
+[2017-01-06 10:11:05] 	at com.vencillio.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:888)
+[2017-01-06 10:11:05] 	at com.vencillio.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:311)
+[2017-01-06 10:11:05] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-01-06 10:11:05] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2017-01-06 10:11:05] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-01-06 10:11:05] 	at com.vencillio.core.GameThread.cycle(GameThread.java:116)
+[2017-01-06 10:11:05] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-06 11:57:58] java.lang.NullPointerException
+[2017-01-06 11:57:58] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1243)
+[2017-01-06 11:57:58] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2017-01-06 11:57:58] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)

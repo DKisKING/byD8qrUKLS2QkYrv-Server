@@ -1,0 +1,89 @@
+Logging started at 2017-09-17 19:31:48
+File name: C:\Users\Tyras\Desktop\MAIN SERVER (Vencillio Source)\Tyras Source\.\data\logs\err\1505673108097 - Tyras - [Sun Sep 17][7.31PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-09-17 19:48:03] Failing to update Boop highscores. Database could not connect.
+[2017-09-17 20:22:36] Failing to update Boop highscores. Database could not connect.
+[2017-09-17 22:53:00] Failing to update Perm highscores. Database could not connect.
+[2017-09-18 00:53:48] Failing to update Perm highscores. Database could not connect.
+[2017-09-18 01:23:43] Failing to update slayer highscores. Database could not connect.
+[2017-09-18 02:01:53] Failing to update slayer highscores. Database could not connect.
+[2017-09-18 02:24:56] Failing to update Dbz highscores. Database could not connect.
+[2017-09-18 02:54:38] Failing to update Perm highscores. Database could not connect.
+[2017-09-18 04:55:27] Failing to update Perm highscores. Database could not connect.
+[2017-09-18 06:56:17] Failing to update Perm highscores. Database could not connect.
+[2017-09-18 07:48:46] Failing to update Boop highscores. Database could not connect.
+[2017-09-18 08:57:06] Failing to update Perm highscores. Database could not connect.
+[2017-09-18 10:57:56] Failing to update Perm highscores. Database could not connect.
+[2017-09-18 12:58:46] Failing to update Perm highscores. Database could not connect.
+[2017-09-18 14:19:08] Failing to update Oe highscores. Database could not connect.
+[2017-09-18 14:49:49] java.lang.ArrayIndexOutOfBoundsException: 0
+[2017-09-18 14:49:49] 	at com.vencillio.core.util.Utility.randomElement(Utility.java:638)
+[2017-09-18 14:49:49] 	at com.vencillio.rs2.content.CrystalChest.searchChest(CrystalChest.java:121)
+[2017-09-18 14:49:49] 	at com.vencillio.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:1860)
+[2017-09-18 14:49:49] 	at com.vencillio.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:311)
+[2017-09-18 14:49:49] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-09-18 14:49:49] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-09-18 14:49:49] 	at com.vencillio.rs2.entity.WalkToActions.clickObject(WalkToActions.java:306)
+[2017-09-18 14:49:49] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2017-09-18 14:49:49] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-09-18 14:49:49] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-09-18 14:49:49] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-09-18 14:49:49] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-09-18 14:49:49] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-09-18 14:59:36] Failing to update Perm highscores. Database could not connect.
+[2017-09-18 15:18:05] Failing to update Dbz highscores. Database could not connect.
+[2017-09-18 17:00:25] Failing to update Perm highscores. Database could not connect.
+[2017-09-18 18:42:39] java.lang.ArrayIndexOutOfBoundsException: 0
+[2017-09-18 18:42:39] 	at com.vencillio.core.util.Utility.randomElement(Utility.java:638)
+[2017-09-18 18:42:39] 	at com.vencillio.rs2.content.CrystalChest.searchChest(CrystalChest.java:97)
+[2017-09-18 18:42:39] 	at com.vencillio.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:1860)
+[2017-09-18 18:42:39] 	at com.vencillio.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:311)
+[2017-09-18 18:42:39] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-09-18 18:42:39] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-09-18 18:42:39] 	at com.vencillio.rs2.entity.WalkToActions.clickObject(WalkToActions.java:306)
+[2017-09-18 18:42:39] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2017-09-18 18:42:39] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-09-18 18:42:39] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-09-18 18:42:39] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-09-18 18:42:39] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-09-18 18:42:39] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-09-18 19:17:44] java.lang.ArrayIndexOutOfBoundsException: 0
+[2017-09-18 19:17:44] 	at com.vencillio.core.util.Utility.randomElement(Utility.java:638)
+[2017-09-18 19:17:44] 	at com.vencillio.rs2.content.CrystalChest.searchChest(CrystalChest.java:121)
+[2017-09-18 19:17:44] 	at com.vencillio.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:1860)
+[2017-09-18 19:17:44] 	at com.vencillio.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:311)
+[2017-09-18 19:17:44] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-09-18 19:17:44] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-09-18 19:17:44] 	at com.vencillio.rs2.entity.WalkToActions.clickObject(WalkToActions.java:306)
+[2017-09-18 19:17:44] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2017-09-18 19:17:44] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-09-18 19:17:44] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-09-18 19:17:44] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-09-18 19:17:44] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-09-18 19:17:44] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-09-18 19:51:08] Failing to update iron bru highscores. Database could not connect.
+[2017-09-18 20:03:03] Failing to update Boop highscores. Database could not connect.
+[2017-09-18 20:20:08] Failing to update Oe highscores. Database could not connect.
+[2017-09-18 20:57:27] Failing to update slayer highscores. Database could not connect.
+[2017-09-18 21:06:39] java.lang.IndexOutOfBoundsException: Index: 4, Size: 3
+[2017-09-18 21:06:39] 	at java.util.LinkedList.checkElementIndex(Unknown Source)
+[2017-09-18 21:06:39] 	at java.util.LinkedList.get(Unknown Source)
+[2017-09-18 21:06:39] 	at com.vencillio.rs2.entity.player.net.in.impl.InterfaceAction.handle(InterfaceAction.java:88)
+[2017-09-18 21:06:39] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-09-18 21:06:39] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-09-18 21:06:39] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-09-18 21:06:39] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-09-18 21:06:39] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-09-18 21:06:39] java.lang.IndexOutOfBoundsException: Index: 4, Size: 3
+[2017-09-18 21:06:39] 	at java.util.LinkedList.checkElementIndex(Unknown Source)
+[2017-09-18 21:06:39] 	at java.util.LinkedList.get(Unknown Source)
+[2017-09-18 21:06:39] 	at com.vencillio.rs2.entity.player.net.in.impl.InterfaceAction.handle(InterfaceAction.java:88)
+[2017-09-18 21:06:39] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-09-18 21:06:39] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-09-18 21:06:39] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-09-18 21:06:39] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-09-18 21:06:39] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-09-18 21:06:58] Failing to update Dbz highscores. Database could not connect.
+[2017-09-18 21:06:58] Failing to update Boop highscores. Database could not connect.
+[2017-09-18 21:06:58] Failing to update Perm highscores. Database could not connect.

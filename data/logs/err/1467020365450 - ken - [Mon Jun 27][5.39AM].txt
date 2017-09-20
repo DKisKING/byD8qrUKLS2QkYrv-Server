@@ -1,0 +1,4 @@
+Logging started at 2016-06-27 05:39:25
+File name: C:\Users\ken\Desktop\Package\lunarisle source\.\data\logs\err\1467020365450 - ken - [Mon Jun 27][5.39AM].txt
+System.getProperty("os.name"): "Windows 10"
+

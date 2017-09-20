@@ -1,0 +1,63 @@
+Logging started at 2016-06-15 16:54:53
+File name: C:\Users\Administrator\Dropbox\VA Source\.\data\logs\err\1466034893611 - Administrator - [Wed Jun 15][4.54PM].txt
+System.getProperty("os.name"): "Windows Server 2008 R2"
+
+[2016-06-15 16:57:45] java.lang.NullPointerException
+[2016-06-15 16:57:45] 	at com.vencillio.rs2.content.combat.formula.RangeFormulas.calculateRangeAttack(RangeFormulas.java:78)
+[2016-06-15 16:57:45] 	at com.vencillio.rs2.content.combat.impl.Ranged.execute(Ranged.java:41)
+[2016-06-15 16:57:45] 	at com.vencillio.rs2.content.combat.Combat.attack(Combat.java:92)
+[2016-06-15 16:57:45] 	at com.vencillio.rs2.content.combat.Combat.process(Combat.java:215)
+[2016-06-15 16:57:45] 	at com.vencillio.rs2.entity.player.Player.process(Player.java:1544)
+[2016-06-15 16:57:45] 	at com.vencillio.rs2.entity.World.process(World.java:322)
+[2016-06-15 16:57:45] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-06-15 16:57:45] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-06-15 16:57:45] java.lang.NullPointerException
+[2016-06-15 16:57:45] 	at com.vencillio.rs2.entity.player.net.Client.send(Client.java:329)
+[2016-06-15 16:57:45] 	at com.vencillio.rs2.entity.player.net.out.impl.SendLogout.execute(SendLogout.java:13)
+[2016-06-15 16:57:45] 	at com.vencillio.rs2.entity.player.Player.logout(Player.java:1470)
+[2016-06-15 16:57:45] 	at com.vencillio.rs2.entity.World.process(World.java:335)
+[2016-06-15 16:57:45] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-06-15 16:57:45] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-06-15 17:10:02] java.lang.NullPointerException
+[2016-06-15 17:10:02] 	at com.vencillio.rs2.entity.pathfinding.StraightPathFinder.canAttackOver(StraightPathFinder.java:30)
+[2016-06-15 17:10:02] 	at com.vencillio.rs2.entity.pathfinding.StraightPathFinder.isInteractionPathClear(StraightPathFinder.java:67)
+[2016-06-15 17:10:02] 	at com.vencillio.rs2.entity.following.Following.getMeleeLocation(Following.java:172)
+[2016-06-15 17:10:02] 	at com.vencillio.rs2.entity.following.Following.getCombatFollowLocation(Following.java:74)
+[2016-06-15 17:10:02] 	at com.vencillio.rs2.entity.following.Following.updateWaypoint(Following.java:271)
+[2016-06-15 17:10:02] 	at com.vencillio.rs2.entity.player.Player.reset(Player.java:1551)
+[2016-06-15 17:10:02] 	at com.vencillio.rs2.entity.World.process(World.java:396)
+[2016-06-15 17:10:02] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-06-15 17:10:02] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-06-15 17:10:12] java.lang.NullPointerException
+[2016-06-15 17:10:12] 	at com.vencillio.rs2.content.combat.impl.PlayerDrops.dropItemsOnDeath(PlayerDrops.java:55)
+[2016-06-15 17:10:12] 	at com.vencillio.core.task.impl.PlayerDeathTask.execute(PlayerDeathTask.java:70)
+[2016-06-15 17:10:12] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2016-06-15 17:10:12] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2016-06-15 17:10:12] 	at com.vencillio.core.GameThread.cycle(GameThread.java:116)
+[2016-06-15 17:10:12] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-06-15 17:13:09] java.lang.NullPointerException
+[2016-06-15 17:13:09] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1208)
+[2016-06-15 17:13:09] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-06-15 17:13:09] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-06-15 17:33:18] java.lang.NullPointerException
+[2016-06-15 17:33:18] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1208)
+[2016-06-15 17:33:18] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-06-15 17:33:18] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-06-15 17:33:30] java.lang.NullPointerException
+[2016-06-15 17:33:30] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1208)
+[2016-06-15 17:33:30] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-06-15 17:33:30] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-06-15 17:33:39] java.lang.NullPointerException
+[2016-06-15 17:33:39] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1208)
+[2016-06-15 17:33:39] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-06-15 17:33:39] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-06-15 17:56:53] java.lang.NumberFormatException: For input string: "1m"
+[2016-06-15 17:56:53] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2016-06-15 17:56:53] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-06-15 17:56:53] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-06-15 17:56:53] 	at com.vencillio.rs2.entity.player.net.in.impl.StringInputPacket.handle(StringInputPacket.java:41)
+[2016-06-15 17:56:53] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-06-15 17:56:53] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-06-15 17:56:53] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-06-15 17:56:53] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-06-15 17:56:53] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

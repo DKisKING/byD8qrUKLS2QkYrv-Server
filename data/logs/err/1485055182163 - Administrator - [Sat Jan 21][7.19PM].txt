@@ -1,0 +1,36 @@
+Logging started at 2017-01-21 19:19:42
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1485055182163 - Administrator - [Sat Jan 21][7.19PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-01-21 19:21:20] java.lang.NullPointerException
+[2017-01-21 19:21:20] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1243)
+[2017-01-21 19:21:20] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2017-01-21 19:21:20] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-01-21 19:22:28] java.lang.NullPointerException
+[2017-01-21 19:22:28] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1243)
+[2017-01-21 19:22:28] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2017-01-21 19:22:28] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-01-21 19:22:30] java.lang.NullPointerException
+[2017-01-21 19:22:30] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1243)
+[2017-01-21 19:22:30] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2017-01-21 19:22:30] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-01-21 19:22:40] java.lang.NullPointerException
+[2017-01-21 19:22:40] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1243)
+[2017-01-21 19:22:40] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2017-01-21 19:22:40] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-01-21 19:22:45] java.lang.NullPointerException
+[2017-01-21 19:22:45] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1243)
+[2017-01-21 19:22:45] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2017-01-21 19:22:45] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-01-21 19:22:46] java.lang.NullPointerException
+[2017-01-21 19:22:46] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1243)
+[2017-01-21 19:22:46] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2017-01-21 19:22:46] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-01-21 19:23:03] java.lang.NullPointerException
+[2017-01-21 19:23:03] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1243)
+[2017-01-21 19:23:03] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2017-01-21 19:23:03] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-01-21 19:23:07] java.lang.NullPointerException
+[2017-01-21 19:23:07] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1243)
+[2017-01-21 19:23:07] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2017-01-21 19:23:07] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)

@@ -1,0 +1,12 @@
+Logging started at 2016-12-16 01:56:21
+File name: C:\Users\jerem\Desktop\Project Reality RSPS\Project Reality\.\data\logs\err\1481882181712 - jerem - [Fri Dec 16][1.56AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-12-16 01:56:21] Exception in thread "main" 
+[2016-12-16 01:56:21] java.lang.Error: Unresolved compilation problem: 
+
+[2016-12-16 01:56:21] 	at com.vencillio.core.util.GameDefinitionLoader.declare(GameDefinitionLoader.java:77)
+[2016-12-16 01:56:21] 	at com.vencillio.GameDataLoader.load(GameDataLoader.java:84)
+[2016-12-16 01:56:21] 	at com.vencillio.core.GameThread.startup(GameThread.java:69)
+[2016-12-16 01:56:21] 	at com.vencillio.core.GameThread.init(GameThread.java:34)
+[2016-12-16 01:56:21] 	at com.vencillio.Server.main(Server.java:104)

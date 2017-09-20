@@ -1,0 +1,15 @@
+Logging started at 2016-06-29 08:23:13
+File name: C:\Users\ken\Downloads\Lunar-Isle top 5 116 data added abby dag added dwh added abby bludgeon\lunarisle source\.\data\logs\err\1467202993069 - ken - [Wed Jun 29][8.23AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-06-29 08:27:18] java.lang.NumberFormatException: For input string: ""
+[2016-06-29 08:27:18] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2016-06-29 08:27:18] 	at java.lang.Long.parseLong(Unknown Source)
+[2016-06-29 08:27:18] 	at java.lang.Long.parseLong(Unknown Source)
+[2016-06-29 08:27:18] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:202)
+[2016-06-29 08:27:18] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-06-29 08:27:18] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-06-29 08:27:18] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-06-29 08:27:18] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-06-29 08:27:18] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-06-29 08:27:18] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

@@ -1,0 +1,62 @@
+Logging started at 2016-04-30 15:33:29
+File name: C:\Users\Travis and Ayla\Dropbox\VA Source\.\data\logs\err\1462044809678 - Travis and Ayla - [Sat Apr 30][3.33PM].txt
+System.getProperty("os.name"): "Windows Vista"
+
+[2016-04-30 15:33:33] com.thoughtworks.xstream.converters.ConversionException:  : expected > to finish end tag not < from line 3796 (position: TEXT seen ...<name>Emblem Trader</name\r\n\t\t<... @3797:4)  :  : expected > to finish end tag not < from line 3796 (position: TEXT seen ...<name>Emblem Trader</name\r\n\t\t<... @3797:4) 
+---- Debugging information ----
+message             :  : expected > to finish end tag not < from line 3796 (position: TEXT seen ...<name>Emblem Trader</name\r\n\t\t<... @3797:4) 
+cause-exception     : com.thoughtworks.xstream.io.StreamException
+cause-message       :  : expected > to finish end tag not < from line 3796 (position: TEXT seen ...<name>Emblem Trader</name\r\n\t\t<... @3797:4) 
+class               : java.util.ArrayList
+required-type       : java.lang.String
+path                : /list/NpcDefinition[317]/name
+line number         : 3797
+-------------------------------
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:89)
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshallField(AbstractReflectionConverter.java:246)
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.doUnmarshal(AbstractReflectionConverter.java:218)
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshal(AbstractReflectionConverter.java:162)
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:71)
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(CollectionConverter.java:68)
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.unmarshal(CollectionConverter.java:61)
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:137)
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:33)
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:923)
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:909)
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:861)
+[2016-04-30 15:33:33] 	at com.vencillio.core.util.GameDefinitionLoader.loadNpcDefinitions(GameDefinitionLoader.java:483)
+[2016-04-30 15:33:33] 	at com.vencillio.GameDataLoader.load(GameDataLoader.java:115)
+[2016-04-30 15:33:33] 	at com.vencillio.core.GameThread.startup(GameThread.java:69)
+[2016-04-30 15:33:33] 	at com.vencillio.core.GameThread.init(GameThread.java:34)
+[2016-04-30 15:33:33] 	at com.vencillio.Server.main(Server.java:104)
+[2016-04-30 15:33:33] Caused by: com.thoughtworks.xstream.io.StreamException:  : expected > to finish end tag not < from line 3796 (position: TEXT seen ...<name>Emblem Trader</name\r\n\t\t<... @3797:4) 
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.io.xml.XppReader.pullNextEvent(XppReader.java:78)
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.io.xml.AbstractPullReader.readRealEvent(AbstractPullReader.java:137)
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.io.xml.AbstractPullReader.readEvent(AbstractPullReader.java:124)
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.io.xml.AbstractPullReader.getValue(AbstractPullReader.java:184)
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.io.ReaderWrapper.getValue(ReaderWrapper.java:48)
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.converters.SingleValueConverterWrapper.unmarshal(SingleValueConverterWrapper.java:49)
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2016-04-30 15:33:33] 	... 26 more
+[2016-04-30 15:33:33] Caused by: org.xmlpull.v1.XmlPullParserException: expected > to finish end tag not < from line 3796 (position: TEXT seen ...<name>Emblem Trader</name\r\n\t\t<... @3797:4) 
+[2016-04-30 15:33:33] 	at org.xmlpull.mxp1.MXParser.parseEndTag(MXParser.java:1707)
+[2016-04-30 15:33:33] 	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1131)
+[2016-04-30 15:33:33] 	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+[2016-04-30 15:33:33] 	at com.thoughtworks.xstream.io.xml.XppReader.pullNextEvent(XppReader.java:63)
+[2016-04-30 15:33:33] 	... 32 more
+[2016-04-30 15:33:43] java.lang.NullPointerException
+[2016-04-30 15:33:43] 	at com.vencillio.rs2.entity.mob.Mob.<init>(Mob.java:189)
+[2016-04-30 15:33:43] 	at com.vencillio.rs2.entity.mob.Mob.<init>(Mob.java:154)
+[2016-04-30 15:33:43] 	at com.vencillio.rs2.entity.mob.impl.CorporealBeast.<init>(CorporealBeast.java:12)
+[2016-04-30 15:33:43] 	at com.vencillio.rs2.entity.mob.Mob.spawnBosses(Mob.java:71)
+[2016-04-30 15:33:43] 	at com.vencillio.GameDataLoader$1.run(GameDataLoader.java:100)

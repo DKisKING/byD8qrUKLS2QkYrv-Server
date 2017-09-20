@@ -1,0 +1,19 @@
+Logging started at 2017-09-16 20:49:36
+File name: C:\Users\Tyras\Desktop\MAIN SERVER (Vencillio Source)\Tyras Source\.\data\logs\err\1505591376810 - Tyras - [Sat Sep 16][8.49PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-09-16 20:50:19] com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated object at line 21 column 4
+[2017-09-16 20:50:19] 	at com.google.gson.Gson.fromJson(Gson.java:809)
+[2017-09-16 20:50:19] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-09-16 20:50:19] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:420)
+[2017-09-16 20:50:19] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1103)
+[2017-09-16 20:50:19] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2017-09-16 20:50:19] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-09-16 20:50:19] Caused by: com.google.gson.stream.MalformedJsonException: Unterminated object at line 21 column 4
+[2017-09-16 20:50:19] 	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1310)
+[2017-09-16 20:50:19] 	at com.google.gson.stream.JsonReader.nextInObject(JsonReader.java:722)
+[2017-09-16 20:50:19] 	at com.google.gson.stream.JsonReader.peek(JsonReader.java:382)
+[2017-09-16 20:50:19] 	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:349)
+[2017-09-16 20:50:19] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:166)
+[2017-09-16 20:50:19] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-09-16 20:50:19] 	... 5 more

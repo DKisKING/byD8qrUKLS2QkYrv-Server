@@ -1,0 +1,14 @@
+Logging started at 2017-01-20 14:35:03
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1484951703210 - Administrator - [Fri Jan 20][2.35PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-01-20 19:44:55] java.lang.NumberFormatException: For input string: "20m"
+[2017-01-20 19:44:55] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2017-01-20 19:44:55] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-01-20 19:44:55] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-01-20 19:44:55] 	at com.vencillio.rs2.entity.player.net.in.impl.StringInputPacket.handle(StringInputPacket.java:41)
+[2017-01-20 19:44:55] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-20 19:44:55] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-20 19:44:55] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-20 19:44:55] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-20 19:44:55] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

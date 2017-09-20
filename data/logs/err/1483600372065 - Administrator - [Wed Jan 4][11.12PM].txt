@@ -1,0 +1,136 @@
+Logging started at 2017-01-04 23:12:52
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1483600372065 - Administrator - [Wed Jan 4][11.12PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-01-04 23:44:16] java.lang.IndexOutOfBoundsException: Index: 3, Size: 3
+[2017-01-04 23:44:16] 	at java.util.LinkedList.checkElementIndex(Unknown Source)
+[2017-01-04 23:44:16] 	at java.util.LinkedList.get(Unknown Source)
+[2017-01-04 23:44:16] 	at com.vencillio.rs2.entity.player.net.in.impl.InterfaceAction.handle(InterfaceAction.java:88)
+[2017-01-04 23:44:16] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-04 23:44:16] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-04 23:44:16] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-04 23:44:16] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-04 23:44:16] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-04 23:44:16] java.lang.IndexOutOfBoundsException: Index: 3, Size: 3
+[2017-01-04 23:44:16] 	at java.util.LinkedList.checkElementIndex(Unknown Source)
+[2017-01-04 23:44:16] 	at java.util.LinkedList.get(Unknown Source)
+[2017-01-04 23:44:16] 	at com.vencillio.rs2.entity.player.net.in.impl.InterfaceAction.handle(InterfaceAction.java:88)
+[2017-01-04 23:44:16] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-04 23:44:16] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-04 23:44:16] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-04 23:44:16] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-04 23:44:16] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-05 02:51:44] java.lang.NullPointerException
+[2017-01-05 02:51:44] 	at com.vencillio.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2017-01-05 02:51:44] 	at com.vencillio.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2017-01-05 02:51:44] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:97)
+[2017-01-05 02:51:44] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-05 02:51:44] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-05 02:51:44] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-05 02:51:44] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-05 02:51:44] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-05 11:31:04] java.lang.NumberFormatException: For input string: "100000#"
+[2017-01-05 11:31:04] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2017-01-05 11:31:04] 	at java.lang.Long.parseLong(Unknown Source)
+[2017-01-05 11:31:04] 	at java.lang.Long.parseLong(Unknown Source)
+[2017-01-05 11:31:04] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:317)
+[2017-01-05 11:31:04] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2017-01-05 11:31:04] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-05 11:31:04] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-05 11:31:04] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-05 11:31:04] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-05 11:31:04] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-05 16:21:19] com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: JSON forbids octal prefixes: 00000099 at line 18 column 22
+[2017-01-05 16:21:19] 	at com.google.gson.Gson.fromJson(Gson.java:809)
+[2017-01-05 16:21:19] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-01-05 16:21:19] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:420)
+[2017-01-05 16:21:19] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1103)
+[2017-01-05 16:21:19] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2017-01-05 16:21:19] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-01-05 16:21:19] Caused by: com.google.gson.stream.MalformedJsonException: JSON forbids octal prefixes: 00000099 at line 18 column 22
+[2017-01-05 16:21:19] 	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:608)
+[2017-01-05 16:21:19] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:230)
+[2017-01-05 16:21:19] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:222)
+[2017-01-05 16:21:19] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-01-05 16:21:19] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-01-05 16:21:19] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-01-05 16:21:19] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-01-05 16:21:19] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-01-05 16:21:19] 	... 5 more
+[2017-01-05 20:00:29] MAX STACK
+[2017-01-05 20:55:05] java.lang.ArrayIndexOutOfBoundsException: -1
+[2017-01-05 20:55:05] 	at com.vencillio.rs2.content.bank.Bank.swap(Bank.java:294)
+[2017-01-05 20:55:05] 	at com.vencillio.rs2.content.bank.Bank.depositFromNoting(Bank.java:222)
+[2017-01-05 20:55:05] 	at com.vencillio.rs2.content.bank.Bank.clickButton(Bank.java:99)
+[2017-01-05 20:55:05] 	at com.vencillio.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:950)
+[2017-01-05 20:55:05] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-05 20:55:05] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-05 20:55:05] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-05 20:55:05] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-05 20:55:05] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-05 20:55:08] java.lang.ArrayIndexOutOfBoundsException: -1
+[2017-01-05 20:55:08] 	at com.vencillio.rs2.content.bank.Bank.swap(Bank.java:294)
+[2017-01-05 20:55:08] 	at com.vencillio.rs2.content.bank.Bank.depositFromNoting(Bank.java:222)
+[2017-01-05 20:55:08] 	at com.vencillio.rs2.content.bank.Bank.clickButton(Bank.java:99)
+[2017-01-05 20:55:08] 	at com.vencillio.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:950)
+[2017-01-05 20:55:08] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-05 20:55:08] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-05 20:55:08] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-05 20:55:08] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-05 20:55:08] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-05 20:55:08] java.lang.ArrayIndexOutOfBoundsException: -1
+[2017-01-05 20:55:08] 	at com.vencillio.rs2.content.bank.Bank.swap(Bank.java:294)
+[2017-01-05 20:55:08] 	at com.vencillio.rs2.content.bank.Bank.depositFromNoting(Bank.java:222)
+[2017-01-05 20:55:08] 	at com.vencillio.rs2.content.bank.Bank.clickButton(Bank.java:99)
+[2017-01-05 20:55:08] 	at com.vencillio.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:950)
+[2017-01-05 20:55:08] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-05 20:55:08] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-05 20:55:08] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-05 20:55:08] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-05 20:55:08] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-05 20:55:39] java.lang.ArrayIndexOutOfBoundsException
+[2017-01-05 21:01:15] java.lang.ArrayIndexOutOfBoundsException
+[2017-01-05 21:01:17] java.lang.ArrayIndexOutOfBoundsException
+[2017-01-05 21:03:58] java.lang.ArrayIndexOutOfBoundsException
+[2017-01-05 21:04:27] java.lang.ArrayIndexOutOfBoundsException
+[2017-01-05 21:04:56] java.lang.ArrayIndexOutOfBoundsException
+[2017-01-05 21:05:05] java.lang.ArrayIndexOutOfBoundsException
+[2017-01-05 23:20:24] java.lang.NullPointerException
+[2017-01-05 23:20:24] 	at com.vencillio.rs2.content.combat.formula.RangeFormulas.calculateRangeAttack(RangeFormulas.java:78)
+[2017-01-05 23:20:24] 	at com.vencillio.rs2.content.combat.impl.Ranged.execute(Ranged.java:41)
+[2017-01-05 23:20:24] 	at com.vencillio.rs2.content.combat.Combat.attack(Combat.java:92)
+[2017-01-05 23:20:24] 	at com.vencillio.rs2.content.combat.Combat.process(Combat.java:215)
+[2017-01-05 23:20:24] 	at com.vencillio.rs2.entity.player.Player.process(Player.java:1599)
+[2017-01-05 23:20:24] 	at com.vencillio.rs2.entity.World.process(World.java:322)
+[2017-01-05 23:20:24] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-05 23:20:24] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-05 23:48:51] java.lang.NullPointerException
+[2017-01-05 23:48:51] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1243)
+[2017-01-05 23:48:51] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2017-01-05 23:48:51] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-01-05 23:48:58] java.lang.NullPointerException
+[2017-01-05 23:48:58] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1243)
+[2017-01-05 23:48:58] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2017-01-05 23:48:58] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-01-05 23:49:56] java.lang.NullPointerException
+[2017-01-05 23:49:56] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1243)
+[2017-01-05 23:49:56] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2017-01-05 23:49:56] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-01-05 23:50:19] java.lang.IndexOutOfBoundsException: Index: 5, Size: 4
+[2017-01-05 23:50:19] 	at java.util.LinkedList.checkElementIndex(Unknown Source)
+[2017-01-05 23:50:19] 	at java.util.LinkedList.get(Unknown Source)
+[2017-01-05 23:50:19] 	at com.vencillio.rs2.entity.player.net.in.impl.InterfaceAction.handle(InterfaceAction.java:88)
+[2017-01-05 23:50:19] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-05 23:50:19] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-05 23:50:19] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-05 23:50:19] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-05 23:50:19] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-05 23:50:19] java.lang.IndexOutOfBoundsException: Index: 5, Size: 4
+[2017-01-05 23:50:19] 	at java.util.LinkedList.checkElementIndex(Unknown Source)
+[2017-01-05 23:50:19] 	at java.util.LinkedList.get(Unknown Source)
+[2017-01-05 23:50:19] 	at com.vencillio.rs2.entity.player.net.in.impl.InterfaceAction.handle(InterfaceAction.java:88)
+[2017-01-05 23:50:19] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-05 23:50:19] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-05 23:50:19] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-05 23:50:19] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-05 23:50:19] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

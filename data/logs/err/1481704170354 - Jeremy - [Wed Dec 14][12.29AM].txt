@@ -1,0 +1,22 @@
+Logging started at 2016-12-14 00:29:30
+File name: C:\Users\Jeremy\Desktop\Project Reality\.\data\logs\err\1481704170354 - Jeremy - [Wed Dec 14][12.29AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-12-14 00:30:17] com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'sql5148466.hs_users' doesn't exist
+[2016-12-14 00:30:17] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2016-12-14 00:30:17] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[2016-12-14 00:30:17] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2016-12-14 00:30:17] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2016-12-14 00:30:17] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2016-12-14 00:30:17] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2016-12-14 00:30:17] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+[2016-12-14 00:30:17] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2016-12-14 00:30:17] 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3515)
+[2016-12-14 00:30:17] 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3447)
+[2016-12-14 00:30:17] 	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+[2016-12-14 00:30:17] 	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+[2016-12-14 00:30:17] 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+[2016-12-14 00:30:17] 	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+[2016-12-14 00:30:17] 	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1021)
+[2016-12-14 00:30:17] 	at com.vencillio.core.network.mysql.impl.Highscores.run(Highscores.java:38)
+[2016-12-14 00:30:17] 	at java.lang.Thread.run(Unknown Source)

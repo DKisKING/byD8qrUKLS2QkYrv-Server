@@ -1,0 +1,37 @@
+Logging started at 2016-12-11 03:05:38
+File name: C:\Users\Jeremy\Desktop\Project Reality\.\data\logs\err\1481454338028 - Jeremy - [Sun Dec 11][3.05AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-12-11 03:12:15] java.lang.NumberFormatException: For input string: "dagger"
+[2016-12-11 03:12:15] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2016-12-11 03:12:15] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-12-11 03:12:15] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-12-11 03:12:15] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:112)
+[2016-12-11 03:12:15] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-12-11 03:12:15] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-12-11 03:12:15] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-12-11 03:12:15] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-12-11 03:12:15] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-12-11 03:12:15] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-12-11 03:36:37] java.lang.NumberFormatException: For input string: "hat"
+[2016-12-11 03:36:37] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2016-12-11 03:36:37] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-12-11 03:36:37] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-12-11 03:36:37] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:112)
+[2016-12-11 03:36:38] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-12-11 03:36:38] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-12-11 03:36:38] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-12-11 03:36:38] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-12-11 03:36:38] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-12-11 03:36:38] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-12-11 03:36:50] java.lang.NumberFormatException: For input string: "&"
+[2016-12-11 03:36:50] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2016-12-11 03:36:50] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-12-11 03:36:50] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-12-11 03:36:50] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:112)
+[2016-12-11 03:36:50] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-12-11 03:36:50] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-12-11 03:36:50] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-12-11 03:36:50] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-12-11 03:36:50] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-12-11 03:36:50] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

@@ -1,0 +1,93 @@
+Logging started at 2017-01-28 10:15:56
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1485627356491 - Administrator - [Sat Jan 28][10.15AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-01-28 10:17:00] Failing to update Elling highscores. Database could not connect.
+[2017-01-28 10:17:02] java.lang.NullPointerException
+[2017-01-28 10:17:02] 	at com.vencillio.rs2.entity.player.net.Client.send(Client.java:388)
+[2017-01-28 10:17:02] 	at com.vencillio.rs2.entity.player.net.out.impl.SendLogout.execute(SendLogout.java:13)
+[2017-01-28 10:17:02] 	at com.vencillio.rs2.entity.player.Player.logout(Player.java:1534)
+[2017-01-28 10:17:02] 	at com.vencillio.rs2.entity.player.Player.process(Player.java:1594)
+[2017-01-28 10:17:02] 	at com.vencillio.rs2.entity.World.process(World.java:322)
+[2017-01-28 10:17:02] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-28 10:17:02] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-28 10:17:22] java.lang.NullPointerException
+[2017-01-28 10:17:22] 	at com.vencillio.rs2.entity.player.net.Client.send(Client.java:388)
+[2017-01-28 10:17:22] 	at com.vencillio.rs2.entity.player.net.out.impl.SendLogout.execute(SendLogout.java:13)
+[2017-01-28 10:17:22] 	at com.vencillio.rs2.entity.player.Player.logout(Player.java:1534)
+[2017-01-28 10:17:22] 	at com.vencillio.rs2.entity.player.Player.process(Player.java:1594)
+[2017-01-28 10:17:22] 	at com.vencillio.rs2.entity.World.process(World.java:322)
+[2017-01-28 10:17:22] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-28 10:17:22] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-28 10:17:22] Failing to update Elling highscores. Database could not connect.
+[2017-01-28 10:17:22] Failing to update Elling highscores. Database could not connect.
+[2017-01-28 10:17:42] Failing to update test nate highscores. Database could not connect.
+[2017-01-28 10:17:42] Failing to update test nate highscores. Database could not connect.
+[2017-01-28 10:17:43] java.lang.NullPointerException
+[2017-01-28 10:17:43] 	at com.vencillio.rs2.entity.player.net.Client.send(Client.java:388)
+[2017-01-28 10:17:43] 	at com.vencillio.rs2.entity.player.net.out.impl.SendLogout.execute(SendLogout.java:13)
+[2017-01-28 10:17:43] 	at com.vencillio.rs2.entity.player.Player.logout(Player.java:1534)
+[2017-01-28 10:17:43] 	at com.vencillio.rs2.entity.player.Player.process(Player.java:1594)
+[2017-01-28 10:17:43] 	at com.vencillio.rs2.entity.World.process(World.java:322)
+[2017-01-28 10:17:43] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-28 10:17:43] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-28 10:18:22] java.lang.NullPointerException
+[2017-01-28 10:18:22] 	at com.vencillio.rs2.entity.player.net.Client.send(Client.java:388)
+[2017-01-28 10:18:22] 	at com.vencillio.rs2.entity.player.net.out.impl.SendLogout.execute(SendLogout.java:13)
+[2017-01-28 10:18:22] 	at com.vencillio.rs2.entity.player.Player.logout(Player.java:1534)
+[2017-01-28 10:18:22] 	at com.vencillio.rs2.entity.player.Player.process(Player.java:1594)
+[2017-01-28 10:18:22] 	at com.vencillio.rs2.entity.World.process(World.java:322)
+[2017-01-28 10:18:22] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-28 10:18:22] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-28 10:18:42] Failing to update Elling highscores. Database could not connect.
+[2017-01-28 10:18:42] Failing to update Elling highscores. Database could not connect.
+[2017-01-28 10:18:43] java.lang.NullPointerException
+[2017-01-28 10:18:43] 	at com.vencillio.rs2.entity.player.net.Client.send(Client.java:388)
+[2017-01-28 10:18:43] 	at com.vencillio.rs2.entity.player.net.out.impl.SendLogout.execute(SendLogout.java:13)
+[2017-01-28 10:18:43] 	at com.vencillio.rs2.entity.player.Player.logout(Player.java:1534)
+[2017-01-28 10:18:43] 	at com.vencillio.rs2.entity.player.Player.process(Player.java:1594)
+[2017-01-28 10:18:43] 	at com.vencillio.rs2.entity.World.process(World.java:322)
+[2017-01-28 10:18:43] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-28 10:18:43] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-28 10:19:03] java.lang.NullPointerException
+[2017-01-28 10:19:03] 	at com.vencillio.rs2.entity.player.net.Client.send(Client.java:388)
+[2017-01-28 10:19:03] 	at com.vencillio.rs2.entity.player.net.out.impl.SendLogout.execute(SendLogout.java:13)
+[2017-01-28 10:19:03] 	at com.vencillio.rs2.entity.player.Player.logout(Player.java:1534)
+[2017-01-28 10:19:03] 	at com.vencillio.rs2.entity.player.Player.process(Player.java:1594)
+[2017-01-28 10:19:03] 	at com.vencillio.rs2.entity.World.process(World.java:322)
+[2017-01-28 10:19:03] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-28 10:19:03] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-28 10:19:08] Failing to update Test Nate highscores. Database could not connect.
+[2017-01-28 10:19:08] Failing to update Test Nate highscores. Database could not connect.
+[2017-01-28 10:19:23] Failing to update Elling highscores. Database could not connect.
+[2017-01-28 10:19:23] Failing to update Elling highscores. Database could not connect.
+[2017-01-28 10:19:23] java.lang.NullPointerException
+[2017-01-28 10:19:23] 	at com.vencillio.rs2.entity.player.net.Client.send(Client.java:388)
+[2017-01-28 10:19:23] 	at com.vencillio.rs2.entity.player.net.out.impl.SendLogout.execute(SendLogout.java:13)
+[2017-01-28 10:19:23] 	at com.vencillio.rs2.entity.player.Player.logout(Player.java:1534)
+[2017-01-28 10:19:23] 	at com.vencillio.rs2.entity.player.Player.process(Player.java:1594)
+[2017-01-28 10:19:23] 	at com.vencillio.rs2.entity.World.process(World.java:322)
+[2017-01-28 10:19:23] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-28 10:19:23] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-28 10:19:43] java.lang.NullPointerException
+[2017-01-28 10:19:43] 	at com.vencillio.rs2.entity.player.net.Client.send(Client.java:388)
+[2017-01-28 10:19:43] 	at com.vencillio.rs2.entity.player.net.out.impl.SendLogout.execute(SendLogout.java:13)
+[2017-01-28 10:19:43] 	at com.vencillio.rs2.entity.player.Player.logout(Player.java:1534)
+[2017-01-28 10:19:43] 	at com.vencillio.rs2.entity.player.Player.process(Player.java:1594)
+[2017-01-28 10:19:43] 	at com.vencillio.rs2.entity.World.process(World.java:322)
+[2017-01-28 10:19:43] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-28 10:19:43] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-28 10:19:43] Failing to update Test Nate highscores. Database could not connect.
+[2017-01-28 10:19:43] Failing to update Test Nate highscores. Database could not connect.
+[2017-01-28 10:20:03] Failing to update Elling highscores. Database could not connect.
+[2017-01-28 10:20:03] Failing to update Elling highscores. Database could not connect.
+[2017-01-28 10:20:03] java.lang.NullPointerException
+[2017-01-28 10:20:03] 	at com.vencillio.rs2.entity.player.net.Client.send(Client.java:388)
+[2017-01-28 10:20:03] 	at com.vencillio.rs2.entity.player.net.out.impl.SendLogout.execute(SendLogout.java:13)
+[2017-01-28 10:20:03] 	at com.vencillio.rs2.entity.player.Player.logout(Player.java:1534)
+[2017-01-28 10:20:03] 	at com.vencillio.rs2.entity.player.Player.process(Player.java:1594)
+[2017-01-28 10:20:03] 	at com.vencillio.rs2.entity.World.process(World.java:322)
+[2017-01-28 10:20:03] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-28 10:20:03] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-28 10:20:23] Failing to update Elling highscores. Database could not connect.
+[2017-01-28 10:20:23] Failing to update Elling highscores. Database could not connect.

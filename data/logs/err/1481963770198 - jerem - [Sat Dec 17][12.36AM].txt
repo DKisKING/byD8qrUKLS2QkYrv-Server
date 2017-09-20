@@ -1,0 +1,19 @@
+Logging started at 2016-12-17 00:36:10
+File name: C:\Users\jerem\Desktop\Project Reality RSPS\Project Reality\.\data\logs\err\1481963770198 - jerem - [Sat Dec 17][12.36AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-12-17 00:36:51] java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+[2016-12-17 00:36:51] 	at java.lang.String.charAt(Unknown Source)
+[2016-12-17 00:36:51] 	at com.vencillio.core.util.Utility.determineIndefiniteArticle(Utility.java:730)
+[2016-12-17 00:36:51] 	at com.vencillio.rs2.content.CrystalChest.searchChest(CrystalChest.java:109)
+[2016-12-17 00:36:51] 	at com.vencillio.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:1860)
+[2016-12-17 00:36:51] 	at com.vencillio.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:311)
+[2016-12-17 00:36:51] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2016-12-17 00:36:51] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2016-12-17 00:36:51] 	at com.vencillio.rs2.entity.WalkToActions.clickObject(WalkToActions.java:306)
+[2016-12-17 00:36:51] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2016-12-17 00:36:51] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-12-17 00:36:51] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:216)
+[2016-12-17 00:36:51] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-12-17 00:36:51] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-12-17 00:36:51] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

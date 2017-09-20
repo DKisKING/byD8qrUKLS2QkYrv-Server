@@ -1,0 +1,48 @@
+Logging started at 2017-01-14 14:53:27
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1484434406935 - Administrator - [Sat Jan 14][2.53PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-01-14 14:53:34] com.thoughtworks.xstream.converters.ConversionException: Zero length string : Zero length string
+---- Debugging information ----
+message             : Zero length string
+cause-exception     : java.lang.NumberFormatException
+cause-message       : Zero length string
+class               : java.util.ArrayList
+required-type       : [B
+path                : /list/EquipmentDefinition[4497]/requirements/int[2]
+line number         : 125925
+-------------------------------
+[2017-01-14 14:53:34] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:89)
+[2017-01-14 14:53:34] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2017-01-14 14:53:34] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2017-01-14 14:53:34] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshallField(AbstractReflectionConverter.java:246)
+[2017-01-14 14:53:34] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.doUnmarshal(AbstractReflectionConverter.java:218)
+[2017-01-14 14:53:34] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshal(AbstractReflectionConverter.java:162)
+[2017-01-14 14:53:34] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2017-01-14 14:53:34] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2017-01-14 14:53:34] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2017-01-14 14:53:34] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2017-01-14 14:53:34] 	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:71)
+[2017-01-14 14:53:34] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(CollectionConverter.java:68)
+[2017-01-14 14:53:34] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.unmarshal(CollectionConverter.java:61)
+[2017-01-14 14:53:34] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2017-01-14 14:53:34] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2017-01-14 14:53:34] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2017-01-14 14:53:34] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2017-01-14 14:53:34] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:137)
+[2017-01-14 14:53:34] 	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:33)
+[2017-01-14 14:53:34] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:923)
+[2017-01-14 14:53:34] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:909)
+[2017-01-14 14:53:34] 	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:861)
+[2017-01-14 14:53:34] 	at com.vencillio.core.util.GameDefinitionLoader.loadEquipmentDefinitions(GameDefinitionLoader.java:310)
+[2017-01-14 14:53:34] 	at com.vencillio.GameDataLoader.load(GameDataLoader.java:118)
+[2017-01-14 14:53:34] 	at com.vencillio.core.GameThread.startup(GameThread.java:69)
+[2017-01-14 14:53:34] 	at com.vencillio.core.GameThread.init(GameThread.java:34)
+[2017-01-14 14:53:34] 	at com.vencillio.Server.main(Server.java:105)
+[2017-01-14 14:53:34] Caused by: java.lang.NumberFormatException: Zero length string
+[2017-01-14 14:53:34] 	at java.lang.Integer.decode(Unknown Source)
+[2017-01-14 14:53:34] 	at com.thoughtworks.xstream.converters.basic.ByteConverter.fromString(ByteConverter.java:27)
+[2017-01-14 14:53:34] 	at com.thoughtworks.xstream.converters.extended.EncodedByteArrayConverter.unmarshalIndividualByteElements(EncodedByteArrayConverter.java:60)
+[2017-01-14 14:53:34] 	at com.thoughtworks.xstream.converters.extended.EncodedByteArrayConverter.unmarshal(EncodedByteArrayConverter.java:50)
+[2017-01-14 14:53:34] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2017-01-14 14:53:34] 	... 26 more

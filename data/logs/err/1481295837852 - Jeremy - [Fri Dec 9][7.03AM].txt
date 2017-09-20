@@ -1,0 +1,12 @@
+Logging started at 2016-12-09 07:03:57
+File name: C:\Users\Jeremy\Desktop\Project Reality\.\data\logs\err\1481295837852 - Jeremy - [Fri Dec 9][7.03AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-12-09 07:04:22] Exception in thread "Thread-2" 
+[2016-12-09 07:04:22] java.lang.Error: Unresolved compilation problems: 
+	DIR cannot be resolved or is not a field
+	DIR cannot be resolved or is not a field
+
+[2016-12-09 07:04:22] 	at com.vencillio.core.cache.map.MapConstants.getDoubleDoor(MapConstants.java:68)
+[2016-12-09 07:04:22] 	at com.vencillio.core.cache.map.MapLoading.processDoors(MapLoading.java:78)
+[2016-12-09 07:04:22] 	at com.vencillio.GameDataLoader$1.run(GameDataLoader.java:96)

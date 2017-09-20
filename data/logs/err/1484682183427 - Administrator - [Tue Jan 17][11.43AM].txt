@@ -1,0 +1,5 @@
+Logging started at 2017-01-17 11:43:03
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1484682183427 - Administrator - [Tue Jan 17][11.43AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-01-17 11:44:00] MAX STACK

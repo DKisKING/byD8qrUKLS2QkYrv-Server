@@ -1,0 +1,15 @@
+Logging started at 2016-12-16 03:16:37
+File name: C:\Users\jerem\Desktop\Project Reality RSPS\Project Reality\.\data\logs\err\1481886997428 - jerem - [Fri Dec 16][3.16AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-12-16 03:16:42] Exception in thread "main" 
+[2016-12-16 03:16:42] java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token "Item919484", ( expected after this token
+	Item919484 cannot be resolved to a type
+
+[2016-12-16 03:16:42] 	at com.vencillio.rs2.content.shopping.impl.BountyShop.<init>(BountyShop.java:77)
+[2016-12-16 03:16:42] 	at com.vencillio.rs2.content.shopping.Shop.declare(Shop.java:108)
+[2016-12-16 03:16:42] 	at com.vencillio.GameDataLoader.load(GameDataLoader.java:153)
+[2016-12-16 03:16:42] 	at com.vencillio.core.GameThread.startup(GameThread.java:69)
+[2016-12-16 03:16:42] 	at com.vencillio.core.GameThread.init(GameThread.java:34)
+[2016-12-16 03:16:42] 	at com.vencillio.Server.main(Server.java:104)

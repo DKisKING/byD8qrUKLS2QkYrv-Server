@@ -1,0 +1,42 @@
+Logging started at 2016-04-30 15:27:32
+File name: C:\Users\Travis and Ayla\Dropbox\VA Source\.\data\logs\err\1462044452186 - Travis and Ayla - [Sat Apr 30][3.27PM].txt
+System.getProperty("os.name"): "Windows Vista"
+
+[2016-04-30 15:27:33] com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter$DuplicateFieldException: name
+---- Debugging information ----
+duplicate-field     : name
+class               : java.util.ArrayList
+required-type       : com.vencillio.core.definitions.NpcDefinition
+path                : /list/NpcDefinition[317]/name[2]
+line number         : 3797
+-------------------------------
+[2016-04-30 15:27:33] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter$SeenFields.add(AbstractReflectionConverter.java:322)
+[2016-04-30 15:27:33] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.doUnmarshal(AbstractReflectionConverter.java:234)
+[2016-04-30 15:27:33] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshal(AbstractReflectionConverter.java:162)
+[2016-04-30 15:27:33] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2016-04-30 15:27:33] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2016-04-30 15:27:33] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2016-04-30 15:27:33] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2016-04-30 15:27:33] 	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:71)
+[2016-04-30 15:27:33] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(CollectionConverter.java:68)
+[2016-04-30 15:27:33] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.unmarshal(CollectionConverter.java:61)
+[2016-04-30 15:27:33] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2016-04-30 15:27:33] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2016-04-30 15:27:33] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2016-04-30 15:27:33] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2016-04-30 15:27:33] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:137)
+[2016-04-30 15:27:33] 	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:33)
+[2016-04-30 15:27:33] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:923)
+[2016-04-30 15:27:33] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:909)
+[2016-04-30 15:27:33] 	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:861)
+[2016-04-30 15:27:33] 	at com.vencillio.core.util.GameDefinitionLoader.loadNpcDefinitions(GameDefinitionLoader.java:483)
+[2016-04-30 15:27:33] 	at com.vencillio.GameDataLoader.load(GameDataLoader.java:115)
+[2016-04-30 15:27:33] 	at com.vencillio.core.GameThread.startup(GameThread.java:69)
+[2016-04-30 15:27:33] 	at com.vencillio.core.GameThread.init(GameThread.java:34)
+[2016-04-30 15:27:33] 	at com.vencillio.Server.main(Server.java:104)
+[2016-04-30 15:27:46] java.lang.NullPointerException
+[2016-04-30 15:27:46] 	at com.vencillio.rs2.entity.mob.Mob.<init>(Mob.java:189)
+[2016-04-30 15:27:46] 	at com.vencillio.rs2.entity.mob.Mob.<init>(Mob.java:154)
+[2016-04-30 15:27:46] 	at com.vencillio.rs2.entity.mob.impl.CorporealBeast.<init>(CorporealBeast.java:12)
+[2016-04-30 15:27:46] 	at com.vencillio.rs2.entity.mob.Mob.spawnBosses(Mob.java:71)
+[2016-04-30 15:27:46] 	at com.vencillio.GameDataLoader$1.run(GameDataLoader.java:100)

@@ -1,0 +1,13 @@
+Logging started at 2016-07-29 19:31:22
+File name: C:\Users\Administrator\Dropbox\lunarisle source\.\data\logs\err\1469813481998 - Administrator - [Fri Jul 29][7.31PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-07-29 19:40:21] java.lang.ArrayIndexOutOfBoundsException: 64
+[2016-07-29 19:40:21] 	at com.vencillio.core.util.Utility.textUnpack(Utility.java:715)
+[2016-07-29 19:40:21] 	at com.vencillio.rs2.entity.ReportHandler.addText(ReportHandler.java:28)
+[2016-07-29 19:40:21] 	at com.vencillio.rs2.entity.player.net.in.impl.PublicChatPacket.handle(PublicChatPacket.java:61)
+[2016-07-29 19:40:21] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-29 19:40:21] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-29 19:40:21] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-29 19:40:21] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-29 19:40:21] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

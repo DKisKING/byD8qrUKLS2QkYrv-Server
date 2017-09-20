@@ -1,0 +1,8 @@
+Logging started at 2017-09-16 16:42:47
+File name: C:\Users\Tyras\Desktop\MAIN SERVER (Vencillio Source)\Tyras Source\.\data\logs\err\1505576567010 - Tyras - [Sat Sep 16][4.42PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-09-16 17:04:19] Failing to update dk is king highscores. Database could not connect.
+[2017-09-16 17:26:15] Failing to update Dbz highscores. Database could not connect.
+[2017-09-16 18:36:51] Failing to update DK is king highscores. Database could not connect.
+[2017-09-16 19:32:00] Failing to update Dk is king highscores. Database could not connect.

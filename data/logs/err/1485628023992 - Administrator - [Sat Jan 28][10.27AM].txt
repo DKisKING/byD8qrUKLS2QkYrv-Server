@@ -1,0 +1,21 @@
+Logging started at 2017-01-28 10:27:04
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1485628023992 - Administrator - [Sat Jan 28][10.27AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-01-28 10:28:08] Failing to update Elling highscores. Database could not connect.
+[2017-01-28 10:28:28] Failing to update Elling highscores. Database could not connect.
+[2017-01-28 10:28:49] Failing to update Make123 highscores. Database could not connect.
+[2017-01-28 10:29:09] Failing to update Elling highscores. Database could not connect.
+[2017-01-28 10:29:10] java.lang.NullPointerException
+[2017-01-28 10:29:10] 	at com.vencillio.rs2.entity.player.net.Client.send(Client.java:388)
+[2017-01-28 10:29:10] 	at com.vencillio.rs2.entity.player.net.out.impl.SendLogout.execute(SendLogout.java:13)
+[2017-01-28 10:29:10] 	at com.vencillio.rs2.entity.player.Player.logout(Player.java:1534)
+[2017-01-28 10:29:10] 	at com.vencillio.rs2.entity.player.Player.process(Player.java:1594)
+[2017-01-28 10:29:10] 	at com.vencillio.rs2.entity.World.process(World.java:322)
+[2017-01-28 10:29:10] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-28 10:29:10] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-28 10:29:28] Failing to update Make123 highscores. Database could not connect.
+[2017-01-28 10:29:30] Failing to update Elling highscores. Database could not connect.
+[2017-01-28 10:29:30] Failing to update Elling highscores. Database could not connect.
+[2017-01-28 10:30:09] Failing to update Make123 highscores. Database could not connect.
+[2017-01-28 10:30:10] Failing to update Make123 highscores. Database could not connect.

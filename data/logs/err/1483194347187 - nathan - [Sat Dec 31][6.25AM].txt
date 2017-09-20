@@ -1,0 +1,21 @@
+Logging started at 2016-12-31 06:25:47
+File name: C:\Users\nathan\Desktop\new client\new new fix soruce and client\Project Reality\.\data\logs\err\1483194347187 - nathan - [Sat Dec 31][6.25AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-12-31 06:25:51] Exception in thread "main" 
+[2016-12-31 06:25:51] java.lang.Error: Unresolved compilation problems: 
+	The import com.motiservice cannot be resolved
+	The import com.motiservice cannot be resolved
+	Motivote cannot be resolved to a type
+	Motivote cannot be resolved to a type
+	Result cannot be resolved to a type
+	Motivote cannot be resolved to a type
+	SearchField cannot be resolved to a variable
+
+[2016-12-31 06:25:51] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.<init>(PlayerCommand.java:35)
+[2016-12-31 06:25:51] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.<clinit>(CommandPacket.java:18)
+[2016-12-31 06:25:51] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.<clinit>(PacketHandler.java:42)
+[2016-12-31 06:25:51] 	at com.vencillio.GameDataLoader.load(GameDataLoader.java:180)
+[2016-12-31 06:25:51] 	at com.vencillio.core.GameThread.startup(GameThread.java:69)
+[2016-12-31 06:25:51] 	at com.vencillio.core.GameThread.init(GameThread.java:34)
+[2016-12-31 06:25:51] 	at com.vencillio.Server.main(Server.java:105)

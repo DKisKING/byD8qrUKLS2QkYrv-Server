@@ -1,0 +1,15 @@
+Logging started at 2017-01-14 11:36:40
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1484422600286 - Administrator - [Sat Jan 14][11.36AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-01-14 11:42:32] java.lang.NumberFormatException: For input string: "1111111111111111111111111111111111111111111111111111"
+[2017-01-14 11:42:32] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2017-01-14 11:42:32] 	at java.lang.Long.parseLong(Unknown Source)
+[2017-01-14 11:42:32] 	at java.lang.Long.parseLong(Unknown Source)
+[2017-01-14 11:42:32] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:328)
+[2017-01-14 11:42:32] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2017-01-14 11:42:32] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-14 11:42:32] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-14 11:42:32] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-14 11:42:32] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-14 11:42:32] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

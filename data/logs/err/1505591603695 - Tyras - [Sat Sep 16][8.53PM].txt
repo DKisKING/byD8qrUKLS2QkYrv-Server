@@ -1,0 +1,86 @@
+Logging started at 2017-09-16 20:53:23
+File name: C:\Users\Tyras\Desktop\MAIN SERVER (Vencillio Source)\Tyras Source\.\data\logs\err\1505591603695 - Tyras - [Sat Sep 16][8.53PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-09-16 20:57:37] Failing to update boop highscores. Database could not connect.
+[2017-09-16 20:59:04] Failing to update boop highscores. Database could not connect.
+[2017-09-16 20:59:38] Failing to update beep highscores. Database could not connect.
+[2017-09-16 20:59:55] Failing to update beep highscores. Database could not connect.
+[2017-09-16 21:00:26] Failing to update Boop highscores. Database could not connect.
+[2017-09-16 21:00:50] com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: JSON forbids octal prefixes: 00065535 at line 18 column 22
+[2017-09-16 21:00:50] 	at com.google.gson.Gson.fromJson(Gson.java:809)
+[2017-09-16 21:00:50] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-09-16 21:00:50] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:420)
+[2017-09-16 21:00:50] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1103)
+[2017-09-16 21:00:50] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2017-09-16 21:00:50] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-09-16 21:00:50] Caused by: com.google.gson.stream.MalformedJsonException: JSON forbids octal prefixes: 00065535 at line 18 column 22
+[2017-09-16 21:00:50] 	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:608)
+[2017-09-16 21:00:50] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:230)
+[2017-09-16 21:00:50] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:222)
+[2017-09-16 21:00:50] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-09-16 21:00:50] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-09-16 21:00:50] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-09-16 21:00:50] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-09-16 21:00:50] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-09-16 21:00:50] 	... 5 more
+[2017-09-16 21:01:01] com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: JSON forbids octal prefixes: 0065535 at line 18 column 21
+[2017-09-16 21:01:01] 	at com.google.gson.Gson.fromJson(Gson.java:809)
+[2017-09-16 21:01:01] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-09-16 21:01:01] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:420)
+[2017-09-16 21:01:01] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1103)
+[2017-09-16 21:01:01] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2017-09-16 21:01:01] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-09-16 21:01:01] Caused by: com.google.gson.stream.MalformedJsonException: JSON forbids octal prefixes: 0065535 at line 18 column 21
+[2017-09-16 21:01:01] 	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:608)
+[2017-09-16 21:01:01] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:230)
+[2017-09-16 21:01:01] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:222)
+[2017-09-16 21:01:01] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-09-16 21:01:01] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-09-16 21:01:01] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-09-16 21:01:01] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-09-16 21:01:01] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-09-16 21:01:01] 	... 5 more
+[2017-09-16 21:01:07] com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: JSON forbids octal prefixes: 0065535 at line 18 column 21
+[2017-09-16 21:01:07] 	at com.google.gson.Gson.fromJson(Gson.java:809)
+[2017-09-16 21:01:07] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-09-16 21:01:07] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:420)
+[2017-09-16 21:01:07] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1103)
+[2017-09-16 21:01:07] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2017-09-16 21:01:07] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-09-16 21:01:07] Caused by: com.google.gson.stream.MalformedJsonException: JSON forbids octal prefixes: 0065535 at line 18 column 21
+[2017-09-16 21:01:07] 	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:608)
+[2017-09-16 21:01:07] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:230)
+[2017-09-16 21:01:07] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:222)
+[2017-09-16 21:01:07] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-09-16 21:01:07] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-09-16 21:01:07] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-09-16 21:01:07] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-09-16 21:01:07] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-09-16 21:01:07] 	... 5 more
+[2017-09-16 21:01:12] com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: JSON forbids octal prefixes: 065535 at line 18 column 20
+[2017-09-16 21:01:12] 	at com.google.gson.Gson.fromJson(Gson.java:809)
+[2017-09-16 21:01:12] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-09-16 21:01:12] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:420)
+[2017-09-16 21:01:12] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1103)
+[2017-09-16 21:01:12] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2017-09-16 21:01:12] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-09-16 21:01:12] Caused by: com.google.gson.stream.MalformedJsonException: JSON forbids octal prefixes: 065535 at line 18 column 20
+[2017-09-16 21:01:12] 	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:608)
+[2017-09-16 21:01:12] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:230)
+[2017-09-16 21:01:12] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:222)
+[2017-09-16 21:01:12] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-09-16 21:01:12] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-09-16 21:01:12] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-09-16 21:01:12] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-09-16 21:01:12] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-09-16 21:01:12] 	... 5 more
+[2017-09-16 21:10:06] Failing to update Boop highscores. Database could not connect.
+[2017-09-16 21:10:30] Failing to update Boop highscores. Database could not connect.
+[2017-09-16 21:11:11] Failing to update Boop highscores. Database could not connect.
+[2017-09-16 21:11:20] Failing to update Boop highscores. Database could not connect.
+[2017-09-16 21:11:46] Failing to update Boop highscores. Database could not connect.
+[2017-09-16 21:11:56] Failing to update Boop highscores. Database could not connect.
+[2017-09-16 21:12:13] Failing to update test highscores. Database could not connect.
+[2017-09-16 21:12:18] Failing to update Boop highscores. Database could not connect.
+[2017-09-16 21:15:43] Failing to update Boop highscores. Database could not connect.

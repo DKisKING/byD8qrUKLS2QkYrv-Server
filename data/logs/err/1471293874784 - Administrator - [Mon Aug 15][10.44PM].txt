@@ -1,0 +1,29 @@
+Logging started at 2016-08-15 22:44:35
+File name: C:\Users\Administrator\Dropbox\lunarisle source\.\data\logs\err\1471293874784 - Administrator - [Mon Aug 15][10.44PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-08-15 23:13:06] Failing to update Anthony highscores. Database could not connect.
+[2016-08-15 23:28:38] java.lang.NullPointerException
+[2016-08-15 23:28:38] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:174)
+[2016-08-15 23:28:38] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-08-15 23:28:38] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-15 23:28:38] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-15 23:28:38] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-15 23:28:38] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-15 23:28:38] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-16 00:06:46] MAX STACK
+[2016-08-16 00:11:03] java.lang.NumberFormatException: For input string: "2b"
+[2016-08-16 00:11:03] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2016-08-16 00:11:03] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-08-16 00:11:03] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-08-16 00:11:03] 	at com.vencillio.rs2.entity.player.net.in.command.CommandParser.nextInt(CommandParser.java:46)
+[2016-08-16 00:11:03] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:153)
+[2016-08-16 00:11:03] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-08-16 00:11:03] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-16 00:11:03] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-16 00:11:03] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-16 00:11:03] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-16 00:11:03] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-16 00:11:15] MAX STACK
+[2016-08-16 00:23:02] Failing to update Maxed Iron highscores. Database could not connect.
+[2016-08-16 00:43:28] Failing to update Sr20 highscores. Database could not connect.

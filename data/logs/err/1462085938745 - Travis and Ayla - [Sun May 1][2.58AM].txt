@@ -1,0 +1,12 @@
+Logging started at 2016-05-01 02:58:58
+File name: C:\Users\Travis and Ayla\Dropbox\VA Source\.\data\logs\err\1462085938745 - Travis and Ayla - [Sun May 1][2.58AM].txt
+System.getProperty("os.name"): "Windows Vista"
+
+[2016-05-01 02:59:08] java.lang.ArrayIndexOutOfBoundsException: 250
+[2016-05-01 02:59:08] 	at com.vencillio.rs2.content.shopping.Shop.<init>(Shop.java:140)
+[2016-05-01 02:59:08] 	at com.vencillio.rs2.content.shopping.Shop.<init>(Shop.java:172)
+[2016-05-01 02:59:08] 	at com.vencillio.core.util.GameDefinitionLoader.loadShopDefinitions(GameDefinitionLoader.java:735)
+[2016-05-01 02:59:08] 	at com.vencillio.GameDataLoader.load(GameDataLoader.java:119)
+[2016-05-01 02:59:08] 	at com.vencillio.core.GameThread.startup(GameThread.java:69)
+[2016-05-01 02:59:08] 	at com.vencillio.core.GameThread.init(GameThread.java:34)
+[2016-05-01 02:59:08] 	at com.vencillio.Server.main(Server.java:104)

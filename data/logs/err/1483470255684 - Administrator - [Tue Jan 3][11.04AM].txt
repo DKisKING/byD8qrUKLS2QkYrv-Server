@@ -1,0 +1,52 @@
+Logging started at 2017-01-03 11:04:15
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1483470255684 - Administrator - [Tue Jan 3][11.04AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-01-03 11:10:51] java.lang.NullPointerException
+[2017-01-03 11:10:51] 	at com.vencillio.rs2.content.Pickables.pickPlant(Pickables.java:47)
+[2017-01-03 11:10:51] 	at com.vencillio.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:888)
+[2017-01-03 11:10:51] 	at com.vencillio.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:311)
+[2017-01-03 11:10:51] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-01-03 11:10:51] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2017-01-03 11:10:51] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-01-03 11:10:51] 	at com.vencillio.core.GameThread.cycle(GameThread.java:116)
+[2017-01-03 11:10:51] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-03 15:54:36] java.lang.NullPointerException
+[2017-01-03 15:54:36] 	at com.vencillio.rs2.content.combat.formula.RangeFormulas.calculateRangeAttack(RangeFormulas.java:78)
+[2017-01-03 15:54:36] 	at com.vencillio.rs2.content.combat.impl.Ranged.execute(Ranged.java:41)
+[2017-01-03 15:54:36] 	at com.vencillio.rs2.content.combat.Combat.attack(Combat.java:92)
+[2017-01-03 15:54:36] 	at com.vencillio.rs2.content.combat.Combat.process(Combat.java:215)
+[2017-01-03 15:54:36] 	at com.vencillio.rs2.entity.player.Player.process(Player.java:1595)
+[2017-01-03 15:54:36] 	at com.vencillio.rs2.entity.World.process(World.java:322)
+[2017-01-03 15:54:36] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-03 15:54:36] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-03 17:55:22] com.google.gson.JsonSyntaxException: java.lang.NumberFormatException: Expected an int but was 2822999999999999 at line 268 column 30
+[2017-01-03 17:55:22] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:232)
+[2017-01-03 17:55:22] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:222)
+[2017-01-03 17:55:22] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-01-03 17:55:22] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-01-03 17:55:22] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-01-03 17:55:22] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-01-03 17:55:22] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:420)
+[2017-01-03 17:55:22] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1103)
+[2017-01-03 17:55:22] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2017-01-03 17:55:22] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-01-03 17:55:22] Caused by: java.lang.NumberFormatException: Expected an int but was 2822999999999999 at line 268 column 30
+[2017-01-03 17:55:22] 	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:602)
+[2017-01-03 17:55:22] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:230)
+[2017-01-03 17:55:22] 	... 9 more
+[2017-01-03 17:55:26] com.google.gson.JsonSyntaxException: java.lang.NumberFormatException: Expected an int but was 2822999999999999 at line 268 column 30
+[2017-01-03 17:55:26] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:232)
+[2017-01-03 17:55:26] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:222)
+[2017-01-03 17:55:26] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-01-03 17:55:26] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-01-03 17:55:26] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-01-03 17:55:26] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-01-03 17:55:26] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:420)
+[2017-01-03 17:55:26] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1103)
+[2017-01-03 17:55:26] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2017-01-03 17:55:26] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-01-03 17:55:26] Caused by: java.lang.NumberFormatException: Expected an int but was 2822999999999999 at line 268 column 30
+[2017-01-03 17:55:26] 	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:602)
+[2017-01-03 17:55:26] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:230)
+[2017-01-03 17:55:26] 	... 9 more

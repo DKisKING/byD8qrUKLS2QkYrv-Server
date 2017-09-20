@@ -1,0 +1,28 @@
+Logging started at 2016-04-27 13:52:38
+File name: C:\Users\Travis and Ayla\Dropbox\VA Source\.\data\logs\err\1461779558197 - Travis and Ayla - [Wed Apr 27][1.52PM].txt
+System.getProperty("os.name"): "Windows Vista"
+
+[2016-04-27 19:38:44] java.lang.NullPointerException
+[2016-04-27 19:38:44] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:174)
+[2016-04-27 19:38:44] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-04-27 19:38:44] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-04-27 19:38:44] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-04-27 19:38:44] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-04-27 19:38:44] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-04-27 19:38:44] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-04-27 19:38:49] java.lang.NullPointerException
+[2016-04-27 19:38:49] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:174)
+[2016-04-27 19:38:49] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-04-27 19:38:49] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-04-27 19:38:49] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-04-27 19:38:49] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-04-27 19:38:49] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-04-27 19:38:49] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-04-27 19:39:16] java.lang.NullPointerException
+[2016-04-27 19:39:16] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:174)
+[2016-04-27 19:39:16] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-04-27 19:39:16] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-04-27 19:39:16] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-04-27 19:39:16] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-04-27 19:39:16] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-04-27 19:39:16] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

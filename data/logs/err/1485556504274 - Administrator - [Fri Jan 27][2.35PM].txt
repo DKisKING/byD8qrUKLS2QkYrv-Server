@@ -1,0 +1,12 @@
+Logging started at 2017-01-27 14:35:04
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1485556504274 - Administrator - [Fri Jan 27][2.35PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-01-27 14:54:10] java.lang.NullPointerException
+[2017-01-27 14:54:10] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:61)
+[2017-01-27 14:54:10] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2017-01-27 14:54:10] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-27 14:54:10] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-27 14:54:10] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-27 14:54:10] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-27 14:54:10] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

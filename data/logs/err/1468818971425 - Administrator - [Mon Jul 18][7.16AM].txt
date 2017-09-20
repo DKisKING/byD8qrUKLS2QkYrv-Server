@@ -1,0 +1,14 @@
+Logging started at 2016-07-18 07:16:11
+File name: C:\Users\Administrator\Dropbox\lunarisle source\.\data\logs\err\1468818971425 - Administrator - [Mon Jul 18][7.16AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-07-18 07:16:30] java.lang.NumberFormatException: For input string: ""
+[2016-07-18 07:16:31] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2016-07-18 07:16:31] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-07-18 07:16:31] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-07-18 07:16:32] 	at com.vencillio.core.util.FileHandler.loadMaxPlayers(FileHandler.java:52)
+[2016-07-18 07:16:32] 	at com.vencillio.core.util.FileHandler.load(FileHandler.java:24)
+[2016-07-18 07:16:33] 	at com.vencillio.GameDataLoader.load(GameDataLoader.java:185)
+[2016-07-18 07:16:33] 	at com.vencillio.core.GameThread.startup(GameThread.java:69)
+[2016-07-18 07:16:33] 	at com.vencillio.core.GameThread.init(GameThread.java:34)
+[2016-07-18 07:16:33] 	at com.vencillio.Server.main(Server.java:104)

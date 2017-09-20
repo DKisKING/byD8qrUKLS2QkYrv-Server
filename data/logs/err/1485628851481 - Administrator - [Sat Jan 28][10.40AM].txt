@@ -1,0 +1,4 @@
+Logging started at 2017-01-28 10:40:51
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1485628851481 - Administrator - [Sat Jan 28][10.40AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+

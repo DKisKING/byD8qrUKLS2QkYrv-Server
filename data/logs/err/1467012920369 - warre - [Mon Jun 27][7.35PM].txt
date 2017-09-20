@@ -1,0 +1,58 @@
+Logging started at 2016-06-27 19:35:20
+File name: C:\Users\warre\Desktop\LostIsle For Ken\lunarisle source\.\data\logs\err\1467012920369 - warre - [Mon Jun 27][7.35PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-06-27 19:41:13] java.lang.NullPointerException
+[2016-06-27 19:41:13] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:174)
+[2016-06-27 19:41:13] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-06-27 19:41:14] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-06-27 19:41:14] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-06-27 19:41:14] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-06-27 19:41:14] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-06-27 19:41:14] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-06-27 19:41:18] java.lang.NullPointerException
+[2016-06-27 19:41:18] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:174)
+[2016-06-27 19:41:18] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-06-27 19:41:18] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-06-27 19:41:18] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-06-27 19:41:18] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-06-27 19:41:18] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-06-27 19:41:18] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-06-27 19:55:41] com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Expected literal value at line 7 column 5
+[2016-06-27 19:55:41] 	at com.google.gson.Gson.fromJson(Gson.java:809)
+[2016-06-27 19:55:41] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2016-06-27 19:55:41] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerContainer.loadDetails(PlayerSave.java:307)
+[2016-06-27 19:55:41] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1099)
+[2016-06-27 19:55:41] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2016-06-27 19:55:41] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-06-27 19:55:41] Caused by: com.google.gson.stream.MalformedJsonException: Expected literal value at line 7 column 5
+[2016-06-27 19:55:41] 	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1310)
+[2016-06-27 19:55:41] 	at com.google.gson.stream.JsonReader.readLiteral(JsonReader.java:1207)
+[2016-06-27 19:55:41] 	at com.google.gson.stream.JsonReader.nextValue(JsonReader.java:789)
+[2016-06-27 19:55:41] 	at com.google.gson.stream.JsonReader.nextInArray(JsonReader.java:693)
+[2016-06-27 19:55:41] 	at com.google.gson.stream.JsonReader.peek(JsonReader.java:376)
+[2016-06-27 19:55:41] 	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:349)
+[2016-06-27 19:55:41] 	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:71)
+[2016-06-27 19:55:41] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2016-06-27 19:55:41] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2016-06-27 19:55:41] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2016-06-27 19:55:41] 	... 5 more
+[2016-06-27 19:55:43] com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Expected literal value at line 7 column 5
+[2016-06-27 19:55:43] 	at com.google.gson.Gson.fromJson(Gson.java:809)
+[2016-06-27 19:55:43] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2016-06-27 19:55:43] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerContainer.loadDetails(PlayerSave.java:307)
+[2016-06-27 19:55:43] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1099)
+[2016-06-27 19:55:43] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2016-06-27 19:55:43] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-06-27 19:55:43] Caused by: com.google.gson.stream.MalformedJsonException: Expected literal value at line 7 column 5
+[2016-06-27 19:55:43] 	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1310)
+[2016-06-27 19:55:43] 	at com.google.gson.stream.JsonReader.readLiteral(JsonReader.java:1207)
+[2016-06-27 19:55:43] 	at com.google.gson.stream.JsonReader.nextValue(JsonReader.java:789)
+[2016-06-27 19:55:43] 	at com.google.gson.stream.JsonReader.nextInArray(JsonReader.java:693)
+[2016-06-27 19:55:43] 	at com.google.gson.stream.JsonReader.peek(JsonReader.java:376)
+[2016-06-27 19:55:43] 	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:349)
+[2016-06-27 19:55:43] 	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:71)
+[2016-06-27 19:55:43] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2016-06-27 19:55:43] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2016-06-27 19:55:43] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2016-06-27 19:55:43] 	... 5 more

@@ -1,0 +1,16 @@
+Logging started at 2017-01-03 23:54:23
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1483516463689 - Administrator - [Tue Jan 3][11.54PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-01-04 00:44:47] java.lang.NumberFormatException: For input string: "were"
+[2017-01-04 00:44:47] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2017-01-04 00:44:47] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-01-04 00:44:47] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-01-04 00:44:47] 	at com.vencillio.rs2.entity.player.net.in.command.CommandParser.nextInt(CommandParser.java:46)
+[2017-01-04 00:44:47] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:38)
+[2017-01-04 00:44:47] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2017-01-04 00:44:47] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-04 00:44:47] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-04 00:44:47] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-04 00:44:47] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-04 00:44:47] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

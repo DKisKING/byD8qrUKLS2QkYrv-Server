@@ -1,0 +1,4 @@
+Logging started at 2016-12-31 06:27:25
+File name: C:\Users\nathan\Desktop\new client\new new fix soruce and client\Project Reality\.\data\logs\err\1483194445870 - nathan - [Sat Dec 31][6.27AM].txt
+System.getProperty("os.name"): "Windows 10"
+

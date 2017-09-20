@@ -1,0 +1,63 @@
+Logging started at 2016-04-27 04:31:43
+File name: C:\Users\Travis and Ayla\Dropbox\VA Source\.\data\logs\err\1461745903798 - Travis and Ayla - [Wed Apr 27][4.31AM].txt
+System.getProperty("os.name"): "Windows Vista"
+
+[2016-04-27 04:31:45] com.thoughtworks.xstream.converters.ConversionException: NpcDefinition : NpcDefinition : NpcDefinition : NpcDefinition
+---- Debugging information ----
+message             : NpcDefinition : NpcDefinition
+cause-exception     : com.thoughtworks.xstream.mapper.CannotResolveClassException
+cause-message       : NpcDefinition : NpcDefinition
+class               : java.util.ArrayList
+required-type       : java.util.ArrayList
+path                : /list/NpcDefinition
+line number         : 2
+-------------------------------
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:89)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:137)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:33)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:923)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:909)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:861)
+[2016-04-27 04:31:46] 	at com.vencillio.core.util.GameDefinitionLoader.loadNpcDefinitions(GameDefinitionLoader.java:483)
+[2016-04-27 04:31:46] 	at com.vencillio.GameDataLoader.load(GameDataLoader.java:115)
+[2016-04-27 04:31:46] 	at com.vencillio.core.GameThread.startup(GameThread.java:69)
+[2016-04-27 04:31:46] 	at com.vencillio.core.GameThread.init(GameThread.java:34)
+[2016-04-27 04:31:46] 	at com.vencillio.Server.main(Server.java:104)
+[2016-04-27 04:31:46] Caused by: com.thoughtworks.xstream.mapper.CannotResolveClassException: NpcDefinition : NpcDefinition
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.mapper.DefaultMapper.realClass(DefaultMapper.java:68)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.mapper.DynamicProxyMapper.realClass(DynamicProxyMapper.java:71)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.mapper.PackageAliasingMapper.realClass(PackageAliasingMapper.java:88)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.mapper.ClassAliasingMapper.realClass(ClassAliasingMapper.java:86)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.mapper.ArrayMapper.realClass(ArrayMapper.java:96)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.mapper.CachingMapper.realClass(CachingMapper.java:52)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.core.util.HierarchicalStreams.readClassType(HierarchicalStreams.java:29)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:70)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(CollectionConverter.java:68)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.unmarshal(CollectionConverter.java:61)
+[2016-04-27 04:31:46] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2016-04-27 04:31:46] 	... 13 more
+[2016-04-27 04:31:57] java.lang.NullPointerException
+[2016-04-27 04:31:57] 	at com.vencillio.rs2.entity.mob.Mob.<init>(Mob.java:189)
+[2016-04-27 04:31:57] 	at com.vencillio.rs2.entity.mob.Mob.<init>(Mob.java:154)
+[2016-04-27 04:31:57] 	at com.vencillio.rs2.entity.mob.impl.CorporealBeast.<init>(CorporealBeast.java:12)
+[2016-04-27 04:31:57] 	at com.vencillio.rs2.entity.mob.Mob.spawnBosses(Mob.java:71)
+[2016-04-27 04:31:57] 	at com.vencillio.GameDataLoader$1.run(GameDataLoader.java:100)

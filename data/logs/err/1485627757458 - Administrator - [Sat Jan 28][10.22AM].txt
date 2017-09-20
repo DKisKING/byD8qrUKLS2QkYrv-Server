@@ -1,0 +1,15 @@
+Logging started at 2017-01-28 10:22:37
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1485627757458 - Administrator - [Sat Jan 28][10.22AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-01-28 10:23:49] Failing to update Elling highscores. Database could not connect.
+[2017-01-28 10:23:55] Failing to update Test Nate highscores. Database could not connect.
+[2017-01-28 10:24:29] Failing to update Elling highscores. Database could not connect.
+[2017-01-28 10:24:35] Failing to update Test Nate highscores. Database could not connect.
+[2017-01-28 10:24:49] Failing to update Test Nate highscores. Database could not connect.
+[2017-01-28 10:24:49] Failing to update Test Nate highscores. Database could not connect.
+[2017-01-28 10:25:35] Failing to update Test Nate highscores. Database could not connect.
+[2017-01-28 10:25:55] Failing to update Test Nate highscores. Database could not connect.
+[2017-01-28 10:26:15] Failing to update Test Nate highscores. Database could not connect.
+[2017-01-28 10:26:35] Failing to update Test Nate highscores. Database could not connect.
+[2017-01-28 10:26:55] Failing to update Test Nate highscores. Database could not connect.

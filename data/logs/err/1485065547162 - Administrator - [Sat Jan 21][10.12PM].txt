@@ -1,0 +1,19 @@
+Logging started at 2017-01-21 22:12:27
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1485065547162 - Administrator - [Sat Jan 21][10.12PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-01-22 03:15:07] java.lang.ArrayIndexOutOfBoundsException: 0
+[2017-01-22 03:15:07] 	at com.vencillio.core.util.Utility.randomElement(Utility.java:638)
+[2017-01-22 03:15:07] 	at com.vencillio.rs2.content.CrystalChest.searchChest(CrystalChest.java:97)
+[2017-01-22 03:15:07] 	at com.vencillio.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:1860)
+[2017-01-22 03:15:07] 	at com.vencillio.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:311)
+[2017-01-22 03:15:07] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-01-22 03:15:07] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-01-22 03:15:07] 	at com.vencillio.rs2.entity.WalkToActions.clickObject(WalkToActions.java:306)
+[2017-01-22 03:15:07] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2017-01-22 03:15:07] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-22 03:15:07] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-22 03:15:07] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-22 03:15:07] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-22 03:15:07] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-22 10:36:35] MAX STACK

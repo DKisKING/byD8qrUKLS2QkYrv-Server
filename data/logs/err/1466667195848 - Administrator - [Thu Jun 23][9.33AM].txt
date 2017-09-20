@@ -1,0 +1,53 @@
+Logging started at 2016-06-23 09:33:16
+File name: C:\Users\Administrator\Desktop\Dropbox\VA Source\.\data\logs\err\1466667195848 - Administrator - [Thu Jun 23][9.33AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-06-23 09:33:25] com.thoughtworks.xstream.converters.ConversionException:  : end tag name </WeaponDefinition> must match start tag name <stand> from line 4101 (position: TEXT seen ...</sidebarId>\r\n\t</WeaponDefinition>... @4109:21)  :  : end tag name </WeaponDefinition> must match start tag name <stand> from line 4101 (position: TEXT seen ...</sidebarId>\r\n\t</WeaponDefinition>... @4109:21) 
+---- Debugging information ----
+message             :  : end tag name </WeaponDefinition> must match start tag name <stand> from line 4101 (position: TEXT seen ...</sidebarId>\r\n\t</WeaponDefinition>... @4109:21) 
+cause-exception     : com.thoughtworks.xstream.io.StreamException
+cause-message       :  : end tag name </WeaponDefinition> must match start tag name <stand> from line 4101 (position: TEXT seen ...</sidebarId>\r\n\t</WeaponDefinition>... @4109:21) 
+class               : java.util.ArrayList
+required-type       : com.vencillio.core.definitions.WeaponDefinition
+path                : /list/WeaponDefinition[158]/stand
+line number         : 4109
+-------------------------------
+[2016-06-23 09:33:25] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:89)
+[2016-06-23 09:33:26] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2016-06-23 09:33:26] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2016-06-23 09:33:27] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2016-06-23 09:33:27] 	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:71)
+[2016-06-23 09:33:28] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(CollectionConverter.java:68)
+[2016-06-23 09:33:28] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.unmarshal(CollectionConverter.java:61)
+[2016-06-23 09:33:29] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2016-06-23 09:33:29] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2016-06-23 09:33:29] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2016-06-23 09:33:30] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2016-06-23 09:33:31] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:137)
+[2016-06-23 09:33:31] 	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:33)
+[2016-06-23 09:33:31] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:923)
+[2016-06-23 09:33:32] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:909)
+[2016-06-23 09:33:32] 	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:861)
+[2016-06-23 09:33:32] 	at com.vencillio.core.util.GameDefinitionLoader.loadWeaponDefinitions(GameDefinitionLoader.java:751)
+[2016-06-23 09:33:33] 	at com.vencillio.GameDataLoader.load(GameDataLoader.java:121)
+[2016-06-23 09:33:33] 	at com.vencillio.core.GameThread.startup(GameThread.java:69)
+[2016-06-23 09:33:33] 	at com.vencillio.core.GameThread.init(GameThread.java:34)
+[2016-06-23 09:33:33] 	at com.vencillio.Server.main(Server.java:104)
+[2016-06-23 09:33:33] Caused by: com.thoughtworks.xstream.io.StreamException:  : end tag name </WeaponDefinition> must match start tag name <stand> from line 4101 (position: TEXT seen ...</sidebarId>\r\n\t</WeaponDefinition>... @4109:21) 
+[2016-06-23 09:33:33] 	at com.thoughtworks.xstream.io.xml.XppReader.pullNextEvent(XppReader.java:78)
+[2016-06-23 09:33:33] 	at com.thoughtworks.xstream.io.xml.AbstractPullReader.readRealEvent(AbstractPullReader.java:137)
+[2016-06-23 09:33:33] 	at com.thoughtworks.xstream.io.xml.AbstractPullReader.readEvent(AbstractPullReader.java:130)
+[2016-06-23 09:33:33] 	at com.thoughtworks.xstream.io.xml.AbstractPullReader.move(AbstractPullReader.java:109)
+[2016-06-23 09:33:33] 	at com.thoughtworks.xstream.io.xml.AbstractPullReader.moveUp(AbstractPullReader.java:104)
+[2016-06-23 09:33:33] 	at com.thoughtworks.xstream.io.ReaderWrapper.moveUp(ReaderWrapper.java:40)
+[2016-06-23 09:33:33] 	at com.thoughtworks.xstream.io.path.PathTrackingReader.moveUp(PathTrackingReader.java:42)
+[2016-06-23 09:33:33] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.doUnmarshal(AbstractReflectionConverter.java:239)
+[2016-06-23 09:33:33] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshal(AbstractReflectionConverter.java:162)
+[2016-06-23 09:33:33] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2016-06-23 09:33:33] 	... 20 more
+[2016-06-23 09:33:33] Caused by: org.xmlpull.v1.XmlPullParserException: end tag name </WeaponDefinition> must match start tag name <stand> from line 4101 (position: TEXT seen ...</sidebarId>\r\n\t</WeaponDefinition>... @4109:21) 
+[2016-06-23 09:33:33] 	at org.xmlpull.mxp1.MXParser.parseEndTag(MXParser.java:1689)
+[2016-06-23 09:33:33] 	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1131)
+[2016-06-23 09:33:33] 	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+[2016-06-23 09:33:33] 	at com.thoughtworks.xstream.io.xml.XppReader.pullNextEvent(XppReader.java:63)
+[2016-06-23 09:33:33] 	... 29 more

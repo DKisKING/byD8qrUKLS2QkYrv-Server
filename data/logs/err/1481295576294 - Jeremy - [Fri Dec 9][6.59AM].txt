@@ -1,0 +1,12 @@
+Logging started at 2016-12-09 06:59:36
+File name: C:\Users\Jeremy\Desktop\Project Reality\.\data\logs\err\1481295576294 - Jeremy - [Fri Dec 9][6.59AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-12-09 06:59:58] Exception in thread "Thread-2" 
+[2016-12-09 06:59:58] java.lang.Error: Unresolved compilation problems: 
+	GameConstants cannot be resolved to a variable
+	GameConstants cannot be resolved to a variable
+
+[2016-12-09 06:59:58] 	at com.vencillio.core.cache.map.MapConstants.getDoubleDoor(MapConstants.java:68)
+[2016-12-09 06:59:58] 	at com.vencillio.core.cache.map.MapLoading.processDoors(MapLoading.java:78)
+[2016-12-09 06:59:58] 	at com.vencillio.GameDataLoader$1.run(GameDataLoader.java:96)

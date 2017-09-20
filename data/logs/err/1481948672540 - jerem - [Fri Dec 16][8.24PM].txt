@@ -1,0 +1,14 @@
+Logging started at 2016-12-16 20:24:32
+File name: C:\Users\jerem\Desktop\Project Reality RSPS\Project Reality\.\data\logs\err\1481948672540 - jerem - [Fri Dec 16][8.24PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-12-16 20:24:36] Exception in thread "main" 
+[2016-12-16 20:24:36] java.lang.Error: Unresolved compilation problem: 
+	item cannot be resolved to a type
+
+[2016-12-16 20:24:36] 	at com.vencillio.rs2.content.shopping.impl.BossShop.<init>(BossShop.java:53)
+[2016-12-16 20:24:36] 	at com.vencillio.rs2.content.shopping.Shop.declare(Shop.java:109)
+[2016-12-16 20:24:36] 	at com.vencillio.GameDataLoader.load(GameDataLoader.java:153)
+[2016-12-16 20:24:36] 	at com.vencillio.core.GameThread.startup(GameThread.java:69)
+[2016-12-16 20:24:36] 	at com.vencillio.core.GameThread.init(GameThread.java:34)
+[2016-12-16 20:24:36] 	at com.vencillio.Server.main(Server.java:105)

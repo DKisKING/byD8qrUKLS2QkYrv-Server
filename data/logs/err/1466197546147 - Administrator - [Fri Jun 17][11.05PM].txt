@@ -1,0 +1,14 @@
+Logging started at 2016-06-17 23:05:46
+File name: C:\Users\Administrator\Desktop\Dropbox\VA Source\.\data\logs\err\1466197546147 - Administrator - [Fri Jun 17][11.05PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-06-17 23:06:00] java.lang.ArrayIndexOutOfBoundsException: 36
+[2016-06-17 23:06:00] 	at com.vencillio.rs2.entity.item.ItemContainer.setSlot(ItemContainer.java:877)
+[2016-06-17 23:06:00] 	at com.vencillio.rs2.content.shopping.Shop.<init>(Shop.java:179)
+[2016-06-17 23:06:00] 	at com.vencillio.rs2.content.shopping.Shop.<init>(Shop.java:206)
+[2016-06-17 23:06:00] 	at com.vencillio.rs2.content.shopping.impl.VotingShop.<init>(VotingShop.java:138)
+[2016-06-17 23:06:00] 	at com.vencillio.rs2.content.shopping.Shop.declare(Shop.java:127)
+[2016-06-17 23:06:00] 	at com.vencillio.GameDataLoader.load(GameDataLoader.java:153)
+[2016-06-17 23:06:00] 	at com.vencillio.core.GameThread.startup(GameThread.java:69)
+[2016-06-17 23:06:00] 	at com.vencillio.core.GameThread.init(GameThread.java:34)
+[2016-06-17 23:06:00] 	at com.vencillio.Server.main(Server.java:104)

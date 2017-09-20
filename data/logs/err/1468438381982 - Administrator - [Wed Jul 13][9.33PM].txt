@@ -1,0 +1,40 @@
+Logging started at 2016-07-13 21:33:02
+File name: C:\Users\Administrator\Dropbox\lunarisle source\.\data\logs\err\1468438381982 - Administrator - [Wed Jul 13][9.33PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-07-13 22:19:16] java.lang.ArrayIndexOutOfBoundsException: 998
+[2016-07-13 22:19:16] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:335)
+[2016-07-13 22:19:16] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-07-13 22:19:16] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-13 22:19:16] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-13 22:19:16] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-13 22:19:16] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-13 22:19:16] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-13 22:19:20] java.lang.ArrayIndexOutOfBoundsException: 998
+[2016-07-13 22:19:20] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:335)
+[2016-07-13 22:19:20] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-07-13 22:19:20] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-13 22:19:20] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-13 22:19:20] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-13 22:19:20] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-13 22:19:20] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-13 23:10:15] java.lang.ArrayIndexOutOfBoundsException: 9999
+[2016-07-13 23:10:15] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:335)
+[2016-07-13 23:10:15] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-07-13 23:10:15] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-13 23:10:15] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-13 23:10:15] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-13 23:10:15] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-13 23:10:15] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-13 23:24:48] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2016-07-13 23:24:48] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2016-07-13 23:24:48] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2016-07-13 23:24:48] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2016-07-13 23:24:48] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2016-07-13 23:24:48] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2016-07-13 23:24:48] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:768)
+[2016-07-13 23:24:48] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-13 23:24:48] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-13 23:24:48] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-13 23:24:48] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-13 23:24:48] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

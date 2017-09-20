@@ -1,0 +1,30 @@
+Logging started at 2017-02-10 16:00:27
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1486771227372 - Administrator - [Fri Feb 10][4.00PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-02-10 18:42:03] java.lang.NullPointerException
+[2017-02-10 18:42:03] 	at com.vencillio.rs2.content.combat.formula.RangeFormulas.calculateRangeAttack(RangeFormulas.java:78)
+[2017-02-10 18:42:03] 	at com.vencillio.rs2.content.combat.impl.Ranged.execute(Ranged.java:41)
+[2017-02-10 18:42:03] 	at com.vencillio.rs2.content.combat.Combat.attack(Combat.java:92)
+[2017-02-10 18:42:03] 	at com.vencillio.rs2.content.combat.Combat.process(Combat.java:215)
+[2017-02-10 18:42:03] 	at com.vencillio.rs2.entity.player.Player.process(Player.java:1611)
+[2017-02-10 18:42:03] 	at com.vencillio.rs2.entity.World.process(World.java:322)
+[2017-02-10 18:42:03] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-02-10 18:42:03] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-02-10 18:42:03] java.lang.NullPointerException
+[2017-02-10 18:42:03] 	at com.vencillio.rs2.entity.player.net.Client.send(Client.java:388)
+[2017-02-10 18:42:03] 	at com.vencillio.rs2.entity.player.net.out.impl.SendLogout.execute(SendLogout.java:13)
+[2017-02-10 18:42:03] 	at com.vencillio.rs2.entity.player.Player.logout(Player.java:1537)
+[2017-02-10 18:42:03] 	at com.vencillio.rs2.entity.World.process(World.java:335)
+[2017-02-10 18:42:03] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-02-10 18:42:03] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-02-11 18:06:24] java.lang.ArrayIndexOutOfBoundsException: 0
+[2017-02-11 18:06:24] 	at com.vencillio.core.util.Utility.randomElement(Utility.java:638)
+[2017-02-11 18:06:24] 	at com.vencillio.rs2.content.CrystalChest.searchChest(CrystalChest.java:121)
+[2017-02-11 18:06:24] 	at com.vencillio.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:1860)
+[2017-02-11 18:06:24] 	at com.vencillio.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:311)
+[2017-02-11 18:06:24] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-02-11 18:06:24] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2017-02-11 18:06:24] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-02-11 18:06:24] 	at com.vencillio.core.GameThread.cycle(GameThread.java:116)
+[2017-02-11 18:06:24] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

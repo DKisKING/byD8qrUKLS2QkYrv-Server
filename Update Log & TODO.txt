@@ -1,0 +1,833 @@
+=========TODO=======
+-website: donation,  highscores *
+-item fixes: dhide boxes, slave top, rune axe *
+-finish nieve's slayer dungeon
+-karambwan fishing animation
+-members crafting minimap icon
+-members fishing map icon
+-check corp drops for spirit shields
+-add blessed spirit shield creating & sigils
+-todo: dwarf cannon break points
+-redo prices(credits)
+-add supply packs to skill shops
+-add custom items in the custom folder in dropbox
+-mith rocks at mining area
+-fix ban 
+-amulet crafting
+-add clue scroll shop(elemental shield)
+-titles for skillers(thief)
+-experience bonus' on skilling gear
+-add skill point tickets to monster drops
+-fix slayer ring
+-add pvm and boss shop to iron man
+-add banners(zhasta stand animation)
+-credit item for rare drop table
+-add wishing well
+-rename members boss portal
+-change lunar points name
+-add max capes & requirements
+-add magic dart
+-sand crabs
+-pet frog
+-zeah npcs
+-door by dust devils slayer tower
+-trident of the seas
+-trident of the swamp
+-itemdef.xml
+-tent drop at cave krakens
+-96 thieving stall at mem area says 95
+-add skillcape benfits
+-note pots in store
+-smoke devil boss
+-gambler trivia
+-fix dragon defender drops(takes 2)
+-bounty hunter emblem dropping(can farm atm)
+-slayer helmet
+-bone crusher
+-first time login message
+-healing npc at home
+
+========April 25th 2016===========
+-minor bug fixes and changes
+-changed home location and teleports
+-added altars at home
+-added thieving stalls at home
+-added personal shops at home
+-fixed player profiles
+-removed world objects from home
+-added several npcs to home
+-redid triviabot
+-clipped spot outside bar for altars
+-add point systems and shops for all skills
+-removed several antileeches
+
+========April 26th 2016===========
+-added vote booth
+-changed npc names
+-finished adding npcs to home
+-changed some shop names and stuff
+-redid pvp shop
+-redid achievements shop
+-fixed owner exploits
+-fixed theiving crash
+-removed stall damage
+-edited title shop cache to remove text
+-edited Credits to display an "E" for Ethereal Credits
+-added a temporary title screen
+-added username/password to client
+-removed developers world
+-removed staff world
+-removed spawn world
+
+========April 27th 2016===========
+-add new thieving items/prices
+-added dclaws to pvp shop
+-added godswords to pvp shop
+-added tentacle to pvp shop
+-added wilderness blade stats
+-added a few items to "dez" player-owned shop
+ (including a 1-time-only armour)
+-added new pet: Toy penguin
+-added toy penguin to starter kit :)
+-redid credits shop
+-redid outfits shop 1
+-added more to pvp shop
+
+========April 28th 2016===========
+-redidvote shop
+-redid pure shop
+-redid titles
+-redid teleport prices
+-fixed some items
+-added login messages
+-fixed some items in shops and prices
+-fixed members guy dialogue
+-changed npc names
+-added a tutorial
+-redid experience rates
+-added some custom pets
+-added different title colors
+-fixed some bugs
+-added pets to shops
+-added new fishing area
+-reidd trivia
+
+=======LOGS LOST BETWEEN THESE DATES. UPDATES WERE MADE=========
+
+
+====May 5th 2016====
+-added Grace to end of agility courses
+-added teleport from wilderness agility
+-Finished skiller area? (for now)
+-fixed some dialogue, npc names and actions
+-added teleport to skiller area
+-removed another antileech in ClickingButtonPacket.java (wee531)
+
+====May 6th 2016====
+-added mystery box chest to home
+-added spinning wheel to skilling
+-added merchant to thieving
+-added graceful shop/agility ticket shop to home
+-added some dialogue to the skiller guide & Grace shop 
+
+====May 7th 2016====
+-added npcs to training 1/4 *NOTE* Npcs aren't walking when set to true? *NOTE*
+-added training area teleport
+-moved skilling teleport
+-added training area 2/4
+-added training area 3/4
+-added some npc anims
+
+====May 8th 2016====
+-training area finished
+-Chaos Knight added
+-added new staff area
+
+====May 9th 2016====
+-created new Members area
+-added Members area teleport
+-www.EtherealPvP.com/test homepage created(Credits: Andy)
+
+====May 10th 2016====
+-Created new mining and crafting area
+-added members stall
+
+====May 11th 2016====
+-added nieves slayer cave(npcs needed)
+-added new fishing area
+-added new woodcutting area
+-added new smithing area
+-other small fixes
+
+====May 12th 2016====
+-Busy irl
+
+====May 13th 2016====
+-redid wall safes
+-added thieving Points(ie: steal from stalls)
+-added prayer Points(ie: bury bones, altar)
+-added runecrafting Points(ie: crafting runes)
+-added hunter Points(ie: coming soon)
+-added herblore Points(ie: finishing potions)
+-added crafting Points
+-added fletching Points
+-added mining Points
+-added mining rocks(tin,copper,gold)
+-added smithing Points
+-added cooking Points
+-added fishing Points
+-added firemaking Points
+-added woodcutting Points
+-added farming Points
+
+====May 14th 2016====
+-added Skill shops for above skills
+-fixed some doors
+-ipb forums added to the website
+-added first catergory and threads to forums
+
+====May 15th 2016====
+-busy irl
+
+====May 16th 2016====
+-added skill points to the points interface via quest tab
+-added venenatis
+-added melee combat definitions for venenatis
+-added combat bonus' for venenatis
+-redid thieving stall fail
+-added drops to Ghosts
+-added second category and threads to forums
+
+====May 17th 2016====
+-added drops for Chaos knight
+-lowered ghost herb drops
+-added bloodvelds to nieves slayer dungeon
+-added hellhounds to nieves slayer dungeon
+-added cave kraken combat definitions
+
+====May 18th 2016====
+-added aberant spectre combat definitions
+-added aberant spectre to nieves slayer dungeon
+-added fire giants to nieves slayer dungeon
+-added black dragon to nieves slayer dungeon
+-added steel dragons to nieves slayer dungeon
+-added iron dragons to nieves slayer dungeon
+-added firemaking skill pet
+
+====May 19th 2016====
+-fixed chaos knight drops
+-added thieving skill pet
+-added fishing skill pet
+-changed donator rank names
+-added Server Manager rank(CEO?)
+
+====May 20th 2016====
+-changed magic shop npc
+-changed ethereal guard npc
+-added custom skill pets for all skills(16 in total)
+-added skill pets to skill point shops
+-changed NPC table npc
+-changed members npc
+-removed some home objects
+-fixed some doors
+-fixed credit bonds
+
+====May 21st 2016====
+-busy irl took some pictures
+
+====May 22nd 2016====
+-redid vote shop
+-made a 5 credits bond
+-added 5 credits bond to vote shop(Vote4Credits)
+-fixed credits shop 3
+-added "/" as a symbol
+-removed clan chat announcements for items under 1,000,000
+-changed barrelchest location and teleporter
+-removed some objects
+
+====May 23rd 2016====
+-fixed impling npc ids in hunter
+-added impling combat definitions(for respawn timer)
+-removed default dialogues
+-redid item dismantling
+-fixed odium ward (or), malediction ward (or), and dragon pickaxe (or) names
+-added implings to hunting area
+
+====May 24th 2016====
+-finished impling hunting area
+-added Hunting teleport
+-added Hunter points shop
+
+====May 25th 2016====
+-added Venenatis spawn location
+-added Venenatis Combat definitions
+-added Venenatis teleport
+-fixed some dialogues(boss interface, tutorial)
+-fixed kalphite queen definitions
+-fixed culinomancer(RFD) combat definitions
+-added an attack option to kalphite queen phase 1
+-added kalphite queen teleport
+
+====May 26th 2016====
+-added new global messages
+-fixed shop npc actions and names
+-added dream tree woodcutting data
+-added dream tree firemaking data
+-added dream tree to members area
+-added dark crabs to wilderness resource area
+-added pool teleport back out of god capes at mage bank
+-added karambwan fishing
+-added karambwan fishing spot to members area
+-added minimap icons at the members area
+-added granite clamp, dragon defender and amulet of the damned to bounty shop
+-added quest cape(t) to achievements shop
+-added dismantling and assembly for granite maul + granite clamp = granite maul (or)
+-fixed granite maul (or) name
+
+====May 27th 2016====
+-added granite maul (or) weapon definitions
+-added special attack to granite maul (or)
+-fixed members mapicons, added makeover mage mapicon to home
+
+====May 28th 2016====
+-added boss points
+-added boss points shop
+-added boss points to all bosses
+-added boss points shop to home
+-added pvm points
+-added pvm points shop
+-added pvm points to all monsters
+-added pvm points shop to home
+-fixed boss & pvm points shop npc definitions
+
+====May 29th 2016====
+-fixed hunter skillpoint shop
+-added pvm and boss points to points interface
+-added pvm & boss points to player profile
+-updated pvm/boss shops with penance items
+-added some items to members store
+-lowered item prices in members store
+
+====May 30th 2016====
+-removed items from achievement shop
+-added new items to achievement shop
+-added keris weapons definitions similar to dds w/out spec. ++attack speed
+-added ghostly bankers to home area
+-added ghostly bankers and ethereal guard to members area
+-added fire color npc to members area
+-added abyssal demons to members area
+-added dark beasts to members area
+-removed flax near darkbeasts at members area
+-clipped tiles infront of altar at members area
+
+====May 31st=====
+-busy irl
+
+====June 1st=====
+-busy irl
+
+====June 2nd 2016====
+-busy irl
+
+====June 3rd 2016====
+-added skilling supplies npc to members area
+-added graahk to hunter points shop
+-added items to prayer skill shop
+-added cooking gauntlets to cooking skill shop
+-removed some npcs from edgeville
+-added vote booth & pvm/boss points locations to tutorial
+
+====June 4th 2016====
+-added slayer master minimap icon to members area
+-added teleports minimap icons to members area
+-added tree minimap icon to dream tree
+-added altar minimap icons to home & members area
+-added home teleport minimap icon
+-added bounty hunter minimap icon
+
+====June 5th 2016====
+-added combat definitions to corrupt sorceress(custom boss)
+-added entity definitions to corrupt sorceress
+-fixed a few other things to make it work
+-removed some objects from sorc boss dungeon
+-clipped area around sorc boss
+-sorc boss now drops loot under player
+-added entity definitions for infernal mage pet
+-added infernal mage pet to boss pets
+-resized sorc boss
+-added infernal mage pet to sorc boss drops
+-added sorc boss to members boss portal
+-added boss portal to members area
+-added dialogue to members portal
+-added custom teleport animation/gfx to members portal
+-fixed cave kraken drop location
+-added cave krakens to nieves slayer dungeon
+-made nieves slayer dungeon members only
+-added step-over root at nieves slayer dungeon
+-fixed some typos in the tutorial
+-added boss/pvm points to corrupt sorceress boss
+-added pvm points to cave kraken
+-added slayer requirements to cave kraken(87)
+
+====June 6th 2016====
+-enabled skill shops for iron man players
+-added fishing minimap icon to members area
+-removed flax patches outside of members area
+====June 7th 2016====
+-busy irl
+====June 8th 2016====
+-did a few things on the forums(donation stuff)
+-changed portal name to "boss portal" :o 
+-added lunar points(members only)
+-added lunar points shop
+-added lunar points shop to members area
+-added +5% drop rate to row
+-added +10% drop rate to row (i)
+-added row to lunar points shop
+-added row (i) to bounty shop
+-added row (i) creating/dismantling
+-added some pvp gear to lunar points shop
+-added rock crabs to mobs
+
+====June 9th 2016====
+-busy irl
+
+====June 10th 2016====
+-added credit purchase bonuses
+-added combat definitions for lunar points(lp) monster(akthanakos)
+-changed entity definitions for lp monster
+-added lp points to lp monster
+-added pvm points to lp monster
+-added lp monster to mobconstants
+-made lp monster attackable
+-added lp monster spawns
+-added drops to lp monster
+-renamed effigy & added trade option
+-fixed FinishTeleportingTask(where npcs dont hit when you teleport)
+-added lunar points notification
+-added lunar points to points interface
+-added items to lunar shop
+
+====June 11th 2016====
+-added skilling supplies npc
+-fixed clan chat
+-added iron mining rocks
+-added mithril mining rocks
+-added auto voting
+-added vote ticket
+-fixed player drops in the wilderness
+-thieving points added to members thieving stall
+-changed thieving shop prices
+-added double xp to members area
+
+
+====June 12th 2016====
+-added vote ticket 4067
+-removed corrupt sorc as slayer monster
+-added jumping rocks at brimhaven dungeon
+-fixed hunter floor
+-added points to smelting
+-fixed essense mining
+
+====June 13th 2016====
+-added general store to skiller area
+-moved slayer master to new area at home
+-members thieving stall now gives +2 thieving points
+-fixed 55x2 for mods
+-added some gear to the vote shop(whip, fury, etc)
+-redid vote prices
+-removed enchanted from the magic shop
+-added barrows repair to home
+-added dragon axe to woodcutting points shop
+-added dragon pickaxe to mining points shop
+-started working on 5+ new hunter skill pets!
+
+====June 14th 2016====
+-fixed cooking on fires
+-added experience to cooking
+
+====June 15th 2016====
+-added entity definitions for 8 new hunter pets
+-added item definitions for new hunter pets
+-added pets to hunter shop
+-removed exp lamps from shops
+-added herb box to herblore points shop
+-fixed up the tutorial
+-added some new server messages
+-fixed donation command
+-boss pets stay in inventory or get sent to your bank on death
+
+====June 16th 2016====
+-New VPS was purchased
+-removed the gambler(for now)
+-fixed rune h4 shields
+-fixed auto clan chat joining
+
+====June 17th 2016====
+-added rune and dragon defender to pvm points shop
+-added fury, dragon defender and zamorakian spear to boss points shop
+-raised the hp and defence of corrupt sorceress
+-fixed dragon chain to the correct equipment slot
+-added dragonstone to skiller shop
+-added bones to the general store
+-added row to the vote shop
+-fixed kq ids
+-fixed barrelchest spawn location
+-fixed corrupt sorc whip drop 
+
+====June 18th 2016====
+-cutting dragonstones is now profitable.
+-removed random teleporting for implings
+-Temporarily removed hunter (TODO) http://prntscr.com/bhz1aa
+
+====June 19th 2016====
+-added Nieves slayer dungeon for free players
+-changed some dialogue in the teleportation interface
+-removed cost messages from teleportation interface(tele right to the players! lol)
+-added teleporting dialogue tips to: Training area, nieves slayer dungeon
+-added free for all portal at home
+-added temporary vote command(Double reward for voting)
+-fixed vote bond name
+-added nieve to the home area
+-fixed neive dialogue
+-now costs 1 credit per boss task!
+-skillcapes are now untradeable
+
+====June 20th 2016====
+-added some Global messages
+-changed welcome message
+-moved big mo at home
+-added fishing achievements(100 caught ,500 caught ,1250 caught)
+-added woodcutting achievements
+-added cooking achievements
+-added firemaking achievements
+-added achievements for herblore
+-renamed the crystal key chest
+-added combat definitions for new boss(skeleton overlord)
+-renamed,changed combat level and made skeleton overlord attackable
+-added pet skeleton overlord
+-resized,renamed and removed combat level of pet
+-added drops to skeleton overlord
+-fixed infernal mage pet name
+-added boss portal to home area
+-added skeleton warlord to boss portal
+-added pvm & boss points to skeleton warlord
+
+====June 21st 2016====
+-busy irl
+
+====June 22nd 2016====
+-Dez's birthday today!
+-new website www.Lunarisle.com
+-changed all instances of "Ethereal PvP" to "Lunar Isle" client sided.
+-changed all instances of "Ethereal PvP" to "Lunar Isle" server sided.
+-skeleton warlord now hits half damage through melee and magic prayers.
+-added some global messages
+-fixed bandos, saradomin and zamorak godsword equip level
+-fixed some dialogue
+-fixed up home tutorial
+-redid starter kits
+-fixed invisible standing items
+-lvl 40 required to equip granite plate/legs
+-added a bunch of new rare items to the crystal chest
+-added mystery box to the vote shop
+
+
+====June 23rd 2016====
+-busy irl
+
+====June 24th 2016====
+-fixed website homepage
+-added automatic voting(runelocus,top100,runelocus)
+-fixed voting command
+-edited the tutorial
+-changed lunar credit img from "E" to "L"
+-created and added a client backround
+-removed objects at new home area
+-changed home teleport
+-changed start location
+-moved home objects to new home area
+-added some npc to new home
+
+====June 25th 2016====
+-added more home npcs
+-clipped some tiles
+-moved some things around the new home area
+-redid tutorial for new home
+-added fire to home
+
+====June 26th 2016====
+-added shop npcs to home area
+
+
+====June 27th 2016====
+-added shop npcs to home area
+busy irl
+
+====June 28th 2016====
+-added boss and pvm points to zulrah
+-fixed some range item prices
+-added a few items to shops
+-added barrows repair to home
+-added agility shops to home
+-fixed lagging out when a player claims votes
+
+====June 29th 2016====
+-added combat definitions for new boss(zezima :o)
+-added pvm(10x) and boss(5x) points
+-changed npc name, combat level
+-made npc non-aggressive
+
+====June 30th 2016====
+-added a lot of boss items to boss point shop(bandos,armadyl etc)
+-added barrows items to crystal chest
+-added drops to new boss(shadow hound pet, whips, 3a weapons, dragon(g), etc)
+-added shadow hound pet
+-added zezima boss to home
+-added multi to home area
+-noted food in shop
+-cut ags price in credits shop
+-added row to credits shop
+
+====July 1st 2016====
+-doubled prayer experience gain
+-clipped some tiles in front of members area bank
+-added lvl 1 fishing spot to fishing area
+-fixed trivia
+
+====July 2nd 2016====
+-added multi to skeleton warlord boss
+-added pipe to red dragons
+-zezima is less afk, hits 1 dmg.
+-added boss and pvm points shops to iron man accounts
+-fixed donator link
+-5 kills to enter a godwars dungeon
+-added ottogodblessed to home area(hasta maker) & moved weird old man
+-added damage from rock cakes(1 dmg per bite)
+-added rock cake to pvm shop for 50 pts
+
+====July 3rd 2016====
+-Bought 116 data
+-working on some bug fixes before releasing
+
+====July 4th 2016====
+-updated to #116 OSRS data!!!
+-added banks back to home area
+-clipped some tiles
+-added max cape
+
+====July 5th 2016====
+-Server offline
+-working on getting it online and other things
+
+====July 6th 2016====
+-Server offline
+-working on getting it online and other things
+
+====July 7th 2016====
+-Server back online!
+-adding abyssal bluggeon, dagger & dragon warhammer to credits shop
+
+====July 8th 2016====
+-Fixed pack items
+-clipped some tiles
+-added soul altar for praying/using bones on
+-renamed to Altar of bones & added Pray at option
+-changed training zone teleport area
+-added ghosts to new training area
+
+====July 9th 2016====
+-added ints for prom boots eternal boots  peg boots
+-added ints for 1 max cape(more to come!)
+-fixed some player accounts
+-added equipment definitions for boots and max cape
+-removed some items from outfit shop
+-added outfit shop to home
+-added title shop to home
+-added herby/farming shop to home
+-added boots to credits shop 1
+
+====July 10th 2016====
+-added npcs to new home area(ZEAH!)
+-added objects to new home area
+-added teleport to new home area
+-removed some objects
+-clipped some tiles
+-added new items to boss points shop
+-added wool to general store
+-added dragon square creation
+-added 2 boss points and 4 pvm points per corp beast kill
+-added enchanted bolt packs(ruby,diamond,dragon)
+-added enchanted bolt pack to pvm shop
+-removed trimmed armors from vote shop
+-changed bolt pack name
+-added some items to vote shop
+
+====July 11th 2016====
+-fixed mining rock object ids at mining area & members area
+
+====July 12th 2016====
+-added cred shop 2 and 3 to ironman accounts
+-fixed tree stump ids
+-fixed most players online
+-fixed kq npc definitions
+-fixed kq teleport
+-added iron and mith to mining area
+-removed dragonstone ring enchanting
+
+====July 13th 2016====
+-added armour trimming for rune (g)
+-added member teleport item
+-buffed elite void
+-spirit shield creating(Andy)
+-Max cape max total (Andy)
+-max cape works as avas accumulator
+-max cape bonuses done.
+-fixed gilded equipment level
+-fixed object manager
+-added veracs & torags to uncommon crystal chest rewards
+
+====July 14th 2016====
+-added armour trimming for addy (g)
+-resized some npcs
+-added boss portal names
+-added max cape emote & gfx
+-added bolt enchanting
+
+====July 15th-17th 2016====
+-Dez: Busy irl
+-Andy added in some updates(www.lunaisle.com/forums/
+
+====July 18th 2016====
+-added skirts to armour trimming (g)
+-added armour trimming for bronze, iron black and mith (g)
+-added gold leaf to PVM & Smithing shops
+-added smithing requirements for armour trimming
+-added rune and pure ess to shops
+-fixed mining
+
+====July 19th 2016====
+-check website for updates
+
+====July 20th 2016====
+-added Trivia Points
+-added a trivia points shop
+-added rune and pure essense o ironman supplies shop
+-added pure ess to runecrafting shop
+-added runecrafting shop to ironman accounts
+-fixed door at slayer tower
+-added 2 new pets to the trivia shop
+-fixed some trivia
+-fixed staff login messages
+
+====July 21st 2016====
+-Kril now hits through prayer for 1/2 damage
+-removed lower tier gloves from pvm shop
+-added Ckeys, super combat potions, dragon bone packs(50) & clue scrolls(easy)
+-edited item definitions for dragon bone pack
+-made barrows box sets
+-added barrows box sets to vote shop
+-removed 3a from zezima & sorc
+-pets are now untradeable
+-added 116 item xmls
+-fixed the title shop
+-added title shop to home area
+
+====July 22nd 2016====
+-fully added max capes
+-added sara,guthix and zammy max capes for skillers
+-added mac dialgue(needs fix)
+-added colored slayer helms to shops
+
+====July 23rd 2016====
+-busy irl
+
+====July 24TH 2016====
+-added combat definitions for the inadequacy(new boss!)
+-added pvm and boss points to the new boss
+-created a custom boss pet for the new boss
+-added a pet Inadequacy
+-new boss hits through prayer
+-added multi to new boss area
+-added boss to new boss area
+-added light ballista fletching
+-fixed blowpipe special attack
+
+====July 25th 2016====
+-busy irl
+
+====July 26th 2016====
+-moved the shops to a new area
+-added a teleport command and object to home
+-added boots
+-fixed max capes
+-fixed new boss pet tile size
+-added ballistas to the credits shops
+-added black santa and inverted santa to vote shop
+-fixed ballistas
+-fixed tutorial
+
+====July 27th 2016====
+-busy irl
+
+====July 28th 2016====
+-added cerberus
+-added range bonus to dragon javelins
+-added cerberus drops
+-added item creating for heavy ballista, prim, peg and eternal boots
+-added pet rock crab
+-added pet red dragon
+-added hellpuppy to cerberus 
+-added infinity and ranger to eternal and peg boot creation
+-lowered prices in the credits shop 2
+
+====July 29th 2016====
+-fixed max capes
+-made ballista parts tradeable
+-made zentye jewelry tradeable
+-added correct equiptment slots for zenyte
+-added item creating for zenyte 
+-zezima has been moved to the members area
+-added uncut onyx to the crafting shop
+-added dragon dart  pack(50)
+-added dragon dart pack to the vote shop & trivia shop & lunar points shop
+-added dragon darts to the crystal chest
+
+====August 2nd 2016====
+-added a max cape rack for max and skiller max capes
+-added in void elite effects
+-fixed crystal hally
+-added range strength bonus to dragon javelins
+
+====August 3rd 2016====
+-Fixed hunter
+-moved zezima back home
+-fixed void
+-made heavy ballista tradeable
+-fixed hally imbued
+
+====August 8th 2016====
+-added deadman armour & Anglers outfit & Farmers outfit
+-added angler outfit and farmer outfit to the skill point shops
+-added bonuses to deadman gear(better than rune, cape = obby cape)
+-added deadman gear to the starter
+-added gravedigger outfit
+-added gravedigger to trivia shop
+-added 118 data
+-added demonic gorillas
+
+====August 10th 2016====
+-added trio bosses to zeah dungeon
+-fixed snow
+
+====August 15th 2016====
+-added quick-spawn commands(::spawn to view)
+-added portal to edgeville
+
+[10/10/16]
+-exploits that allow players to spawn items and cheat ranks has been removed
+-121 data has been added
+-cooking points now save upon logging out
+-added 121 itemdefinitions.xml
+-removed quickspawn
+-owner icon changed

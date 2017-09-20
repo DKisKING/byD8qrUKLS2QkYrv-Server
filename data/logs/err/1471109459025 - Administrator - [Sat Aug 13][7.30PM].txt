@@ -1,0 +1,6 @@
+Logging started at 2016-08-13 19:30:59
+File name: C:\Users\Administrator\Dropbox\lunarisle source\.\data\logs\err\1471109459025 - Administrator - [Sat Aug 13][7.30PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-08-13 20:19:32] Failing to update Sr20 highscores. Database could not connect.
+[2016-08-13 20:19:32] Failing to update Iron Keys highscores. Database could not connect.

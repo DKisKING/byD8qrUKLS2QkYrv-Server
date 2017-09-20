@@ -1,0 +1,13 @@
+Logging started at 2016-12-20 06:09:38
+File name: C:\Users\jerem\Desktop\Project Reality RSPS\Project Reality\.\data\logs\err\1482242978240 - jerem - [Tue Dec 20][6.09AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-12-20 07:32:48] java.lang.NullPointerException
+[2016-12-20 07:32:48] 	at com.vencillio.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2016-12-20 07:32:48] 	at com.vencillio.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2016-12-20 07:32:48] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:97)
+[2016-12-20 07:32:48] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-12-20 07:32:48] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:216)
+[2016-12-20 07:32:48] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-12-20 07:32:48] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-12-20 07:32:48] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

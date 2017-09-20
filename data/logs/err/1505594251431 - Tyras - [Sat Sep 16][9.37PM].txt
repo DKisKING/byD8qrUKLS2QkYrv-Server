@@ -1,0 +1,13 @@
+Logging started at 2017-09-16 21:37:31
+File name: C:\Users\Tyras\Desktop\MAIN SERVER (Vencillio Source)\Tyras Source\.\data\logs\err\1505594251431 - Tyras - [Sat Sep 16][9.37PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-09-16 21:47:41] Failing to update Boop highscores. Database could not connect.
+[2017-09-16 21:54:19] Failing to update Dk Is King highscores. Database could not connect.
+[2017-09-16 22:16:52] Failing to update Boop highscores. Database could not connect.
+[2017-09-16 22:29:17] Failing to update Boop highscores. Database could not connect.
+[2017-09-16 22:56:18] Failing to update slayer highscores. Database could not connect.
+[2017-09-16 22:57:09] Failing to update juan highscores. Database could not connect.
+[2017-09-17 09:17:07] Failing to update Boop highscores. Database could not connect.
+[2017-09-17 10:39:10] Failing to update Perm highscores. Database could not connect.
+[2017-09-17 10:39:11] Failing to update Boop highscores. Database could not connect.

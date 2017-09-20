@@ -1,0 +1,5 @@
+Logging started at 2017-02-04 21:15:30
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1486271729951 - Administrator - [Sat Feb 4][9.15PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-02-04 21:16:26] Failing to update Illumanti highscores. Database could not connect.

@@ -1,0 +1,140 @@
+Logging started at 2017-01-10 12:45:31
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1484081131572 - Administrator - [Tue Jan 10][12.45PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-01-10 13:30:29] java.lang.NumberFormatException: For input string: "9952147000000"
+[2017-01-10 13:30:29] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2017-01-10 13:30:29] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-01-10 13:30:29] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-01-10 13:30:29] 	at com.vencillio.rs2.entity.player.net.in.command.CommandParser.nextInt(CommandParser.java:46)
+[2017-01-10 13:30:29] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:40)
+[2017-01-10 13:30:29] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2017-01-10 13:30:29] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-10 13:30:29] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-10 13:30:29] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-10 13:30:29] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-10 13:30:29] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-10 13:30:33] MAX STACK
+[2017-01-10 13:42:43] java.lang.NullPointerException
+[2017-01-10 13:42:43] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1243)
+[2017-01-10 13:42:43] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2017-01-10 13:42:43] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-01-10 13:42:47] java.lang.NullPointerException
+[2017-01-10 13:42:47] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1243)
+[2017-01-10 13:42:47] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2017-01-10 13:42:47] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-01-10 13:42:57] java.lang.NullPointerException
+[2017-01-10 13:42:57] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1243)
+[2017-01-10 13:42:57] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2017-01-10 13:42:57] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-01-10 13:43:04] java.lang.NullPointerException
+[2017-01-10 13:43:04] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1243)
+[2017-01-10 13:43:04] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2017-01-10 13:43:04] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-01-10 13:43:13] java.lang.NullPointerException
+[2017-01-10 13:43:13] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1243)
+[2017-01-10 13:43:13] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2017-01-10 13:43:13] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-01-10 13:43:26] java.lang.NullPointerException
+[2017-01-10 13:43:26] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1243)
+[2017-01-10 13:43:26] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2017-01-10 13:43:26] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-01-10 13:44:09] java.lang.NullPointerException
+[2017-01-10 13:44:09] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1243)
+[2017-01-10 13:44:09] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2017-01-10 13:44:09] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-01-10 13:44:54] java.lang.NullPointerException
+[2017-01-10 13:44:54] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1243)
+[2017-01-10 13:44:54] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2017-01-10 13:44:54] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-01-10 13:45:18] java.lang.NullPointerException
+[2017-01-10 13:45:18] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1243)
+[2017-01-10 13:45:18] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2017-01-10 13:45:18] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-01-10 13:46:43] java.lang.NullPointerException
+[2017-01-10 13:46:43] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1243)
+[2017-01-10 13:46:43] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2017-01-10 13:46:43] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-01-10 14:44:40] com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Expected name at line 20 column 3
+[2017-01-10 14:44:40] 	at com.google.gson.Gson.fromJson(Gson.java:809)
+[2017-01-10 14:44:40] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-01-10 14:44:40] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:420)
+[2017-01-10 14:44:40] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1103)
+[2017-01-10 14:44:40] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2017-01-10 14:44:40] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-01-10 14:44:40] Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 20 column 3
+[2017-01-10 14:44:40] 	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1310)
+[2017-01-10 14:44:40] 	at com.google.gson.stream.JsonReader.nextInObject(JsonReader.java:739)
+[2017-01-10 14:44:40] 	at com.google.gson.stream.JsonReader.peek(JsonReader.java:382)
+[2017-01-10 14:44:40] 	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:349)
+[2017-01-10 14:44:40] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:166)
+[2017-01-10 14:44:40] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-01-10 14:44:40] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-01-10 14:44:40] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-01-10 14:44:40] 	... 5 more
+[2017-01-10 14:44:43] com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Expected name at line 20 column 3
+[2017-01-10 14:44:43] 	at com.google.gson.Gson.fromJson(Gson.java:809)
+[2017-01-10 14:44:43] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-01-10 14:44:43] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:420)
+[2017-01-10 14:44:43] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1103)
+[2017-01-10 14:44:43] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2017-01-10 14:44:43] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-01-10 14:44:43] Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 20 column 3
+[2017-01-10 14:44:43] 	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1310)
+[2017-01-10 14:44:43] 	at com.google.gson.stream.JsonReader.nextInObject(JsonReader.java:739)
+[2017-01-10 14:44:43] 	at com.google.gson.stream.JsonReader.peek(JsonReader.java:382)
+[2017-01-10 14:44:43] 	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:349)
+[2017-01-10 14:44:43] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:166)
+[2017-01-10 14:44:43] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-01-10 14:44:43] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-01-10 14:44:43] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-01-10 14:44:43] 	... 5 more
+[2017-01-10 14:44:51] com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Expected name at line 20 column 3
+[2017-01-10 14:44:51] 	at com.google.gson.Gson.fromJson(Gson.java:809)
+[2017-01-10 14:44:51] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-01-10 14:44:51] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:420)
+[2017-01-10 14:44:51] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1103)
+[2017-01-10 14:44:51] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2017-01-10 14:44:51] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-01-10 14:44:51] Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 20 column 3
+[2017-01-10 14:44:51] 	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1310)
+[2017-01-10 14:44:51] 	at com.google.gson.stream.JsonReader.nextInObject(JsonReader.java:739)
+[2017-01-10 14:44:51] 	at com.google.gson.stream.JsonReader.peek(JsonReader.java:382)
+[2017-01-10 14:44:51] 	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:349)
+[2017-01-10 14:44:51] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:166)
+[2017-01-10 14:44:51] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-01-10 14:44:51] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-01-10 14:44:51] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-01-10 14:44:51] 	... 5 more
+[2017-01-10 14:47:06] com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Expected name at line 20 column 3
+[2017-01-10 14:47:06] 	at com.google.gson.Gson.fromJson(Gson.java:809)
+[2017-01-10 14:47:06] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-01-10 14:47:06] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:420)
+[2017-01-10 14:47:06] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1103)
+[2017-01-10 14:47:06] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2017-01-10 14:47:06] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-01-10 14:47:06] Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 20 column 3
+[2017-01-10 14:47:06] 	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1310)
+[2017-01-10 14:47:06] 	at com.google.gson.stream.JsonReader.nextInObject(JsonReader.java:739)
+[2017-01-10 14:47:06] 	at com.google.gson.stream.JsonReader.peek(JsonReader.java:382)
+[2017-01-10 14:47:06] 	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:349)
+[2017-01-10 14:47:06] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:166)
+[2017-01-10 14:47:06] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-01-10 14:47:06] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-01-10 14:47:06] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-01-10 14:47:06] 	... 5 more
+[2017-01-10 14:51:02] com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated object at line 205 column 25
+[2017-01-10 14:51:02] 	at com.google.gson.Gson.fromJson(Gson.java:809)
+[2017-01-10 14:51:02] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-01-10 14:51:02] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:420)
+[2017-01-10 14:51:02] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1103)
+[2017-01-10 14:51:02] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2017-01-10 14:51:02] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-01-10 14:51:02] Caused by: com.google.gson.stream.MalformedJsonException: Unterminated object at line 205 column 25
+[2017-01-10 14:51:02] 	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1310)
+[2017-01-10 14:51:02] 	at com.google.gson.stream.JsonReader.nextInObject(JsonReader.java:722)
+[2017-01-10 14:51:02] 	at com.google.gson.stream.JsonReader.peek(JsonReader.java:382)
+[2017-01-10 14:51:02] 	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:349)
+[2017-01-10 14:51:02] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:166)
+[2017-01-10 14:51:02] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-01-10 14:51:02] 	... 5 more

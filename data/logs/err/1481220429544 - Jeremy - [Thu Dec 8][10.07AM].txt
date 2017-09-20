@@ -1,0 +1,4 @@
+Logging started at 2016-12-08 10:07:09
+File name: C:\Users\Jeremy\Desktop\126 package\lunarisle source\.\data\logs\err\1481220429544 - Jeremy - [Thu Dec 8][10.07AM].txt
+System.getProperty("os.name"): "Windows 10"
+

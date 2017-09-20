@@ -1,0 +1,6 @@
+Logging started at 2016-12-22 09:52:34
+File name: C:\Users\jerem\Desktop\Project Reality RSPS\Project Reality\.\data\logs\err\1482429154266 - jerem - [Thu Dec 22][9.52AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-12-22 09:55:20] Failing to update rspspay21 highscores. Database could not connect.
+[2016-12-22 10:08:39] Failing to update MrKymatica2 highscores. Database could not connect.

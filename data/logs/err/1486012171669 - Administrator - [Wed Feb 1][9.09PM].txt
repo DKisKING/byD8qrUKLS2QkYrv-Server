@@ -1,0 +1,22 @@
+Logging started at 2017-02-01 21:09:31
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1486012171669 - Administrator - [Wed Feb 1][9.09PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-02-01 21:17:28] java.lang.IndexOutOfBoundsException: Index: 8, Size: 3
+[2017-02-01 21:17:28] 	at java.util.LinkedList.checkElementIndex(Unknown Source)
+[2017-02-01 21:17:28] 	at java.util.LinkedList.get(Unknown Source)
+[2017-02-01 21:17:28] 	at com.vencillio.rs2.entity.player.net.in.impl.InterfaceAction.handle(InterfaceAction.java:88)
+[2017-02-01 21:17:28] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-02-01 21:17:28] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-02-01 21:17:28] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-02-01 21:17:28] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-02-01 21:17:28] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-02-01 21:17:28] java.lang.IndexOutOfBoundsException: Index: 8, Size: 3
+[2017-02-01 21:17:28] 	at java.util.LinkedList.checkElementIndex(Unknown Source)
+[2017-02-01 21:17:28] 	at java.util.LinkedList.get(Unknown Source)
+[2017-02-01 21:17:28] 	at com.vencillio.rs2.entity.player.net.in.impl.InterfaceAction.handle(InterfaceAction.java:88)
+[2017-02-01 21:17:28] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-02-01 21:17:28] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-02-01 21:17:28] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-02-01 21:17:28] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-02-01 21:17:28] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

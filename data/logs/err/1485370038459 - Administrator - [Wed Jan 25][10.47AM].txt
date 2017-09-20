@@ -1,0 +1,24 @@
+Logging started at 2017-01-25 10:47:18
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1485370038459 - Administrator - [Wed Jan 25][10.47AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-01-25 11:36:14] java.lang.NullPointerException
+[2017-01-25 11:36:14] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:61)
+[2017-01-25 11:36:14] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2017-01-25 11:36:14] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-25 11:36:14] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-25 11:36:14] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-25 11:36:14] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-25 11:36:14] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-25 11:41:21] java.lang.NumberFormatException: For input string: "::ban"
+[2017-01-25 11:41:21] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2017-01-25 11:41:21] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-01-25 11:41:21] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-01-25 11:41:21] 	at com.vencillio.rs2.entity.player.net.in.command.CommandParser.nextInt(CommandParser.java:46)
+[2017-01-25 11:41:21] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:40)
+[2017-01-25 11:41:21] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2017-01-25 11:41:21] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-25 11:41:21] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-25 11:41:21] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-25 11:41:21] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-25 11:41:21] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

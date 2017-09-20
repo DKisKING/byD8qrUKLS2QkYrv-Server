@@ -1,0 +1,20 @@
+Logging started at 2016-08-10 07:46:09
+File name: C:\Users\Administrator\Dropbox\lunarisle source\.\data\logs\err\1470807968813 - Administrator - [Wed Aug 10][7.46AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-08-10 07:54:44] java.lang.ArrayIndexOutOfBoundsException: 9999
+[2016-08-10 07:54:44] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:370)
+[2016-08-10 07:54:44] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-08-10 07:54:44] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-10 07:54:44] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-10 07:54:44] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-10 07:54:44] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-10 07:54:44] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-10 08:40:58] java.lang.ArrayIndexOutOfBoundsException: 9999
+[2016-08-10 08:40:58] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:370)
+[2016-08-10 08:40:58] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-08-10 08:40:58] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-10 08:40:58] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-10 08:40:58] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-10 08:40:58] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-10 08:40:58] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

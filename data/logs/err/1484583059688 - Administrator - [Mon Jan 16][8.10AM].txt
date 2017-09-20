@@ -1,0 +1,57 @@
+Logging started at 2017-01-16 08:10:59
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1484583059688 - Administrator - [Mon Jan 16][8.10AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-01-16 09:02:26] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2017-01-16 09:02:26] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2017-01-16 09:02:26] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2017-01-16 09:02:26] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2017-01-16 09:02:26] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2017-01-16 09:02:26] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2017-01-16 09:02:26] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:768)
+[2017-01-16 09:02:26] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-16 09:02:26] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-16 09:02:26] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-16 09:02:26] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-16 09:02:26] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-16 10:12:31] java.lang.NumberFormatException: For input string: "1m"
+[2017-01-16 10:12:31] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2017-01-16 10:12:31] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-01-16 10:12:31] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-01-16 10:12:31] 	at com.vencillio.rs2.entity.player.net.in.impl.StringInputPacket.handle(StringInputPacket.java:41)
+[2017-01-16 10:12:31] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-16 10:12:31] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-16 10:12:31] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-16 10:12:31] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-16 10:12:31] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-16 10:49:21] java.lang.NumberFormatException: For input string: "1m"
+[2017-01-16 10:49:21] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2017-01-16 10:49:21] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-01-16 10:49:21] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-01-16 10:49:21] 	at com.vencillio.rs2.entity.player.net.in.impl.StringInputPacket.handle(StringInputPacket.java:41)
+[2017-01-16 10:49:21] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-16 10:49:21] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-16 10:49:21] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-16 10:49:21] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-16 10:49:21] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-16 10:51:04] java.lang.NumberFormatException: For input string: "200k"
+[2017-01-16 10:51:04] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2017-01-16 10:51:04] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-01-16 10:51:04] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-01-16 10:51:04] 	at com.vencillio.rs2.entity.player.net.in.impl.StringInputPacket.handle(StringInputPacket.java:41)
+[2017-01-16 10:51:04] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-16 10:51:04] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-16 10:51:04] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-16 10:51:04] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-16 10:51:04] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-16 10:52:40] MAX STACK
+[2017-01-16 10:54:56] java.lang.NumberFormatException: For input string: "1m"
+[2017-01-16 10:54:56] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2017-01-16 10:54:56] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-01-16 10:54:56] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-01-16 10:54:56] 	at com.vencillio.rs2.entity.player.net.in.impl.StringInputPacket.handle(StringInputPacket.java:41)
+[2017-01-16 10:54:56] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-16 10:54:56] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-16 10:54:56] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-16 10:54:56] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-16 10:54:56] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

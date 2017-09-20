@@ -1,0 +1,22 @@
+Logging started at 2017-09-16 21:33:15
+File name: C:\Users\Tyras\Desktop\MAIN SERVER (Vencillio Source)\Tyras Source\.\data\logs\err\1505593994937 - Tyras - [Sat Sep 16][9.33PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-09-16 21:37:12] java.lang.IndexOutOfBoundsException: Index: 7, Size: 1
+[2017-09-16 21:37:12] 	at java.util.LinkedList.checkElementIndex(Unknown Source)
+[2017-09-16 21:37:12] 	at java.util.LinkedList.get(Unknown Source)
+[2017-09-16 21:37:12] 	at com.vencillio.rs2.entity.player.net.in.impl.InterfaceAction.handle(InterfaceAction.java:88)
+[2017-09-16 21:37:12] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-09-16 21:37:12] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-09-16 21:37:12] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-09-16 21:37:12] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-09-16 21:37:12] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-09-16 21:37:12] java.lang.IndexOutOfBoundsException: Index: 7, Size: 1
+[2017-09-16 21:37:12] 	at java.util.LinkedList.checkElementIndex(Unknown Source)
+[2017-09-16 21:37:12] 	at java.util.LinkedList.get(Unknown Source)
+[2017-09-16 21:37:12] 	at com.vencillio.rs2.entity.player.net.in.impl.InterfaceAction.handle(InterfaceAction.java:88)
+[2017-09-16 21:37:12] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-09-16 21:37:12] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-09-16 21:37:12] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-09-16 21:37:12] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-09-16 21:37:12] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

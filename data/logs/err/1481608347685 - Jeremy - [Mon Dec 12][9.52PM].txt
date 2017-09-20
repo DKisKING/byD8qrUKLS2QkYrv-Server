@@ -1,0 +1,51 @@
+Logging started at 2016-12-12 21:52:27
+File name: C:\Users\Jeremy\Desktop\Project Reality\.\data\logs\err\1481608347685 - Jeremy - [Mon Dec 12][9.52PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-12-12 21:52:29] com.thoughtworks.xstream.converters.ConversionException:  : end tag name </starterarmour> must match start tag name <EquipmentDefinition> from line 3 (position: TEXT seen ...<EquipmentDefinition> </starterarmour>... @3:40)  :  : end tag name </starterarmour> must match start tag name <EquipmentDefinition> from line 3 (position: TEXT seen ...<EquipmentDefinition> </starterarmour>... @3:40) 
+---- Debugging information ----
+message             :  : end tag name </starterarmour> must match start tag name <EquipmentDefinition> from line 3 (position: TEXT seen ...<EquipmentDefinition> </starterarmour>... @3:40) 
+cause-exception     : com.thoughtworks.xstream.io.StreamException
+cause-message       :  : end tag name </starterarmour> must match start tag name <EquipmentDefinition> from line 3 (position: TEXT seen ...<EquipmentDefinition> </starterarmour>... @3:40) 
+class               : java.util.ArrayList
+required-type       : com.vencillio.core.definitions.EquipmentDefinition
+path                : /list/EquipmentDefinition
+line number         : 3
+-------------------------------
+[2016-12-12 21:52:29] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:89)
+[2016-12-12 21:52:29] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2016-12-12 21:52:29] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2016-12-12 21:52:29] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2016-12-12 21:52:29] 	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:71)
+[2016-12-12 21:52:29] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(CollectionConverter.java:68)
+[2016-12-12 21:52:29] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.unmarshal(CollectionConverter.java:61)
+[2016-12-12 21:52:29] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2016-12-12 21:52:29] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2016-12-12 21:52:29] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2016-12-12 21:52:29] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2016-12-12 21:52:29] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:137)
+[2016-12-12 21:52:29] 	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:33)
+[2016-12-12 21:52:29] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:923)
+[2016-12-12 21:52:29] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:909)
+[2016-12-12 21:52:29] 	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:861)
+[2016-12-12 21:52:29] 	at com.vencillio.core.util.GameDefinitionLoader.loadEquipmentDefinitions(GameDefinitionLoader.java:310)
+[2016-12-12 21:52:29] 	at com.vencillio.GameDataLoader.load(GameDataLoader.java:118)
+[2016-12-12 21:52:29] 	at com.vencillio.core.GameThread.startup(GameThread.java:69)
+[2016-12-12 21:52:29] 	at com.vencillio.core.GameThread.init(GameThread.java:34)
+[2016-12-12 21:52:29] 	at com.vencillio.Server.main(Server.java:104)
+[2016-12-12 21:52:29] Caused by: com.thoughtworks.xstream.io.StreamException:  : end tag name </starterarmour> must match start tag name <EquipmentDefinition> from line 3 (position: TEXT seen ...<EquipmentDefinition> </starterarmour>... @3:40) 
+[2016-12-12 21:52:29] 	at com.thoughtworks.xstream.io.xml.XppReader.pullNextEvent(XppReader.java:78)
+[2016-12-12 21:52:29] 	at com.thoughtworks.xstream.io.xml.AbstractPullReader.readRealEvent(AbstractPullReader.java:137)
+[2016-12-12 21:52:29] 	at com.thoughtworks.xstream.io.xml.AbstractPullReader.readEvent(AbstractPullReader.java:124)
+[2016-12-12 21:52:29] 	at com.thoughtworks.xstream.io.xml.AbstractPullReader.hasMoreChildren(AbstractPullReader.java:78)
+[2016-12-12 21:52:29] 	at com.thoughtworks.xstream.io.ReaderWrapper.hasMoreChildren(ReaderWrapper.java:32)
+[2016-12-12 21:52:29] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.doUnmarshal(AbstractReflectionConverter.java:198)
+[2016-12-12 21:52:29] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshal(AbstractReflectionConverter.java:162)
+[2016-12-12 21:52:29] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2016-12-12 21:52:29] 	... 20 more
+[2016-12-12 21:52:29] Caused by: org.xmlpull.v1.XmlPullParserException: end tag name </starterarmour> must match start tag name <EquipmentDefinition> from line 3 (position: TEXT seen ...<EquipmentDefinition> </starterarmour>... @3:40) 
+[2016-12-12 21:52:29] 	at org.xmlpull.mxp1.MXParser.parseEndTag(MXParser.java:1689)
+[2016-12-12 21:52:29] 	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1131)
+[2016-12-12 21:52:29] 	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+[2016-12-12 21:52:29] 	at com.thoughtworks.xstream.io.xml.XppReader.pullNextEvent(XppReader.java:63)
+[2016-12-12 21:52:29] 	... 27 more

@@ -1,0 +1,6 @@
+Logging started at 2017-01-28 10:32:38
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1485628358066 - Administrator - [Sat Jan 28][10.32AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-01-28 10:33:43] Failing to update Nak highscores. Database could not connect.
+[2017-01-28 10:38:10] Failing to update Elling highscores. Database could not connect.

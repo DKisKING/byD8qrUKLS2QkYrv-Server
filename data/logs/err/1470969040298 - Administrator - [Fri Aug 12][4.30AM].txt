@@ -1,0 +1,183 @@
+Logging started at 2016-08-12 04:30:40
+File name: C:\Users\Administrator\Dropbox\lunarisle source\.\data\logs\err\1470969040298 - Administrator - [Fri Aug 12][4.30AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-08-12 05:23:44] java.lang.ArrayIndexOutOfBoundsException: 249
+[2016-08-12 05:23:44] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:370)
+[2016-08-12 05:23:44] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-08-12 05:23:44] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-12 05:23:44] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-12 05:23:44] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-12 05:23:44] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-12 05:23:44] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-12 05:27:17] java.lang.ArrayIndexOutOfBoundsException: 449
+[2016-08-12 05:27:17] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:370)
+[2016-08-12 05:27:17] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-08-12 05:27:17] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-12 05:27:17] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-12 05:27:17] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-12 05:27:17] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-12 05:27:17] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-12 05:27:47] java.lang.ArrayIndexOutOfBoundsException: 249
+[2016-08-12 05:27:47] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:370)
+[2016-08-12 05:27:47] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-08-12 05:27:47] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-12 05:27:47] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-12 05:27:47] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-12 05:27:47] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-12 05:27:47] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-12 05:29:16] java.lang.ArrayIndexOutOfBoundsException: 2499
+[2016-08-12 05:29:16] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:370)
+[2016-08-12 05:29:16] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-08-12 05:29:16] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-12 05:29:16] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-12 05:29:16] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-12 05:29:16] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-12 05:29:16] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-12 05:40:05] java.lang.ArrayIndexOutOfBoundsException: 64
+[2016-08-12 05:40:05] 	at com.vencillio.core.util.Utility.textUnpack(Utility.java:715)
+[2016-08-12 05:40:05] 	at com.vencillio.rs2.entity.ReportHandler.addText(ReportHandler.java:28)
+[2016-08-12 05:40:05] 	at com.vencillio.rs2.entity.player.net.in.impl.PublicChatPacket.handle(PublicChatPacket.java:61)
+[2016-08-12 05:40:05] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-12 05:40:05] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-12 05:40:05] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-12 05:40:05] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-12 05:40:05] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-12 06:06:21] java.lang.ArrayIndexOutOfBoundsException: 139
+[2016-08-12 06:06:21] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:370)
+[2016-08-12 06:06:21] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-08-12 06:06:21] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-12 06:06:21] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-12 06:06:21] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-12 06:06:21] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-12 06:06:21] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-12 06:06:25] java.lang.ArrayIndexOutOfBoundsException: 139
+[2016-08-12 06:06:25] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:370)
+[2016-08-12 06:06:25] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-08-12 06:06:25] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-12 06:06:25] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-12 06:06:25] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-12 06:06:25] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-12 06:06:25] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-12 06:07:46] java.lang.ArrayIndexOutOfBoundsException: 179
+[2016-08-12 06:07:46] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:370)
+[2016-08-12 06:07:46] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-08-12 06:07:46] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-12 06:07:46] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-12 06:07:46] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-12 06:07:46] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-12 06:07:46] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-12 08:00:57] java.lang.ArrayIndexOutOfBoundsException: 64
+[2016-08-12 08:00:57] 	at com.vencillio.core.util.Utility.textUnpack(Utility.java:715)
+[2016-08-12 08:00:57] 	at com.vencillio.rs2.entity.ReportHandler.addText(ReportHandler.java:28)
+[2016-08-12 08:00:57] 	at com.vencillio.rs2.entity.player.net.in.impl.PublicChatPacket.handle(PublicChatPacket.java:61)
+[2016-08-12 08:00:57] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-12 08:00:57] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-12 08:00:57] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-12 08:00:57] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-12 08:00:57] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-12 08:16:21] java.lang.NullPointerException
+[2016-08-12 08:16:21] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:174)
+[2016-08-12 08:16:21] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-08-12 08:16:21] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-12 08:16:21] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-12 08:16:21] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-12 08:16:21] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-12 08:16:21] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-12 08:16:33] java.lang.NullPointerException
+[2016-08-12 08:16:33] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:174)
+[2016-08-12 08:16:33] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-08-12 08:16:33] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-12 08:16:33] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-12 08:16:33] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-12 08:16:33] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-12 08:16:33] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-12 08:16:40] java.lang.NumberFormatException: For input string: "elysian"
+[2016-08-12 08:16:40] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2016-08-12 08:16:40] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-08-12 08:16:40] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-08-12 08:16:40] 	at com.vencillio.rs2.entity.player.net.in.command.CommandParser.nextInt(CommandParser.java:46)
+[2016-08-12 08:16:40] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:153)
+[2016-08-12 08:16:40] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-08-12 08:16:40] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-12 08:16:40] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-12 08:16:40] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-12 08:16:40] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-12 08:16:40] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-12 10:52:01] java.lang.NullPointerException
+[2016-08-12 10:52:01] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:174)
+[2016-08-12 10:52:01] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-08-12 10:52:01] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-12 10:52:01] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-12 10:52:01] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-12 10:52:01] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-12 10:52:01] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-12 18:34:32] java.lang.ArrayIndexOutOfBoundsException: 192
+[2016-08-12 18:34:32] 	at com.vencillio.core.util.Utility.textUnpack(Utility.java:715)
+[2016-08-12 18:34:32] 	at com.vencillio.rs2.entity.ReportHandler.addText(ReportHandler.java:28)
+[2016-08-12 18:34:32] 	at com.vencillio.rs2.entity.player.net.in.impl.PublicChatPacket.handle(PublicChatPacket.java:61)
+[2016-08-12 18:34:32] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-12 18:34:32] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-12 18:34:32] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-12 18:34:32] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-12 18:34:32] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-12 18:34:35] java.lang.NegativeArraySizeException
+[2016-08-12 18:34:35] 	at com.vencillio.rs2.entity.player.net.in.impl.MovementPacket.handle(MovementPacket.java:89)
+[2016-08-12 18:34:35] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-12 18:34:35] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-12 18:34:35] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-12 18:34:35] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-12 18:34:35] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-12 18:35:18] java.lang.NullPointerException
+[2016-08-12 18:35:18] 	at com.vencillio.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2016-08-12 18:35:18] 	at com.vencillio.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2016-08-12 18:35:18] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:342)
+[2016-08-12 18:35:18] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-12 18:35:18] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-12 18:35:18] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-12 18:35:18] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-12 18:35:18] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-13 00:16:20] java.lang.ArrayIndexOutOfBoundsException: 64
+[2016-08-13 00:16:20] 	at com.vencillio.core.util.Utility.textUnpack(Utility.java:715)
+[2016-08-13 00:16:20] 	at com.vencillio.rs2.entity.ReportHandler.addText(ReportHandler.java:28)
+[2016-08-13 00:16:20] 	at com.vencillio.rs2.entity.player.net.in.impl.PublicChatPacket.handle(PublicChatPacket.java:61)
+[2016-08-13 00:16:20] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-13 00:16:20] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-13 00:16:20] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-13 00:16:20] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-13 00:16:20] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-13 01:24:30] Failing to update Maxed Iron highscores. Database could not connect.
+[2016-08-13 01:42:52] Failing to update Anthony highscores. Database could not connect.
+[2016-08-13 01:42:52] Failing to update Sosa highscores. Database could not connect.
+[2016-08-13 02:03:42] Failing to update Frenzic2 highscores. Database could not connect.
+[2016-08-13 03:09:27] Failing to update Tom highscores. Database could not connect.
+[2016-08-13 03:12:09] Failing to update Mike highscores. Database could not connect.
+[2016-08-13 03:29:47] Failing to update Sosa highscores. Database could not connect.
+[2016-08-13 03:56:03] Failing to update Condomless highscores. Database could not connect.
+[2016-08-13 04:16:23] Failing to update Plague highscores. Database could not connect.
+[2016-08-13 04:20:35] Failing to update Plague highscores. Database could not connect.
+[2016-08-13 04:26:23] Failing to update Mr Bandos highscores. Database could not connect.
+[2016-08-13 04:59:39] Failing to update Sosa highscores. Database could not connect.
+[2016-08-13 06:21:06] Failing to update Sosa highscores. Database could not connect.
+[2016-08-13 08:27:37] Failing to update Sr20 highscores. Database could not connect.
+[2016-08-13 08:56:11] Failing to update Kenny highscores. Database could not connect.
+[2016-08-13 09:27:34] Failing to update Sr20 highscores. Database could not connect.
+[2016-08-13 14:04:22] Failing to update Pure Mary highscores. Database could not connect.
+[2016-08-13 15:23:41] Failing to update Kenny highscores. Database could not connect.
+[2016-08-13 15:54:55] Failing to update Iron GG highscores. Database could not connect.
+[2016-08-13 18:13:39] Failing to update Plague highscores. Database could not connect.
+[2016-08-13 18:13:43] java.lang.NullPointerException
+[2016-08-13 18:13:43] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-13 18:13:43] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-13 18:13:43] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-13 18:13:43] Failing to update crow highscores. Database could not connect.
+[2016-08-13 18:51:49] Failing to update Plague highscores. Database could not connect.
+[2016-08-13 19:06:49] java.lang.NullPointerException
+[2016-08-13 19:06:49] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:174)
+[2016-08-13 19:06:49] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-08-13 19:06:49] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-13 19:06:49] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-13 19:06:49] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-13 19:06:49] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-13 19:06:50] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-13 19:09:16] Failing to update Plague highscores. Database could not connect.

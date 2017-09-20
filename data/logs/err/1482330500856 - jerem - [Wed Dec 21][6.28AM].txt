@@ -1,0 +1,48 @@
+Logging started at 2016-12-21 06:28:20
+File name: C:\Users\jerem\Desktop\Project Reality RSPS\Project Reality\.\data\logs\err\1482330500856 - jerem - [Wed Dec 21][6.28AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-12-21 06:28:28] com.thoughtworks.xstream.converters.ConversionException:  : entity reference names can not start with character ' ' (position: END_TAG seen ...</id> //Falador Lure & ... @3883:34)  :  : entity reference names can not start with character ' ' (position: END_TAG seen ...</id> //Falador Lure & ... @3883:34) 
+---- Debugging information ----
+message             :  : entity reference names can not start with character ' ' (position: END_TAG seen ...</id> //Falador Lure & ... @3883:34) 
+cause-exception     : com.thoughtworks.xstream.io.StreamException
+cause-message       :  : entity reference names can not start with character ' ' (position: END_TAG seen ...</id> //Falador Lure & ... @3883:34) 
+class               : java.util.ArrayList
+required-type       : com.vencillio.core.definitions.NpcSpawnDefinition
+path                : /list/NpcSpawnDefinition[353]
+line number         : 3883
+-------------------------------
+[2016-12-21 06:28:28] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:89)
+[2016-12-21 06:28:28] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2016-12-21 06:28:28] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2016-12-21 06:28:28] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2016-12-21 06:28:28] 	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:71)
+[2016-12-21 06:28:28] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(CollectionConverter.java:68)
+[2016-12-21 06:28:28] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.unmarshal(CollectionConverter.java:61)
+[2016-12-21 06:28:28] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2016-12-21 06:28:28] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2016-12-21 06:28:28] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2016-12-21 06:28:28] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2016-12-21 06:28:28] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:137)
+[2016-12-21 06:28:28] 	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:33)
+[2016-12-21 06:28:28] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:923)
+[2016-12-21 06:28:28] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:909)
+[2016-12-21 06:28:28] 	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:861)
+[2016-12-21 06:28:28] 	at com.vencillio.core.util.GameDefinitionLoader.loadNpcSpawns(GameDefinitionLoader.java:635)
+[2016-12-21 06:28:28] 	at com.vencillio.GameDataLoader$1.run(GameDataLoader.java:101)
+[2016-12-21 06:28:28] Caused by: com.thoughtworks.xstream.io.StreamException:  : entity reference names can not start with character ' ' (position: END_TAG seen ...</id> //Falador Lure & ... @3883:34) 
+[2016-12-21 06:28:28] 	at com.thoughtworks.xstream.io.xml.XppReader.pullNextEvent(XppReader.java:78)
+[2016-12-21 06:28:28] 	at com.thoughtworks.xstream.io.xml.AbstractPullReader.readRealEvent(AbstractPullReader.java:137)
+[2016-12-21 06:28:28] 	at com.thoughtworks.xstream.io.xml.AbstractPullReader.readEvent(AbstractPullReader.java:124)
+[2016-12-21 06:28:28] 	at com.thoughtworks.xstream.io.xml.AbstractPullReader.hasMoreChildren(AbstractPullReader.java:78)
+[2016-12-21 06:28:28] 	at com.thoughtworks.xstream.io.ReaderWrapper.hasMoreChildren(ReaderWrapper.java:32)
+[2016-12-21 06:28:28] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.doUnmarshal(AbstractReflectionConverter.java:198)
+[2016-12-21 06:28:28] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshal(AbstractReflectionConverter.java:162)
+[2016-12-21 06:28:28] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2016-12-21 06:28:28] 	... 17 more
+[2016-12-21 06:28:28] Caused by: org.xmlpull.v1.XmlPullParserException: entity reference names can not start with character ' ' (position: END_TAG seen ...</id> //Falador Lure & ... @3883:34) 
+[2016-12-21 06:28:28] 	at org.xmlpull.mxp1.MXParser.parseEntityRef(MXParser.java:2212)
+[2016-12-21 06:28:28] 	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1275)
+[2016-12-21 06:28:28] 	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+[2016-12-21 06:28:28] 	at com.thoughtworks.xstream.io.xml.XppReader.pullNextEvent(XppReader.java:63)
+[2016-12-21 06:28:28] 	... 24 more

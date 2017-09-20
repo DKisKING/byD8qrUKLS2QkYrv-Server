@@ -1,0 +1,51 @@
+Logging started at 2016-12-14 22:37:05
+File name: C:\Users\jerem\Desktop\Project Reality RSPS\Project Reality\.\data\logs\err\1481783825418 - jerem - [Wed Dec 14][10.37PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-12-14 22:37:06] com.thoughtworks.xstream.converters.ConversionException: For input string: "2k" : For input string: "2k"
+---- Debugging information ----
+message             : For input string: "2k"
+cause-exception     : java.lang.NumberFormatException
+cause-message       : For input string: "2k"
+class               : java.util.ArrayList
+required-type       : java.lang.Integer
+path                : /list/ItemDefinition[545]/generalPrice
+line number         : 6541
+-------------------------------
+[2016-12-14 22:37:06] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:89)
+[2016-12-14 22:37:06] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2016-12-14 22:37:06] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2016-12-14 22:37:07] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshallField(AbstractReflectionConverter.java:246)
+[2016-12-14 22:37:07] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.doUnmarshal(AbstractReflectionConverter.java:218)
+[2016-12-14 22:37:07] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshal(AbstractReflectionConverter.java:162)
+[2016-12-14 22:37:07] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2016-12-14 22:37:07] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2016-12-14 22:37:07] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2016-12-14 22:37:07] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2016-12-14 22:37:07] 	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:71)
+[2016-12-14 22:37:07] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(CollectionConverter.java:68)
+[2016-12-14 22:37:07] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.unmarshal(CollectionConverter.java:61)
+[2016-12-14 22:37:07] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2016-12-14 22:37:07] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2016-12-14 22:37:07] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2016-12-14 22:37:07] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2016-12-14 22:37:07] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:137)
+[2016-12-14 22:37:07] 	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:33)
+[2016-12-14 22:37:07] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:923)
+[2016-12-14 22:37:07] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:909)
+[2016-12-14 22:37:07] 	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:861)
+[2016-12-14 22:37:07] 	at com.vencillio.core.util.GameDefinitionLoader.loadItemDefinitions(GameDefinitionLoader.java:455)
+[2016-12-14 22:37:07] 	at com.vencillio.GameDataLoader.load(GameDataLoader.java:116)
+[2016-12-14 22:37:07] 	at com.vencillio.core.GameThread.startup(GameThread.java:69)
+[2016-12-14 22:37:07] 	at com.vencillio.core.GameThread.init(GameThread.java:34)
+[2016-12-14 22:37:07] 	at com.vencillio.Server.main(Server.java:104)
+[2016-12-14 22:37:07] Caused by: java.lang.NumberFormatException: For input string: "2k"
+[2016-12-14 22:37:07] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2016-12-14 22:37:07] 	at java.lang.Long.parseLong(Unknown Source)
+[2016-12-14 22:37:07] 	at java.lang.Long.valueOf(Unknown Source)
+[2016-12-14 22:37:07] 	at java.lang.Long.decode(Unknown Source)
+[2016-12-14 22:37:07] 	at com.thoughtworks.xstream.converters.basic.IntConverter.fromString(IntConverter.java:27)
+[2016-12-14 22:37:07] 	at com.thoughtworks.xstream.converters.SingleValueConverterWrapper.fromString(SingleValueConverterWrapper.java:41)
+[2016-12-14 22:37:07] 	at com.thoughtworks.xstream.converters.SingleValueConverterWrapper.unmarshal(SingleValueConverterWrapper.java:49)
+[2016-12-14 22:37:07] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2016-12-14 22:37:07] 	... 26 more

@@ -1,0 +1,5 @@
+Logging started at 2016-10-10 22:31:08
+File name: C:\Users\Travis and Ayla\Desktop\LunarIsle121Package\lunarisle source\.\data\logs\err\1476153068198 - Travis and Ayla - [Mon Oct 10][10.31PM].txt
+System.getProperty("os.name"): "Windows Vista"
+
+[2016-10-10 22:35:49] Failing to update Trebble highscores. Database could not connect.

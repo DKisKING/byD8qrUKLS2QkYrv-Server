@@ -1,0 +1,4 @@
+Logging started at 2016-12-20 06:01:19
+File name: C:\Users\jerem\Desktop\Project Reality RSPS\Project Reality\.\data\logs\err\1482242479685 - jerem - [Tue Dec 20][6.01AM].txt
+System.getProperty("os.name"): "Windows 10"
+

@@ -1,0 +1,174 @@
+Logging started at 2016-07-12 08:14:32
+File name: C:\Users\Administrator\Dropbox\lunarisle source\.\data\logs\err\1468304072278 - Administrator - [Tue Jul 12][8.14AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-07-12 08:14:53] java.lang.NumberFormatException: For input string: ""
+[2016-07-12 08:14:53] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2016-07-12 08:14:53] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-07-12 08:14:53] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-07-12 08:14:53] 	at com.vencillio.core.util.FileHandler.loadMaxPlayers(FileHandler.java:52)
+[2016-07-12 08:14:53] 	at com.vencillio.core.util.FileHandler.load(FileHandler.java:24)
+[2016-07-12 08:14:53] 	at com.vencillio.GameDataLoader.load(GameDataLoader.java:185)
+[2016-07-12 08:14:53] 	at com.vencillio.core.GameThread.startup(GameThread.java:69)
+[2016-07-12 08:14:53] 	at com.vencillio.core.GameThread.init(GameThread.java:34)
+[2016-07-12 08:14:53] 	at com.vencillio.Server.main(Server.java:104)
+[2016-07-12 15:14:48] com.mashape.unirest.http.exceptions.UnirestException: java.lang.RuntimeException: java.lang.RuntimeException: org.json.JSONException: A JSONArray text must start with '[' at 1 [character 2 line 1]
+[2016-07-12 15:14:48] 	at com.mashape.unirest.http.HttpClientHelper.request(HttpClientHelper.java:143)
+[2016-07-12 15:14:48] 	at com.mashape.unirest.request.BaseRequest.asJson(BaseRequest.java:68)
+[2016-07-12 15:14:48] 	at com.motivoters.motivote.MotivoteService.callAPI(MotivoteService.java:37)
+[2016-07-12 15:14:48] 	at com.motivoters.motivote.MotivoteService.redeemVote(MotivoteService.java:96)
+[2016-07-12 15:14:48] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.lambda$0(PlayerCommand.java:64)
+[2016-07-12 15:14:48] 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[2016-07-12 15:14:48] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2016-07-12 15:14:48] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2016-07-12 15:14:48] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2016-07-12 15:14:48] 	at java.lang.Thread.run(Unknown Source)
+[2016-07-12 15:14:48] Caused by: java.lang.RuntimeException: java.lang.RuntimeException: org.json.JSONException: A JSONArray text must start with '[' at 1 [character 2 line 1]
+[2016-07-12 15:14:48] 	at com.mashape.unirest.http.HttpResponse.<init>(HttpResponse.java:106)
+[2016-07-12 15:14:48] 	at com.mashape.unirest.http.HttpClientHelper.request(HttpClientHelper.java:139)
+[2016-07-12 15:14:48] 	... 9 more
+[2016-07-12 15:14:48] Caused by: java.lang.RuntimeException: org.json.JSONException: A JSONArray text must start with '[' at 1 [character 2 line 1]
+[2016-07-12 15:14:48] 	at com.mashape.unirest.http.JsonNode.<init>(JsonNode.java:51)
+[2016-07-12 15:14:48] 	at com.mashape.unirest.http.HttpResponse.<init>(HttpResponse.java:95)
+[2016-07-12 15:14:48] 	... 10 more
+[2016-07-12 15:14:48] Caused by: org.json.JSONException: A JSONArray text must start with '[' at 1 [character 2 line 1]
+[2016-07-12 15:14:48] 	at org.json.JSONTokener.syntaxError(JSONTokener.java:433)
+[2016-07-12 15:14:48] 	at org.json.JSONArray.<init>(JSONArray.java:105)
+[2016-07-12 15:14:48] 	at org.json.JSONArray.<init>(JSONArray.java:144)
+[2016-07-12 15:14:48] 	at com.mashape.unirest.http.JsonNode.<init>(JsonNode.java:48)
+[2016-07-12 15:14:48] 	... 11 more
+[2016-07-12 15:15:27] com.mashape.unirest.http.exceptions.UnirestException: java.lang.RuntimeException: java.lang.RuntimeException: org.json.JSONException: A JSONArray text must start with '[' at 1 [character 2 line 1]
+[2016-07-12 15:15:27] 	at com.mashape.unirest.http.HttpClientHelper.request(HttpClientHelper.java:143)
+[2016-07-12 15:15:27] 	at com.mashape.unirest.request.BaseRequest.asJson(BaseRequest.java:68)
+[2016-07-12 15:15:27] 	at com.motivoters.motivote.MotivoteService.callAPI(MotivoteService.java:37)
+[2016-07-12 15:15:27] 	at com.motivoters.motivote.MotivoteService.redeemVote(MotivoteService.java:96)
+[2016-07-12 15:15:27] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.lambda$0(PlayerCommand.java:64)
+[2016-07-12 15:15:27] 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[2016-07-12 15:15:27] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2016-07-12 15:15:27] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2016-07-12 15:15:27] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2016-07-12 15:15:27] 	at java.lang.Thread.run(Unknown Source)
+[2016-07-12 15:15:27] Caused by: java.lang.RuntimeException: java.lang.RuntimeException: org.json.JSONException: A JSONArray text must start with '[' at 1 [character 2 line 1]
+[2016-07-12 15:15:27] 	at com.mashape.unirest.http.HttpResponse.<init>(HttpResponse.java:106)
+[2016-07-12 15:15:27] 	at com.mashape.unirest.http.HttpClientHelper.request(HttpClientHelper.java:139)
+[2016-07-12 15:15:27] 	... 9 more
+[2016-07-12 15:15:27] Caused by: java.lang.RuntimeException: org.json.JSONException: A JSONArray text must start with '[' at 1 [character 2 line 1]
+[2016-07-12 15:15:27] 	at com.mashape.unirest.http.JsonNode.<init>(JsonNode.java:51)
+[2016-07-12 15:15:27] 	at com.mashape.unirest.http.HttpResponse.<init>(HttpResponse.java:95)
+[2016-07-12 15:15:27] 	... 10 more
+[2016-07-12 15:15:27] Caused by: org.json.JSONException: A JSONArray text must start with '[' at 1 [character 2 line 1]
+[2016-07-12 15:15:27] 	at org.json.JSONTokener.syntaxError(JSONTokener.java:433)
+[2016-07-12 15:15:27] 	at org.json.JSONArray.<init>(JSONArray.java:105)
+[2016-07-12 15:15:27] 	at org.json.JSONArray.<init>(JSONArray.java:144)
+[2016-07-12 15:15:27] 	at com.mashape.unirest.http.JsonNode.<init>(JsonNode.java:48)
+[2016-07-12 15:15:27] 	... 11 more
+[2016-07-12 15:18:26] com.mashape.unirest.http.exceptions.UnirestException: java.lang.RuntimeException: java.lang.RuntimeException: org.json.JSONException: A JSONArray text must start with '[' at 1 [character 2 line 1]
+[2016-07-12 15:18:26] 	at com.mashape.unirest.http.HttpClientHelper.request(HttpClientHelper.java:143)
+[2016-07-12 15:18:26] 	at com.mashape.unirest.request.BaseRequest.asJson(BaseRequest.java:68)
+[2016-07-12 15:18:26] 	at com.motivoters.motivote.MotivoteService.callAPI(MotivoteService.java:37)
+[2016-07-12 15:18:26] 	at com.motivoters.motivote.MotivoteService.redeemVote(MotivoteService.java:96)
+[2016-07-12 15:18:26] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.lambda$0(PlayerCommand.java:64)
+[2016-07-12 15:18:26] 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[2016-07-12 15:18:26] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2016-07-12 15:18:26] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2016-07-12 15:18:26] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2016-07-12 15:18:26] 	at java.lang.Thread.run(Unknown Source)
+[2016-07-12 15:18:26] Caused by: java.lang.RuntimeException: java.lang.RuntimeException: org.json.JSONException: A JSONArray text must start with '[' at 1 [character 2 line 1]
+[2016-07-12 15:18:26] 	at com.mashape.unirest.http.HttpResponse.<init>(HttpResponse.java:106)
+[2016-07-12 15:18:26] 	at com.mashape.unirest.http.HttpClientHelper.request(HttpClientHelper.java:139)
+[2016-07-12 15:18:26] 	... 9 more
+[2016-07-12 15:18:26] Caused by: java.lang.RuntimeException: org.json.JSONException: A JSONArray text must start with '[' at 1 [character 2 line 1]
+[2016-07-12 15:18:26] 	at com.mashape.unirest.http.JsonNode.<init>(JsonNode.java:51)
+[2016-07-12 15:18:26] 	at com.mashape.unirest.http.HttpResponse.<init>(HttpResponse.java:95)
+[2016-07-12 15:18:26] 	... 10 more
+[2016-07-12 15:18:26] Caused by: org.json.JSONException: A JSONArray text must start with '[' at 1 [character 2 line 1]
+[2016-07-12 15:18:26] 	at org.json.JSONTokener.syntaxError(JSONTokener.java:433)
+[2016-07-12 15:18:26] 	at org.json.JSONArray.<init>(JSONArray.java:105)
+[2016-07-12 15:18:26] 	at org.json.JSONArray.<init>(JSONArray.java:144)
+[2016-07-12 15:18:26] 	at com.mashape.unirest.http.JsonNode.<init>(JsonNode.java:48)
+[2016-07-12 15:18:26] 	... 11 more
+[2016-07-12 15:27:09] java.lang.NullPointerException
+[2016-07-12 15:27:09] 	at com.vencillio.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2016-07-12 15:27:09] 	at com.vencillio.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2016-07-12 15:27:09] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:97)
+[2016-07-12 15:27:09] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-12 15:27:09] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-12 15:27:09] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-12 15:27:09] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-12 15:27:09] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-12 17:19:07] java.lang.NullPointerException
+[2016-07-12 17:19:07] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1208)
+[2016-07-12 17:19:07] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-07-12 17:19:07] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-07-12 17:48:34] java.lang.NullPointerException
+[2016-07-12 17:48:34] 	at com.vencillio.rs2.content.combat.formula.RangeFormulas.calculateRangeAttack(RangeFormulas.java:78)
+[2016-07-12 17:48:34] 	at com.vencillio.rs2.content.combat.impl.Ranged.execute(Ranged.java:41)
+[2016-07-12 17:48:34] 	at com.vencillio.rs2.content.combat.Combat.attack(Combat.java:92)
+[2016-07-12 17:48:34] 	at com.vencillio.rs2.content.combat.Combat.process(Combat.java:215)
+[2016-07-12 17:48:34] 	at com.vencillio.rs2.entity.player.Player.process(Player.java:1545)
+[2016-07-12 17:48:34] 	at com.vencillio.rs2.entity.World.process(World.java:322)
+[2016-07-12 17:48:34] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-12 17:48:34] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-12 17:48:34] java.lang.NullPointerException
+[2016-07-12 17:48:34] 	at com.vencillio.rs2.entity.player.net.Client.send(Client.java:329)
+[2016-07-12 17:48:34] 	at com.vencillio.rs2.entity.player.net.out.impl.SendLogout.execute(SendLogout.java:13)
+[2016-07-12 17:48:34] 	at com.vencillio.rs2.entity.player.Player.logout(Player.java:1471)
+[2016-07-12 17:48:34] 	at com.vencillio.rs2.entity.World.process(World.java:335)
+[2016-07-12 17:48:34] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-12 17:48:34] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-12 17:55:38] java.lang.ArrayIndexOutOfBoundsException: 9999
+[2016-07-12 17:55:38] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:335)
+[2016-07-12 17:55:38] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-07-12 17:55:38] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-12 17:55:38] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-12 17:55:38] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-12 17:55:38] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-12 17:55:38] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-12 18:44:55] java.lang.ArrayIndexOutOfBoundsException: 999
+[2016-07-12 18:44:55] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:335)
+[2016-07-12 18:44:55] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-07-12 18:44:55] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-12 18:44:55] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-12 18:44:55] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-12 18:44:55] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-12 18:44:55] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-07-12 18:47:13] java.lang.NullPointerException
+[2016-07-12 18:47:13] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1208)
+[2016-07-12 18:47:13] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-07-12 18:47:13] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-07-12 19:11:45] com.mashape.unirest.http.exceptions.UnirestException: java.net.SocketTimeoutException: Read timed out
+[2016-07-12 19:11:45] 	at com.mashape.unirest.http.HttpClientHelper.request(HttpClientHelper.java:143)
+[2016-07-12 19:11:45] 	at com.mashape.unirest.request.BaseRequest.asJson(BaseRequest.java:68)
+[2016-07-12 19:11:45] 	at com.motivoters.motivote.MotivoteService.callAPI(MotivoteService.java:37)
+[2016-07-12 19:11:45] 	at com.motivoters.motivote.MotivoteService.redeemVote(MotivoteService.java:96)
+[2016-07-12 19:11:45] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.lambda$0(PlayerCommand.java:64)
+[2016-07-12 19:11:45] 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[2016-07-12 19:11:45] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2016-07-12 19:11:45] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2016-07-12 19:11:45] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2016-07-12 19:11:45] 	at java.lang.Thread.run(Unknown Source)
+[2016-07-12 19:11:45] Caused by: java.net.SocketTimeoutException: Read timed out
+[2016-07-12 19:11:45] 	at java.net.SocketInputStream.socketRead0(Native Method)
+[2016-07-12 19:11:45] 	at java.net.SocketInputStream.socketRead(Unknown Source)
+[2016-07-12 19:11:45] 	at java.net.SocketInputStream.read(Unknown Source)
+[2016-07-12 19:11:45] 	at java.net.SocketInputStream.read(Unknown Source)
+[2016-07-12 19:11:45] 	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:136)
+[2016-07-12 19:11:45] 	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:152)
+[2016-07-12 19:11:45] 	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:270)
+[2016-07-12 19:11:45] 	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+[2016-07-12 19:11:45] 	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+[2016-07-12 19:11:45] 	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+[2016-07-12 19:11:45] 	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:161)
+[2016-07-12 19:11:45] 	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:153)
+[2016-07-12 19:11:45] 	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+[2016-07-12 19:11:45] 	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+[2016-07-12 19:11:45] 	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:254)
+[2016-07-12 19:11:45] 	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+[2016-07-12 19:11:45] 	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+[2016-07-12 19:11:45] 	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+[2016-07-12 19:11:45] 	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+[2016-07-12 19:11:45] 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+[2016-07-12 19:11:45] 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+[2016-07-12 19:11:45] 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+[2016-07-12 19:11:45] 	at com.mashape.unirest.http.HttpClientHelper.request(HttpClientHelper.java:138)
+[2016-07-12 19:11:45] 	... 9 more

@@ -1,0 +1,15 @@
+Logging started at 2016-06-12 04:28:14
+File name: C:\Users\Administrator\Dropbox\VA Source\.\data\logs\err\1465730894154 - Administrator - [Sun Jun 12][4.28AM].txt
+System.getProperty("os.name"): "Windows Server 2008 R2"
+
+[2016-06-12 04:28:32] Exception in thread "main" 
+[2016-06-12 04:28:32] java.lang.Error: Unresolved compilation problem: 
+	The import com.motivoters cannot be resolved
+
+[2016-06-12 04:28:32] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.<init>(PlayerCommand.java:5)
+[2016-06-12 04:28:32] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.<clinit>(CommandPacket.java:18)
+[2016-06-12 04:28:32] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.<clinit>(PacketHandler.java:42)
+[2016-06-12 04:28:32] 	at com.vencillio.GameDataLoader.load(GameDataLoader.java:180)
+[2016-06-12 04:28:32] 	at com.vencillio.core.GameThread.startup(GameThread.java:69)
+[2016-06-12 04:28:32] 	at com.vencillio.core.GameThread.init(GameThread.java:34)
+[2016-06-12 04:28:32] 	at com.vencillio.Server.main(Server.java:104)

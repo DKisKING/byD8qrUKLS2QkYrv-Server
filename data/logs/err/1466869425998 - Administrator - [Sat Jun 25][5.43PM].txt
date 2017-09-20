@@ -1,0 +1,4 @@
+Logging started at 2016-06-25 17:43:46
+File name: C:\Users\Administrator\Desktop\Dropbox\VA Source\.\data\logs\err\1466869425998 - Administrator - [Sat Jun 25][5.43PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+

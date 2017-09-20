@@ -1,0 +1,19 @@
+Logging started at 2016-06-27 05:33:12
+File name: C:\Users\ken\Desktop\Package\lunarisle source\.\data\logs\err\1467019992210 - ken - [Mon Jun 27][5.33AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-06-27 05:33:14] Exception in thread "main" 
+[2016-06-27 05:33:14] java.lang.NoClassDefFoundError: com/motivoters/motivote/service/MotivoteRS
+[2016-06-27 05:33:14] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.<init>(PlayerCommand.java:36)
+[2016-06-27 05:33:14] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.<clinit>(CommandPacket.java:18)
+[2016-06-27 05:33:14] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.<clinit>(PacketHandler.java:42)
+[2016-06-27 05:33:14] 	at com.vencillio.GameDataLoader.load(GameDataLoader.java:180)
+[2016-06-27 05:33:14] 	at com.vencillio.core.GameThread.startup(GameThread.java:69)
+[2016-06-27 05:33:14] 	at com.vencillio.core.GameThread.init(GameThread.java:34)
+[2016-06-27 05:33:14] 	at com.vencillio.Server.main(Server.java:104)
+[2016-06-27 05:33:14] Caused by: java.lang.ClassNotFoundException: com.motivoters.motivote.service.MotivoteRS
+[2016-06-27 05:33:14] 	at java.net.URLClassLoader.findClass(Unknown Source)
+[2016-06-27 05:33:14] 	at java.lang.ClassLoader.loadClass(Unknown Source)
+[2016-06-27 05:33:14] 	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+[2016-06-27 05:33:14] 	at java.lang.ClassLoader.loadClass(Unknown Source)
+[2016-06-27 05:33:14] 	... 7 more

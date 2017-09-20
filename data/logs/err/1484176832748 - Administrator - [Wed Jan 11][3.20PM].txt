@@ -1,0 +1,34 @@
+Logging started at 2017-01-11 15:20:32
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1484176832748 - Administrator - [Wed Jan 11][3.20PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-01-11 15:22:13] java.lang.NumberFormatException: For input string: "10m"
+[2017-01-11 15:22:13] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2017-01-11 15:22:13] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-01-11 15:22:13] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-01-11 15:22:13] 	at com.vencillio.rs2.entity.player.net.in.impl.StringInputPacket.handle(StringInputPacket.java:41)
+[2017-01-11 15:22:13] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-11 15:22:13] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-11 15:22:13] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-11 15:22:13] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-11 15:22:13] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-11 15:22:51] java.lang.NumberFormatException: For input string: "100k"
+[2017-01-11 15:22:51] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2017-01-11 15:22:51] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-01-11 15:22:51] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-01-11 15:22:51] 	at com.vencillio.rs2.entity.player.net.in.impl.StringInputPacket.handle(StringInputPacket.java:41)
+[2017-01-11 15:22:51] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-11 15:22:51] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-11 15:22:51] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-11 15:22:51] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-11 15:22:51] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-11 15:24:57] java.lang.NumberFormatException: For input string: "10m"
+[2017-01-11 15:24:57] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2017-01-11 15:24:57] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-01-11 15:24:57] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-01-11 15:24:57] 	at com.vencillio.rs2.entity.player.net.in.impl.StringInputPacket.handle(StringInputPacket.java:41)
+[2017-01-11 15:24:57] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-11 15:24:57] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-11 15:24:57] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-11 15:24:57] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-11 15:24:57] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

@@ -1,0 +1,39 @@
+Logging started at 2016-12-18 00:44:53
+File name: C:\Users\jerem\Desktop\Project Reality RSPS\Project Reality\.\data\logs\err\1482050693494 - jerem - [Sun Dec 18][12.44AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-12-18 00:45:16] java.lang.NullPointerException
+[2016-12-18 00:45:16] 	at com.vencillio.rs2.content.Pickables.pickPlant(Pickables.java:47)
+[2016-12-18 00:45:16] 	at com.vencillio.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:888)
+[2016-12-18 00:45:16] 	at com.vencillio.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:311)
+[2016-12-18 00:45:16] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2016-12-18 00:45:16] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2016-12-18 00:45:16] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2016-12-18 00:45:16] 	at com.vencillio.core.GameThread.cycle(GameThread.java:116)
+[2016-12-18 00:45:16] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-12-18 00:45:18] java.lang.NullPointerException
+[2016-12-18 00:45:18] 	at com.vencillio.rs2.content.Pickables.pickPlant(Pickables.java:47)
+[2016-12-18 00:45:18] 	at com.vencillio.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:888)
+[2016-12-18 00:45:18] 	at com.vencillio.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:311)
+[2016-12-18 00:45:18] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2016-12-18 00:45:18] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2016-12-18 00:45:18] 	at com.vencillio.rs2.entity.WalkToActions.clickObject(WalkToActions.java:306)
+[2016-12-18 00:45:18] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2016-12-18 00:45:19] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-12-18 00:45:19] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:216)
+[2016-12-18 00:45:19] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-12-18 00:45:19] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-12-18 00:45:19] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-12-18 00:45:20] java.lang.NullPointerException
+[2016-12-18 00:45:20] 	at com.vencillio.rs2.content.Pickables.pickPlant(Pickables.java:47)
+[2016-12-18 00:45:20] 	at com.vencillio.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:888)
+[2016-12-18 00:45:20] 	at com.vencillio.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:311)
+[2016-12-18 00:45:20] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2016-12-18 00:45:20] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2016-12-18 00:45:20] 	at com.vencillio.rs2.entity.WalkToActions.clickObject(WalkToActions.java:306)
+[2016-12-18 00:45:20] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2016-12-18 00:45:20] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-12-18 00:45:20] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:216)
+[2016-12-18 00:45:20] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-12-18 00:45:20] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-12-18 00:45:20] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

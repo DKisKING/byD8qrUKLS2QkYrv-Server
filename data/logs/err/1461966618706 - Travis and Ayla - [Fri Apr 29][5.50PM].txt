@@ -1,0 +1,40 @@
+Logging started at 2016-04-29 17:50:18
+File name: C:\Users\Travis and Ayla\Dropbox\VA Source\.\data\logs\err\1461966618706 - Travis and Ayla - [Fri Apr 29][5.50PM].txt
+System.getProperty("os.name"): "Windows Vista"
+
+[2016-04-29 17:53:48] java.lang.NullPointerException
+[2016-04-29 17:53:48] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:174)
+[2016-04-29 17:53:48] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-04-29 17:53:48] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-04-29 17:53:48] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-04-29 17:53:48] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-04-29 17:53:48] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-04-29 17:53:48] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-04-29 17:53:52] java.lang.NullPointerException
+[2016-04-29 17:53:52] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:174)
+[2016-04-29 17:53:52] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-04-29 17:53:52] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-04-29 17:53:52] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-04-29 17:53:52] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-04-29 17:53:52] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-04-29 17:53:52] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-04-29 17:54:47] java.lang.NullPointerException
+[2016-04-29 17:54:47] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:174)
+[2016-04-29 17:54:47] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-04-29 17:54:47] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-04-29 17:54:47] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-04-29 17:54:47] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-04-29 17:54:47] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-04-29 17:54:47] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-04-29 18:15:48] java.lang.NumberFormatException: For input string: "::item"
+[2016-04-29 18:15:48] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2016-04-29 18:15:48] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-04-29 18:15:48] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-04-29 18:15:48] 	at com.vencillio.rs2.entity.player.net.in.command.CommandParser.nextInt(CommandParser.java:46)
+[2016-04-29 18:15:48] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:153)
+[2016-04-29 18:15:48] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-04-29 18:15:48] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-04-29 18:15:48] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-04-29 18:15:48] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-04-29 18:15:48] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-04-29 18:15:48] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

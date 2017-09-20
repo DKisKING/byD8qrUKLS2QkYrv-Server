@@ -1,0 +1,69 @@
+Logging started at 2017-01-20 13:24:28
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1484947468756 - Administrator - [Fri Jan 20][1.24PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-01-20 13:24:36] com.thoughtworks.xstream.converters.ConversionException:  : end tag name </drops> must match start tag name <itemDrop> from line 126773 (position: TEXT seen ...</max>\r\n\t\t\t</drops>... @126777:12)  :  : end tag name </drops> must match start tag name <itemDrop> from line 126773 (position: TEXT seen ...</max>\r\n\t\t\t</drops>... @126777:12) 
+---- Debugging information ----
+message             :  : end tag name </drops> must match start tag name <itemDrop> from line 126773 (position: TEXT seen ...</max>\r\n\t\t\t</drops>... @126777:12) 
+cause-exception     : com.thoughtworks.xstream.io.StreamException
+cause-message       :  : end tag name </drops> must match start tag name <itemDrop> from line 126773 (position: TEXT seen ...</max>\r\n\t\t\t</drops>... @126777:12) 
+class               : java.util.ArrayList
+required-type       : com.vencillio.core.definitions.ItemDropDefinition$ItemDrop
+path                : /list/ItemDropDefinition[522]/uncommon/drops/itemDrop[5]
+line number         : 126777
+-------------------------------
+[2017-01-20 13:24:36] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:89)
+[2017-01-20 13:24:36] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2017-01-20 13:24:36] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2017-01-20 13:24:36] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:71)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.converters.collections.ArrayConverter.unmarshal(ArrayConverter.java:55)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshallField(AbstractReflectionConverter.java:246)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.doUnmarshal(AbstractReflectionConverter.java:218)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshal(AbstractReflectionConverter.java:162)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshallField(AbstractReflectionConverter.java:246)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.doUnmarshal(AbstractReflectionConverter.java:218)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshal(AbstractReflectionConverter.java:162)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:71)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(CollectionConverter.java:68)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.unmarshal(CollectionConverter.java:61)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:137)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:33)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:923)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:909)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:861)
+[2017-01-20 13:24:37] 	at com.vencillio.core.util.GameDefinitionLoader.loadNpcDropDefinitions(GameDefinitionLoader.java:501)
+[2017-01-20 13:24:37] 	at com.vencillio.GameDataLoader.load(GameDataLoader.java:130)
+[2017-01-20 13:24:37] 	at com.vencillio.core.GameThread.startup(GameThread.java:69)
+[2017-01-20 13:24:37] 	at com.vencillio.core.GameThread.init(GameThread.java:34)
+[2017-01-20 13:24:37] 	at com.vencillio.Server.main(Server.java:105)
+[2017-01-20 13:24:37] Caused by: com.thoughtworks.xstream.io.StreamException:  : end tag name </drops> must match start tag name <itemDrop> from line 126773 (position: TEXT seen ...</max>\r\n\t\t\t</drops>... @126777:12) 
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.io.xml.XppReader.pullNextEvent(XppReader.java:78)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.io.xml.AbstractPullReader.readRealEvent(AbstractPullReader.java:137)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.io.xml.AbstractPullReader.readEvent(AbstractPullReader.java:124)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.io.xml.AbstractPullReader.hasMoreChildren(AbstractPullReader.java:78)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.io.ReaderWrapper.hasMoreChildren(ReaderWrapper.java:32)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.doUnmarshal(AbstractReflectionConverter.java:198)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshal(AbstractReflectionConverter.java:162)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2017-01-20 13:24:37] 	... 38 more
+[2017-01-20 13:24:37] Caused by: org.xmlpull.v1.XmlPullParserException: end tag name </drops> must match start tag name <itemDrop> from line 126773 (position: TEXT seen ...</max>\r\n\t\t\t</drops>... @126777:12) 
+[2017-01-20 13:24:37] 	at org.xmlpull.mxp1.MXParser.parseEndTag(MXParser.java:1689)
+[2017-01-20 13:24:37] 	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1131)
+[2017-01-20 13:24:37] 	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+[2017-01-20 13:24:37] 	at com.thoughtworks.xstream.io.xml.XppReader.pullNextEvent(XppReader.java:63)
+[2017-01-20 13:24:37] 	... 45 more

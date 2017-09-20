@@ -1,0 +1,100 @@
+Logging started at 2016-08-07 00:56:32
+File name: C:\Users\Administrator\Dropbox\lunarisle source\.\data\logs\err\1470524191738 - Administrator - [Sun Aug 7][12.56AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-08-07 00:57:34] java.lang.NullPointerException
+[2016-08-07 00:57:34] 	at com.vencillio.rs2.content.PlayerProperties.setDefaults(PlayerProperties.java:78)
+[2016-08-07 00:57:34] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:679)
+[2016-08-07 00:57:34] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1099)
+[2016-08-07 00:57:34] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2016-08-07 00:57:34] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-07 00:57:35] java.lang.NullPointerException
+[2016-08-07 00:57:35] 	at com.vencillio.rs2.content.PlayerProperties.setDefaults(PlayerProperties.java:78)
+[2016-08-07 00:57:35] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:679)
+[2016-08-07 00:57:35] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1099)
+[2016-08-07 00:57:35] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2016-08-07 00:57:35] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-07 00:57:36] java.lang.NullPointerException
+[2016-08-07 00:57:36] 	at com.vencillio.rs2.content.PlayerProperties.setDefaults(PlayerProperties.java:78)
+[2016-08-07 00:57:36] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:679)
+[2016-08-07 00:57:36] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1099)
+[2016-08-07 00:57:36] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2016-08-07 00:57:36] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-07 00:57:38] java.lang.NullPointerException
+[2016-08-07 00:57:38] 	at com.vencillio.rs2.content.PlayerProperties.setDefaults(PlayerProperties.java:78)
+[2016-08-07 00:57:38] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:679)
+[2016-08-07 00:57:38] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1099)
+[2016-08-07 00:57:38] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2016-08-07 00:57:38] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-07 00:57:41] java.lang.NullPointerException
+[2016-08-07 00:57:41] 	at com.vencillio.rs2.content.PlayerProperties.setDefaults(PlayerProperties.java:78)
+[2016-08-07 00:57:41] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:679)
+[2016-08-07 00:57:41] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1099)
+[2016-08-07 00:57:41] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2016-08-07 00:57:41] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-07 00:57:43] java.lang.NullPointerException
+[2016-08-07 00:57:43] 	at com.vencillio.rs2.content.PlayerProperties.setDefaults(PlayerProperties.java:78)
+[2016-08-07 00:57:43] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:679)
+[2016-08-07 00:57:43] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1099)
+[2016-08-07 00:57:43] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2016-08-07 00:57:43] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-07 00:57:46] java.lang.NullPointerException
+[2016-08-07 00:57:46] 	at com.vencillio.rs2.content.PlayerProperties.setDefaults(PlayerProperties.java:78)
+[2016-08-07 00:57:46] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:679)
+[2016-08-07 00:57:46] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1099)
+[2016-08-07 00:57:46] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2016-08-07 00:57:46] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-07 00:57:48] java.lang.NullPointerException
+[2016-08-07 00:57:48] 	at com.vencillio.rs2.content.PlayerProperties.setDefaults(PlayerProperties.java:78)
+[2016-08-07 00:57:48] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:679)
+[2016-08-07 00:57:48] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1099)
+[2016-08-07 00:57:48] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2016-08-07 00:57:48] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-07 00:57:50] java.lang.NullPointerException
+[2016-08-07 00:57:50] 	at com.vencillio.rs2.content.PlayerProperties.setDefaults(PlayerProperties.java:78)
+[2016-08-07 00:57:50] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:679)
+[2016-08-07 00:57:50] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1099)
+[2016-08-07 00:57:50] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2016-08-07 00:57:50] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-07 00:57:50] java.lang.NullPointerException
+[2016-08-07 00:57:50] 	at com.vencillio.rs2.content.PlayerProperties.setDefaults(PlayerProperties.java:78)
+[2016-08-07 00:57:50] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:679)
+[2016-08-07 00:57:50] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1099)
+[2016-08-07 00:57:50] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2016-08-07 00:57:50] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-07 00:57:52] java.lang.NullPointerException
+[2016-08-07 00:57:52] 	at com.vencillio.rs2.content.PlayerProperties.setDefaults(PlayerProperties.java:78)
+[2016-08-07 00:57:52] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:679)
+[2016-08-07 00:57:52] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1099)
+[2016-08-07 00:57:52] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2016-08-07 00:57:52] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-07 00:57:53] java.lang.NullPointerException
+[2016-08-07 00:57:53] 	at com.vencillio.rs2.content.PlayerProperties.setDefaults(PlayerProperties.java:78)
+[2016-08-07 00:57:53] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:679)
+[2016-08-07 00:57:53] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1099)
+[2016-08-07 00:57:53] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2016-08-07 00:57:53] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-07 00:57:54] java.lang.NullPointerException
+[2016-08-07 00:57:54] 	at com.vencillio.rs2.content.PlayerProperties.setDefaults(PlayerProperties.java:78)
+[2016-08-07 00:57:54] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:679)
+[2016-08-07 00:57:54] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1099)
+[2016-08-07 00:57:54] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2016-08-07 00:57:54] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-07 00:57:54] java.lang.NullPointerException
+[2016-08-07 00:57:54] 	at com.vencillio.rs2.content.PlayerProperties.setDefaults(PlayerProperties.java:78)
+[2016-08-07 00:57:54] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:679)
+[2016-08-07 00:57:54] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1099)
+[2016-08-07 00:57:54] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2016-08-07 00:57:54] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-07 00:57:55] java.lang.NullPointerException
+[2016-08-07 00:57:55] 	at com.vencillio.rs2.content.PlayerProperties.setDefaults(PlayerProperties.java:78)
+[2016-08-07 00:57:55] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:679)
+[2016-08-07 00:57:55] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1099)
+[2016-08-07 00:57:55] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2016-08-07 00:57:55] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-07 00:57:56] java.lang.NullPointerException
+[2016-08-07 00:57:56] 	at com.vencillio.rs2.content.PlayerProperties.setDefaults(PlayerProperties.java:78)
+[2016-08-07 00:57:56] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:679)
+[2016-08-07 00:57:56] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1099)
+[2016-08-07 00:57:56] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2016-08-07 00:57:56] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)

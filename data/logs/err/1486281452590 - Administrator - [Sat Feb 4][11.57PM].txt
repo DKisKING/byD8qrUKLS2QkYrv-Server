@@ -1,0 +1,30 @@
+Logging started at 2017-02-04 23:57:32
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1486281452590 - Administrator - [Sat Feb 4][11.57PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-02-05 03:38:41] java.lang.ArrayIndexOutOfBoundsException: 0
+[2017-02-05 03:38:41] 	at com.vencillio.core.util.Utility.randomElement(Utility.java:638)
+[2017-02-05 03:38:41] 	at com.vencillio.rs2.content.CrystalChest.searchChest(CrystalChest.java:97)
+[2017-02-05 03:38:41] 	at com.vencillio.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:1860)
+[2017-02-05 03:38:41] 	at com.vencillio.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:311)
+[2017-02-05 03:38:41] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-02-05 03:38:41] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-02-05 03:38:41] 	at com.vencillio.rs2.entity.WalkToActions.clickObject(WalkToActions.java:306)
+[2017-02-05 03:38:41] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2017-02-05 03:38:41] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-02-05 03:38:41] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-02-05 03:38:41] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-02-05 03:38:41] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-02-05 03:38:41] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-02-05 03:46:31] java.lang.NumberFormatException: For input string: "::item"
+[2017-02-05 03:46:31] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2017-02-05 03:46:31] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-02-05 03:46:31] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-02-05 03:46:31] 	at com.vencillio.rs2.entity.player.net.in.command.CommandParser.nextInt(CommandParser.java:46)
+[2017-02-05 03:46:31] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:40)
+[2017-02-05 03:46:31] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2017-02-05 03:46:31] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-02-05 03:46:31] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-02-05 03:46:31] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-02-05 03:46:31] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-02-05 03:46:31] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

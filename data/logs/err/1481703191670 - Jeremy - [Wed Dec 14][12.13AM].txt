@@ -1,0 +1,24 @@
+Logging started at 2016-12-14 00:13:11
+File name: C:\Users\Jeremy\Desktop\Project Reality\.\data\logs\err\1481703191670 - Jeremy - [Wed Dec 14][12.13AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-12-14 00:14:18] java.lang.RuntimeException: java.net.URISyntaxException: Illegal character in authority at index 7: http://Project Reality.motivoters.com/motivote/v1/vote/85700/redeem?
+[2016-12-14 00:14:18] 	at com.mashape.unirest.http.HttpClientHelper.prepareRequest(HttpClientHelper.java:183)
+[2016-12-14 00:14:18] 	at com.mashape.unirest.http.HttpClientHelper.request(HttpClientHelper.java:131)
+[2016-12-14 00:14:18] 	at com.mashape.unirest.request.BaseRequest.asJson(BaseRequest.java:68)
+[2016-12-14 00:14:18] 	at com.motivoters.motivote.MotivoteService.callAPI(MotivoteService.java:37)
+[2016-12-14 00:14:18] 	at com.motivoters.motivote.MotivoteService.redeemVote(MotivoteService.java:96)
+[2016-12-14 00:14:18] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.lambda$0(PlayerCommand.java:68)
+[2016-12-14 00:14:18] 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[2016-12-14 00:14:18] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2016-12-14 00:14:18] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2016-12-14 00:14:18] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2016-12-14 00:14:18] 	at java.lang.Thread.run(Unknown Source)
+[2016-12-14 00:14:18] Caused by: java.net.URISyntaxException: Illegal character in authority at index 7: http://Project Reality.motivoters.com/motivote/v1/vote/85700/redeem?
+[2016-12-14 00:14:18] 	at java.net.URI$Parser.fail(Unknown Source)
+[2016-12-14 00:14:18] 	at java.net.URI$Parser.parseAuthority(Unknown Source)
+[2016-12-14 00:14:18] 	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+[2016-12-14 00:14:18] 	at java.net.URI$Parser.parse(Unknown Source)
+[2016-12-14 00:14:18] 	at java.net.URI.<init>(Unknown Source)
+[2016-12-14 00:14:18] 	at com.mashape.unirest.http.HttpClientHelper.prepareRequest(HttpClientHelper.java:172)
+[2016-12-14 00:14:18] 	... 10 more

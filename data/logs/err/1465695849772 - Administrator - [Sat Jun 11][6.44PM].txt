@@ -1,0 +1,52 @@
+Logging started at 2016-06-11 18:44:09
+File name: C:\Users\Administrator\Dropbox\VA Source\.\data\logs\err\1465695849772 - Administrator - [Sat Jun 11][6.44PM].txt
+System.getProperty("os.name"): "Windows Server 2008 R2"
+
+[2016-06-11 19:25:39] java.lang.NullPointerException
+[2016-06-11 19:25:39] 	at com.vencillio.rs2.content.LoyaltyShop.handleButtons(LoyaltyShop.java:136)
+[2016-06-11 19:25:39] 	at com.vencillio.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:159)
+[2016-06-11 19:25:39] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-06-11 19:25:39] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-06-11 19:25:39] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-06-11 19:25:39] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-06-11 19:25:39] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-06-11 19:25:59] java.lang.NullPointerException
+[2016-06-11 19:25:59] 	at com.vencillio.rs2.content.LoyaltyShop.handleButtons(LoyaltyShop.java:136)
+[2016-06-11 19:25:59] 	at com.vencillio.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:159)
+[2016-06-11 19:25:59] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-06-11 19:25:59] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-06-11 19:25:59] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-06-11 19:25:59] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-06-11 19:25:59] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-06-11 19:26:01] java.lang.NullPointerException
+[2016-06-11 19:26:01] 	at com.vencillio.rs2.content.LoyaltyShop.handleButtons(LoyaltyShop.java:136)
+[2016-06-11 19:26:01] 	at com.vencillio.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:159)
+[2016-06-11 19:26:01] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-06-11 19:26:01] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-06-11 19:26:01] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-06-11 19:26:01] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-06-11 19:26:01] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-06-11 19:26:02] java.lang.NullPointerException
+[2016-06-11 19:26:02] 	at com.vencillio.rs2.content.LoyaltyShop.handleButtons(LoyaltyShop.java:136)
+[2016-06-11 19:26:02] 	at com.vencillio.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:159)
+[2016-06-11 19:26:02] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-06-11 19:26:02] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-06-11 19:26:02] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-06-11 19:26:02] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-06-11 19:26:02] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-06-11 19:26:04] java.lang.NullPointerException
+[2016-06-11 19:26:04] 	at com.vencillio.rs2.content.LoyaltyShop.handleButtons(LoyaltyShop.java:136)
+[2016-06-11 19:26:04] 	at com.vencillio.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:159)
+[2016-06-11 19:26:04] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-06-11 19:26:04] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-06-11 19:26:04] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-06-11 19:26:04] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-06-11 19:26:04] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-06-11 19:59:09] java.lang.ArrayIndexOutOfBoundsException: 9999
+[2016-06-11 19:59:09] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:304)
+[2016-06-11 19:59:09] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-06-11 19:59:09] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-06-11 19:59:09] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-06-11 19:59:09] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-06-11 19:59:09] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-06-11 19:59:09] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

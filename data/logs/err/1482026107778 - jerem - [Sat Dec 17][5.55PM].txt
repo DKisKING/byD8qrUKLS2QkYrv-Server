@@ -1,0 +1,19 @@
+Logging started at 2016-12-17 17:55:07
+File name: C:\Users\jerem\Desktop\Project Reality RSPS\Project Reality\.\data\logs\err\1482026107778 - jerem - [Sat Dec 17][5.55PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-12-17 17:55:11] Exception in thread "main" 
+[2016-12-17 17:55:11] java.lang.NoClassDefFoundError: com/motiservice/Motivote
+[2016-12-17 17:55:11] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.<clinit>(PlayerCommand.java:49)
+[2016-12-17 17:55:11] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.<clinit>(CommandPacket.java:18)
+[2016-12-17 17:55:11] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.<clinit>(PacketHandler.java:42)
+[2016-12-17 17:55:11] 	at com.vencillio.GameDataLoader.load(GameDataLoader.java:180)
+[2016-12-17 17:55:11] 	at com.vencillio.core.GameThread.startup(GameThread.java:69)
+[2016-12-17 17:55:11] 	at com.vencillio.core.GameThread.init(GameThread.java:34)
+[2016-12-17 17:55:11] 	at com.vencillio.Server.main(Server.java:105)
+[2016-12-17 17:55:11] Caused by: java.lang.ClassNotFoundException: com.motiservice.Motivote
+[2016-12-17 17:55:11] 	at java.net.URLClassLoader.findClass(Unknown Source)
+[2016-12-17 17:55:11] 	at java.lang.ClassLoader.loadClass(Unknown Source)
+[2016-12-17 17:55:11] 	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+[2016-12-17 17:55:11] 	at java.lang.ClassLoader.loadClass(Unknown Source)
+[2016-12-17 17:55:11] 	... 7 more

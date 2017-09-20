@@ -1,0 +1,5 @@
+Logging started at 2016-12-22 10:08:56
+File name: C:\Users\jerem\Desktop\Project Reality RSPS\Project Reality\.\data\logs\err\1482430136696 - jerem - [Thu Dec 22][10.08AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-12-22 10:09:43] Failing to update MrKymatica2 highscores. Database could not connect.

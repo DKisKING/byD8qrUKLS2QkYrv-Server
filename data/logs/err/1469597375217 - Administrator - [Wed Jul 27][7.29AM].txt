@@ -1,0 +1,16 @@
+Logging started at 2016-07-27 07:29:35
+File name: C:\Users\Administrator\Dropbox\lunarisle source\.\data\logs\err\1469597375217 - Administrator - [Wed Jul 27][7.29AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-07-27 07:31:08] Failing to update Xterra highscores. Database could not connect.
+[2016-07-27 07:37:58] Failing to update terra highscores. Database could not connect.
+[2016-07-27 07:45:22] Failing to update Ybbob highscores. Database could not connect.
+[2016-07-27 07:47:00] Failing to update Ybbob highscores. Database could not connect.
+[2016-07-27 07:49:30] java.lang.NullPointerException
+[2016-07-27 07:49:30] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:174)
+[2016-07-27 07:49:30] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-07-27 07:49:30] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-07-27 07:49:30] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-07-27 07:49:30] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-07-27 07:49:30] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-07-27 07:49:30] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

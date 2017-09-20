@@ -1,0 +1,27 @@
+Logging started at 2016-04-28 17:12:16
+File name: C:\Users\Travis and Ayla\Dropbox\VA Source\.\data\logs\err\1461877936400 - Travis and Ayla - [Thu Apr 28][5.12PM].txt
+System.getProperty("os.name"): "Windows Vista"
+
+[2016-04-28 17:40:50] java.lang.NullPointerException
+[2016-04-28 17:40:50] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:174)
+[2016-04-28 17:40:50] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-04-28 17:40:50] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-04-28 17:40:50] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-04-28 17:40:50] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-04-28 17:40:50] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-04-28 17:40:50] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-04-28 17:41:00] java.lang.NullPointerException
+[2016-04-28 17:41:00] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:174)
+[2016-04-28 17:41:00] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-04-28 17:41:00] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-04-28 17:41:00] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-04-28 17:41:00] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-04-28 17:41:00] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-04-28 17:41:00] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-04-28 17:44:59] java.lang.NullPointerException
+[2016-04-28 17:44:59] 	at com.vencillio.core.network.mysql.MembershipRewards.lambda$0(MembershipRewards.java:53)
+[2016-04-28 17:44:59] 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[2016-04-28 17:44:59] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2016-04-28 17:44:59] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2016-04-28 17:44:59] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2016-04-28 17:44:59] 	at java.lang.Thread.run(Unknown Source)

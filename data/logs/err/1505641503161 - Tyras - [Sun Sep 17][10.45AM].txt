@@ -1,0 +1,39 @@
+Logging started at 2017-09-17 10:45:03
+File name: C:\Users\Tyras\Desktop\MAIN SERVER (Vencillio Source)\Tyras Source\.\data\logs\err\1505641503161 - Tyras - [Sun Sep 17][10.45AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-09-17 10:50:47] Failing to update dk is king highscores. Database could not connect.
+[2017-09-17 10:51:18] Failing to update Dk Is King highscores. Database could not connect.
+[2017-09-17 10:53:16] java.lang.IllegalArgumentException
+[2017-09-17 10:53:16] 	at java.lang.reflect.Array.set(Native Method)
+[2017-09-17 10:53:16] 	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:78)
+[2017-09-17 10:53:16] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-09-17 10:53:16] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-09-17 10:53:16] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-09-17 10:53:16] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-09-17 10:53:16] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:420)
+[2017-09-17 10:53:16] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1103)
+[2017-09-17 10:53:16] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2017-09-17 10:53:16] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-09-17 10:53:18] java.lang.IllegalArgumentException
+[2017-09-17 10:53:18] 	at java.lang.reflect.Array.set(Native Method)
+[2017-09-17 10:53:18] 	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:78)
+[2017-09-17 10:53:18] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-09-17 10:53:18] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-09-17 10:53:18] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-09-17 10:53:18] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-09-17 10:53:18] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:420)
+[2017-09-17 10:53:18] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1103)
+[2017-09-17 10:53:18] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2017-09-17 10:53:18] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2017-09-17 10:54:54] java.lang.IllegalArgumentException
+[2017-09-17 10:54:54] 	at java.lang.reflect.Array.set(Native Method)
+[2017-09-17 10:54:54] 	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:78)
+[2017-09-17 10:54:54] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-09-17 10:54:54] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-09-17 10:54:54] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-09-17 10:54:54] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-09-17 10:54:54] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:420)
+[2017-09-17 10:54:54] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1103)
+[2017-09-17 10:54:54] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2017-09-17 10:54:54] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)

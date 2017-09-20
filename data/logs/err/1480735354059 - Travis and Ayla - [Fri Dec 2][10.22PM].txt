@@ -1,0 +1,81 @@
+Logging started at 2016-12-02 22:22:34
+File name: C:\Users\Travis and Ayla\Desktop\126 package\lunarisle source\.\data\logs\err\1480735354059 - Travis and Ayla - [Fri Dec 2][10.22PM].txt
+System.getProperty("os.name"): "Windows Vista"
+
+[2016-12-02 22:26:30] Failing to update Trebble highscores. Database could not connect.
+[2016-12-02 22:29:02] Failing to update Trebble highscores. Database could not connect.
+[2016-12-02 22:36:55] Failing to update Trebble highscores. Database could not connect.
+[2016-12-02 22:38:36] java.lang.ArrayIndexOutOfBoundsException: 9999
+[2016-12-02 22:38:36] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:494)
+[2016-12-02 22:38:36] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-12-02 22:38:36] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-12-02 22:38:36] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-12-02 22:38:36] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-12-02 22:38:36] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-12-02 22:38:36] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-12-02 22:38:58] java.lang.ArrayIndexOutOfBoundsException: 9999
+[2016-12-02 22:38:58] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:494)
+[2016-12-02 22:38:58] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-12-02 22:38:58] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-12-02 22:38:58] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-12-02 22:38:58] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-12-02 22:38:58] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-12-02 22:38:58] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-12-02 22:39:03] java.lang.ArrayIndexOutOfBoundsException: 999
+[2016-12-02 22:39:03] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:494)
+[2016-12-02 22:39:03] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-12-02 22:39:03] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-12-02 22:39:03] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-12-02 22:39:03] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-12-02 22:39:03] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-12-02 22:39:03] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-12-02 22:39:08] java.lang.ArrayIndexOutOfBoundsException: 9999
+[2016-12-02 22:39:08] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:494)
+[2016-12-02 22:39:08] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-12-02 22:39:08] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-12-02 22:39:08] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-12-02 22:39:08] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-12-02 22:39:08] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-12-02 22:39:08] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-12-02 22:39:16] java.lang.ArrayIndexOutOfBoundsException: 124
+[2016-12-02 22:39:16] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:494)
+[2016-12-02 22:39:16] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-12-02 22:39:16] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-12-02 22:39:16] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-12-02 22:39:16] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-12-02 22:39:16] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-12-02 22:39:16] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-12-02 22:39:37] java.lang.ArrayIndexOutOfBoundsException: 9999
+[2016-12-02 22:39:37] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:494)
+[2016-12-02 22:39:37] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-12-02 22:39:37] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-12-02 22:39:37] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-12-02 22:39:37] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-12-02 22:39:37] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-12-02 22:39:37] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-12-02 22:39:48] java.lang.ArrayIndexOutOfBoundsException: 7999
+[2016-12-02 22:39:48] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:494)
+[2016-12-02 22:39:48] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-12-02 22:39:48] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-12-02 22:39:48] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-12-02 22:39:48] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-12-02 22:39:48] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-12-02 22:39:48] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-12-02 22:41:53] java.lang.ArrayIndexOutOfBoundsException: 129
+[2016-12-02 22:41:53] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:494)
+[2016-12-02 22:41:53] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-12-02 22:41:53] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-12-02 22:41:53] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-12-02 22:41:53] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-12-02 22:41:53] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-12-02 22:41:53] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-12-02 22:41:58] java.lang.ArrayIndexOutOfBoundsException: 129
+[2016-12-02 22:41:58] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:494)
+[2016-12-02 22:41:58] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-12-02 22:41:58] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-12-02 22:41:58] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-12-02 22:41:58] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-12-02 22:41:58] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-12-02 22:41:58] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-12-02 22:47:46] Failing to update Trebble highscores. Database could not connect.
+[2016-12-02 22:57:27] Failing to update Trebble highscores. Database could not connect.

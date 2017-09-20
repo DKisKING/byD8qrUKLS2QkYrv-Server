@@ -1,0 +1,926 @@
+Logging started at 2016-08-10 15:18:19
+File name: C:\Users\Administrator\Dropbox\lunarisle source\.\data\logs\err\1470835099289 - Administrator - [Wed Aug 10][3.18PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-08-10 15:48:34] java.lang.NullPointerException
+[2016-08-10 15:48:34] 	at com.vencillio.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2016-08-10 15:48:34] 	at com.vencillio.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2016-08-10 15:48:34] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:97)
+[2016-08-10 15:48:34] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-10 15:48:34] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-10 15:48:34] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-10 15:48:34] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-10 15:48:34] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-10 15:48:44] java.lang.NullPointerException
+[2016-08-10 15:48:44] 	at com.vencillio.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2016-08-10 15:48:44] 	at com.vencillio.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2016-08-10 15:48:44] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:97)
+[2016-08-10 15:48:44] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-10 15:48:44] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-10 15:48:44] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-10 15:48:44] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-10 15:48:44] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-10 15:48:44] java.lang.NullPointerException
+[2016-08-10 15:48:44] 	at com.vencillio.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2016-08-10 15:48:44] 	at com.vencillio.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2016-08-10 15:48:44] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:97)
+[2016-08-10 15:48:44] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-10 15:48:44] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-10 15:48:44] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-10 15:48:44] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-10 15:48:44] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-10 15:48:46] java.lang.NullPointerException
+[2016-08-10 15:48:46] 	at com.vencillio.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2016-08-10 15:48:46] 	at com.vencillio.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2016-08-10 15:48:46] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:97)
+[2016-08-10 15:48:46] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-10 15:48:46] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-10 15:48:46] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-10 15:48:46] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-10 15:48:46] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-10 15:49:42] java.lang.NullPointerException
+[2016-08-10 15:49:42] 	at com.vencillio.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2016-08-10 15:49:42] 	at com.vencillio.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2016-08-10 15:49:42] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:97)
+[2016-08-10 15:49:42] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-10 15:49:42] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-10 15:49:42] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-10 15:49:42] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-10 15:49:42] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-10 15:49:42] java.lang.NullPointerException
+[2016-08-10 15:49:42] 	at com.vencillio.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2016-08-10 15:49:42] 	at com.vencillio.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2016-08-10 15:49:42] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:97)
+[2016-08-10 15:49:42] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-10 15:49:42] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-10 15:49:42] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-10 15:49:42] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-10 15:49:42] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-10 15:49:43] java.lang.NullPointerException
+[2016-08-10 15:49:43] 	at com.vencillio.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2016-08-10 15:49:43] 	at com.vencillio.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2016-08-10 15:49:43] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:97)
+[2016-08-10 15:49:43] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-10 15:49:43] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-10 15:49:43] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-10 15:49:43] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-10 15:49:43] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-10 15:49:44] java.lang.NullPointerException
+[2016-08-10 15:49:44] 	at com.vencillio.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2016-08-10 15:49:44] 	at com.vencillio.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2016-08-10 15:49:44] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:97)
+[2016-08-10 15:49:44] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-10 15:49:44] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-10 15:49:44] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-10 15:49:44] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-10 15:49:44] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-10 15:49:44] java.lang.NullPointerException
+[2016-08-10 15:49:44] 	at com.vencillio.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2016-08-10 15:49:44] 	at com.vencillio.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2016-08-10 15:49:44] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:97)
+[2016-08-10 15:49:44] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-10 15:49:44] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-10 15:49:44] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-10 15:49:44] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-10 15:49:44] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-10 15:49:52] java.lang.NullPointerException
+[2016-08-10 15:49:52] 	at com.vencillio.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2016-08-10 15:49:52] 	at com.vencillio.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2016-08-10 15:49:52] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:97)
+[2016-08-10 15:49:52] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-10 15:49:52] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-10 15:49:52] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-10 15:49:52] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-10 15:49:52] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-10 15:49:55] java.lang.NullPointerException
+[2016-08-10 15:49:55] 	at com.vencillio.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2016-08-10 15:49:55] 	at com.vencillio.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2016-08-10 15:49:55] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:97)
+[2016-08-10 15:49:55] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-10 15:49:55] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-10 15:49:55] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-10 15:49:55] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-10 15:49:55] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-10 15:49:58] java.lang.NullPointerException
+[2016-08-10 15:49:58] 	at com.vencillio.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2016-08-10 15:49:58] 	at com.vencillio.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2016-08-10 15:49:58] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:97)
+[2016-08-10 15:49:58] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-10 15:49:58] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-10 15:49:58] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-10 15:49:58] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-10 15:49:58] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-10 15:53:21] java.lang.NullPointerException
+[2016-08-10 15:53:21] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 15:53:22] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 15:53:22] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 15:53:24] java.lang.NullPointerException
+[2016-08-10 15:53:24] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 15:53:24] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 15:53:24] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 15:57:51] java.lang.NullPointerException
+[2016-08-10 15:57:51] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 15:57:51] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 15:57:51] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 15:59:57] java.lang.NullPointerException
+[2016-08-10 15:59:57] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 15:59:57] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 15:59:57] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 15:59:58] java.lang.NullPointerException
+[2016-08-10 15:59:58] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 15:59:58] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 15:59:58] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 15:59:59] java.lang.NullPointerException
+[2016-08-10 15:59:59] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 15:59:59] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 15:59:59] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:01:19] java.lang.NullPointerException
+[2016-08-10 16:01:19] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:01:19] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:01:19] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:01:31] java.lang.NullPointerException
+[2016-08-10 16:01:31] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:01:31] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:01:31] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:01:32] java.lang.NullPointerException
+[2016-08-10 16:01:32] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:01:32] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:01:32] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:03:15] java.lang.NullPointerException
+[2016-08-10 16:03:15] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:03:15] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:03:15] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:03:16] java.lang.NullPointerException
+[2016-08-10 16:03:16] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:03:16] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:03:16] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:03:47] java.lang.NullPointerException
+[2016-08-10 16:03:47] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:03:47] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:03:47] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:04:04] java.lang.NullPointerException
+[2016-08-10 16:04:04] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:04:04] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:04:04] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:04:05] java.lang.NullPointerException
+[2016-08-10 16:04:05] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:04:05] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:04:05] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:04:06] java.lang.NullPointerException
+[2016-08-10 16:04:06] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:04:06] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:04:06] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:04:06] java.lang.NullPointerException
+[2016-08-10 16:04:06] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:04:06] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:04:06] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:04:43] java.lang.NullPointerException
+[2016-08-10 16:04:43] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:04:43] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:04:43] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:04:44] java.lang.NullPointerException
+[2016-08-10 16:04:44] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:04:44] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:04:44] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:05:45] java.lang.NullPointerException
+[2016-08-10 16:05:45] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:05:45] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:05:45] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:05:46] java.lang.NullPointerException
+[2016-08-10 16:05:46] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:05:46] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:05:46] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:06:56] java.lang.NullPointerException
+[2016-08-10 16:06:56] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:06:56] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:06:56] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:08:14] java.lang.NullPointerException
+[2016-08-10 16:08:14] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:08:14] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:08:14] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:09:36] java.lang.NullPointerException
+[2016-08-10 16:09:36] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:09:36] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:09:36] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:09:37] java.lang.NullPointerException
+[2016-08-10 16:09:37] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:09:37] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:09:37] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:09:39] java.lang.NullPointerException
+[2016-08-10 16:09:39] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:09:39] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:09:39] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:11:32] java.lang.NullPointerException
+[2016-08-10 16:11:32] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:11:32] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:11:32] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:11:35] java.lang.NullPointerException
+[2016-08-10 16:11:35] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:11:35] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:11:35] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:11:36] java.lang.NullPointerException
+[2016-08-10 16:11:36] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:11:36] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:11:36] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:15:20] java.lang.NullPointerException
+[2016-08-10 16:15:20] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:15:20] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:15:20] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:16:26] java.lang.NullPointerException
+[2016-08-10 16:16:26] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:16:26] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:16:26] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:16:28] java.lang.NullPointerException
+[2016-08-10 16:16:28] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:16:28] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:16:28] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:16:28] java.lang.NullPointerException
+[2016-08-10 16:16:28] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:16:28] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:16:28] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:21:08] java.lang.NullPointerException
+[2016-08-10 16:21:08] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:21:08] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:21:08] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:21:09] java.lang.NullPointerException
+[2016-08-10 16:21:09] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:21:09] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:21:09] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:22:49] java.lang.NullPointerException
+[2016-08-10 16:22:49] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:22:49] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:22:49] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:24:56] java.lang.NullPointerException
+[2016-08-10 16:24:56] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:24:56] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:24:56] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:26:08] java.lang.NullPointerException
+[2016-08-10 16:26:08] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:26:08] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:26:08] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:26:09] java.lang.NullPointerException
+[2016-08-10 16:26:09] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:26:09] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:26:09] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:26:10] java.lang.NullPointerException
+[2016-08-10 16:26:10] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:26:10] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:26:10] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:27:27] java.lang.NullPointerException
+[2016-08-10 16:27:27] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:27:27] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:27:27] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:27:28] java.lang.NullPointerException
+[2016-08-10 16:27:28] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:27:28] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:27:28] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:28:08] java.lang.NullPointerException
+[2016-08-10 16:28:08] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:28:08] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:28:08] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:29:19] java.lang.NullPointerException
+[2016-08-10 16:29:19] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:29:19] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:29:19] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:32:21] java.lang.NullPointerException
+[2016-08-10 16:32:21] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:32:21] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:32:21] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:33:57] java.lang.NullPointerException
+[2016-08-10 16:33:57] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:33:57] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:33:57] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:36:46] java.lang.NullPointerException
+[2016-08-10 16:36:46] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:36:46] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:36:46] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:39:27] java.lang.NullPointerException
+[2016-08-10 16:39:27] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:39:27] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:39:27] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:39:27] java.lang.NullPointerException
+[2016-08-10 16:39:27] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:39:27] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:39:27] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:41:38] java.lang.NullPointerException
+[2016-08-10 16:41:38] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:41:38] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:41:38] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:45:25] java.lang.NullPointerException
+[2016-08-10 16:45:25] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:45:25] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:45:25] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:47:48] java.lang.NullPointerException
+[2016-08-10 16:47:48] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:47:48] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:47:48] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:50:01] java.lang.NullPointerException
+[2016-08-10 16:50:01] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:50:01] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:50:01] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:51:04] java.lang.NullPointerException
+[2016-08-10 16:51:04] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:51:04] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:51:04] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:52:46] java.lang.NullPointerException
+[2016-08-10 16:52:46] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:52:46] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:52:46] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:53:34] java.lang.NullPointerException
+[2016-08-10 16:53:34] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:53:34] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:53:34] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:54:38] java.lang.NullPointerException
+[2016-08-10 16:54:38] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:54:38] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:54:38] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:54:38] java.lang.NullPointerException
+[2016-08-10 16:54:38] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:54:38] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:54:38] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:55:13] java.lang.NullPointerException
+[2016-08-10 16:55:13] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:55:13] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:55:13] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:55:46] java.lang.NullPointerException
+[2016-08-10 16:55:46] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:55:46] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:55:46] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:55:47] java.lang.NullPointerException
+[2016-08-10 16:55:47] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:55:47] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:55:47] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:55:47] java.lang.NullPointerException
+[2016-08-10 16:55:47] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:55:47] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:55:47] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 16:58:43] java.lang.NullPointerException
+[2016-08-10 16:58:43] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 16:58:43] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 16:58:43] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 17:12:20] java.lang.NullPointerException
+[2016-08-10 17:12:20] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 17:12:20] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 17:12:20] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 17:14:01] java.lang.NullPointerException
+[2016-08-10 17:14:01] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 17:14:01] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 17:14:01] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 17:17:43] java.lang.NullPointerException
+[2016-08-10 17:17:43] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 17:17:43] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 17:17:43] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 17:19:44] java.lang.NullPointerException
+[2016-08-10 17:19:44] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 17:19:44] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 17:19:44] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 17:20:18] java.lang.NullPointerException
+[2016-08-10 17:20:18] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 17:20:18] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 17:20:18] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 17:25:22] java.lang.NullPointerException
+[2016-08-10 17:25:22] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 17:25:22] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 17:25:22] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 17:25:24] java.lang.NullPointerException
+[2016-08-10 17:25:24] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 17:25:24] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 17:25:24] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 17:27:22] java.lang.NullPointerException
+[2016-08-10 17:27:22] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 17:27:22] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 17:27:22] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 17:27:23] java.lang.NullPointerException
+[2016-08-10 17:27:23] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 17:27:23] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 17:27:23] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 17:27:24] java.lang.NullPointerException
+[2016-08-10 17:27:24] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 17:27:24] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 17:27:24] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 17:30:50] java.lang.NullPointerException
+[2016-08-10 17:30:50] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 17:30:50] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 17:30:50] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 17:30:53] java.lang.NullPointerException
+[2016-08-10 17:30:53] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 17:30:53] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 17:30:53] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 17:30:56] java.lang.NullPointerException
+[2016-08-10 17:30:56] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 17:30:56] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 17:30:56] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 17:33:39] java.lang.NullPointerException
+[2016-08-10 17:33:39] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 17:33:39] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 17:33:39] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 17:33:41] java.lang.NullPointerException
+[2016-08-10 17:33:41] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 17:33:41] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 17:33:41] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:25:00] java.lang.NullPointerException
+[2016-08-10 18:25:00] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:25:00] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:25:00] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:25:00] java.lang.NullPointerException
+[2016-08-10 18:25:00] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:25:00] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:25:00] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:25:31] java.lang.NullPointerException
+[2016-08-10 18:25:31] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:25:31] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:25:31] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:25:33] java.lang.NullPointerException
+[2016-08-10 18:25:33] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:25:33] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:25:33] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:25:34] java.lang.NullPointerException
+[2016-08-10 18:25:34] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:25:34] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:25:34] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:25:36] java.lang.NullPointerException
+[2016-08-10 18:25:36] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:25:36] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:25:36] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:25:38] java.lang.NullPointerException
+[2016-08-10 18:25:38] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:25:38] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:25:38] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:25:43] java.lang.NullPointerException
+[2016-08-10 18:25:43] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:25:43] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:25:43] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:25:59] java.lang.NullPointerException
+[2016-08-10 18:25:59] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:25:59] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:25:59] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:26:00] java.lang.NullPointerException
+[2016-08-10 18:26:00] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:26:00] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:26:00] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:26:42] java.lang.NullPointerException
+[2016-08-10 18:26:42] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:26:42] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:26:42] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:26:43] java.lang.NullPointerException
+[2016-08-10 18:26:43] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:26:43] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:26:43] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:26:44] java.lang.NullPointerException
+[2016-08-10 18:26:44] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:26:44] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:26:44] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:26:45] java.lang.NullPointerException
+[2016-08-10 18:26:45] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:26:45] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:26:45] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:26:45] java.lang.NullPointerException
+[2016-08-10 18:26:45] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:26:45] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:26:45] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:30:09] java.lang.NullPointerException
+[2016-08-10 18:30:09] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:30:09] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:30:09] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:30:10] java.lang.NullPointerException
+[2016-08-10 18:30:10] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:30:10] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:30:10] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:30:11] java.lang.NullPointerException
+[2016-08-10 18:30:11] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:30:11] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:30:11] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:30:12] java.lang.NullPointerException
+[2016-08-10 18:30:12] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:30:12] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:30:12] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:30:13] java.lang.NullPointerException
+[2016-08-10 18:30:13] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:30:13] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:30:13] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:30:20] java.lang.NullPointerException
+[2016-08-10 18:30:20] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:30:20] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:30:20] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:30:21] java.lang.NullPointerException
+[2016-08-10 18:30:21] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:30:21] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:30:21] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:32:19] java.lang.NullPointerException
+[2016-08-10 18:32:19] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:32:19] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:32:19] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:32:20] java.lang.NullPointerException
+[2016-08-10 18:32:20] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:32:20] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:32:20] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:32:21] java.lang.NullPointerException
+[2016-08-10 18:32:21] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:32:21] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:32:21] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:32:22] java.lang.NullPointerException
+[2016-08-10 18:32:22] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:32:22] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:32:22] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:32:23] java.lang.NullPointerException
+[2016-08-10 18:32:23] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:32:23] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:32:23] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:32:24] java.lang.NullPointerException
+[2016-08-10 18:32:24] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:32:24] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:32:24] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:32:25] java.lang.NullPointerException
+[2016-08-10 18:32:25] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:32:25] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:32:25] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:32:40] Failing to update L O L L Y highscores. Database could not connect.
+[2016-08-10 18:32:42] Failing to update L O L L Y highscores. Database could not connect.
+[2016-08-10 18:32:42] Failing to update L O L L Y highscores. Database could not connect.
+[2016-08-10 18:32:58] java.lang.NullPointerException
+[2016-08-10 18:32:58] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:32:58] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:32:58] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:33:00] java.lang.NullPointerException
+[2016-08-10 18:33:00] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:33:00] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:33:00] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:33:00] java.lang.NullPointerException
+[2016-08-10 18:33:00] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:33:00] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:33:00] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:33:45] java.lang.IndexOutOfBoundsException: Index: 6, Size: 2
+[2016-08-10 18:33:45] 	at java.util.LinkedList.checkElementIndex(Unknown Source)
+[2016-08-10 18:33:45] 	at java.util.LinkedList.get(Unknown Source)
+[2016-08-10 18:33:45] 	at com.vencillio.rs2.entity.player.net.in.impl.InterfaceAction.handle(InterfaceAction.java:88)
+[2016-08-10 18:33:45] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-10 18:33:45] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-10 18:33:45] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-10 18:33:45] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-10 18:33:45] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-10 18:33:45] java.lang.IndexOutOfBoundsException: Index: 6, Size: 2
+[2016-08-10 18:33:45] 	at java.util.LinkedList.checkElementIndex(Unknown Source)
+[2016-08-10 18:33:45] 	at java.util.LinkedList.get(Unknown Source)
+[2016-08-10 18:33:45] 	at com.vencillio.rs2.entity.player.net.in.impl.InterfaceAction.handle(InterfaceAction.java:88)
+[2016-08-10 18:33:45] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-10 18:33:45] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-10 18:33:45] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-10 18:33:45] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-10 18:33:45] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-10 18:34:29] java.lang.NullPointerException
+[2016-08-10 18:34:29] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:34:29] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:34:29] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:34:30] java.lang.NullPointerException
+[2016-08-10 18:34:30] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:34:30] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:34:30] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:34:30] java.lang.NullPointerException
+[2016-08-10 18:34:30] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:34:30] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:34:30] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:36:58] java.lang.NullPointerException
+[2016-08-10 18:36:58] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:36:58] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:36:58] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:37:00] java.lang.NullPointerException
+[2016-08-10 18:37:00] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:37:00] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:37:00] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:37:19] Failing to update L O L L Y highscores. Database could not connect.
+[2016-08-10 18:37:21] Failing to update L O L L Y highscores. Database could not connect.
+[2016-08-10 18:39:03] java.lang.NullPointerException
+[2016-08-10 18:39:03] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:39:03] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:39:03] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:39:04] java.lang.NullPointerException
+[2016-08-10 18:39:04] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:39:04] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:39:04] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:42:19] java.lang.NullPointerException
+[2016-08-10 18:42:19] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:42:19] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:42:19] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:44:47] java.lang.NullPointerException
+[2016-08-10 18:44:47] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:44:47] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:44:47] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:44:48] java.lang.NullPointerException
+[2016-08-10 18:44:48] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:44:48] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:44:48] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:46:46] java.lang.NullPointerException
+[2016-08-10 18:46:46] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:46:46] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:46:46] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:50:07] java.lang.NullPointerException
+[2016-08-10 18:50:07] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:50:07] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:50:07] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:50:08] java.lang.NullPointerException
+[2016-08-10 18:50:08] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:50:08] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:50:08] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:50:08] java.lang.NullPointerException
+[2016-08-10 18:50:08] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:50:08] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:50:08] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:54:46] java.lang.NullPointerException
+[2016-08-10 18:54:46] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:54:46] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:54:46] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:56:00] java.lang.NullPointerException
+[2016-08-10 18:56:00] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:56:00] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:56:00] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 18:57:00] java.lang.NullPointerException
+[2016-08-10 18:57:00] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 18:57:00] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 18:57:00] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 19:03:59] java.lang.NullPointerException
+[2016-08-10 19:03:59] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 19:03:59] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 19:03:59] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 19:08:09] java.lang.NullPointerException
+[2016-08-10 19:08:09] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 19:08:09] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 19:08:09] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 19:08:10] java.lang.NullPointerException
+[2016-08-10 19:08:10] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 19:08:10] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 19:08:10] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 19:09:41] java.lang.NullPointerException
+[2016-08-10 19:09:41] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 19:09:41] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 19:09:41] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 19:21:45] java.lang.NullPointerException
+[2016-08-10 19:21:45] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 19:21:45] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 19:21:45] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 19:21:47] java.lang.NullPointerException
+[2016-08-10 19:21:47] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 19:21:47] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 19:21:47] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 19:26:04] java.lang.NullPointerException
+[2016-08-10 19:26:04] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 19:26:04] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 19:26:04] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 19:29:56] java.lang.NullPointerException
+[2016-08-10 19:29:56] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 19:29:56] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 19:29:56] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 19:30:04] java.lang.NullPointerException
+[2016-08-10 19:30:04] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 19:30:04] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 19:30:04] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 19:30:11] java.lang.NullPointerException
+[2016-08-10 19:30:11] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 19:30:11] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 19:30:11] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 20:20:33] java.lang.NullPointerException
+[2016-08-10 20:20:33] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 20:20:33] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 20:20:33] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 21:24:16] java.lang.NullPointerException
+[2016-08-10 21:24:16] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 21:24:16] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 21:24:16] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 21:25:55] java.lang.NullPointerException
+[2016-08-10 21:25:55] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 21:25:55] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 21:25:55] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 21:25:56] java.lang.NullPointerException
+[2016-08-10 21:25:56] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 21:25:56] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 21:25:56] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 21:26:01] java.lang.NullPointerException
+[2016-08-10 21:26:01] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 21:26:01] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 21:26:01] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 21:26:03] java.lang.NullPointerException
+[2016-08-10 21:26:03] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 21:26:03] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 21:26:03] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 21:30:47] java.lang.NullPointerException
+[2016-08-10 21:30:47] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 21:30:47] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 21:30:47] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 21:31:25] java.lang.NullPointerException
+[2016-08-10 21:31:25] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 21:31:25] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 21:31:25] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 21:33:33] java.lang.NullPointerException
+[2016-08-10 21:33:33] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 21:33:33] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 21:33:33] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 21:35:21] java.lang.NullPointerException
+[2016-08-10 21:35:21] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 21:35:21] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 21:35:21] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 21:38:21] java.lang.NullPointerException
+[2016-08-10 21:38:21] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 21:38:21] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 21:38:21] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 21:38:23] java.lang.NullPointerException
+[2016-08-10 21:38:23] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 21:38:23] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 21:38:23] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 21:40:27] java.lang.NullPointerException
+[2016-08-10 21:40:27] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 21:40:27] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 21:40:27] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 21:40:28] java.lang.NullPointerException
+[2016-08-10 21:40:28] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 21:40:28] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 21:40:28] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 21:41:39] java.lang.NullPointerException
+[2016-08-10 21:41:39] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 21:41:39] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 21:41:39] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 21:42:45] java.lang.NullPointerException
+[2016-08-10 21:42:45] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 21:42:45] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 21:42:45] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 21:43:24] java.lang.NullPointerException
+[2016-08-10 21:43:24] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 21:43:24] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 21:43:24] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 21:43:25] java.lang.NullPointerException
+[2016-08-10 21:43:25] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 21:43:25] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 21:43:25] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 21:43:26] java.lang.NullPointerException
+[2016-08-10 21:43:26] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 21:43:26] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 21:43:26] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 21:45:03] java.lang.NullPointerException
+[2016-08-10 21:45:03] 	at com.vencillio.rs2.entity.player.Player.login(Player.java:1210)
+[2016-08-10 21:45:03] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:42)
+[2016-08-10 21:45:03] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-08-10 21:46:01] java.lang.ArrayIndexOutOfBoundsException: 31999
+[2016-08-10 21:46:01] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:370)
+[2016-08-10 21:46:01] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-08-10 21:46:01] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-10 21:46:01] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-10 21:46:01] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-10 21:46:01] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-10 21:46:01] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-10 21:46:56] java.lang.ArrayIndexOutOfBoundsException: 31999
+[2016-08-10 21:46:56] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:370)
+[2016-08-10 21:46:56] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-08-10 21:46:56] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-10 21:46:56] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-10 21:46:56] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-10 21:46:56] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-10 21:46:56] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-10 21:46:59] java.lang.ArrayIndexOutOfBoundsException: 31999
+[2016-08-10 21:46:59] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:370)
+[2016-08-10 21:46:59] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-08-10 21:46:59] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-10 21:46:59] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-10 21:46:59] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-10 21:46:59] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-10 21:46:59] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-11 04:59:45] java.lang.NullPointerException
+[2016-08-11 04:59:45] 	at com.vencillio.rs2.content.combat.formula.RangeFormulas.calculateRangeAttack(RangeFormulas.java:78)
+[2016-08-11 04:59:45] 	at com.vencillio.rs2.content.combat.impl.Ranged.execute(Ranged.java:41)
+[2016-08-11 04:59:45] 	at com.vencillio.rs2.content.combat.Combat.attack(Combat.java:92)
+[2016-08-11 04:59:45] 	at com.vencillio.rs2.content.combat.Combat.process(Combat.java:215)
+[2016-08-11 04:59:45] 	at com.vencillio.rs2.entity.player.Player.process(Player.java:1565)
+[2016-08-11 04:59:45] 	at com.vencillio.rs2.entity.World.process(World.java:322)
+[2016-08-11 04:59:45] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-11 04:59:45] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-11 04:59:45] java.lang.NullPointerException
+[2016-08-11 04:59:45] 	at com.vencillio.rs2.entity.player.net.Client.send(Client.java:329)
+[2016-08-11 04:59:45] 	at com.vencillio.rs2.entity.player.net.out.impl.SendLogout.execute(SendLogout.java:13)
+[2016-08-11 04:59:45] 	at com.vencillio.rs2.entity.player.Player.logout(Player.java:1491)
+[2016-08-11 04:59:45] 	at com.vencillio.rs2.entity.World.process(World.java:335)
+[2016-08-11 04:59:45] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-11 04:59:45] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-11 08:25:50] java.lang.NullPointerException
+[2016-08-11 08:25:50] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:174)
+[2016-08-11 08:25:50] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-08-11 08:25:50] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-11 08:25:50] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-11 08:25:50] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-11 08:25:50] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-11 08:25:50] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-11 08:25:56] java.lang.NullPointerException
+[2016-08-11 08:25:56] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:174)
+[2016-08-11 08:25:56] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-08-11 08:25:56] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-11 08:25:56] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-11 08:25:56] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-11 08:25:56] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-11 08:25:56] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-11 08:27:25] java.lang.NumberFormatException: For input string: "::empty"
+[2016-08-11 08:27:25] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2016-08-11 08:27:25] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-08-11 08:27:25] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-08-11 08:27:25] 	at com.vencillio.rs2.entity.player.net.in.command.CommandParser.nextInt(CommandParser.java:46)
+[2016-08-11 08:27:25] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:153)
+[2016-08-11 08:27:25] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-08-11 08:27:25] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-11 08:27:25] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-11 08:27:25] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-11 08:27:25] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-11 08:27:25] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-11 09:20:05] java.lang.ArrayIndexOutOfBoundsException: 22
+[2016-08-11 09:20:05] 	at com.vencillio.rs2.content.Prestige.getSkillName(Prestige.java:225)
+[2016-08-11 09:20:05] 	at com.vencillio.rs2.content.Prestige.prestigeSkill(Prestige.java:188)
+[2016-08-11 09:20:05] 	at com.vencillio.rs2.content.Prestige.handleActionButtons(Prestige.java:128)
+[2016-08-11 09:20:05] 	at com.vencillio.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:183)
+[2016-08-11 09:20:05] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-11 09:20:05] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-11 09:20:05] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-11 09:20:05] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-11 09:20:05] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-11 09:20:20] java.lang.ArrayIndexOutOfBoundsException: 22
+[2016-08-11 09:20:20] 	at com.vencillio.rs2.content.Prestige.getSkillName(Prestige.java:225)
+[2016-08-11 09:20:20] 	at com.vencillio.rs2.content.Prestige.prestigeSkill(Prestige.java:188)
+[2016-08-11 09:20:20] 	at com.vencillio.rs2.content.Prestige.handleActionButtons(Prestige.java:128)
+[2016-08-11 09:20:20] 	at com.vencillio.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:183)
+[2016-08-11 09:20:20] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-11 09:20:20] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-11 09:20:20] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-11 09:20:20] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-11 09:20:20] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-11 09:20:23] java.lang.ArrayIndexOutOfBoundsException: 22
+[2016-08-11 09:20:23] 	at com.vencillio.rs2.content.Prestige.getSkillName(Prestige.java:225)
+[2016-08-11 09:20:23] 	at com.vencillio.rs2.content.Prestige.canPrestige(Prestige.java:144)
+[2016-08-11 09:20:23] 	at com.vencillio.rs2.content.Prestige.prestigeSkill(Prestige.java:169)
+[2016-08-11 09:20:23] 	at com.vencillio.rs2.content.Prestige.handleActionButtons(Prestige.java:128)
+[2016-08-11 09:20:23] 	at com.vencillio.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:183)
+[2016-08-11 09:20:23] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-11 09:20:23] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-11 09:20:23] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-11 09:20:23] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-11 09:20:23] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-11 09:20:33] java.lang.ArrayIndexOutOfBoundsException: 22
+[2016-08-11 09:20:33] 	at com.vencillio.rs2.content.Prestige.getSkillName(Prestige.java:225)
+[2016-08-11 09:20:33] 	at com.vencillio.rs2.content.Prestige.prestigeSkill(Prestige.java:188)
+[2016-08-11 09:20:33] 	at com.vencillio.rs2.content.Prestige.handleActionButtons(Prestige.java:128)
+[2016-08-11 09:20:33] 	at com.vencillio.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:183)
+[2016-08-11 09:20:33] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-11 09:20:33] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-11 09:20:33] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-11 09:20:33] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-11 09:20:33] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-11 09:20:37] java.lang.ArrayIndexOutOfBoundsException: 22
+[2016-08-11 09:20:37] 	at com.vencillio.rs2.content.Prestige.getSkillName(Prestige.java:225)
+[2016-08-11 09:20:37] 	at com.vencillio.rs2.content.Prestige.canPrestige(Prestige.java:144)
+[2016-08-11 09:20:37] 	at com.vencillio.rs2.content.Prestige.prestigeSkill(Prestige.java:169)
+[2016-08-11 09:20:37] 	at com.vencillio.rs2.content.Prestige.handleActionButtons(Prestige.java:128)
+[2016-08-11 09:20:37] 	at com.vencillio.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:183)
+[2016-08-11 09:20:37] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-11 09:20:37] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-11 09:20:37] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-11 09:20:37] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-11 09:20:37] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-11 09:20:50] java.lang.ArrayIndexOutOfBoundsException: 22
+[2016-08-11 09:20:50] 	at com.vencillio.rs2.content.Prestige.getSkillName(Prestige.java:225)
+[2016-08-11 09:20:50] 	at com.vencillio.rs2.content.Prestige.prestigeSkill(Prestige.java:188)
+[2016-08-11 09:20:50] 	at com.vencillio.rs2.content.Prestige.handleActionButtons(Prestige.java:128)
+[2016-08-11 09:20:50] 	at com.vencillio.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:183)
+[2016-08-11 09:20:50] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-11 09:20:50] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-11 09:20:50] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-11 09:20:50] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-11 09:20:50] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-11 09:20:57] java.lang.ArrayIndexOutOfBoundsException: 22
+[2016-08-11 09:20:57] 	at com.vencillio.rs2.content.Prestige.getSkillName(Prestige.java:225)
+[2016-08-11 09:20:57] 	at com.vencillio.rs2.content.Prestige.canPrestige(Prestige.java:144)
+[2016-08-11 09:20:57] 	at com.vencillio.rs2.content.Prestige.prestigeSkill(Prestige.java:169)
+[2016-08-11 09:20:57] 	at com.vencillio.rs2.content.Prestige.handleActionButtons(Prestige.java:128)
+[2016-08-11 09:20:57] 	at com.vencillio.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:183)
+[2016-08-11 09:20:57] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-11 09:20:57] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-11 09:20:57] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-11 09:20:57] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-11 09:20:57] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-11 09:21:10] java.lang.ArrayIndexOutOfBoundsException: 22
+[2016-08-11 09:21:10] 	at com.vencillio.rs2.content.Prestige.getSkillName(Prestige.java:225)
+[2016-08-11 09:21:10] 	at com.vencillio.rs2.content.Prestige.prestigeSkill(Prestige.java:188)
+[2016-08-11 09:21:10] 	at com.vencillio.rs2.content.Prestige.handleActionButtons(Prestige.java:128)
+[2016-08-11 09:21:10] 	at com.vencillio.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:183)
+[2016-08-11 09:21:10] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-11 09:21:10] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-11 09:21:10] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-11 09:21:10] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-11 09:21:10] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-11 09:35:36] java.lang.NullPointerException
+[2016-08-11 09:35:36] 	at com.vencillio.rs2.content.DropTable.searchItem(DropTable.java:118)
+[2016-08-11 09:35:36] 	at com.vencillio.rs2.entity.player.net.in.impl.InputFieldPacket.handle(InputFieldPacket.java:35)
+[2016-08-11 09:35:36] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-11 09:35:36] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-11 09:35:36] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-11 09:35:36] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-11 09:35:36] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-08-11 13:31:14] java.lang.NullPointerException
+[2016-08-11 13:31:14] 	at com.vencillio.rs2.content.DropTable.searchItem(DropTable.java:118)
+[2016-08-11 13:31:14] 	at com.vencillio.rs2.entity.player.net.in.impl.InputFieldPacket.handle(InputFieldPacket.java:35)
+[2016-08-11 13:31:14] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-08-11 13:31:14] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-08-11 13:31:14] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-08-11 13:31:14] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-08-11 13:31:14] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

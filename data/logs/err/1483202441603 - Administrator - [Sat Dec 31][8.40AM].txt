@@ -1,0 +1,24 @@
+Logging started at 2016-12-31 08:40:41
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1483202441603 - Administrator - [Sat Dec 31][8.40AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-12-31 09:44:19] java.lang.ArrayIndexOutOfBoundsException: -1
+[2016-12-31 09:44:19] 	at com.vencillio.rs2.content.bank.Bank.swap(Bank.java:294)
+[2016-12-31 09:44:19] 	at com.vencillio.rs2.content.bank.Bank.depositFromNoting(Bank.java:222)
+[2016-12-31 09:44:19] 	at com.vencillio.rs2.content.bank.Bank.clickButton(Bank.java:99)
+[2016-12-31 09:44:19] 	at com.vencillio.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:950)
+[2016-12-31 09:44:19] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-12-31 09:44:19] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2016-12-31 09:44:19] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-12-31 09:44:19] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-12-31 09:44:19] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2016-12-31 09:44:21] java.lang.ArrayIndexOutOfBoundsException: -1
+[2016-12-31 09:44:21] 	at com.vencillio.rs2.content.bank.Bank.swap(Bank.java:294)
+[2016-12-31 09:44:21] 	at com.vencillio.rs2.content.bank.Bank.depositFromNoting(Bank.java:222)
+[2016-12-31 09:44:21] 	at com.vencillio.rs2.content.bank.Bank.clickButton(Bank.java:99)
+[2016-12-31 09:44:21] 	at com.vencillio.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:950)
+[2016-12-31 09:44:21] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-12-31 09:44:21] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2016-12-31 09:44:21] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2016-12-31 09:44:21] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2016-12-31 09:44:21] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

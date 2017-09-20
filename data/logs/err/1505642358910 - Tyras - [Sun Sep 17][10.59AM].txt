@@ -1,0 +1,47 @@
+Logging started at 2017-09-17 10:59:19
+File name: C:\Users\Tyras\Desktop\MAIN SERVER (Vencillio Source)\Tyras Source\.\data\logs\err\1505642358910 - Tyras - [Sun Sep 17][10.59AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-09-17 11:02:14] Failing to update Dk Is King highscores. Database could not connect.
+[2017-09-17 11:31:33] Failing to update slayer highscores. Database could not connect.
+[2017-09-17 11:44:07] Failing to update Perm highscores. Database could not connect.
+[2017-09-17 14:52:39] Failing to update Oe highscores. Database could not connect.
+[2017-09-17 16:02:51] Failing to update Oe highscores. Database could not connect.
+[2017-09-17 16:13:37] Failing to update Oe highscores. Database could not connect.
+[2017-09-17 16:22:02] Failing to update Boop highscores. Database could not connect.
+[2017-09-17 16:22:48] Failing to update Boop highscores. Database could not connect.
+[2017-09-17 16:26:18] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2017-09-17 16:26:18] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2017-09-17 16:26:18] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2017-09-17 16:26:18] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2017-09-17 16:26:18] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2017-09-17 16:26:18] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2017-09-17 16:26:18] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:768)
+[2017-09-17 16:26:18] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-09-17 16:26:18] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-09-17 16:26:18] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-09-17 16:26:18] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-09-17 16:26:18] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-09-17 16:33:36] Failing to update Robinhood highscores. Database could not connect.
+[2017-09-17 16:36:26] Failing to update Oe highscores. Database could not connect.
+[2017-09-17 16:41:24] Failing to update Boop highscores. Database could not connect.
+[2017-09-17 16:41:58] Failing to update Boop highscores. Database could not connect.
+[2017-09-17 16:42:51] Failing to update robinhood highscores. Database could not connect.
+[2017-09-17 16:44:47] Failing to update robinhood highscores. Database could not connect.
+[2017-09-17 16:45:05] Failing to update Boop highscores. Database could not connect.
+[2017-09-17 16:58:22] Failing to update Boop highscores. Database could not connect.
+[2017-09-17 17:03:34] Failing to update Onbekende highscores. Database could not connect.
+[2017-09-17 17:11:06] Failing to update Slur highscores. Database could not connect.
+[2017-09-17 17:13:06] Failing to update Test highscores. Database could not connect.
+[2017-09-17 17:15:56] Failing to update Boop highscores. Database could not connect.
+[2017-09-17 17:17:49] Failing to update Robinhood highscores. Database could not connect.
+[2017-09-17 17:21:45] Failing to update Boop highscores. Database could not connect.
+[2017-09-17 17:27:35] Failing to update Boop highscores. Database could not connect.
+[2017-09-17 18:14:31] Failing to update robinhood highscores. Database could not connect.
+[2017-09-17 18:14:39] Failing to update Boop highscores. Database could not connect.
+[2017-09-17 18:18:02] Failing to update Boop highscores. Database could not connect.
+[2017-09-17 18:18:03] Failing to update robinhood highscores. Database could not connect.
+[2017-09-17 19:08:09] Failing to update perm highscores. Database could not connect.
+[2017-09-17 19:08:49] Failing to update Perm Fe highscores. Database could not connect.
+[2017-09-17 19:11:35] Failing to update Boop highscores. Database could not connect.
+[2017-09-17 19:11:35] Failing to update Perm highscores. Database could not connect.

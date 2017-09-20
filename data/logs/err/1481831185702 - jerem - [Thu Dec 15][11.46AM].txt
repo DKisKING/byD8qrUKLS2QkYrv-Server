@@ -1,0 +1,48 @@
+Logging started at 2016-12-15 11:46:25
+File name: C:\Users\jerem\Desktop\Project Reality RSPS\Project Reality\.\data\logs\err\1481831185702 - jerem - [Thu Dec 15][11.46AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-12-15 11:46:26] com.thoughtworks.xstream.converters.ConversionException: Zero length string : Zero length string
+---- Debugging information ----
+message             : Zero length string
+cause-exception     : java.lang.NumberFormatException
+cause-message       : Zero length string
+class               : java.util.ArrayList
+required-type       : java.lang.Integer
+path                : /list/ItemDefinition[9145]/generalPrice
+line number         : 109741
+-------------------------------
+[2016-12-15 11:46:26] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:89)
+[2016-12-15 11:46:26] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2016-12-15 11:46:26] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2016-12-15 11:46:26] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshallField(AbstractReflectionConverter.java:246)
+[2016-12-15 11:46:26] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.doUnmarshal(AbstractReflectionConverter.java:218)
+[2016-12-15 11:46:26] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshal(AbstractReflectionConverter.java:162)
+[2016-12-15 11:46:26] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2016-12-15 11:46:26] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2016-12-15 11:46:26] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2016-12-15 11:46:26] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2016-12-15 11:46:26] 	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:71)
+[2016-12-15 11:46:26] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(CollectionConverter.java:68)
+[2016-12-15 11:46:26] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.unmarshal(CollectionConverter.java:61)
+[2016-12-15 11:46:26] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2016-12-15 11:46:26] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2016-12-15 11:46:26] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2016-12-15 11:46:26] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2016-12-15 11:46:26] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:137)
+[2016-12-15 11:46:26] 	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:33)
+[2016-12-15 11:46:26] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:923)
+[2016-12-15 11:46:26] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:909)
+[2016-12-15 11:46:26] 	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:861)
+[2016-12-15 11:46:26] 	at com.vencillio.core.util.GameDefinitionLoader.loadItemDefinitions(GameDefinitionLoader.java:455)
+[2016-12-15 11:46:26] 	at com.vencillio.GameDataLoader.load(GameDataLoader.java:116)
+[2016-12-15 11:46:27] 	at com.vencillio.core.GameThread.startup(GameThread.java:69)
+[2016-12-15 11:46:27] 	at com.vencillio.core.GameThread.init(GameThread.java:34)
+[2016-12-15 11:46:27] 	at com.vencillio.Server.main(Server.java:104)
+[2016-12-15 11:46:27] Caused by: java.lang.NumberFormatException: Zero length string
+[2016-12-15 11:46:27] 	at java.lang.Long.decode(Unknown Source)
+[2016-12-15 11:46:27] 	at com.thoughtworks.xstream.converters.basic.IntConverter.fromString(IntConverter.java:27)
+[2016-12-15 11:46:27] 	at com.thoughtworks.xstream.converters.SingleValueConverterWrapper.fromString(SingleValueConverterWrapper.java:41)
+[2016-12-15 11:46:27] 	at com.thoughtworks.xstream.converters.SingleValueConverterWrapper.unmarshal(SingleValueConverterWrapper.java:49)
+[2016-12-15 11:46:27] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2016-12-15 11:46:27] 	... 26 more

@@ -1,0 +1,48 @@
+Logging started at 2016-06-21 10:08:56
+File name: C:\Users\Administrator\Desktop\Dropbox\VA Source\.\data\logs\err\1466496536675 - Administrator - [Tue Jun 21][10.08AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2016-06-21 10:09:18] com.google.gson.JsonSyntaxException: duplicate key: null
+[2016-06-21 10:09:18] 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:191)
+[2016-06-21 10:09:18] 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:146)
+[2016-06-21 10:09:18] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2016-06-21 10:09:18] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2016-06-21 10:09:18] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2016-06-21 10:09:18] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2016-06-21 10:09:18] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:420)
+[2016-06-21 10:09:18] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1095)
+[2016-06-21 10:09:18] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2016-06-21 10:09:18] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-06-21 10:09:39] com.google.gson.JsonSyntaxException: duplicate key: null
+[2016-06-21 10:09:39] 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:191)
+[2016-06-21 10:09:39] 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:146)
+[2016-06-21 10:09:39] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2016-06-21 10:09:39] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2016-06-21 10:09:39] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2016-06-21 10:09:39] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2016-06-21 10:09:39] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:420)
+[2016-06-21 10:09:39] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1095)
+[2016-06-21 10:09:39] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2016-06-21 10:09:39] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-06-21 10:16:39] com.google.gson.JsonSyntaxException: duplicate key: null
+[2016-06-21 10:16:39] 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:191)
+[2016-06-21 10:16:39] 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:146)
+[2016-06-21 10:16:39] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2016-06-21 10:16:39] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2016-06-21 10:16:39] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2016-06-21 10:16:39] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2016-06-21 10:16:39] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:420)
+[2016-06-21 10:16:39] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1095)
+[2016-06-21 10:16:39] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2016-06-21 10:16:39] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)
+[2016-06-21 10:16:58] com.google.gson.JsonSyntaxException: duplicate key: null
+[2016-06-21 10:16:58] 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:191)
+[2016-06-21 10:16:58] 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:146)
+[2016-06-21 10:16:58] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2016-06-21 10:16:58] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2016-06-21 10:16:58] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2016-06-21 10:16:58] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2016-06-21 10:16:58] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:420)
+[2016-06-21 10:16:58] 	at com.vencillio.rs2.content.io.PlayerSave.load(PlayerSave.java:1095)
+[2016-06-21 10:16:58] 	at com.vencillio.core.LoginThread.cycle(LoginThread.java:26)
+[2016-06-21 10:16:58] 	at com.vencillio.core.LoginThread.run(LoginThread.java:83)

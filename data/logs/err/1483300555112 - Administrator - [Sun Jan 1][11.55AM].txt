@@ -1,0 +1,39 @@
+Logging started at 2017-01-01 11:55:55
+File name: C:\Users\Administrator\Desktop\new new source\.\data\logs\err\1483300555112 - Administrator - [Sun Jan 1][11.55AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-01-01 16:13:24] java.lang.NumberFormatException: For input string: "500000000,"
+[2017-01-01 16:13:24] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2017-01-01 16:13:24] 	at java.lang.Long.parseLong(Unknown Source)
+[2017-01-01 16:13:24] 	at java.lang.Long.parseLong(Unknown Source)
+[2017-01-01 16:13:24] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:317)
+[2017-01-01 16:13:24] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2017-01-01 16:13:24] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-01 16:13:24] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-01 16:13:24] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-01 16:13:24] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-01 16:13:24] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-01 18:15:57] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2017-01-01 18:15:57] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2017-01-01 18:15:57] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2017-01-01 18:15:57] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2017-01-01 18:15:57] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2017-01-01 18:15:57] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2017-01-01 18:15:57] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:768)
+[2017-01-01 18:15:57] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-01 18:15:57] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-01 18:15:57] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-01 18:15:57] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-01 18:15:57] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-01-01 18:16:00] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2017-01-01 18:16:00] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2017-01-01 18:16:00] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2017-01-01 18:16:00] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2017-01-01 18:16:00] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2017-01-01 18:16:00] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2017-01-01 18:16:00] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:768)
+[2017-01-01 18:16:00] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-01-01 18:16:00] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:270)
+[2017-01-01 18:16:00] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-01-01 18:16:00] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-01-01 18:16:00] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
