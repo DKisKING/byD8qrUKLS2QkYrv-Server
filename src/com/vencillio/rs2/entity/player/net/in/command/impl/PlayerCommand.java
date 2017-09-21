@@ -78,9 +78,15 @@ public class PlayerCommand implements Command {
 				// since this type of redemption can yield multiple votes being redeemed at once
 				// check how many were redeemed.
 				int total = r2.votes().size();
-				System.out.println("Successful redemption! x" + total);
-			}
-			break;
+				System.out.println("You successfully redeemed " + total +" votes!");
+				for(int i = 1;i <= total;i++) {
+					int REWARD = Utility.random(300000);
+					player.getInventory().addOrCreateGroundItem(995, REWARD, true);
+					player.getInventory().add(6199, 1);
+					player.votePoints ++;
+				}				
+		}
+		break;
         	
         	
         /*
