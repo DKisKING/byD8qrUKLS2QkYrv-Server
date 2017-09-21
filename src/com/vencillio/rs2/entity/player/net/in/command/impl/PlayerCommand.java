@@ -2,6 +2,8 @@ package com.vencillio.rs2.entity.player.net.in.command.impl;
  
 import com.vencillio.VencillioConstants;
 
+import java.net.URL;
+import java.net.URLConnection;
 import com.motiservice.vote.*;
 import com.motiservice.Motivote;
 import com.vencillio.core.task.Task;
@@ -66,9 +68,10 @@ public class PlayerCommand implements Command {
         	break;
        
         case "vote":
-        	player.send(new SendString("http://tyrasvote.motivoters.com/motivote/", 12000));
-        
-        	break;
+        	//player.send(new SendString("http://tyrasvote.motivoters.com/motivote", 12000));
+            player.send(new SendMessage("@gre@Check pinned messages on discord Anouncements for link."));
+            return true;
+        	
         	
 		case "redeem":
 			String username = player.getUsername();
@@ -78,14 +81,17 @@ public class PlayerCommand implements Command {
 				// since this type of redemption can yield multiple votes being redeemed at once
 				// check how many were redeemed.
 				int total = r2.votes().size();
-				System.out.println("You successfully redeemed " + total +" votes!");
+				player.send(new SendMessage("You successfully redeemed " + total +" votes!"));
 				for(int i = 1;i <= total;i++) {
 					int REWARD = Utility.random(300000);
 					player.getInventory().addOrCreateGroundItem(995, REWARD, true);
 					player.getInventory().add(6199, 1);
 					player.votePoints ++;
-				}				
-		}
+				}
+			}
+			else{
+				player.send(new SendMessage("You do not have any votes to redeem. Get voting with ::vote !"));
+			}				
 		break;
         	
         	
@@ -194,7 +200,7 @@ public class PlayerCommand implements Command {
         case "forum":
         case "forums":
         case "website":
-            player.send(new SendString("http://www.tyrasps.com", 12000));
+            player.send(new SendString("https://tyrasps.wordpress.com/", 12000));
             player.send(new SendMessage("@gre@Redirecting you to our forums."));
             return true;
  
