@@ -2,7 +2,7 @@
   "bank": [
     {
       "id": 995,
-      "amount": 8884256
+      "amount": 1
     },
     {
       "id": 453,
@@ -69,15 +69,27 @@
       "amount": 1
     },
     {
+      "id": 12797,
+      "amount": 1
+    },
+    {
+      "id": 9067,
+      "amount": 35
+    },
+    {
       "id": 1359,
       "amount": 1
     },
     {
-      "id": 19649,
+      "id": 6645,
       "amount": 1
     },
     {
-      "id": 12797,
+      "id": 565,
+      "amount": 78
+    },
+    {
+      "id": 5554,
       "amount": 1
     },
     {
@@ -222,6 +234,10 @@
     },
     {
       "id": 13285,
+      "amount": 1
+    },
+    {
+      "id": 13286,
       "amount": 1
     },
     {
@@ -519,16 +535,12 @@
     null,
     null,
     null,
-    null,
-    null,
-    null,
-    null,
     null
   ],
   "tabAmounts": [
-    20,
+    23,
     19,
-    18,
+    19,
     1,
     0,
     0,
@@ -539,11 +551,17 @@
   ],
   "inventory": [
     {
-      "id": 995,
-      "amount": 601323
+      "id": 4587,
+      "amount": 1
     },
-    null,
-    null,
+    {
+      "id": 2572,
+      "amount": 1
+    },
+    {
+      "id": 3024,
+      "amount": 1
+    },
     null,
     null,
     null,
@@ -571,40 +589,19 @@
     null
   ],
   "equipment": [
-    {
-      "id": 5554,
-      "amount": 1
-    },
-    {
-      "id": 9787,
-      "amount": 1
-    },
     null,
     null,
-    {
-      "id": 5553,
-      "amount": 1
-    },
     null,
     null,
-    {
-      "id": 5555,
-      "amount": 1
-    },
     null,
-    {
-      "id": 5556,
-      "amount": 1
-    },
-    {
-      "id": 5557,
-      "amount": 1
-    },
     null,
-    {
-      "id": 2572,
-      "amount": 1
-    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     null
   ],
   "shopItems": [
