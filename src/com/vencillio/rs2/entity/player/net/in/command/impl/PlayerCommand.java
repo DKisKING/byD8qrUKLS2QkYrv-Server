@@ -2,13 +2,12 @@ package com.vencillio.rs2.entity.player.net.in.command.impl;
  
 import com.vencillio.VencillioConstants;
 
-
+import com.motiservice.vote.*;
+import com.motiservice.Motivote;
 import com.vencillio.core.task.Task;
 import com.vencillio.core.task.TaskQueue;
 import com.vencillio.core.util.Donation;
-//import com.vencillio.core.network.mysql.VoteUpdater;
 import com.vencillio.core.util.Utility;
-//import com.vencillio.rs2.content.PlayerTitle;
 import com.vencillio.rs2.content.PlayersOnline;
 import com.vencillio.rs2.content.Yelling;
 import com.vencillio.rs2.content.dialogue.DialogueManager;
@@ -38,143 +37,52 @@ import com.vencillio.rs2.entity.player.net.out.impl.SendMessage;
 import com.vencillio.rs2.entity.player.net.out.impl.SendRemoveInterfaces;
 import com.vencillio.rs2.entity.player.net.out.impl.SendString;
 import com.vencillio.rs2.entity.player.net.out.impl.SendUpdateItems;
-
-//import com.motiservice.vote.*;
-//import com.motiservice.Motivote;
-
-//import java.net.*;
-//import java.io.*;
- 
-//import java.util.concurrent.ExecutorService;
-//import java.util.concurrent.Executors;
- 
-//import com.motivoters.motivote.service.MotivoteRS;
  
 /**
  * A list of commands accessible to all players disregarding rank.
  *
  * @author Michael | Chex
  */
+
+
+
 public class PlayerCommand implements Command {
-   
-    //private static final ExecutorService MOTIVOTE_SERVICE = Executors.newCachedThreadPool();
-   
-//    private static final Motivote MOTIVOTE = new Motivote("ProjectReality", "87cf404cb9115f3920937c707e7de0aa");
- 
-    @Override
+	
+	//Creates Motivote instance
+	public static final Motivote MOTIVOTE = new Motivote("tyrasvote", "2da4908c29f00bf3e5c47b05e8d0dd4e");
+    
+	
+	@Override
     public boolean handleCommand(Player player, CommandParser parser) throws Exception {
         switch (parser.getCommand()) {
        
-        /*
-         * Claim votes
-         */
-        //case "voted":
-        //case "claimvote":
-        //case "claimvotes":
-        //  VoteUpdater.update(player);
-            //return true;
-        
-        
-
-        
         case "drops":
     		player.send(new SendInterface(59800));
             return true;
-       /* case "redeem":
-            try{
-                player.rspsdata(player, player.getUsername());
-                }catch(Exception e){
-            }
-        break; */
+
         case "claim":
         	new Thread(new Donation(player)).start();
 
         	break;
+       
+        case "vote":
+        	player.send(new SendString("http://tyrasvote.motivoters.com/motivote/", 12000));
         
-  //      case "auth":
-   //     case "claim":
-    //        MOTIVOTE_SERVICE.submit(() -> {
-    //            synchronized (player) {
-        //            if (player != null && player.isActive()) {
-    //                    try {
-        //                    String auth = parser.nextString();
-        //                    boolean success = true;//MOTIVOTE.redeemVote(auth);
-         //        
-         //                   if (success) {
-          //                      player.getInventory().add(4067, 1);
-           //                     player.send(new SendMessage("Merry Christmas and thank you for voting!"));
-          //                      player.send(new SendMessage("By helping the server you have recieved TWO (2) vote tickets"));
-           //                     player.send(new SendMessage("and 50k!"));
-           //                 } else {
-          //                      player.send(new SendMessage("Invalid auth code supplied. Please try again later."));
-           //                 }
-          //              } catch (Exception ex){
-          //                  player.send(new SendMessage("Please use the format ::claim (auth code)"));
-          //              }
-         //           }
-         //       }
-        //    });
-        //   return true;
-           
-           
-		/*case "redeemauth":
-			String auth = parser.nextString();
-			Result r1 = MOTIVOTE.redeem(SearchField.AUTH_CODE, auth);
+        	break;
+        	
+		case "redeem":
+			String username = player.getUsername();
+			Result r2 = MOTIVOTE.redeem(SearchField.USER_NAME, username);
 			
-			if (r1.success()) {
-				player.getInventory().add(4067, 1);
-                player.send(new SendMessage("Merry Christmas and thank you for voting!"));
-                player.send(new SendMessage("By helping the server you have recieved TWO (2) vote tickets"));
-                player.send(new SendMessage("and 50k!"));
-				System.out.println("Successful redemption!");
-			}
-			break;*/
-//		case "claimvote":
-//			Result r2 = MOTIVOTE.redeem(SearchField.USER_NAME, player.getUsername());
-			
-//			if (r2.success()) {
+			if (r2.success()) {
 				// since this type of redemption can yield multiple votes being redeemed at once
 				// check how many were redeemed.
-//				int total = r2.votes().size();
-//				System.out.println("Successful redemption! x" + total);
-//				player.getInventory().add(4067, 1);
-//				player.getInventory().add(995, 50000);
-//				player.send(new SendMessage("==================================================="));
-//                player.send(new SendMessage("Thank you for voting for Tyras."));
-//               player.send(new SendMessage("You have been rewarded for voting!."));
-//               player.send(new SendMessage("Be sure to vote every 12 hours for max rewards!"));
-//                player.send(new SendMessage("==================================================="));
-//			}
-//			else {
-//		         	player.send(new SendMessage("It appears you have not voted recently.."));
-//                 }
-//			break;
-		/*case "claimvote":
-			String ip = player.getIP();
-			Result r3 = MOTIVOTE.redeem(SearchField.IP_ADDRESS, ip);
-			
-			if (r3.success()) {
-				// since this type of redemption can yield multiple votes being redeemed at once
-				// check how many were redeemed.
-				player.getInventory().add(4067, 1);
-				player.getInventory().add(995, 50000);
-				player.send(new SendMessage("==================================================="));
-                player.send(new SendMessage("Thank you for voting for Tyras."));
-                player.send(new SendMessage("You have been rewarded for voting!"));
-                player.send(new SendMessage("Be sure to vote every 12 hours for max rewards!"));
-                player.send(new SendMessage("==================================================="));
-				int total = r3.votes().size();
+				int total = r2.votes().size();
 				System.out.println("Successful redemption! x" + total);
 			}
-			else {
-		         	player.send(new SendMessage("It appears you have not voted recently.."));
-			}
 			break;
-			*/
-			
-			
-			
-			
+        	
+        	
         /*
          * Opens the command list
          */
