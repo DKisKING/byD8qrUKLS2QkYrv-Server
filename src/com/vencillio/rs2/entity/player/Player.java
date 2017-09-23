@@ -120,7 +120,7 @@ import com.vencillio.rs2.entity.player.net.out.impl.SendString;
 import com.vencillio.rs2.entity.player.net.out.impl.SendWalkableInterface;
 
 public class Player extends Entity {
-
+	
 	/* Client */
 	private final Client client;
 	
