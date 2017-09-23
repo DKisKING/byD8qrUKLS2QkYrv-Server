@@ -230,7 +230,7 @@
     },
     {
       "id": 7946,
-      "amount": 54
+      "amount": 459
     },
     null,
     null,
@@ -542,33 +542,114 @@
       "id": 303,
       "amount": 1
     },
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+    {
+      "id": 7946,
+      "amount": 1
+    },
+    {
+      "id": 7946,
+      "amount": 1
+    },
+    {
+      "id": 7946,
+      "amount": 1
+    },
+    {
+      "id": 7946,
+      "amount": 1
+    },
+    {
+      "id": 7946,
+      "amount": 1
+    },
+    {
+      "id": 7946,
+      "amount": 1
+    },
+    {
+      "id": 7946,
+      "amount": 1
+    },
+    {
+      "id": 7946,
+      "amount": 1
+    },
+    {
+      "id": 7946,
+      "amount": 1
+    },
+    {
+      "id": 7946,
+      "amount": 1
+    },
+    {
+      "id": 7946,
+      "amount": 1
+    },
+    {
+      "id": 7946,
+      "amount": 1
+    },
+    {
+      "id": 7946,
+      "amount": 1
+    },
+    {
+      "id": 7946,
+      "amount": 1
+    },
+    {
+      "id": 7946,
+      "amount": 1
+    },
+    {
+      "id": 7946,
+      "amount": 1
+    },
+    {
+      "id": 7946,
+      "amount": 1
+    },
+    {
+      "id": 7946,
+      "amount": 1
+    },
+    {
+      "id": 7946,
+      "amount": 1
+    },
+    {
+      "id": 7946,
+      "amount": 1
+    },
+    {
+      "id": 7946,
+      "amount": 1
+    },
+    {
+      "id": 7946,
+      "amount": 1
+    },
+    {
+      "id": 7946,
+      "amount": 1
+    },
+    {
+      "id": 7946,
+      "amount": 1
+    },
+    {
+      "id": 7946,
+      "amount": 1
+    },
+    {
+      "id": 7946,
+      "amount": 1
+    },
+    {
+      "id": 7946,
+      "amount": 1
+    }
   ],
   "equipment": [
     {

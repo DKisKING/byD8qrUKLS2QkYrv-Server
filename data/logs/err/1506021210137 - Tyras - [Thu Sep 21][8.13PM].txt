@@ -1,0 +1,19 @@
+Logging started at 2017-09-21 20:13:30
+File name: C:\Users\Tyras\Documents\GitHub\byD8qrUKLS2QkYrv-Server\.\data\logs\err\1506021210137 - Tyras - [Thu Sep 21][8.13PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-09-21 20:13:38] Exception in thread "main" 
+[2017-09-21 20:13:38] java.lang.NoClassDefFoundError: com/motiservice/Motivote
+[2017-09-21 20:13:38] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.<clinit>(PlayerCommand.java:52)
+[2017-09-21 20:13:38] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.<clinit>(CommandPacket.java:18)
+[2017-09-21 20:13:38] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.<clinit>(PacketHandler.java:42)
+[2017-09-21 20:13:38] 	at com.vencillio.GameDataLoader.load(GameDataLoader.java:180)
+[2017-09-21 20:13:38] 	at com.vencillio.core.GameThread.startup(GameThread.java:69)
+[2017-09-21 20:13:38] 	at com.vencillio.core.GameThread.init(GameThread.java:34)
+[2017-09-21 20:13:38] 	at com.vencillio.Server.main(Server.java:105)
+[2017-09-21 20:13:38] Caused by: java.lang.ClassNotFoundException: com.motiservice.Motivote
+[2017-09-21 20:13:38] 	at java.net.URLClassLoader.findClass(Unknown Source)
+[2017-09-21 20:13:38] 	at java.lang.ClassLoader.loadClass(Unknown Source)
+[2017-09-21 20:13:38] 	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+[2017-09-21 20:13:38] 	at java.lang.ClassLoader.loadClass(Unknown Source)
+[2017-09-21 20:13:38] 	... 7 more

@@ -1,0 +1,4 @@
+Logging started at 2017-09-21 20:46:57
+File name: C:\Users\Tyras\Documents\GitHub\byD8qrUKLS2QkYrv-Server\.\data\logs\err\1506023216907 - Tyras - [Thu Sep 21][8.46PM].txt
+System.getProperty("os.name"): "Windows 10"
+

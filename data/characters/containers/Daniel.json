@@ -158,7 +158,7 @@
     },
     {
       "id": 7809,
-      "amount": 2
+      "amount": 1
     },
     {
       "id": 6818,
@@ -526,7 +526,7 @@
     },
     {
       "id": 7142,
-      "amount": 2
+      "amount": 1
     },
     {
       "id": 13198,
@@ -721,10 +721,6 @@
       "amount": 23
     },
     {
-      "id": 4566,
-      "amount": 1
-    },
-    {
       "id": 13203,
       "amount": 1
     },
@@ -781,41 +777,18 @@
       "amount": 2
     },
     {
-      "id": 7806,
-      "amount": 1
-    },
-    {
-      "id": 7807,
-      "amount": 1
-    },
-    {
       "id": 20601,
       "amount": 1
     },
-    {
-      "id": 7808,
-      "amount": 1
-    },
-    {
-      "id": 13379,
-      "amount": 1
-    },
-    {
-      "id": 19553,
-      "amount": 1
-    },
-    {
-      "id": 13381,
-      "amount": 1
-    },
-    {
-      "id": 13380,
-      "amount": 1
-    },
-    {
-      "id": 13377,
-      "amount": 1
-    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     null,
     null,
     null,
@@ -964,7 +937,7 @@
     null
   ],
   "tabAmounts": [
-    204,
+    195,
     0,
     0,
     0,
@@ -976,6 +949,38 @@
     0
   ],
   "inventory": [
+    {
+      "id": 12904,
+      "amount": 1
+    },
+    {
+      "id": 12926,
+      "amount": 1
+    },
+    {
+      "id": 19710,
+      "amount": 1
+    },
+    {
+      "id": 12817,
+      "amount": 1
+    },
+    {
+      "id": 12817,
+      "amount": 1
+    },
+    {
+      "id": 12826,
+      "amount": 1
+    },
+    {
+      "id": 19553,
+      "amount": 1
+    },
+    {
+      "id": 12426,
+      "amount": 1
+    },
     null,
     null,
     null,
@@ -995,15 +1000,10 @@
     null,
     null,
     null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+    {
+      "id": 4566,
+      "amount": 1
+    }
   ],
   "equipment": [
     null,

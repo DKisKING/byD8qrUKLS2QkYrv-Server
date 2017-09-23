@@ -427,24 +427,69 @@
     0
   ],
   "inventory": [
+    {
+      "id": 7142,
+      "amount": 1
+    },
+    {
+      "id": 13379,
+      "amount": 1
+    },
+    {
+      "id": 13380,
+      "amount": 1
+    },
     null,
+    {
+      "id": 13381,
+      "amount": 1
+    },
+    {
+      "id": 13377,
+      "amount": 1
+    },
+    {
+      "id": 13378,
+      "amount": 1
+    },
+    {
+      "id": 7673,
+      "amount": 1
+    },
     null,
+    {
+      "id": 7806,
+      "amount": 1
+    },
+    {
+      "id": 7809,
+      "amount": 1
+    },
     null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
+    {
+      "id": 7808,
+      "amount": 1
+    },
+    {
+      "id": 1048,
+      "amount": 1
+    },
+    {
+      "id": 1040,
+      "amount": 1
+    },
+    {
+      "id": 1042,
+      "amount": 1
+    },
+    {
+      "id": 1044,
+      "amount": 1
+    },
+    {
+      "id": 1046,
+      "amount": 1
+    },
     null,
     null,
     null,
@@ -457,16 +502,28 @@
     null
   ],
   "equipment": [
+    {
+      "id": 1038,
+      "amount": 1
+    },
+    null,
+    {
+      "id": 19553,
+      "amount": 1
+    },
+    {
+      "id": 7807,
+      "amount": 1
+    },
     null,
     null,
     null,
     null,
     null,
-    null,
-    null,
-    null,
-    null,
-    null,
+    {
+      "id": 7671,
+      "amount": 1
+    },
     null,
     null,
     null,
