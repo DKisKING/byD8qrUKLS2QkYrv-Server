@@ -23,7 +23,7 @@ public class GlobalMessages {
 	/**
 	 * The news color text
 	 */
-	private static String newsColor = "<col=cc00cc><shad=0>";
+	private static String newsColor = "<col=cc00cc>";
 
 	/**
 	 * The news icon
