@@ -29,77 +29,77 @@ public class CreditsShop extends Shop {
 	public static final int getPrice(int id) {
 	switch (id) {
 	case 9925:
-		return 150; //skeleton mask 200
+		return 150; //skeleton mask
 	case 9924:
-		return 150; //skeleton shirt 200
+		return 150; //skeleton shirt
 	case 9923:
-		return 150; //skeleton legs 200
+		return 150; //skeleton legs
 	case 9921:
-		return 150; //skeleton boots 200
+		return 150; //skeleton boots
 	case 9922:
-		return 150; //skeleton gloves 200
+		return 150; //skeleton gloves
 	case 12845:
-		return 375; //grim reaper hood 500
+		return 375; //grim reaper hood
 	case 1419:
-		return 375; //scythe 500
+		return 375; //scythe
 	case 9920:
-		return 112; //jack 'o lantern mask 150
+		return 112; //jack 'o lantern mask
 	case 11847:
-		return 225; //black h'ween mask 300
+		return 225; //black h'ween mask
 	case 11021:
-		return 150; //chicken head 200
+		return 150; //chicken head
 	case 11020:
-		return 150; //chicken wings (body) 200
+		return 150; //chicken wings (body)
 	case 11022: 
-		return 150; //chicken legs 200
+		return 150; //chicken legs
 	case 11019:
-		return 150; //chicken boots 200
+		return 150; //chicken boots
 	case 1037:
-		return 150; //bunny ears 200
+		return 150; //bunny ears
 	case 13182:
-		return 150; //bunny feet 200
+		return 150; //bunny feet
 	case 4565:
-		return 187; //easter basket 250
+		return 150; //easter basket
 	case 4566:
-		return 187; //rubber chicken 250
+		return 150; //rubber chicken
 	case 1053:
-		return 150; //green 'ween 200
+		return 150; //green 'ween
 	case 1055:
-		return 150; //blue 'ween 200
+		return 150; //blue 'ween
 	case 1057:
-		return 150; //red 'ween 200
+		return 150; //red 'ween
 	case 13175:
-		return 300; //h'ween pack 400
+		return 300; //h'ween pack
 	case 1050:
-		return 375; //santa hat 500
+		return 200; //santa hat
 	case 13343:
-		return 750; //black santa hat 1000
+		return 500; //black santa hat
 	case 13344:
-		return 750; //inverted santa hat 1000
+		return 500; //inverted santa hat
 	case 5607:
-		return 187; //grain 250
+		return 150; //grain
 	case 5609:
-		return 187; //chicken 250
+		return 150; //chicken
 	case 1038:
-		return 375; //red partyhat 500
+		return 300; //red partyhat
 	case 1040:
-		return 375; //yellow partyhat 500
+		return 300; //yellow partyhat
 	case 1042:
-		return 375; //blue partyhat 500
+		return 300; //blue partyhat
 	case 1044:
-		return 375; //green partyhat 500
+		return 300; //green partyhat
 	case 1046:
-		return 375; //purple partyhat 500
+		return 300; //purple partyhat
 	case 1048:
-		return 375; //white partyhat 500
+		return 300; //white partyhat
 	case 13173:
-		return 1875; //partyhat set 2500
+		return 1500; //partyhat set
 	case 11862:
-		return 750; //black partyhat 1000
+		return 500; //black partyhat
 	case 11863:
-		return 750; //rainbow partyhat 1000
+		return 500; //rainbow partyhat
 	case 12399:
-		return 562; //phat and specs 750
+		return 500; //phat and specs
 	}
 
 	return 1500;
@@ -148,7 +148,7 @@ public CreditsShop() {
 			new Item(11863),
 			new Item(12399),
 			
-	}, false, "Donator's Cosmetic Shop - 25% Off!");
+	}, false, "Contributor's Cosmetic Shop");
 }
 
 	@Override

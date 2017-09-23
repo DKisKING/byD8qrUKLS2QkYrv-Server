@@ -27,51 +27,79 @@ public class CreditsShop3 extends Shop {
 	 */
 	public static final int getPrice(int id) {
 	switch (id) {
-	case 11832: //Bandos plate 150
-	case 11834: //Bandos bottoms 150
-		return 112;
-	case 11836: //Bandos boots 50
-		return 37;
-	case 11826: //Armadyl helm 150
-	case 11828: //Armadyl body 150
-	case 11830: //Armadyl legs 150
-		return 112;
-	case 13235: //enternal boots 150
-	case 13239: //primordial boots 150
-	case 13237: // pegasian boots 150
-		return 112;
-	case 11840: //dragon boots 50
-		return 37;
-	case 4151: //Whip 75
-		return 56; 
-	case 6585: //Fury 100
-		return 75;
-	case 11283: //Dragon Fire Shield 100
-		return 75;
-	case 7462: //barrows gloves 50
-		return 37;
-	case 11773: //Berserker Ring (i) 25
-	case 11772: //Warriors Ring (i) 25
-	case 11771: //Archers Ring (i) 25
-	case 11770: //Seers Ring (i) 25
-		return 18;
-	case 7142: //rapier 250
-		return 206;
-	case 12926: //blowpipe 275
-		return 275;
-	case 11785: //armadyl crossbow 200
+	//case 11832:	//Bandos plate	//ITEMS NO LONGER IN STORE! (MAY USE THEM IN FUTURE)
+	//case 11834: 	//Bandos bottoms
+		//return 150;
+	//case 11836: 	//Bandos boots
+		//return 37;
+	//case 11826: 	//Armadyl helm
+	//case 11828: 	//Armadyl body
+	//case 11830: 	//Armadyl legs
+		//return 112;
+	//case 11283: 	//Dragon Fire Shield
+			//return 75;
+	//case 13235: 	//enternal boots
+	//case 13239: 	//primordial boots
+	//case 13237: 	//pegasian boots
+		//return 112;
+	//case 12926: 	//blowpipe
+			//return 275;
+	//case 11785: 	//armadyl crossbow
+			//return 150;
+	//case 11802: 	//arma gs
+	//case 11806: 	//sara gs
+	//case 11808: 	//zammy gs
+	//case 11804: 	//bandos gs
+			//return 150;
+	//case 11773: 	//Berserker Ring (i)
+	//case 11772: 	//Warriors Ring (i)
+	//case 11771: 	//Archers Ring (i)
+	//case 11770: 	//Seers Ring (i)
+		//return 18;
+	//case 19529: 	//zenyte shard
+	//case 19553: 	//torture
+	//case 19547:	//anguish
+		//return 112;	
+	case 4151: 		//Whip 75	// ITEMS CURRENTLY IN STORE
+		return 50; 
+	case 13265:		//abyssal dagger
 		return 150;
-	case 19529: //zenyte shard 150
-	case 19553: //torture 150
-	case 19547://anguish 150
-		return 112;	
-	case 11802: //arma gs 200
-	case 11806: //sara gs 200
-	case 11808: //zammy gs 200
-	case 11804: //bandos gs 200
-		return 150;
-	case 13188: //dclaws 150
-		return 112;
+	case 7142: 		//rapier
+		return 400;
+	case 13188: 	//dclaws
+		return 150;	
+	case 6585: 		//Fury
+		return 50;
+	case 7462: 		//barrows gloves
+		return 50;
+	case 11840: 	//dragon boots 
+		return 20;
+	case 2581:		//robin hood hat
+		return 50;
+	case 12596:		//ranger's tunic
+		return 50;
+	case 2577:		//ranger boots
+		return 100;	
+	case 6918: 		//infinity hat
+		return 50;
+	case 6916:		//infinity top
+		return 50;	
+	case 6924:		//infinity bottoms
+		return 50;
+	case 6920:		//infinity boots
+		return 50;	
+	case 6922:		//infinity gloves
+		return 50;
+	case 13379:		//shayzien helm
+		return 100;
+	case 13381:		//shayzien body
+		return 100;
+	case 13380:		//shayzien greaves
+		return 100;
+	case 13378:		//shayzien boots
+		return 100;	
+	case 13377:		//shayzien gloves
+		return 100;
 	}
 
 	return 100;
@@ -82,37 +110,51 @@ public class CreditsShop3 extends Shop {
  */
 public CreditsShop3() {
 	super(SHOP_ID, new Item[] {
-		new Item(11832), //Bandos
-		new Item(11834), //Bandos
-		new Item(11836),// bandos boots
-		new Item(11826),//arma helm
-		new Item(11828), //ama chest
-		new Item(11830),//arma legs
-		new Item(13235),	//boots
-		new Item(13237),	//boots
-		new Item(13239),	//internal boots
+		//new Item(11832), 	//Bandos
+		//new Item(11834), 	//Bandos
+		//new Item(11836),	//bandos boots
+		//new Item(11826),	//arma helm
+		//new Item(11828), 	//ama chest
+		//new Item(11830),	//arma legs
+		//new Item(13235),	//boots
+		//new Item(13237),	//boots
+		//new Item(13239),	//eternal boots
+		//new Item(11802),	//godswords
+		//new Item(11806),
+		//new Item(11808),
+		//new Item(11804),
+		//new Item(11283),	//dfs
+		//new Item(12926), 	//blowpipe
+		//new Item(11785), 	//crossbow
+		//new Item(11773),	//berserker ring i
+		//new Item(11772),	//warriors ring i
+		//new Item(11771),	//archers ring i
+		//new Item(11770),	//seers ring i
+		//new Item(19529),	//zennyte shard
+		//new Item(19553),	//torture
+		//new Item(19547),	//anguish
+		new Item(7142), 	//rapier
+		new Item(4151),		//whip
+		new Item(13265),	//abyssal dagger
+		new Item(13188),	//dclaws
+		new Item(6585),		//fury
+		new Item(7462), 	//barrows gloves
 		new Item(11840),	//dragon boots
-		new Item(4151),	//whip
-		new Item(6585),	//fury
-		new Item(11283),	//dfs
-		new Item(7462), //barrows gloves
-		new Item(11773),
-		new Item(11772),
-		new Item(11771),
-		new Item(11770),
-		new Item(7142), //rappior
-		new Item(12926), //blowpipe
-		new Item(11785), //crossbow
-		new Item(19529),//shard
-		new Item(19553),//torture
-		new Item(19547),//angwish
-		new Item(13188),
-		new Item(11802),
-		new Item(11806),
-		new Item(11808),
-		new Item(11804),
-			
-	}, false, "Donator's Gear Shop - 25% Off!");
+		new Item(2581),		//robin hood hat
+		new Item(12596),	//ranger's tunic
+		new Item(2577),		//ranger boots
+		new Item(6918),		//infinity hat
+		new Item(6916),		//infinity top
+		new Item(6924),		//infinity bottoms
+		new Item(6920),		//infinity boots
+		new Item(6922),		//infinity gloves
+		new Item(13379),	//shayzien helm
+		new Item(13381),	//shayzien body
+		new Item(13380),	//shayzien greaves
+		new Item(13378),	//shayzien boots
+		new Item(13377),	//shayzien gloves
+		
+	}, false, "Contributor's Gear Shop");
 }
 
 	@Override
