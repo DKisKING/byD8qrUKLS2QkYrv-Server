@@ -1,0 +1,6 @@
+Logging started at 2017-09-23 08:26:42
+File name: C:\Users\Tyras\Documents\GitHub\byD8qrUKLS2QkYrv-Server\.\data\logs\err\1506151602804 - Tyras - [Sat Sep 23][8.26AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-09-23 08:31:31] Failing to update Boop highscores. Database could not connect.
+[2017-09-23 09:20:22] Failing to update Grumpy highscores. Database could not connect.

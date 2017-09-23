@@ -2,7 +2,7 @@
   "bank": [
     {
       "id": 385,
-      "amount": 74
+      "amount": 72
     },
     {
       "id": 2436,
@@ -34,11 +34,11 @@
     },
     {
       "id": 561,
-      "amount": 30
+      "amount": 97
     },
     {
       "id": 563,
-      "amount": 50
+      "amount": 53
     },
     {
       "id": 9185,
@@ -50,7 +50,7 @@
     },
     {
       "id": 4012,
-      "amount": 1
+      "amount": 2
     },
     {
       "id": 6527,
@@ -126,7 +126,7 @@
     },
     {
       "id": 985,
-      "amount": 3
+      "amount": 4
     },
     {
       "id": 555,
@@ -182,7 +182,7 @@
     },
     {
       "id": 361,
-      "amount": 42
+      "amount": 43
     },
     {
       "id": 311,
@@ -190,7 +190,7 @@
     },
     {
       "id": 379,
-      "amount": 243
+      "amount": 227
     },
     {
       "id": 301,
@@ -237,17 +237,41 @@
       "amount": 1
     },
     {
+      "id": 11941,
+      "amount": 2
+    },
+    {
+      "id": 2643,
+      "amount": 1
+    },
+    {
+      "id": 1377,
+      "amount": 1
+    },
+    {
+      "id": 391,
+      "amount": 35
+    },
+    {
+      "id": 1617,
+      "amount": 7
+    },
+    {
+      "id": 2681,
+      "amount": 1
+    },
+    {
       "id": 1201,
       "amount": 1
     },
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
+    {
+      "id": 1753,
+      "amount": 4
+    },
+    {
+      "id": 995,
+      "amount": 295
+    },
     null,
     null,
     null,
@@ -532,7 +556,7 @@
     null
   ],
   "tabAmounts": [
-    60,
+    68,
     0,
     0,
     0,
@@ -544,54 +568,18 @@
     0
   ],
   "inventory": [
-    {
-      "id": 361,
-      "amount": 1
-    },
-    {
-      "id": 361,
-      "amount": 1
-    },
-    {
-      "id": 361,
-      "amount": 1
-    },
-    {
-      "id": 361,
-      "amount": 1
-    },
-    {
-      "id": 361,
-      "amount": 1
-    },
-    {
-      "id": 361,
-      "amount": 1
-    },
-    {
-      "id": 361,
-      "amount": 1
-    },
-    {
-      "id": 361,
-      "amount": 1
-    },
-    {
-      "id": 361,
-      "amount": 1
-    },
-    {
-      "id": 361,
-      "amount": 1
-    },
-    {
-      "id": 361,
-      "amount": 1
-    },
-    {
-      "id": 361,
-      "amount": 1
-    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     null,
     null,
     null,
