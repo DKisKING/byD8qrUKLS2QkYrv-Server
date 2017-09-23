@@ -2,6 +2,9 @@ package com.vencillio.rs2.entity.player.net.in.command.impl;
  
 import com.vencillio.VencillioConstants;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
 import com.motiservice.vote.*;
@@ -61,12 +64,48 @@ public class PlayerCommand implements Command {
         case "drops":
     		player.send(new SendInterface(59800));
             return true;
-
-        case "claim":
-        	new Thread(new Donation(player)).start();
-
-        	break;
        
+        case "claim":
+        	try {
+        		String username = player.getUsername();
+        		username = username.replaceAll(" ", "_");
+        		String secret = "43486394d1ffdd373621920c487a6b96"; //YOUR SECRET KEY!
+        		URL url = new URL("http://app.gpay.io/api/runescape/" + username + "/" + secret);
+        		BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()));
+        		String results = reader.readLine();
+        		if (results.toLowerCase().contains("!error:")) {
+        		} else {
+        			String[] ary = results.split(",");
+        			for (int i = 0; i < ary.length; i++) {
+        				switch (ary[i]) {
+        				case "0":
+        					//donation was not found tell the user that!
+        					player.send(new SendMessage("Donation not found, try again in a minute"));
+        				break;
+        				case "24921":
+        					player.getInventory().addOrCreateGroundItem(13192,1,true);
+        				break;
+        				case "24922":
+        					player.getInventory().addOrCreateGroundItem(13191,1,true);
+        				break;
+        				case "24923":
+        					player.getInventory().addOrCreateGroundItem(13195,1,true);
+        				break;
+        				case "24924":
+        					player.getInventory().addOrCreateGroundItem(13196,1,true);
+        				break;
+        				case "24925":
+        					player.getInventory().addOrCreateGroundItem(13197,1,true);
+        				break;
+        				}
+        			}
+        		}
+        	} catch (IOException e) {}
+        break;
+        
+            
+            
+            
         case "vote":
         	//player.send(new SendString("http://tyrasvote.motivoters.com/motivote", 12000));
             player.send(new SendMessage("@gre@Check pinned messages on discord Anouncements for link."));
@@ -93,8 +132,7 @@ public class PlayerCommand implements Command {
 				player.send(new SendMessage("You do not have any votes to redeem. Get voting with ::vote !"));
 			}				
 		break;
-        	
-        	
+		      	
         /*
          * Opens the command list
          */
