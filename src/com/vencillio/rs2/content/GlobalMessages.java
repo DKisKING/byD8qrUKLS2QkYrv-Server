@@ -23,12 +23,12 @@ public class GlobalMessages {
 	/**
 	 * The news color text
 	 */
-	private static String newsColor = "<col=013B4F>";
+	private static String newsColor = "<col=cc00cc><shad=0>";
 
 	/**
 	 * The news icon
 	 */
-	private static String iconNumber = "<img=8>";
+	private static String iconNumber = "<img=2>";
 	
 	/**
 	 * Holds all the announcements in a arraylist
@@ -39,23 +39,15 @@ public class GlobalMessages {
 	 * The random messages that news will send
 	 */
 	public static final String[] ANNOUNCEMENTS = { 
-			"Do you Enjoy playing Tyras? Why not consider donating to help keep us running!",
-			"Visit any makeover mage to change your characters appearance!",
-			//"Automatic Voting is now set up, Vote via a voting booth or ::vote",
-			"Curious on what boss drops what items? Check out our IG Drop Tables!",
-			"Did you know you can get special armor rewarded through PK Points ONLY?",
-			"Be sure to visit our website daily for regular news and announcements!",
-			"Join us on Discord by using ::discord!",
-			"Do you have a suggestion that would improve the server? Post it on our forums.",
-			"Did you witness a player or staff member breaking the rules? Post a complaint.",
-			"Please report ANY bugs found on our website, abusing them could result in a ban.",
-			"Are you interested in making Youtube Videos for rewards? Contact Daniel.",
-			//"Be sure to vote for the server every 12 hours using ::vote!",
-			//"After voting claim any rewards with ::claimvote!",
-			//"Be sure to ::claimvote after voting on EACH page or you will lose rewards!",
-			"Did you know you can buy high tier food and potions at the Boss Point Shop?",
-			"Are you short on money? Fishing and Thieving are great ways to make money!",
-			"Members have the ability to open their bank out of PvP costing Member Credits!",
+			"Be sure to set a unique password for your account. Use ::changepassword any time!",
+			"If you find a bug or issue with the game, inform an Admin immediately!",
+			"Vote on a daily basis to recieve great rewards whilst helping the server to grow!",
+			"Sell and Buy items 24/7 at the Player-Owned Shops! Find the hub at home bank!",
+			"Click the world map or one of the city teleports in the spellbook to access the teleportation menu!",
+			"Want to see a list of everyone online? Use ::players!",
+			"Visit our website for all of the latest updates, information and links to our social spaces!",
+			"Looking to make some quick cash? Be sure to answer trivia questions using ::answer for a cash prize!",
+			
 	};
 	
 	/**
