@@ -1,4 +1,2 @@
-.json
-data/characters/containers/*
-data/characters/details/*
-data/characters/farming/*
+*.json
+
