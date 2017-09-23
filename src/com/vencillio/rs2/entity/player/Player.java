@@ -1418,19 +1418,19 @@ public class Player extends Entity {
 			World.sendGlobalMessage("<img=8>@blu@Server Support " + username + " has just logged in! </col><img=8>");
 		}
 		
-		send(new SendMessage("<img=2><col=cc00cc>Welcome to Tyras.</col><img=2>"));
-		send(new SendMessage("<img=8><col=cc00cc>Tyras is currently in a beta stage.</col><img=8>"));
+		send(new SendMessage("<img=2><col=cc00cc><shad=0>Welcome to Tyras.</col></shad><img=2>"));
+		send(new SendMessage("<img=8><col=cc00cc><shad=0>Tyras is currently in a beta stage.</col></shad><img=8>"));
 		//send(new SendMessage("<img=8>@red@25% off in the donator store - this week only!</col><img=8>"));
 		//send(new SendMessage("<img=8>@red@Anniversary Event has now been released.</col>@gre@ ::event</col><img=8>"));	
 		
 		if (World.getActivePlayers() > VencillioConstants.MOST_ONLINE) {
 			VencillioConstants.MOST_ONLINE = World.getActivePlayers();
 			FileHandler.saveMaxPlayers();
-			World.sendGlobalMessage("<img=8><col=cc00cc>We have broken our most players online record! New record:</col><col=910D0D>" + VencillioConstants.MOST_ONLINE + "</col>!");
+			World.sendGlobalMessage("<img=8><col=cc00cc><shad=0>We have broken our most players online record! New record:</col></shad><col=910D0D>" + VencillioConstants.MOST_ONLINE + "</col>!");
 		}
 		
 		if (VencillioConstants.doubleExperience) {			
-			send(new SendMessage("<img=8><col=cc00cc>Double Experience is now </col>@green@Active@green@<col=cc00cc>!</col><img=8>"));
+			send(new SendMessage("<img=8><col=cc00cc><shad=0>Double Experience is now </col>@gre@Active@gre@<col=cc00cc>!</col></shad><img=8>"));
 		}
 		//new Thread(new Donation(this)).run();
 		controller.onControllerInit(this);
