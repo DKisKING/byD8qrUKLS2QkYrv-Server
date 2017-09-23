@@ -28,7 +28,7 @@ public class GlobalMessages {
 	/**
 	 * The news icon
 	 */
-	private static String iconNumber = "<img=2>";
+	private static String iconNumber = "<img=8>";
 	
 	/**
 	 * Holds all the announcements in a arraylist
@@ -43,10 +43,10 @@ public class GlobalMessages {
 			"If you find a bug or issue with the game, inform an Admin immediately!",
 			"Vote on a daily basis to recieve great rewards whilst helping the server to grow!",
 			"Sell and Buy items 24/7 at the Player-Owned Shops! Find the hub at home bank!",
-			"Click the world map or one of the city teleports in the spellbook to access the teleportation menu!",
+			"Click the world map or type ::teleport to access the teleportation menu!",
 			"Want to see a list of everyone online? Use ::players!",
-			"Visit our website for all of the latest updates, information and links to our social spaces!",
-			"Looking to make some quick cash? Be sure to answer trivia questions using ::answer for a cash prize!",
+			"Visit our website for all of the latest Tyras updates and information!",
+			"Looking to make some quick cash? Be sure to always answer trivia questions!",
 			
 	};
 	
