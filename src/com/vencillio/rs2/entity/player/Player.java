@@ -1399,7 +1399,7 @@ public class Player extends Entity {
 		appearanceUpdateRequired = true;
 		needsPlacement = true;
 
-		if (username.equalsIgnoreCase("69")) {
+		if (username.equalsIgnoreCase("Oe")) {
 			World.sendGlobalMessage("<img=1><col=f28600> Community Manager " + username + " has just logged in! </col><img=1>");
 		}	
 	    else if (username.equalsIgnoreCase("Boop")) {
