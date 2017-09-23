@@ -1399,41 +1399,38 @@ public class Player extends Entity {
 		appearanceUpdateRequired = true;
 		needsPlacement = true;
 
-		if (username.equalsIgnoreCase("Daniel")) {
-			World.sendGlobalMessage("<img=1><img=0><col=df19ec>Owner " + username + " has just logged in!</col><img=0><img=1>");
+		if (username.equalsIgnoreCase("Oe")) {
+			World.sendGlobalMessage("<img=1><col=f28600> Community Manager " + username + " has just logged in! </col><img=1>");
 		}	
-		else if (username.equalsIgnoreCase("Nate")) {
-			World.sendGlobalMessage("<img=3>@dre@Head Developer " + username + " has just logged in!<img=3>");
-		}
 	    else if (username.equalsIgnoreCase("Boop")) {
-	    	World.sendGlobalMessage("<img=1><img=0><col=df19ec>Boop has just logged in!!! ;)<img=0><img=1>");
+	    	World.sendGlobalMessage("<img=1><img=0><col=df19ec> Boop has just logged in!!! ;) </col><img=0><img=1>");
 	    }
-		else if (username.equalsIgnoreCase("Oe")) {
-			World.sendGlobalMessage("<img=1><col=f28600> Community Manager " + username + " has just logged in!</col><img=1>");
+	    else if (getRights() == 3 && !getDisplay().equalsIgnoreCase("")) {
+			World.sendGlobalMessage("<img=1><img=0><col=df19ec> Owner " + username + " has just logged in! </col><img=0><img=1>");
 		}
 		else if (getRights() == 2 && !getDisplay().equalsIgnoreCase("")) {
-			World.sendGlobalMessage("<img=1><col=f28600> Admin " + username + " has just logged in!</col><img=1>");
+			World.sendGlobalMessage("<img=1><col=f28600> Admin " + username + " has just logged in! </col><img=1>");
 		}
 		else if (getRights() == 1 && !getDisplay().equalsIgnoreCase("")) {
-			World.sendGlobalMessage("<img=0><col=0609c5> Moderator " + username + " has just logged in!</col><img=0>");
+			World.sendGlobalMessage("<img=0><col=0609c5> Moderator " + username + " has just logged in! </col><img=0>");
 		}
 		else if (getRights() == 9 && !getDisplay().equalsIgnoreCase("")) {
-			World.sendGlobalMessage("<img=8>@blu@Server Support " + username + " has just logged in!</col><img=8>");
+			World.sendGlobalMessage("<img=8>@blu@Server Support " + username + " has just logged in! </col><img=8>");
 		}
 		
-		send(new SendMessage("<img=2><col=0101DF>Welcome to Tyras.</col><img=2>"));
-		send(new SendMessage("<img=8>@red@Tyras is currently in a beta stage.</col><img=8>"));
+		send(new SendMessage("<img=2><col=cc00cc>Welcome to Tyras.</col><img=2>"));
+		send(new SendMessage("<img=8><col=cc00cc>Tyras is currently in a beta stage.</col><img=8>"));
 		//send(new SendMessage("<img=8>@red@25% off in the donator store - this week only!</col><img=8>"));
 		//send(new SendMessage("<img=8>@red@Anniversary Event has now been released.</col>@gre@ ::event</col><img=8>"));	
 		
 		if (World.getActivePlayers() > VencillioConstants.MOST_ONLINE) {
 			VencillioConstants.MOST_ONLINE = World.getActivePlayers();
 			FileHandler.saveMaxPlayers();
-			World.sendGlobalMessage("[<col=910D0D>ProjectReality</col>] We have broken our most players online record! New record: <col=910D0D>" + VencillioConstants.MOST_ONLINE + "</col>!");
+			World.sendGlobalMessage("<img=8><col=cc00cc>We have broken our most players online record! New record:</col><col=910D0D>" + VencillioConstants.MOST_ONLINE + "</col>!");
 		}
 		
 		if (VencillioConstants.doubleExperience) {			
-			send(new SendMessage("<img=8>@red@Double Experience is now @mag@Fixed@red@!<img=8>"));
+			send(new SendMessage("<img=8><col=cc00cc>Double Experience is now </col>@green@Active@green@<col=cc00cc>!</col><img=8>"));
 		}
 		//new Thread(new Donation(this)).run();
 		controller.onControllerInit(this);
