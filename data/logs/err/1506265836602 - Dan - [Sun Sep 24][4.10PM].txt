@@ -1,0 +1,18 @@
+Logging started at 2017-09-24 16:10:36
+File name: H:\Documents\GitHub\byD8qrUKLS2QkYrv-Server\.\data\logs\err\1506265836602 - Dan - [Sun Sep 24][4.10PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-09-24 16:11:17] java.io.FileNotFoundException: .\data\characters\details\Boop.json (The system cannot find the path specified)
+[2017-09-24 16:11:17] 	at java.io.FileOutputStream.open0(Native Method)
+[2017-09-24 16:11:17] 	at java.io.FileOutputStream.open(Unknown Source)
+[2017-09-24 16:11:17] 	at java.io.FileOutputStream.<init>(Unknown Source)
+[2017-09-24 16:11:17] 	at java.io.FileOutputStream.<init>(Unknown Source)
+[2017-09-24 16:11:17] 	at java.io.FileWriter.<init>(Unknown Source)
+[2017-09-24 16:11:17] 	at com.vencillio.rs2.content.io.PlayerSave$PlayerDetails.parseDetails(PlayerSave.java:1059)
+[2017-09-24 16:11:17] 	at com.vencillio.rs2.content.io.PlayerSave.save(PlayerSave.java:1120)
+[2017-09-24 16:11:17] 	at com.vencillio.rs2.entity.player.Player.logout(Player.java:1486)
+[2017-09-24 16:11:17] 	at com.vencillio.rs2.entity.player.Player.process(Player.java:1559)
+[2017-09-24 16:11:17] 	at com.vencillio.rs2.entity.World.process(World.java:322)
+[2017-09-24 16:11:17] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-09-24 16:11:17] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-09-24 16:11:17] Failing to update Boop highscores. Database could not connect.

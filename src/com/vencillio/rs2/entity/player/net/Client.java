@@ -119,58 +119,6 @@ public class Client {
 			}
 		}
 	}
-
-	public void rspsdata(Client c, String username){
-	try{
-	username = username.replaceAll(" ","_");
-	String secret = "b49d4455d64520060ac01fb5a3c757e4"; //YOUR SECRET KEY!
-	String email = "projectrealityrsps@gmail.com"; //This is the one you use to login into RSPS-PAY
-	URL url = new URL("http://rsps-pay.com/includes/listener.php?username="+username+"&secret="+secret+"&email="+email);
-	BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()));
-	String results = reader.readLine();
-	if(results.toLowerCase().contains("!error:")){
-	
-	}else{
-	String[] ary = results.split(",");
-	     for(int i = 0; i < ary.length; i++){
-	            switch(ary[i]){
-	                case "0":
-	                	player.send(new SendMessage("No donation was found, if this is an error contact Daniel."));
-	                break;
-	                    case "18949": //product ids can be found on the webstore page
-	                    	player.getInventory().add(13192, 2);
-	                    	player.send(new SendMessage("=============================================="));
-	                    	player.send(new SendMessage("Thank you for donating!"));
-	                    	player.send(new SendMessage("Claim your bonds to receive your Member Rank!"));
-	                    	player.send(new SendMessage("=============================================="));
-	                    break;
-	                    case "19039": //product ids can be found on the webstore page
-	                    	player.getInventory().add(13192, 4);
-	                    	player.send(new SendMessage("=============================================="));
-	                    	player.send(new SendMessage("Thank you for donating!"));
-	                    	player.send(new SendMessage("Claim your bonds to receive your Member Rank!"));
-	                    	player.send(new SendMessage("=============================================="));
-	                    break;
-	                    case "19040": //product ids can be found on the webstore page
-	                    	player.getInventory().add(13192, 6);
-	                    	player.send(new SendMessage("=============================================="));
-	                    	player.send(new SendMessage("Thank you for donating!"));
-	                    	player.send(new SendMessage("Claim your bonds to receive your Member Rank!"));
-	                    	player.send(new SendMessage("=============================================="));
-	                    break;
-	                    case "19041": //product ids can be found on the webstore page
-	                    	player.getInventory().add(13192, 8);
-	                    	player.send(new SendMessage("=============================================="));
-	                    	player.send(new SendMessage("Thank you for donating!"));
-	                    	player.send(new SendMessage("Claim your bonds to receive your Member Rank!"));
-	                    	player.send(new SendMessage("=============================================="));
-	                    break;
-	            }
-	    }
-	}
-	}catch(IOException e){}
-	}							
-	
 	
 	/**
 	 * Gets the decryptor.
