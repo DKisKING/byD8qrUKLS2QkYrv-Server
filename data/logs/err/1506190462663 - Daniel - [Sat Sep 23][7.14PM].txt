@@ -1,0 +1,4 @@
+Logging started at 2017-09-23 19:14:22
+File name: C:\Users\danie\Documents\GitHub\byD8qrUKLS2QkYrv-Server\.\data\logs\err\1506190462663 - Daniel - [Sat Sep 23][7.14PM].txt
+System.getProperty("os.name"): "Windows 10"
+

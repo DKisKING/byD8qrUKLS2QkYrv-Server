@@ -28,18 +28,28 @@ public class CreditsShop2 extends Shop {
 	public static final int getPrice(int id) {
 	switch (id) {	
 
-/*	case 13190:
-		return 10;
-	case 13192:
+	case 13442:		//anglerfish
+		return 150;
+	case 3145:		//karambwan
+		return 120;
+	case 13067:		//super sets
 		return 50;
-	case 13191:
-		return 100;
-	case 13195:
-		return 200;
-	case 13196:
-		return 500;
-	case 13197:
-		return 1000;*/
+	case 454:		//coal
+		return 150;
+	case 7409:		//magic secataeurs
+		return 50;
+	case 11941:		//looting bag
+		return 50;
+	case 13226:		//herb sack
+		return 50;
+	case 12791:		//rune pouch
+		return 50;
+	case 12934:		//zulrha's scales
+		return 50;
+	case 11230:		//dragon darts
+		return 50;
+	case 11212:		//dragon arrows	
+		return 50;
 	}
 	return 150;
 }
@@ -49,14 +59,19 @@ public class CreditsShop2 extends Shop {
  */
 public CreditsShop2() {
 	super(SHOP_ID, new Item[] { 
-/*		new Item(13190,50),
-		new Item(13192,50),
-		new Item(13191,50),
-		new Item(13195,50),
-		new Item(13196,50),
-		new Item(13197,50),*/
+		new Item(13442,1000),	//anglerfish
+		new Item(3145,1000),	//karambwan
+		new Item(13067,250),	//super sets
+		new Item(454,1000),		//coal
+		new Item(7409),			//magic secateurs
+		new Item(11941),		//looting bag
+		new Item(13226),		//herb sack
+		new Item(12791),		//rune pouch
+		new Item(12394),		//zulrah's scales
+		new Item(11230),		//dragon darts
+		new Item(11212),		//dragon arrows
 
-	}, false, "Members Stuff Shop");
+	}, false, "Contributor's Skilling and Resources Shop");
 }
 
 	@Override
