@@ -54,13 +54,12 @@ import com.vencillio.rs2.entity.player.net.out.impl.SendUpdateItems;
 public class PlayerCommand implements Command {
 	
 	//Creates Motivote instance
-	public static final Motivote MOTIVOTE = new Motivote("tyrasvote", "2da4908c29f00bf3e5c47b05e8d0dd4e");
+	public static final Motivote MOTIVOTE = new Motivote("tyras", "7435d4d3710276b4e0811af72876c59d");
     
-	
 	@Override
     public boolean handleCommand(Player player, CommandParser parser) throws Exception {
         switch (parser.getCommand()) {
-       
+                
         case "drops":
     		player.send(new SendInterface(59800));
             return true;
@@ -107,9 +106,9 @@ public class PlayerCommand implements Command {
             
             
         case "vote":
-        	//player.send(new SendString("http://tyrasvote.motivoters.com/motivote", 12000));
-            player.send(new SendMessage("@gre@Check pinned messages on discord Anouncements for link."));
-            return true;
+        	Process vote = Runtime.getRuntime().exec("cmd.exe /c start https://tyras.motivoters.com/motivote");
+        	vote.waitFor();
+            break;
         	
         	
 		case "redeem":
@@ -121,6 +120,7 @@ public class PlayerCommand implements Command {
 				// check how many were redeemed.
 				int total = r2.votes().size();
 				player.send(new SendMessage("You successfully redeemed " + total +" votes!"));
+				player.send(new SendMessage("Thank your for voting for Tyras!"));
 				for(int i = 1;i <= total;i++) {
 					int REWARD = Utility.random(300000);
 					player.getInventory().addOrCreateGroundItem(995, REWARD, true);
@@ -213,10 +213,11 @@ public class PlayerCommand implements Command {
         case "donating":
         case "store":
         case "credits":
-            player.send(new SendString("http://tyrasps.com/store/", 12000));
+        	Process store = Runtime.getRuntime().exec("cmd.exe /c start https://app.gpay.io/store/tyras");
+        	store.waitFor();
             player.send(new SendMessage("@gre@Donations are what keep Tyras alive; thanks a lot for considering making a donation!"));
-            return true;
-            
+            break;
+
         /*
          * Opens Highscores    
          */ 
@@ -228,9 +229,9 @@ public class PlayerCommand implements Command {
         case "hiscores":
         case "highscores":
         case "Highscores":
-            player.send(new SendString("http://tyrasps.com/Highscores/", 12000));
-            player.send(new SendMessage("@gre@ Time to look me up!!!"));
-            return true;
+           //player.send(new SendString("http://tyrasps.com/Highscores/", 12000));
+           // player.send(new SendMessage("@gre@ Time to look me up!!!"));
+        	break;
  
         /*
          * Opens Website page
@@ -238,27 +239,20 @@ public class PlayerCommand implements Command {
         case "forum":
         case "forums":
         case "website":
-            player.send(new SendString("https://tyrasps.wordpress.com/", 12000));
+        	Process website = Runtime.getRuntime().exec("cmd.exe /c start https://tyrasps.wordpress.com/");
+        	website.waitFor();
             player.send(new SendMessage("@gre@Redirecting you to our forums."));
-            return true;
+            break;
  
         /*
          * Opens Discord
          */
         case "discord":
-            player.send(new SendString("http://discordapp.com/invite/GBWEYRG", 12000));
+        	Process discord = Runtime.getRuntime().exec("cmd.exe /c start https://discord.gg/Nbb84xT");
+        	discord.waitFor();
             player.send(new SendMessage("@gre@Redirecting you to our Discord server."));
-            return true;
-        /*
-         *  Opens our YouTube 
-         */
-        case "Youtube":
-        case "youtube":
-        case "media":	
-            player.send(new SendString("http://tyrasps.com/index.php?/forum/14-media/", 12000));
-            player.send(new SendMessage("@gre@Redirecting you to our page about YouTube."));
-            return true;
- 
+            break;
+        
         /*
          * Finds player to view profile
          */

@@ -515,35 +515,6 @@ public class Player extends Entity {
 		this.generalDelay = generalDelay;
 	}
 	
-	public void rspsdata(Player player, String username){
-		try{
-			username = username.replaceAll(" ","_");
-		    String secret = "b49d4455d64520060ac01fb5a3c757e4"; //YOUR SECRET KEY!
-			String email = "projectrealityrsps@gmail.com"; //This is the one you use to login into RSPS-PAY
-			URL url = new URL("http://rsps-pay.com/includes/listener.php?username="+username+"&secret="+secret+"&email="+email);
-			BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()));
-			String results = reader.readLine();
-				if(results.toLowerCase().contains("!error:")){
-					//Logger.log(this, "[RSPS-PAY]"+results);
-				}else{
-					String[] ary = results.split(",");
-						 for(int i = 0; i < ary.length; i++){
-							switch(ary[i]){
-							    case "0":
-							        //donation was not found tell the user that!
-							    break;
-								case "18949": //product ids can be found on the webstore page
-									player.getInventory().add(13190, 5);
-								break;
-								case "SECONDPRODUCTID": //product ids can be found on the webstore page
-									//add items for the second product here!
-								break;
-							}
-						}
-				}
-			}catch(IOException e){}
-		}
-
 	public long getLastRequestedLookup() {
 		return lastRequestedLookup;
 	}

@@ -1,0 +1,21 @@
+Logging started at 2017-09-24 16:27:21
+File name: H:\Documents\GitHub\byD8qrUKLS2QkYrv-Server\.\data\logs\err\1506266841293 - Dan - [Sun Sep 24][4.27PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-09-24 16:28:06] java.io.IOException: Cannot run program "start": CreateProcess error=2, The system cannot find the file specified
+[2017-09-24 16:28:06] 	at java.lang.ProcessBuilder.start(Unknown Source)
+[2017-09-24 16:28:06] 	at java.lang.Runtime.exec(Unknown Source)
+[2017-09-24 16:28:06] 	at java.lang.Runtime.exec(Unknown Source)
+[2017-09-24 16:28:06] 	at java.lang.Runtime.exec(Unknown Source)
+[2017-09-24 16:28:06] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:110)
+[2017-09-24 16:28:06] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2017-09-24 16:28:06] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2017-09-24 16:28:06] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:218)
+[2017-09-24 16:28:06] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2017-09-24 16:28:06] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2017-09-24 16:28:06] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2017-09-24 16:28:06] Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+[2017-09-24 16:28:06] 	at java.lang.ProcessImpl.create(Native Method)
+[2017-09-24 16:28:06] 	at java.lang.ProcessImpl.<init>(Unknown Source)
+[2017-09-24 16:28:06] 	at java.lang.ProcessImpl.start(Unknown Source)
+[2017-09-24 16:28:06] 	... 11 more

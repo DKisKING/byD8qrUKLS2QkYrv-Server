@@ -217,7 +217,7 @@ public class ClickButtonPacket extends IncomingPacket {
 			MysteryBoxMinigame.play(player);
 			break;
 		case 66115:
-			player.send(new SendString("http://www.projectreality.co", 12000));
+			player.send(new SendString("www.Tyrasps.wordpress.com", 12000));
 			break;
 		
 		

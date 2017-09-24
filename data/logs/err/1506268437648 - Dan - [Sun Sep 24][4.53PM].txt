@@ -1,0 +1,5 @@
+Logging started at 2017-09-24 16:53:57
+File name: H:\Documents\GitHub\byD8qrUKLS2QkYrv-Server\.\data\logs\err\1506268437648 - Dan - [Sun Sep 24][4.53PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-09-24 16:54:24] Failing to update Boop highscores. Database could not connect.
