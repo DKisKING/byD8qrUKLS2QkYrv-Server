@@ -210,7 +210,7 @@ public class Skill {
 			player.setAppearanceUpdateRequired(true);
 
 			if (id == DUNGEONEERING ? newLevel == 120 : newLevel == 99) {
-				World.sendGlobalMessage("<col=855907><img=12> "+player.getUsername() + " has achieved level " + 99 + " in " + Skills.SKILL_NAMES[id] + "! Prestige level: " + player.getSkillPrestiges()[id]);
+				World.sendGlobalMessage("<img=8><col=0000FF><shad=0> "+" Congratulations! " +player.getUsername() + " has just achieved level " + 99 + " in " + Skills.SKILL_NAMES[id] + "! Prestige level: " + player.getSkillPrestiges()[id]);
 			}
 		}
 

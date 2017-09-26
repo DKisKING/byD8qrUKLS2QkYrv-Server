@@ -23,7 +23,7 @@ public class GlobalMessages {
 	/**
 	 * The news color text
 	 */
-	private static String newsColor = "<col=cc00cc>";
+	private static String newsColor = "<col=00c5ff>";
 
 	/**
 	 * The news icon
@@ -64,7 +64,7 @@ public class GlobalMessages {
 	 * Initializes the task
 	 */
 	public static void initialize() {
-		TaskQueue.queue(new Task(250, false) {
+		TaskQueue.queue(new Task(1000, false) {
 			@Override
 			public void execute() {
 				final String announcement = Utility.randomElement(announcements);

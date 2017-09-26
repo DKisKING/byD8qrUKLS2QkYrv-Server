@@ -46,7 +46,7 @@ public class VencillioBot {
 	/**
 	 * Color of the VencillioBot messages
 	 */
-	private static final String COLOR = "<col=cc00cc>";
+	private static final String COLOR = "<col=800080>";
 	
 	/**
 	 * Declares the Vencillio data
@@ -62,7 +62,7 @@ public class VencillioBot {
 	 * Initializes the VencillioBot task
 	 */
 	public static void initialize() {
-		TaskQueue.queue(new Task(650, false) {
+		TaskQueue.queue(new Task(800, false) {
 			@Override
 			public void execute() {
 				if (current == null) {
