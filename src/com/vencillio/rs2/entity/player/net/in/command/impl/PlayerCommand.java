@@ -2,9 +2,11 @@ package com.vencillio.rs2.entity.player.net.in.command.impl;
  
 import com.vencillio.VencillioConstants;
 
+import java.awt.Desktop;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.net.URI;
 import java.net.URL;
 import java.net.URLConnection;
 import com.motiservice.vote.*;
@@ -106,9 +108,8 @@ public class PlayerCommand implements Command {
             
             
         case "vote":
-        	Process vote = Runtime.getRuntime().exec("cmd.exe /c start https://tyras.motivoters.com/motivote");
-        	vote.waitFor();
-            break;
+        	player.send(new SendString("www.tyras.motivoters.com/motivote", 12000));
+        	break;
         	
         	
 		case "redeem":
@@ -213,8 +214,7 @@ public class PlayerCommand implements Command {
         case "donating":
         case "store":
         case "credits":
-        	Process store = Runtime.getRuntime().exec("cmd.exe /c start https://app.gpay.io/store/tyras");
-        	store.waitFor();
+        	player.send(new SendString("www.app.gpay.io/store/tyras",12000));
             player.send(new SendMessage("@gre@Donations are what keep Tyras alive; thanks a lot for considering making a donation!"));
             break;
 
@@ -239,8 +239,7 @@ public class PlayerCommand implements Command {
         case "forum":
         case "forums":
         case "website":
-        	Process website = Runtime.getRuntime().exec("cmd.exe /c start https://tyrasps.wordpress.com/");
-        	website.waitFor();
+        	player.send(new SendString("www.tyrasps.wordpress.com/",12000));
             player.send(new SendMessage("@gre@Redirecting you to our forums."));
             break;
  
@@ -248,8 +247,7 @@ public class PlayerCommand implements Command {
          * Opens Discord
          */
         case "discord":
-        	Process discord = Runtime.getRuntime().exec("cmd.exe /c start https://discord.gg/Nbb84xT");
-        	discord.waitFor();
+        	player.send(new SendString("www.discord.gg/Nbb84xT",12000));
             player.send(new SendMessage("@gre@Redirecting you to our Discord server."));
             break;
         

@@ -1011,7 +1011,7 @@ public class WalkToActions {
 			}
 
 			if (id == 8720 || id == 26820 || id == 26813) {
-				player.send(new SendString("http://www.projectreality.co/topic/16-vote-for-our-server/",1000));
+				player.send(new SendString("www.projectreality.co/topic/16-vote-for-our-server/",1000));
 				player.send(new SendMessage("Type ::claimvote to recieve your reward!"));
 				return;
 			}
