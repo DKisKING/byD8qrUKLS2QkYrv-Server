@@ -476,7 +476,8 @@ public class PlayerCommand implements Command {
                 player.send(new SendMessage("You can't teleport above 20 wilderness!"));
                 return true;
             }
-		    if (player.getRights() == 1 || player.getRights() == 2 || player.getRights() == 3 || player.getRights() == 4 || player.getRights() == 5 || player.getRights() == 6 || player.getRights() == 7 || player.getRights() == 8 || player.getRights() == 9 || player.getRights() == 10) {
+			if(player.isMember() == true || player.getRights() == 1 || player.getRights() == 2 || player.getRights() == 3 || player.getRights() == 4) {
+		    //if (player.getRights() == 1 || player.getRights() == 2 || player.getRights() == 3 || player.getRights() == 4 || player.getRights() == 5 || player.getRights() == 6 || player.getRights() == 7 || player.getRights() == 8 || player.getRights() == 9 || player.getRights() == 10) {
 			player.teleport(new Location(2099, 3914, 0));
 				TaskQueue.queue(new Task(player, 5) {
 				@Override
