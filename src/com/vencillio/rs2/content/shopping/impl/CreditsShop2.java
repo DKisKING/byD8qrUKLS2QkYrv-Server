@@ -67,7 +67,7 @@ public CreditsShop2() {
 		new Item(11941),		//looting bag
 		new Item(13226),		//herb sack
 		new Item(12791),		//rune pouch
-		new Item(12394),		//zulrah's scales
+		new Item(12934,1000),	//zulrah's scales
 		new Item(11230),		//dragon darts
 		new Item(11212),		//dragon arrows
 
