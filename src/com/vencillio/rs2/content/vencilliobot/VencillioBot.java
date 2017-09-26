@@ -46,7 +46,7 @@ public class VencillioBot {
 	/**
 	 * Color of the VencillioBot messages
 	 */
-	private static final String COLOR = "<col=800080>";
+	private static final String COLOR = "<col=7E007E>";
 	
 	/**
 	 * Declares the Vencillio data

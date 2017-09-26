@@ -30,7 +30,7 @@ public class VencillioConstants {
 	/**
 	 * Check to see if double experience is enabled
 	 */
-	public static final boolean doubleExperience = true;
+	public static final boolean doubleExperience = false;
 
 	/**
 	 * Current amount of votes
