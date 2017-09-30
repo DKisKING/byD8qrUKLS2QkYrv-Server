@@ -106,7 +106,11 @@ public class SuperCombatPotion {
 		DialogueManager.sendItem1(player, "You have combined all the ingredients!", POTION_ID);
 		
 		//Adds experience to the sill
+		if (player.getEquipment().isWearingItem(13133)){	
+		player.getSkill().addExperience(Skills.HERBLORE, EXPERIENCE * 1.2);
+		}else{
 		player.getSkill().addExperience(Skills.HERBLORE, EXPERIENCE);
+		}
 	}
 
 }

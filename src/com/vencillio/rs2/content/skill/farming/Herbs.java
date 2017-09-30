@@ -384,7 +384,11 @@ public class Herbs {
 					herbStages[herbFieldsData.getHerbIndex()] = 3;
 					stop();
 				}
+				if (player.getEquipment().isWearingItem(9069) && player.getEquipment().isWearingItem(9070) && player.getEquipment().isWearingItem(9071) && player.getEquipment().isWearingItem(9072)){	
+				player.getSkill().addExperience(Skills.FARMING, CLEARING_EXPERIENCE*1.2);
+				}else{
 				player.getSkill().addExperience(Skills.FARMING, CLEARING_EXPERIENCE);
+				}
 				herbTimer[herbFieldsData.getHerbIndex()] = Farming.getMinutesCounter(player);
 				updateHerbsStates();
 				if (herbStages[herbFieldsData.getHerbIndex()] == 3) {
@@ -440,7 +444,11 @@ public class Herbs {
 				herbStages[herbFieldsData.getHerbIndex()] = 4;
 				herbSeeds[herbFieldsData.getHerbIndex()] = seedId;
 				herbTimer[herbFieldsData.getHerbIndex()] = Farming.getMinutesCounter(player);
+				if (player.getEquipment().isWearingItem(9069) && player.getEquipment().isWearingItem(9070) && player.getEquipment().isWearingItem(9071) && player.getEquipment().isWearingItem(9072)){	
+				player.getSkill().addExperience(Skills.FARMING, herbData.getPlantingXp() * 1.2);
+				}else{
 				player.getSkill().addExperience(Skills.FARMING, herbData.getPlantingXp());
+				}
 				stop();
 			}
 
@@ -517,7 +525,11 @@ public class Herbs {
 				player.getUpdateFlags().sendAnimation(new Animation((FarmingConstants.PICKING_HERB_ANIM)));
 				player.send(new SendMessage("You harvest the crop, and get some herbs. You now have " + player.farmingPoints + "Farming points."));
 				player.getInventory().add(herbData.getHarvestId(), 1);
+				if (player.getEquipment().isWearingItem(9069) && player.getEquipment().isWearingItem(9070) && player.getEquipment().isWearingItem(9071) && player.getEquipment().isWearingItem(9072)){	
+				player.getSkill().addExperience(Skills.FARMING, herbData.getHarvestXp() * 1.2);
+				}else{
 				player.getSkill().addExperience(Skills.FARMING, herbData.getHarvestXp());
+				}
 				player.farmingPoints ++;
 			}
 
@@ -553,8 +565,11 @@ public class Herbs {
 
 		player.send(new SendMessage("You pour some " + (itemId == 6034 ? "super" : "") + "compost on the patch."));
 		player.getUpdateFlags().sendAnimation(new Animation((FarmingConstants.PUTTING_COMPOST)));
-		player.getSkill().addExperience(Skills.FARMING, itemId == 6034 ? Compost.SUPER_COMPOST_EXP_USE : Compost.COMPOST_EXP_USE);
-
+		if (player.getEquipment().isWearingItem(9069) && player.getEquipment().isWearingItem(9070) && player.getEquipment().isWearingItem(9071) && player.getEquipment().isWearingItem(9072)){	
+		player.getSkill().addExperience(Skills.FARMING,  itemId == 6034 ? Compost.SUPER_COMPOST_EXP_USE * 1.2 : Compost.COMPOST_EXP_USE * 1.2);
+		}else{
+		player.getSkill().addExperience(Skills.FARMING,  itemId == 6034 ? Compost.SUPER_COMPOST_EXP_USE : Compost.COMPOST_EXP_USE);
+		}
 		player.getSkill().lock(7);
 
 		Controller controller = player.getController();

@@ -5,6 +5,7 @@ import com.vencillio.core.task.TaskQueue;
 import com.vencillio.core.task.impl.TaskIdentifier;
 import com.vencillio.core.util.Utility;
 import com.vencillio.rs2.content.combat.Hit;
+import com.vencillio.rs2.content.skill.Skills;
 import com.vencillio.rs2.entity.Animation;
 import com.vencillio.rs2.entity.item.Item;
 import com.vencillio.rs2.entity.player.Player;
@@ -43,7 +44,7 @@ public class WallSafes extends Task {
 			return false;
 		}
 		if (player.getSkill().getLevels()[17] < 50) {
-			player.send(new SendMessage("You need a thieving level atleast 50 to crack safes!"));
+			player.send(new SendMessage("You need a thieving level of at least 50 to crack safes!"));
 			return false;
 		}
 		if (player.getInventory().getFreeSlots() < 1) {
@@ -85,7 +86,11 @@ public class WallSafes extends Task {
 		}
 		player.send(new SendMessage("You get some loot."));
 		player.getInventory().add(RANDOM());
-		player.getSkill().addExperience(17, 100);
+		if (player.getEquipment().isWearingItem(5553) && player.getEquipment().isWearingItem(5554) && player.getEquipment().isWearingItem(5555) && player.getEquipment().isWearingItem(5556) && player.getEquipment().isWearingItem(5557)){	
+		player.getSkill().addExperience(Skills.THIEVING, 120);
+		}else{
+		player.getSkill().addExperience(Skills.THIEVING, 100);
+		}
 		player.isCracking = false;
 		player.getDelay().reset();
 		this.stop();

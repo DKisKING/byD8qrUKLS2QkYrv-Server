@@ -5,6 +5,7 @@ import com.vencillio.core.task.TaskQueue;
 import com.vencillio.core.task.impl.TaskIdentifier;
 import com.vencillio.rs2.content.achievements.AchievementHandler;
 import com.vencillio.rs2.content.achievements.AchievementList;
+import com.vencillio.rs2.content.skill.Skills;
 import com.vencillio.rs2.entity.Animation;
 import com.vencillio.rs2.entity.item.Item;
 import com.vencillio.rs2.entity.player.Player;
@@ -46,7 +47,11 @@ public class HerbloreFinishedPotionTask extends Task {
 		player.getInventory().remove(new Item(data.getUnfinishedPotion(), 1));
 		player.getInventory().remove(new Item(data.getItemNeeded(), 1));
 		player.getInventory().add(new Item(data.getFinishedPotion(), 1));
-		player.getSkill().addExperience(15, data.getExpGained());
+		if (player.getEquipment().isWearingItem(13133)){	
+		player.getSkill().addExperience(Skills.HERBLORE, data.getExpGained()*1.2);
+		}else{
+		player.getSkill().addExperience(Skills.HERBLORE, data.getExpGained());
+		}
 		player.herblorePoints ++;
 		player.getClient().queueOutgoingPacket(new SendMessage("You make a potion. You now have " + player.herblorePoints + " Herblore points."));
 

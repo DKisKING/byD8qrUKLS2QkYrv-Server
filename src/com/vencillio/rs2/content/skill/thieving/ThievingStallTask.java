@@ -4,6 +4,7 @@ import com.vencillio.core.task.Task;
 import com.vencillio.core.task.TaskQueue;
 import com.vencillio.core.task.impl.TaskIdentifier;
 import com.vencillio.core.util.Utility;
+import com.vencillio.rs2.content.skill.Skills;
 import com.vencillio.rs2.entity.Animation;
 import com.vencillio.rs2.entity.Location;
 import com.vencillio.rs2.entity.item.Item;
@@ -78,6 +79,10 @@ public class ThievingStallTask extends Task {
 			player.getClient().queueOutgoingPacket(new SendMessage("You steal " + data.getRewards()[randomItem][1] + "gp from the stall."));
 		}
 		
-		player.getSkill().addExperience(17, data.getExperience());
+		if (player.getEquipment().isWearingItem(5553) && player.getEquipment().isWearingItem(5554) && player.getEquipment().isWearingItem(5555) && player.getEquipment().isWearingItem(5556) && player.getEquipment().isWearingItem(5557)){	
+		player.getSkill().addExperience(Skills.THIEVING,data.getExperience()*1.2);
+		}else{
+		player.getSkill().addExperience(Skills.THIEVING, data.getExperience());
+		}
 	}
 }

@@ -3,6 +3,7 @@ package com.vencillio.rs2.content.skill.herblore;
 import com.vencillio.core.task.Task;
 import com.vencillio.core.task.TaskQueue;
 import com.vencillio.core.task.impl.TaskIdentifier;
+import com.vencillio.rs2.content.skill.Skills;
 import com.vencillio.rs2.entity.item.Item;
 import com.vencillio.rs2.entity.player.Player;
 import com.vencillio.rs2.entity.player.net.out.impl.SendMessage;
@@ -50,7 +51,11 @@ public class CleanHerbTask extends Task {
 		player.getInventory().getItems()[slot] = null;
 		player.getInventory().getItems()[slot] = new Item(data.getCleanHerb(), 1);
 		player.getInventory().update();
-		player.getSkill().addExperience(15, data.getExp());
+		if (player.getEquipment().isWearingItem(13133)){	
+		player.getSkill().addExperience(Skills.HERBLORE, data.getExp()*1.2);
+		}else{
+		player.getSkill().addExperience(Skills.HERBLORE, data.getExp());
+		}
 		player.getClient().queueOutgoingPacket(new SendMessage("You clean the dirt off the herb."));
 	}
 

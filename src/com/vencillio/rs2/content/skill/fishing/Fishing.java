@@ -208,7 +208,11 @@ public class Fishing {
 			int id = f.getRawFishId();
 			String name = Item.getDefinition(id).getName();
 			player.getInventory().add(new Item(id, 1));
-			player.getSkill().addExperience(10, f.getExperience());
+			if (player.getEquipment().isWearingItem(13258) && player.getEquipment().isWearingItem(13259) && player.getEquipment().isWearingItem(13260) && player.getEquipment().isWearingItem(13261)){	
+			player.getSkill().addExperience(Skills.FISHING, f.getExperience()*1.2);
+			}else{
+			player.getSkill().addExperience(Skills.FISHING, f.getExperience());
+			}
 			player.fishingPoints ++;
 			player.getClient().queueOutgoingPacket(new SendMessage("You manage to catch " + getFishStringMod(name) + name));
 			

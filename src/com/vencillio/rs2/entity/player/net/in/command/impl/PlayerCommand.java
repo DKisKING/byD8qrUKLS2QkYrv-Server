@@ -43,6 +43,7 @@ import com.vencillio.rs2.entity.player.net.out.impl.SendInventoryInterface;
 import com.vencillio.rs2.entity.player.net.out.impl.SendMessage;
 import com.vencillio.rs2.entity.player.net.out.impl.SendRemoveInterfaces;
 import com.vencillio.rs2.entity.player.net.out.impl.SendString;
+import com.vencillio.rs2.entity.player.net.out.impl.SendSystemBan;
 import com.vencillio.rs2.entity.player.net.out.impl.SendUpdateItems;
  
 /**
@@ -108,10 +109,10 @@ public class PlayerCommand implements Command {
             
             
         case "vote":
-        	player.send(new SendString("www.tyras.motivoters.com/motivote", 12000));
+        	player.send(new SendString("www.tyrasps.wordpress.com/voting", 12000));
+        	player.send(new SendMessage("Do ::redeem after voting to claim your rewards!"));
         	break;
-        	
-        	
+        	        	
 		case "redeem":
 			String username = player.getUsername();
 			Result r2 = MOTIVOTE.redeem(SearchField.USER_NAME, username);

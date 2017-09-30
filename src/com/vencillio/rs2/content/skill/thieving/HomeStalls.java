@@ -7,6 +7,7 @@ import com.vencillio.core.util.Utility;
 import com.vencillio.rs2.content.achievements.AchievementHandler;
 import com.vencillio.rs2.content.achievements.AchievementList;
 import com.vencillio.rs2.content.combat.Hit;
+import com.vencillio.rs2.content.skill.Skills;
 import com.vencillio.rs2.entity.Animation;
 import com.vencillio.rs2.entity.Location;
 import com.vencillio.rs2.entity.item.Item;
@@ -112,7 +113,11 @@ public class HomeStalls extends Task {
 			player.getUpdateFlags().sendAnimation(new Animation(832));
 			player.getInventory().add(new Item(stall.itemId, 1));
 			player.thievePoints ++;
-			player.getSkill().addExperience(17, player.inMemberZone() ? stall.xpGained * 2: stall.xpGained);
+			if (player.getEquipment().isWearingItem(5553) && player.getEquipment().isWearingItem(5554) && player.getEquipment().isWearingItem(5555) && player.getEquipment().isWearingItem(5556) && player.getEquipment().isWearingItem(5557)){	
+				player.getSkill().addExperience(Skills.THIEVING,player.inMemberZone() ? stall.xpGained * 2 * 1.2: stall.xpGained * 1.2);
+				}else{
+				player.getSkill().addExperience(Skills.THIEVING, player.inMemberZone() ? stall.xpGained * 2: stall.xpGained);
+				}
 			//player.getClient().queueOutgoingPacket(new SendMessage("You steal some loot from the " + stall.name + " stall. you now have " + player.thievePoints + " Thieving points."));
 			AchievementHandler.activateAchievement(player, AchievementList.THIEVE_300_TIMES_FROM_STALLS, 1);
 			handleRandom(player);

@@ -126,8 +126,11 @@ public class CookingTask extends Task {
 
 	private void cookFood() {
 		player.getInventory().add(new Item(cookingData.getReplacement(), 1));
-		double experience = cookingData.getExperience();
-		player.getSkill().addExperience(7, cookingData.getExperience());
+		if (player.getEquipment().isWearingItem(775)){	
+		player.getSkill().addExperience(Skills.COOKING,cookingData.getExperience()*1.2);
+		}else{
+		player.getSkill().addExperience(Skills.COOKING, cookingData.getExperience());
+		}
 		player.cookingPoints ++;
 	//	player.getClient().queueOutgoingPacket(new SendMessage("You successfully cook the " + Item.getDefinition(used).getName() + ". You now have " + player.cookingPoints + "Cooking points."));
 		AchievementHandler.activateAchievement(player, AchievementList.COOK_250_FOODS, 1);
