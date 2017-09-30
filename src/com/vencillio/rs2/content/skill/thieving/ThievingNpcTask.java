@@ -63,7 +63,11 @@ public class ThievingNpcTask extends Task {
 	}
 
 	private static void successfulAttempt(Player player, ThievingNpcData data, Mob mob) {
-		player.getSkill().addExperience(17, data.getExperience());
+		if (player.getEquipment().isWearingItem(5553) && player.getEquipment().isWearingItem(5554) && player.getEquipment().isWearingItem(5555) && player.getEquipment().isWearingItem(5556) && player.getEquipment().isWearingItem(5557)){	
+		player.getSkill().addExperience(Skills.THIEVING,data.getExperience()*1.2);
+		}else{
+		player.getSkill().addExperience(Skills.THIEVING, data.getExperience());
+		}
 
 		Item stolen = null;
 

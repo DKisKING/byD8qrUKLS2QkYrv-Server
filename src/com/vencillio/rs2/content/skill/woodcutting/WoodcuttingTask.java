@@ -257,7 +257,11 @@ public class WoodcuttingTask extends Task {
 	 */
 	private void handleGivingLogs() {
 		player.getInventory().add(new Item(tree.getReward(), 1));
+		if (player.getEquipment().isWearingItem(10933) && player.getEquipment().isWearingItem(10941) && player.getEquipment().isWearingItem(10940) && player.getEquipment().isWearingItem(10939)){	
+		player.getSkill().addExperience(Skills.WOODCUTTING,tree.getExperience()*1.2);
+		}else{
 		player.getSkill().addExperience(Skills.WOODCUTTING, tree.getExperience());
+		}
 		player.woodcuttingPoints ++;
 
 	}
@@ -309,7 +313,11 @@ public class WoodcuttingTask extends Task {
 		player.woodcuttingPoints ++;
 		player.getClient().queueOutgoingPacket(new SendMessage("You successfully chop down the tree. You now have " + player.woodcuttingPoints + " Woodcutting points."));
 		player.getInventory().add(new Item(tree.getReward(), 1));
+		if (player.getEquipment().isWearingItem(10945) && player.getEquipment().isWearingItem(10941) && player.getEquipment().isWearingItem(10940) && player.getEquipment().isWearingItem(10939)){	
+		player.getSkill().addExperience(Skills.WOODCUTTING,tree.getExperience()*1.2);
+		}else{
 		player.getSkill().addExperience(Skills.WOODCUTTING, tree.getExperience());
+		}
 		player.getUpdateFlags().sendAnimation(new Animation(65535));
 		AchievementHandler.activateAchievement(player, AchievementList.CHOP_DOWN_150_TREES, 1);
 

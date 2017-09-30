@@ -4,6 +4,7 @@ import com.vencillio.core.task.Task;
 import com.vencillio.core.task.TaskQueue;
 import com.vencillio.core.task.impl.TaskIdentifier;
 import com.vencillio.core.util.Utility;
+import com.vencillio.rs2.content.skill.Skills;
 import com.vencillio.rs2.entity.item.Item;
 import com.vencillio.rs2.entity.player.Player;
 import com.vencillio.rs2.entity.player.net.out.impl.SendMessage;
@@ -87,7 +88,11 @@ public class SmithingTask extends Task {
 		
 		player.setSmithingPoints(sp + bar.getAmount());
 		
-		player.getSkill().addExperience(13, getExperience());
+		if (player.getEquipment().isWearingItem(12013) && player.getEquipment().isWearingItem(12014) && player.getEquipment().isWearingItem(12015) && player.getEquipment().isWearingItem(12016)){	
+		player.getSkill().addExperience(Skills.SMITHING, getExperience()*1.2);
+		}else{
+		player.getSkill().addExperience(Skills.SMITHING, getExperience());
+		}
 
 		player.getInventory().remove(new Item(bar), false);
 		player.getInventory().add(new Item(smith), true);

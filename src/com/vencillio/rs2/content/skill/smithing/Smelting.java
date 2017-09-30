@@ -81,7 +81,11 @@ public class Smelting extends Task {
 
 		player.getInventory().update();
 
-		player.getSkill().addExperience(13, data.getExp());
+		if (player.getEquipment().isWearingItem(12013) && player.getEquipment().isWearingItem(12014) && player.getEquipment().isWearingItem(12015) && player.getEquipment().isWearingItem(12016)){	
+		player.getSkill().addExperience(Skills.SMITHING, data.getExp()*1.2);
+		}else{
+		player.getSkill().addExperience(Skills.SMITHING, data.getExp());
+		}
 
 		if (++smelted == amount)
 			stop();

@@ -6,6 +6,7 @@ import com.vencillio.core.task.impl.TaskIdentifier;
 import com.vencillio.core.util.Utility;
 import com.vencillio.rs2.content.achievements.AchievementHandler;
 import com.vencillio.rs2.content.achievements.AchievementList;
+import com.vencillio.rs2.content.skill.Skills;
 import com.vencillio.rs2.entity.Animation;
 import com.vencillio.rs2.entity.Graphic;
 import com.vencillio.rs2.entity.item.Item;
@@ -81,7 +82,11 @@ public class RunecraftingTask extends Task {
 			amount *= 2;
 		}
 
-		player.getSkill().addExperience(20, amount * data.getXp());
+		if (player.getEquipment().isWearingItem(7398) && player.getEquipment().isWearingItem(7399) && player.getEquipment().isWearingItem(7400)){	
+		player.getSkill().addExperience(Skills.RUNECRAFTING, data.getXp() * 1.2 * amount);
+		}else{
+		player.getSkill().addExperience(Skills.RUNECRAFTING, data.getXp() * amount);
+		}
 		player.runecraftingPoints ++;
 		//player.send(new SendMessage("You now have " + player.runecraftingPoints + " Runecrafting points."));
 

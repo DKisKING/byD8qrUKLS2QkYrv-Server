@@ -275,7 +275,11 @@ public class Mining {
 				if (ticks++ == time || DEAD_ORES.contains(new Location(object.getX(), object.getY(), object.getZ()))) {
 					if (ore == Ore.ESSENCE) {
 						player.getInventory().add(ore.getOre()[Utility.random(ore.getOre().length)], 1);
+						if (player.getEquipment().isWearingItem(12013) && player.getEquipment().isWearingItem(12014) && player.getEquipment().isWearingItem(12015) && player.getEquipment().isWearingItem(12016)){	
+						player.getSkill().addExperience(Skills.MINING, ore.getExp()*1.2);
+						}else{
 						player.getSkill().addExperience(Skills.MINING, ore.getExp());
+						}
 						AchievementHandler.activateAchievement(player, AchievementList.MINE_1000_ROCKS, 1);
 						ticks = 0;
 						if (player.getInventory().getFreeSlots() == 0) {
@@ -299,7 +303,11 @@ public class Mining {
 					if (ore != Ore.ESSENCE) {
 						System.out.println(Arrays.asList(ore.getOre()));
 						player.getInventory().add(ore.getOre()[Utility.randomNumber(ore.getOre().length)], 1);
+						if (player.getEquipment().isWearingItem(12013) && player.getEquipment().isWearingItem(12014) && player.getEquipment().isWearingItem(12015) && player.getEquipment().isWearingItem(12016)){	
+						player.getSkill().addExperience(Skills.MINING, ore.getExp()*1.2);
+						}else{
 						player.getSkill().addExperience(Skills.MINING, ore.getExp());
+						}
 						player.miningPoints ++;
 						player.send(new SendMessage("You successfully mined the ore. You now have " + player.miningPoints + " Mining points."));
 						AchievementHandler.activateAchievement(player, AchievementList.MINE_1000_ROCKS, 1);

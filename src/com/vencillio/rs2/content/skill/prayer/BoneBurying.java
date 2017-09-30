@@ -10,6 +10,7 @@ import com.vencillio.core.task.TaskQueue;
 import com.vencillio.core.task.impl.TaskIdentifier;
 import com.vencillio.rs2.content.achievements.AchievementHandler;
 import com.vencillio.rs2.content.achievements.AchievementList;
+import com.vencillio.rs2.content.skill.Skills;
 import com.vencillio.rs2.entity.item.Item;
 import com.vencillio.rs2.entity.player.Player;
 import com.vencillio.rs2.entity.player.net.out.impl.SendMessage;
@@ -74,7 +75,12 @@ public class BoneBurying {
 		player.prayerPoints ++;
 		player.getClient().queueOutgoingPacket(new SendMessage("You bury the " + Item.getDefinition(bones.id).getName() + ". You now have " + player.prayerPoints + " Prayer points."));
 		player.getInventory().clear(slot);
-		player.getSkill().addExperience(5, bones.experience);
+		if (player.getEquipment().isWearingItem(12598) && (player.getEquipment().isWearingItem(12637) || player.getEquipment().isWearingItem(12638) || player.getEquipment().isWearingItem(12639))){	
+		player.getSkill().addExperience(Skills.PRAYER, bones.experience*1.2);
+		}else{
+		player.getSkill().addExperience(Skills.PRAYER, bones.experience);
+		}
+		//player.getSkill().addExperience(5, bones.experience);
 		AchievementHandler.activateAchievement(player, AchievementList.BURY_150_BONES, 1);
 		AchievementHandler.activateAchievement(player, AchievementList.BURY_1000_BONES, 1);
 
@@ -108,7 +114,12 @@ public class BoneBurying {
 
 		player.getUpdateFlags().sendAnimation(645, 5);
 		player.getInventory().remove(new Item(item, amount));
-		player.getSkill().addExperience(5, (bones.experience * 2.0D) * amount);
+		if (player.getEquipment().isWearingItem(12598) && (player.getEquipment().isWearingItem(12637) || player.getEquipment().isWearingItem(12638) || player.getEquipment().isWearingItem(12639))){	
+		player.getSkill().addExperience(Skills.PRAYER, bones.experience * 2.0D * amount * 1.2);
+		}else{
+		player.getSkill().addExperience(Skills.PRAYER, bones.experience * 2.0D * amount);
+		}
+		//player.getSkill().addExperience(5, (bones.experience * 2.0D) * amount);
 		AchievementHandler.activateAchievement(player, AchievementList.BURY_150_BONES, 1);
 		AchievementHandler.activateAchievement(player, AchievementList.BURY_1000_BONES, 1);
 
@@ -142,7 +153,12 @@ public class BoneBurying {
 					
 					p.getUpdateFlags().sendAnimation(645, 5);
 					p.getInventory().remove(item);
-					p.getSkill().addExperience(5, bones.experience * 2.0);
+					if (p.getEquipment().isWearingItem(12598) && (p.getEquipment().isWearingItem(12637) || p.getEquipment().isWearingItem(12638) || p.getEquipment().isWearingItem(12639))){	
+						p.getSkill().addExperience(Skills.PRAYER, bones.experience * 2.0 * 1.2);
+						}else{
+						p.getSkill().addExperience(Skills.PRAYER, bones.experience * 2.0);
+						}
+					//p.getSkill().addExperience(5, bones.experience * 2.0);
 				}
 
 				@Override

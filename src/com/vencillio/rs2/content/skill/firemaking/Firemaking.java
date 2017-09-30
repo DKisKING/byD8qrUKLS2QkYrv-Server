@@ -128,7 +128,11 @@ public class Firemaking extends Task {
 
 		TaskQueue.queue(new FireTask(player, 50 + logData.ordinal() * 15, object));
 
-		player.getSkill().addExperience(11, logData.getExperience());
+		if (player.getEquipment().isWearingItem(13134)){	
+		player.getSkill().addExperience(Skills.FIREMAKING,logData.getExperience()*1.2);
+		}else{
+		player.getSkill().addExperience(Skills.FIREMAKING, logData.getExperience());
+		}
 		player.firemakingPoints ++;
 		player.send(new SendMessage("You successfully light a fire. You now have " + player.firemakingPoints + " Firemaking points."));
 		AchievementHandler.activateAchievement(player, AchievementList.BURN_500_LOGS, 1);

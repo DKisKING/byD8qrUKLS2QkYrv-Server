@@ -513,7 +513,11 @@ public class Allotments {
 					allotmentStages[allotmentFieldsData.getAllotmentIndex()] = 3;
 					stop();
 				}
+				if (player.getEquipment().isWearingItem(9069) && player.getEquipment().isWearingItem(9070) && player.getEquipment().isWearingItem(9071) && player.getEquipment().isWearingItem(9072)){	
+				player.getSkill().addExperience(Skills.FARMING, CLEARING_EXPERIENCE*1.2);
+				}else{
 				player.getSkill().addExperience(Skills.FARMING, CLEARING_EXPERIENCE);
+				}
 				allotmentTimer[allotmentFieldsData.getAllotmentIndex()] = Farming.getMinutesCounter(player);
 				updateAllotmentsStates();
 				if (allotmentStages[allotmentFieldsData.getAllotmentIndex()] == 3) {
@@ -574,7 +578,11 @@ public class Allotments {
 				allotmentState[allotmentFieldsData.getAllotmentIndex()] = 0;
 				allotmentSeeds[allotmentFieldsData.getAllotmentIndex()] = seedId;
 				allotmentTimer[allotmentFieldsData.getAllotmentIndex()] = Farming.getMinutesCounter(player);
+				if (player.getEquipment().isWearingItem(9069) && player.getEquipment().isWearingItem(9070) && player.getEquipment().isWearingItem(9071) && player.getEquipment().isWearingItem(9072)){	
+				player.getSkill().addExperience(Skills.FARMING, allotmentData.getPlantingXp() * 1.2);
+				}else{
 				player.getSkill().addExperience(Skills.FARMING, allotmentData.getPlantingXp());
+				}
 				stop();
 			}
 
@@ -647,7 +655,11 @@ public class Allotments {
 				player.getUpdateFlags().sendAnimation(new Animation(FarmingConstants.SPADE_ANIM));
 				player.send(new SendMessage("You harvest the crop, and get some vegetables. You now have " + player.farmingPoints + " Farming points."));
 				player.getInventory().add(allotmentData.getHarvestId(), 1);
+				if (player.getEquipment().isWearingItem(9069) && player.getEquipment().isWearingItem(9070) && player.getEquipment().isWearingItem(9071) && player.getEquipment().isWearingItem(9072)){	
+				player.getSkill().addExperience(Skills.FARMING, allotmentData.getHarvestXp() * 1.2);
+				}else{
 				player.getSkill().addExperience(Skills.FARMING, allotmentData.getHarvestXp());
+				}
 				player.farmingPoints ++;
 				if (allotmentData == AllotmentData.WATERMELON) {
 					AchievementHandler.activateAchievement(player, AchievementList.HARVEST_100_WATERMERLONS, 1);
@@ -686,7 +698,11 @@ public class Allotments {
 
 		player.send(new SendMessage("You pour some " + (itemId == 6034 ? "super" : "") + "compost on the patch."));
 		player.getUpdateFlags().sendAnimation(new Animation(FarmingConstants.PUTTING_COMPOST));
-		player.getSkill().addExperience(Skills.FARMING, itemId == 6034 ? Compost.SUPER_COMPOST_EXP_USE : Compost.COMPOST_EXP_USE);
+		if (player.getEquipment().isWearingItem(9069) && player.getEquipment().isWearingItem(9070) && player.getEquipment().isWearingItem(9071) && player.getEquipment().isWearingItem(9072)){	
+		player.getSkill().addExperience(Skills.FARMING,  itemId == 6034 ? Compost.SUPER_COMPOST_EXP_USE * 1.2 : Compost.COMPOST_EXP_USE * 1.2);
+		}else{
+		player.getSkill().addExperience(Skills.FARMING,  itemId == 6034 ? Compost.SUPER_COMPOST_EXP_USE : Compost.COMPOST_EXP_USE);
+		}
 
 		player.getSkill().lock(7);
 
