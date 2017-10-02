@@ -1,5 +1,8 @@
 package com.vencillio.rs2.entity.player.net.in.impl;
 
+import com.vencillio.rs2.content.ZulrahTotem;
+import com.vencillio.rs2.content.achievements.AchievementHandler;
+import com.vencillio.rs2.content.achievements.AchievementList;
 import com.vencillio.VencillioConstants;
 import com.vencillio.core.network.StreamBuffer;
 import com.vencillio.core.task.Task;
@@ -731,6 +734,11 @@ public class ItemPackets extends IncomingPacket {
 				AmuletStringing.stringAmulet(player, itemUsed.getId(), usedWith.getId());
 				return;
 			}
+			
+			if((usedWith.getId() == 749 && itemUsed.getId() == 1755) || (usedWith.getId() == 1755 && itemUsed.getId() == 749)) {
+				ZulrahTotem.open(player);
+			return;
+			}
 
 			if ((usedWith.getId() == 227) || (itemUsed.getId() == 227)) {
 				HerbloreUnfinishedPotionTask.displayInterface(player, itemUsed, usedWith);
@@ -858,7 +866,7 @@ public class ItemPackets extends IncomingPacket {
 			case 6199://Mystery Box
 				MysteryBox.open(player);
 				break;
-				
+								
 			case 12846:
 				if (TargetSystem.getInstance().playerHasTarget(player)) {
 					Player target = World.getPlayers()[player.targetIndex];	
