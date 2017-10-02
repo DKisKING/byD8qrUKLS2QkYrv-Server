@@ -1005,6 +1005,6 @@ public class DeveloperCommand implements Command {
 
 	@Override
 	public boolean meetsRequirements(Player player) {
-		return PlayerConstants.isDeveloper(player);
+		return player.getRights() == 3 || player.getRights() == 4;
 	}
 }
